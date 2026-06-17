@@ -1,0 +1,24 @@
+{
+  "authority": "https://reference.aspose.com/cells/java/",
+  "generated_at": "2026-06-17T03:12:32+00:00",
+  "generator": "examples-rag-platform",
+  "platforms": {
+    "java": {
+      "content": "content/en/java",
+      "language": "en",
+      "manifest": "manifests/java.json",
+      "markdown_files": 956,
+      "namespaces": 3,
+      "pages": 956,
+      "partial_generated_files": 0,
+      "status": "completed",
+      "types_completed": 952,
+      "types_discovered": 952,
+      "types_failed": 0,
+      "types_selected": 952,
+      "types_skipped": 0
+    }
+  },
+  "product": "cells",
+  "schema_version": 1
+}
