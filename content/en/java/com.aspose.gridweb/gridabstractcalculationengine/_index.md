@@ -1,18 +1,21 @@
 ---
-title: GridAbstractCalculationEngine
-second_title: Aspose.Cells for Java API Reference
-description: Represents users custom calculation engine to extend the default calculation engine of Aspose.Cells.
+title: "GridAbstractCalculationEngine"
+second_title: "Aspose.Cells for Java API Reference"
+description: "Represents users custom calculation engine to extend the default calculation engine of Aspose.Cells."
 type: docs
-url: /java/com.aspose.gridweb/gridabstractcalculationengine/
+url: "/java/com.aspose.gridweb/gridabstractcalculationengine/"
+source_url: "https://reference.aspose.com/cells/java/com.aspose.gridweb/gridabstractcalculationengine/"
+generated_from: "online-reference"
+fetched_at: "2026-06-16T11:58:14+00:00"
 ---
-
 **Inheritance:**
 java.lang.Object
+
 ```
 public abstract class GridAbstractCalculationEngine
 ```
 
-Represents user's custom calculation engine to extend the default calculation engine of Aspose.Cells.
+Represents user’s custom calculation engine to extend the default calculation engine of Aspose.Cells.
 
 **Example**
 
@@ -43,12 +46,14 @@ Represents user's custom calculation engine to extend the default calculation en
              }
          }
 ```
-## Constructors
+
+## Constructors {#constructors}
 
 | Constructor | Description |
 | --- | --- |
 | [GridAbstractCalculationEngine()](#GridAbstractCalculationEngine--) |  |
-## Methods
+
+## Methods {#methods}
 
 | Method | Description |
 | --- | --- |
@@ -62,17 +67,18 @@ Represents user's custom calculation engine to extend the default calculation en
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+
 ### GridAbstractCalculationEngine() {#GridAbstractCalculationEngine--}
+
 ```
 public GridAbstractCalculationEngine()
 ```
 
-
 ### calculate(GridCalculationData data) {#calculate-com.aspose.gridweb.GridCalculationData-}
+
 ```
 public abstract void calculate(GridCalculationData data)
 ```
-
 
 Calculates one function with given data.
 
@@ -81,103 +87,92 @@ Calculates one function with given data.
 User should set the calculated value for given data for all functions(including excel native functions) that he wants to calculate by himself in this implementation.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
-| data | [GridCalculationData](../../com.aspose.gridweb/gridcalculationdata) | the required data to calculate function such as function name, parameters, ...etc. |
+| data | [GridCalculationData](../../com.aspose.gridweb/gridcalculationdata) | the required data to calculate function such as function name, parameters, …etc. |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
+
 ```
 public boolean equals(Object arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
 **Returns:**
 boolean
+
 ### getClass() {#getClass--}
+
 ```
 public final native Class<?> getClass()
 ```
 
-
-
-
 **Returns:**
-java.lang.Class<?>
+java.lang.Class
+
 ### hashCode() {#hashCode--}
+
 ```
 public native int hashCode()
 ```
 
-
-
-
 **Returns:**
 int
+
 ### notify() {#notify--}
+
 ```
 public final native void notify()
 ```
 
-
-
-
 ### notifyAll() {#notifyAll--}
+
 ```
 public final native void notifyAll()
 ```
 
-
-
-
 ### toString() {#toString--}
+
 ```
 public String toString()
 ```
 
-
-
-
 **Returns:**
 java.lang.String
+
 ### wait() {#wait--}
+
 ```
 public final void wait()
 ```
 
-
-
-
 ### wait(long arg0) {#wait-long-}
+
 ```
 public final native void wait(long arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
 ### wait(long arg0, int arg1) {#wait-long-int-}
+
 ```
 public final void wait(long arg0, int arg1)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

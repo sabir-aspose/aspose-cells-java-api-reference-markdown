@@ -1,13 +1,16 @@
 ---
-title: Top10
-second_title: Aspose.Cells for Java API Reference
-description: Describe the Top10 conditional formatting rule.
+title: "Top10"
+second_title: "Aspose.Cells for Java API Reference"
+description: "Describe the Top10 conditional formatting rule."
 type: docs
-url: /java/com.aspose.cells/top10/
+url: "/java/com.aspose.cells/top10/"
+source_url: "https://reference.aspose.com/cells/java/com.aspose.cells/top10/"
+generated_from: "online-reference"
+fetched_at: "2026-06-16T11:56:58+00:00"
 ---
-
 **Inheritance:**
 java.lang.Object
+
 ```
 public class Top10
 ```
@@ -40,198 +43,195 @@ Describe the Top10 conditional formatting rule. This conditional formatting rule
          //Saving the Excel file
          workbook.save("output.xls");
 ```
-## Constructors
+
+## Constructors {#constructors}
 
 | Constructor | Description |
 | --- | --- |
 | [Top10()](#Top10--) |  |
-## Methods
+
+## Methods {#methods}
 
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getRank()](#getRank--) | Gets the value of "n" in a "top/bottom n" conditional formatting rule. |
+| [getRank()](#getRank--) | Gets the value of “n” in a “top/bottom n” conditional formatting rule. |
 | [hashCode()](#hashCode--) |  |
-| [isBottom()](#isBottom--) | Gets whether a "top/bottom n" rule is a "bottom n" rule. |
-| [isPercent()](#isPercent--) | Gets whether a "top/bottom n" rule is a "top/bottom n percent" rule. |
+| [isBottom()](#isBottom--) | Gets whether a “top/bottom n” rule is a “bottom n” rule. |
+| [isPercent()](#isPercent--) | Gets whether a “top/bottom n” rule is a “top/bottom n percent” rule. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setBottom(boolean value)](#setBottom-boolean-) | Sets whether a "top/bottom n" rule is a "bottom n" rule. |
-| [setPercent(boolean value)](#setPercent-boolean-) | Sets whether a "top/bottom n" rule is a "top/bottom n percent" rule. |
-| [setRank(int value)](#setRank-int-) | Sets the value of "n" in a "top/bottom n" conditional formatting rule. |
+| [setBottom(boolean value)](#setBottom-boolean-) | Sets whether a “top/bottom n” rule is a “bottom n” rule. |
+| [setPercent(boolean value)](#setPercent-boolean-) | Sets whether a “top/bottom n” rule is a “top/bottom n percent” rule. |
+| [setRank(int value)](#setRank-int-) | Sets the value of “n” in a “top/bottom n” conditional formatting rule. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+
 ### Top10() {#Top10--}
+
 ```
 public Top10()
 ```
 
-
 ### equals(Object arg0) {#equals-java.lang.Object-}
+
 ```
 public boolean equals(Object arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
 **Returns:**
 boolean
+
 ### getClass() {#getClass--}
+
 ```
 public final native Class<?> getClass()
 ```
 
-
-
-
 **Returns:**
-java.lang.Class<?>
+java.lang.Class
+
 ### getRank() {#getRank--}
+
 ```
 public int getRank()
 ```
 
-
-Gets the value of "n" in a "top/bottom n" conditional formatting rule. If IsPercent is true, the value must between 0 and 100. Otherwise it must between 0 and 1000. Default value is 10.
+Gets the value of “n” in a “top/bottom n” conditional formatting rule. If IsPercent is true, the value must between 0 and 100. Otherwise it must between 0 and 1000. Default value is 10.
 
 **Returns:**
 int
+
 ### hashCode() {#hashCode--}
+
 ```
 public native int hashCode()
 ```
 
-
-
-
 **Returns:**
 int
+
 ### isBottom() {#isBottom--}
+
 ```
 public boolean isBottom()
 ```
 
-
-Gets whether a "top/bottom n" rule is a "bottom n" rule. Default value is false.
+Gets whether a “top/bottom n” rule is a “bottom n” rule. Default value is false.
 
 **Returns:**
 boolean
+
 ### isPercent() {#isPercent--}
+
 ```
 public boolean isPercent()
 ```
 
-
-Gets whether a "top/bottom n" rule is a "top/bottom n percent" rule. Default value is false.
+Gets whether a “top/bottom n” rule is a “top/bottom n percent” rule. Default value is false.
 
 **Returns:**
 boolean
+
 ### notify() {#notify--}
+
 ```
 public final native void notify()
 ```
 
-
-
-
 ### notifyAll() {#notifyAll--}
+
 ```
 public final native void notifyAll()
 ```
 
-
-
-
 ### setBottom(boolean value) {#setBottom-boolean-}
+
 ```
 public void setBottom(boolean value)
 ```
 
-
-Sets whether a "top/bottom n" rule is a "bottom n" rule. Default value is false.
+Sets whether a “top/bottom n” rule is a “bottom n” rule. Default value is false.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
 ### setPercent(boolean value) {#setPercent-boolean-}
+
 ```
 public void setPercent(boolean value)
 ```
 
-
-Sets whether a "top/bottom n" rule is a "top/bottom n percent" rule. Default value is false.
+Sets whether a “top/bottom n” rule is a “top/bottom n percent” rule. Default value is false.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
 ### setRank(int value) {#setRank-int-}
+
 ```
 public void setRank(int value)
 ```
 
-
-Sets the value of "n" in a "top/bottom n" conditional formatting rule. If IsPercent is true, the value must between 0 and 100. Otherwise it must between 0 and 1000. Default value is 10.
+Sets the value of “n” in a “top/bottom n” conditional formatting rule. If IsPercent is true, the value must between 0 and 100. Otherwise it must between 0 and 1000. Default value is 10.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
 
 ### toString() {#toString--}
+
 ```
 public String toString()
 ```
 
-
-
-
 **Returns:**
 java.lang.String
+
 ### wait() {#wait--}
+
 ```
 public final void wait()
 ```
 
-
-
-
 ### wait(long arg0) {#wait-long-}
+
 ```
 public final native void wait(long arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
 ### wait(long arg0, int arg1) {#wait-long-int-}
+
 ```
 public final void wait(long arg0, int arg1)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

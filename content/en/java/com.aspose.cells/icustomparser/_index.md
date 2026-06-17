@@ -1,28 +1,33 @@
 ---
-title: ICustomParser
-second_title: Aspose.Cells for Java API Reference
-description: Allows users to add their custom value parser for parsing string values to other proper cell value object.
+title: "ICustomParser"
+second_title: "Aspose.Cells for Java API Reference"
+description: "Allows users to add their custom value parser for parsing string values to other proper cell value object."
 type: docs
-url: /java/com.aspose.cells/icustomparser/
+url: "/java/com.aspose.cells/icustomparser/"
+source_url: "https://reference.aspose.com/cells/java/com.aspose.cells/icustomparser/"
+generated_from: "online-reference"
+fetched_at: "2026-06-16T11:51:15+00:00"
 ---
 ```
 public interface ICustomParser
 ```
 
 Allows users to add their custom value parser for parsing string values to other proper cell value object.
-## Methods
+
+## Methods {#methods}
 
 | Method | Description |
 | --- | --- |
-| [getFormat()](#getFormat--) | Gets the formatting pattern corresponding to the parsed value by last invocation of [parseObject(String)](../../com.aspose.cells/icustomparser\#parseObject-String-). |
+| [getFormat()](#getFormat--) | Gets the formatting pattern corresponding to the parsed value by last invocation of [parseObject(String)](../../com.aspose.cells/icustomparser#parseObject-String-). |
 | [parseObject(String value)](#parseObject-java.lang.String-) | Parses given string to proper value object. |
+
 ### getFormat() {#getFormat--}
+
 ```
 public abstract String getFormat()
 ```
 
-
-Gets the formatting pattern corresponding to the parsed value by last invocation of [parseObject(String)](../../com.aspose.cells/icustomparser\#parseObject-String-).
+Gets the formatting pattern corresponding to the parsed value by last invocation of [parseObject(String)](../../com.aspose.cells/icustomparser#parseObject-String-).
 
 **Remarks**
 
@@ -30,15 +35,17 @@ The returned formatting pattern may be used to format corresponding cell(set to 
 
 **Returns:**
 java.lang.String
+
 ### parseObject(String value) {#parseObject-java.lang.String-}
+
 ```
 public abstract Object parseObject(String value)
 ```
 
-
 Parses given string to proper value object.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String | The string value to be parsed |

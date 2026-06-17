@@ -1,18 +1,21 @@
 ---
-title: ShapeTextAlignment
-second_title: Aspose.Cells for Java API Reference
-description: Represents the setting of shapes text alignment
+title: "ShapeTextAlignment"
+second_title: "Aspose.Cells for Java API Reference"
+description: "Represents the setting of shapes text alignment"
 type: docs
-url: /java/com.aspose.cells/shapetextalignment/
+url: "/java/com.aspose.cells/shapetextalignment/"
+source_url: "https://reference.aspose.com/cells/java/com.aspose.cells/shapetextalignment/"
+generated_from: "online-reference"
+fetched_at: "2026-06-16T11:55:30+00:00"
 ---
-
 **Inheritance:**
 java.lang.Object
+
 ```
 public class ShapeTextAlignment
 ```
 
-Represents the setting of shape's text alignment;
+Represents the setting of shape’s text alignment;
 
 **Example**
 
@@ -24,7 +27,8 @@ Represents the setting of shape's text alignment;
  
          //do your business
 ```
-## Methods
+
+## Methods {#methods}
 
 | Method | Description |
 | --- | --- |
@@ -67,11 +71,12 @@ Represents the setting of shape's text alignment;
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+
 ### equals(Object obj) {#equals-java.lang.Object-}
+
 ```
 public boolean equals(Object obj)
 ```
-
 
 Determines whether this instance has the same value as another specified [ShapeTextAlignment](../../com.aspose.cells/shapetextalignment) object.
 
@@ -87,17 +92,19 @@ Determines whether this instance has the same value as another specified [ShapeT
 ```
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | obj | java.lang.Object | The [ShapeTextAlignment](../../com.aspose.cells/shapetextalignment) object to compare with this instance. |
 
 **Returns:**
 boolean - true if the value of the obj parameter is the same as the value of this instance; otherwise, false. If obj is null, this method returns false.
+
 ### getAutoSize() {#getAutoSize--}
+
 ```
 public boolean getAutoSize()
 ```
-
 
 Indicates if size of shape is adjusted automatically according to its content.
 
@@ -109,11 +116,12 @@ Indicates if size of shape is adjusted automatically according to its content.
 
 **Returns:**
 boolean
+
 ### getBottomMarginPt() {#getBottomMarginPt--}
+
 ```
 public double getBottomMarginPt()
 ```
-
 
 Returns the bottom margin in unit of Points
 
@@ -125,21 +133,21 @@ Returns the bottom margin in unit of Points
 
 **Returns:**
 double
+
 ### getClass() {#getClass--}
+
 ```
 public final native Class<?> getClass()
 ```
 
-
-
-
 **Returns:**
-java.lang.Class<?>
+java.lang.Class
+
 ### getLeftMarginPt() {#getLeftMarginPt--}
+
 ```
 public double getLeftMarginPt()
 ```
-
 
 Returns the left margin in unit of Points
 
@@ -151,21 +159,23 @@ Returns the left margin in unit of Points
 
 **Returns:**
 double
+
 ### getNumberOfColumns() {#getNumberOfColumns--}
+
 ```
 public int getNumberOfColumns()
 ```
-
 
 Gets the number of columns of text in the bounding rectangle.
 
 **Returns:**
 int
+
 ### getRightMarginPt() {#getRightMarginPt--}
+
 ```
 public double getRightMarginPt()
 ```
-
 
 Returns the right margin in unit of Points
 
@@ -177,11 +187,12 @@ Returns the right margin in unit of Points
 
 **Returns:**
 double
+
 ### getRotateTextWithShape() {#getRotateTextWithShape--}
+
 ```
 public boolean getRotateTextWithShape()
 ```
-
 
 Indicates whether rotating text with shape.
 
@@ -193,11 +204,12 @@ Indicates whether rotating text with shape.
 
 **Returns:**
 boolean
+
 ### getRotationAngle() {#getRotationAngle--}
+
 ```
 public double getRotationAngle()
 ```
-
 
 Gets the rotation of the shape.
 
@@ -209,11 +221,12 @@ Gets the rotation of the shape.
 
 **Returns:**
 double
+
 ### getTextHorizontalOverflow() {#getTextHorizontalOverflow--}
+
 ```
 public int getTextHorizontalOverflow()
 ```
-
 
 Gets the text horizontal overflow type of the text box.
 
@@ -227,11 +240,12 @@ See [TextOverflowType](../../com.aspose.cells/textoverflowtype).
 
 **Returns:**
 int
+
 ### getTextShapeType() {#getTextShapeType--}
+
 ```
 public int getTextShapeType()
 ```
-
 
 Gets the transform type of text.
 
@@ -246,11 +260,12 @@ See [AutoShapeType](../../com.aspose.cells/autoshapetype).
 
 **Returns:**
 int
+
 ### getTextVerticalOverflow() {#getTextVerticalOverflow--}
+
 ```
 public int getTextVerticalOverflow()
 ```
-
 
 Gets the text vertical overflow type of the text box.
 
@@ -264,11 +279,12 @@ See [TextOverflowType](../../com.aspose.cells/textoverflowtype).
 
 **Returns:**
 int
+
 ### getTextVerticalType() {#getTextVerticalType--}
+
 ```
 public int getTextVerticalType()
 ```
-
 
 Gets the text direction.
 
@@ -282,11 +298,12 @@ See [TextVerticalType](../../com.aspose.cells/textverticaltype).
 
 **Returns:**
 int
+
 ### getTopMarginPt() {#getTopMarginPt--}
+
 ```
 public double getTopMarginPt()
 ```
-
 
 Returns the top margin in unit of Points
 
@@ -298,21 +315,21 @@ Returns the top margin in unit of Points
 
 **Returns:**
 double
+
 ### hashCode() {#hashCode--}
+
 ```
 public int hashCode()
 ```
 
-
-
-
 **Returns:**
-int - 
+int -
+
 ### isAutoMargin() {#isAutoMargin--}
+
 ```
 public boolean isAutoMargin()
 ```
-
 
 Indicates whether the margin of the text frame is automatic.
 
@@ -324,11 +341,12 @@ Indicates whether the margin of the text frame is automatic.
 
 **Returns:**
 boolean
+
 ### isLockedText() {#isLockedText--}
+
 ```
 public boolean isLockedText()
 ```
-
 
 Indicates whether the shape is locked when worksheet is protected.
 
@@ -338,11 +356,12 @@ Only works when worksheet is protected.
 
 **Returns:**
 boolean
+
 ### isTextWrapped() {#isTextWrapped--}
+
 ```
 public boolean isTextWrapped()
 ```
-
 
 Gets the text wrapped type of the shape which contains text.
 
@@ -354,79 +373,80 @@ Gets the text wrapped type of the shape which contains text.
 
 **Returns:**
 boolean
+
 ### notify() {#notify--}
+
 ```
 public final native void notify()
 ```
 
-
-
-
 ### notifyAll() {#notifyAll--}
+
 ```
 public final native void notifyAll()
 ```
 
-
-
-
 ### setAutoMargin(boolean value) {#setAutoMargin-boolean-}
+
 ```
 public void setAutoMargin(boolean value)
 ```
 
-
 Indicates whether the margin of the text frame is automatic.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
 ### setAutoSize(boolean value) {#setAutoSize-boolean-}
+
 ```
 public void setAutoSize(boolean value)
 ```
 
-
 Indicates if size of shape is adjusted automatically according to its content.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
 ### setBottomMarginPt(double value) {#setBottomMarginPt-double-}
+
 ```
 public void setBottomMarginPt(double value)
 ```
 
-
 Returns the bottom margin in unit of Points
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | double |  |
 
 ### setLeftMarginPt(double value) {#setLeftMarginPt-double-}
+
 ```
 public void setLeftMarginPt(double value)
 ```
 
-
 Returns the left margin in unit of Points
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | double |  |
 
 ### setLockedText(boolean value) {#setLockedText-boolean-}
+
 ```
 public void setLockedText(boolean value)
 ```
-
 
 Indicates whether the shape is locked when worksheet is protected.
 
@@ -435,190 +455,195 @@ Indicates whether the shape is locked when worksheet is protected.
 Only works when worksheet is protected.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
 ### setNumberOfColumns(int value) {#setNumberOfColumns-int-}
+
 ```
 public void setNumberOfColumns(int value)
 ```
 
-
 Sets the number of columns of text in the bounding rectangle.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
 
 ### setRightMarginPt(double value) {#setRightMarginPt-double-}
+
 ```
 public void setRightMarginPt(double value)
 ```
 
-
 Returns the right margin in unit of Points
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | double |  |
 
 ### setRotateTextWithShape(boolean value) {#setRotateTextWithShape-boolean-}
+
 ```
 public void setRotateTextWithShape(boolean value)
 ```
 
-
 Indicates whether rotating text with shape.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
 ### setRotationAngle(double value) {#setRotationAngle-double-}
+
 ```
 public void setRotationAngle(double value)
 ```
 
-
 Sets the rotation of the shape.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | double |  |
 
 ### setTextHorizontalOverflow(int value) {#setTextHorizontalOverflow-int-}
+
 ```
 public void setTextHorizontalOverflow(int value)
 ```
-
 
 Sets the text horizontal overflow type of the text box.
 
 See [TextOverflowType](../../com.aspose.cells/textoverflowtype).
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
 
 ### setTextShapeType(int value) {#setTextShapeType-int-}
+
 ```
 public void setTextShapeType(int value)
 ```
-
 
 Sets the transform type of text.
 
 See [AutoShapeType](../../com.aspose.cells/autoshapetype).
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
 
 ### setTextVerticalOverflow(int value) {#setTextVerticalOverflow-int-}
+
 ```
 public void setTextVerticalOverflow(int value)
 ```
-
 
 Sets the text vertical overflow type of the text box.
 
 See [TextOverflowType](../../com.aspose.cells/textoverflowtype).
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
 
 ### setTextVerticalType(int value) {#setTextVerticalType-int-}
+
 ```
 public void setTextVerticalType(int value)
 ```
-
 
 Sets the text direction.
 
 See [TextVerticalType](../../com.aspose.cells/textverticaltype).
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
 
 ### setTextWrapped(boolean value) {#setTextWrapped-boolean-}
+
 ```
 public void setTextWrapped(boolean value)
 ```
 
-
 Sets the text wrapped type of the shape which contains text.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
 ### setTopMarginPt(double value) {#setTopMarginPt-double-}
+
 ```
 public void setTopMarginPt(double value)
 ```
 
-
 Returns the top margin in unit of Points
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | double |  |
 
 ### toString() {#toString--}
+
 ```
 public String toString()
 ```
 
-
-
-
 **Returns:**
 java.lang.String
+
 ### wait() {#wait--}
+
 ```
 public final void wait()
 ```
 
-
-
-
 ### wait(long arg0) {#wait-long-}
+
 ```
 public final native void wait(long arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
 ### wait(long arg0, int arg1) {#wait-long-int-}
+
 ```
 public final void wait(long arg0, int arg1)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

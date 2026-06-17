@@ -1,19 +1,23 @@
 ---
-title: FileFormatType
-second_title: Aspose.Cells for Java API Reference
-description: Represents the file format types.
+title: "FileFormatType"
+second_title: "Aspose.Cells for Java API Reference"
+description: "Represents the file format types."
 type: docs
-url: /java/com.aspose.cells/fileformattype/
+url: "/java/com.aspose.cells/fileformattype/"
+source_url: "https://reference.aspose.com/cells/java/com.aspose.cells/fileformattype/"
+generated_from: "online-reference"
+fetched_at: "2026-06-16T11:50:12+00:00"
 ---
-
 **Inheritance:**
 java.lang.Object
+
 ```
 public final class FileFormatType
 ```
 
 Represents the file format types.
-## Fields
+
+## Fields {#fields}
 
 | Field | Description |
 | --- | --- |
@@ -80,7 +84,7 @@ Represents the file format types.
 | [SQL_SCRIPT](#SQL-SCRIPT) | Sql |
 | [SVG](#SVG) | SVG file. |
 | [SXC](#SXC) | Represents StarOffice Calc Spreadsheet (.sxc) file format. |
-| [TAB_DELIMITED](#TAB-DELIMITED) | Tab-Separated Values(TSV) text file, same with [LoadFormat.TSV](../../com.aspose.cells/loadformat\#TSV). |
+| [TAB_DELIMITED](#TAB-DELIMITED) | Tab-Separated Values(TSV) text file, same with [LoadFormat.TSV](../../com.aspose.cells/loadformat#TSV). |
 | [TIFF](#TIFF) | Represents a TIFF file. |
 | [TSV](#TSV) | Tab-Separated Values(TSV) text file. |
 | [UNKNOWN](#UNKNOWN) | Represents unrecognized format, cannot be loaded. |
@@ -98,7 +102,8 @@ Represents the file format types.
 | [XML](#XML) | Represents a simple xml file. |
 | [XPS](#XPS) | XPS (XML Paper Specification) format. |
 | [X_HTML](#X-HTML) | Rrepesents XHtml file. |
-## Methods
+
+## Methods {#methods}
 
 | Method | Description |
 | --- | --- |
@@ -111,19 +116,20 @@ Represents the file format types.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+
 ### AZW_3 {#AZW-3}
+
 ```
 public static final int AZW_3
 ```
 
-
 AZW3
 
 ### BMP {#BMP}
+
 ```
 public static final int BMP
 ```
-
 
 Represents a BMP file.
 
@@ -132,42 +138,42 @@ Represents a BMP file.
 The file format is not supported Only for detecting file type.
 
 ### CHM {#CHM}
+
 ```
 public static final int CHM
 ```
 
-
 CHM
 
 ### CSV {#CSV}
+
 ```
 public static final int CSV
 ```
 
-
 Comma-Separated Values(CSV) text file.
 
 ### DBF {#DBF}
+
 ```
 public static final int DBF
 ```
 
-
 Xbase Data file
 
 ### DIF {#DIF}
+
 ```
 public static final int DIF
 ```
 
-
 Data Interchange Format.
 
 ### DOC {#DOC}
+
 ```
 public static final int DOC
 ```
-
 
 Represents a doc file.
 
@@ -176,10 +182,10 @@ Represents a doc file.
 The file format is not supported Only for detecting file type.
 
 ### DOCM {#DOCM}
+
 ```
 public static final int DOCM
 ```
-
 
 Represents a docm file.
 
@@ -188,10 +194,10 @@ Represents a docm file.
 The file format is not supported Only for detecting file type.
 
 ### DOCX {#DOCX}
+
 ```
 public static final int DOCX
 ```
-
 
 Represents a docx file.
 
@@ -200,10 +206,10 @@ Represents a docx file.
 The file format is not supported Only for detecting file type.
 
 ### DOTM {#DOTM}
+
 ```
 public static final int DOTM
 ```
-
 
 Represents a dotm file.
 
@@ -212,10 +218,10 @@ Represents a dotm file.
 The file format is not supported Only for detecting file type.
 
 ### DOTX {#DOTX}
+
 ```
 public static final int DOTX
 ```
-
 
 Represents a dotx file.
 
@@ -224,26 +230,26 @@ Represents a dotx file.
 The file format is not supported Only for detecting file type.
 
 ### EMF {#EMF}
+
 ```
 public static final int EMF
 ```
 
-
 Windows Enhanced Metafile.
 
 ### EPUB {#EPUB}
+
 ```
 public static final int EPUB
 ```
 
-
 EPUB
 
 ### EXCEL_2 {#EXCEL-2}
+
 ```
 public static final int EXCEL_2
 ```
-
 
 Represents an Excel2.1 xls file.
 
@@ -252,10 +258,10 @@ Represents an Excel2.1 xls file.
 The file format is not supported
 
 ### EXCEL_3 {#EXCEL-3}
+
 ```
 public static final int EXCEL_3
 ```
-
 
 Represents an Excel3.0 xls file.
 
@@ -264,10 +270,10 @@ Represents an Excel3.0 xls file.
 The file format is not supported
 
 ### EXCEL_4 {#EXCEL-4}
+
 ```
 public static final int EXCEL_4
 ```
-
 
 Represents an Excel4.0 xls file.
 
@@ -276,58 +282,58 @@ Represents an Excel4.0 xls file.
 The file format is not supported
 
 ### EXCEL_95 {#EXCEL-95}
+
 ```
 public static final int EXCEL_95
 ```
 
-
 Represents an Excel95 xls file.
 
 ### EXCEL_97_TO_2003 {#EXCEL-97-TO-2003}
+
 ```
 public static final int EXCEL_97_TO_2003
 ```
 
-
 Excel97-2003 spreadsheet file.
 
 ### FLAT_OPC {#FLAT-OPC}
+
 ```
 public static final int FLAT_OPC
 ```
 
-
 Flat opc file
 
 ### FODS {#FODS}
+
 ```
 public static final int FODS
 ```
 
-
 Represents OpenDocument Flat XML Spreadsheet (.fods) file format.
 
 ### GIF {#GIF}
+
 ```
 public static final int GIF
 ```
 
-
 Gif
 
 ### GRAPH_CHART {#GRAPH-CHART}
+
 ```
 public static final int GRAPH_CHART
 ```
 
-
 Represents embedded graph chart.
 
 ### G_ZIP {#G-ZIP}
+
 ```
 public static final int G_ZIP
 ```
-
 
 Rrepesents GZip file.
 
@@ -336,34 +342,34 @@ Rrepesents GZip file.
 The file format is not supported Only for detecting file type.
 
 ### HTML {#HTML}
+
 ```
 public static final int HTML
 ```
 
-
 HTML format.
 
 ### JPG {#JPG}
+
 ```
 public static final int JPG
 ```
 
-
 JPEG JFIF.
 
 ### JSON {#JSON}
+
 ```
 public static final int JSON
 ```
 
-
 Json
 
 ### MAPI_MESSAGE {#MAPI-MESSAGE}
+
 ```
 public static final int MAPI_MESSAGE
 ```
-
 
 Represents a email file.
 
@@ -372,18 +378,18 @@ Represents a email file.
 The file format is not supported Only for detecting file type.
 
 ### MARKDOWN {#MARKDOWN}
+
 ```
 public static final int MARKDOWN
 ```
 
-
 Represents markdown document.
 
 ### MICROSOFT_CABINET {#MICROSOFT-CABINET}
+
 ```
 public static final int MICROSOFT_CABINET
 ```
-
 
 Rrepesents Microsoft Cabinet file.
 
@@ -392,10 +398,10 @@ Rrepesents Microsoft Cabinet file.
 The file format is not supported Only for detecting file type.
 
 ### MS_EQUATION {#MS-EQUATION}
+
 ```
 public static final int MS_EQUATION
 ```
-
 
 Represents the MS Equation 3.0 object.
 
@@ -404,46 +410,46 @@ Represents the MS Equation 3.0 object.
 The file format is not supported Only for detecting file type.
 
 ### M_HTML {#M-HTML}
+
 ```
 public static final int M_HTML
 ```
 
-
 MHTML (Web archive) format.
 
 ### NUMBERS {#NUMBERS}
+
 ```
 public static final int NUMBERS
 ```
-
 
 Represents Numbers 9.0 file format by Apple Inc.
 
 **Remarks**
 
-NOTE: This member is now obsolete. Instead, please use [NUMBERS\_09](../../com.aspose.cells/fileformattype\#NUMBERS-09) property. This property will be removed 6 months later since June 2023. Aspose apologizes for any inconvenience you may have experienced.
+NOTE: This member is now obsolete. Instead, please use [NUMBERS_09](../../com.aspose.cells/fileformattype#NUMBERS-09) property. This property will be removed 6 months later since June 2023. Aspose apologizes for any inconvenience you may have experienced.
 
 ### NUMBERS_09 {#NUMBERS-09}
+
 ```
 public static final int NUMBERS_09
 ```
 
-
 Represents Numbers 9.0 file format by Apple Inc.
 
 ### NUMBERS_35 {#NUMBERS-35}
+
 ```
 public static final int NUMBERS_35
 ```
 
-
 Represents Numbers 3.5 file format since 2014 by Apple Inc
 
 ### ODB {#ODB}
+
 ```
 public static final int ODB
 ```
-
 
 Represents an Odb file.
 
@@ -452,10 +458,10 @@ Represents an Odb file.
 The file format is not supported Only for detecting file type.
 
 ### ODF {#ODF}
+
 ```
 public static final int ODF
 ```
-
 
 Represents an ODF file.
 
@@ -464,10 +470,10 @@ Represents an ODF file.
 The file format is not supported Only for detecting file type.
 
 ### ODG {#ODG}
+
 ```
 public static final int ODG
 ```
-
 
 Represents an ODG file.
 
@@ -476,10 +482,10 @@ Represents an ODG file.
 The file format is not supported Only for detecting file type.
 
 ### ODP {#ODP}
+
 ```
 public static final int ODP
 ```
-
 
 Represents a ODP file.
 
@@ -488,18 +494,18 @@ Represents a ODP file.
 The file format is not supported Only for detecting file type.
 
 ### ODS {#ODS}
+
 ```
 public static final int ODS
 ```
 
-
 Open Document Sheet(ODS) file.
 
 ### ODT {#ODT}
+
 ```
 public static final int ODT
 ```
-
 
 Represents an ODT file.
 
@@ -508,10 +514,10 @@ Represents an ODT file.
 The file format is not supported Only for detecting file type.
 
 ### OLE {#OLE}
+
 ```
 public static final int OLE
 ```
-
 
 Represents the embedded ole object.
 
@@ -520,10 +526,10 @@ Represents the embedded ole object.
 The file format is not supported Only for detecting file type.
 
 ### OLE_10_NATIVE {#OLE-10-NATIVE}
+
 ```
 public static final int OLE_10_NATIVE
 ```
-
 
 Represents the embedded native object.
 
@@ -532,10 +538,10 @@ Represents the embedded native object.
 The file format is not supported Only for detecting file type.
 
 ### ONE_NOTE {#ONE-NOTE}
+
 ```
 public static final int ONE_NOTE
 ```
-
 
 Rrepesents One Note file.
 
@@ -544,10 +550,10 @@ Rrepesents One Note file.
 The file format is not supported Only for detecting file type.
 
 ### OOXML {#OOXML}
+
 ```
 public static final int OOXML
 ```
-
 
 Represents office open xml file(such as xlsx, docx,pptx, etc).
 
@@ -556,10 +562,10 @@ Represents office open xml file(such as xlsx, docx,pptx, etc).
 The file format is not supported Only for detecting file type. If the office open xml file is encrypted, it could not be detected as xlsx ,docx, pptx,etc.
 
 ### OTG {#OTG}
+
 ```
 public static final int OTG
 ```
-
 
 Represents an OTG file.
 
@@ -568,10 +574,10 @@ Represents an OTG file.
 The file format is not supported Only for detecting file type.
 
 ### OTP {#OTP}
+
 ```
 public static final int OTP
 ```
-
 
 Represents a OTP file.
 
@@ -580,18 +586,18 @@ Represents a OTP file.
 The file format is not supported. Only for detecting file type.
 
 ### OTS {#OTS}
+
 ```
 public static final int OTS
 ```
 
-
 Represents an ots file.
 
 ### OTT {#OTT}
+
 ```
 public static final int OTT
 ```
-
 
 Represents an OTT file.
 
@@ -600,34 +606,34 @@ Represents an OTT file.
 The file format is not supported Only for detecting file type.
 
 ### OXPS {#OXPS}
+
 ```
 public static final int OXPS
 ```
 
-
 OXPS (Open XML Paper Specification) format.
 
 ### PDF {#PDF}
+
 ```
 public static final int PDF
 ```
 
-
 PDF (Adobe Portable Document) format.
 
 ### PNG {#PNG}
+
 ```
 public static final int PNG
 ```
 
-
 Portable Network Graphics.
 
 ### POTM {#POTM}
+
 ```
 public static final int POTM
 ```
-
 
 Represents a Potm file.
 
@@ -636,10 +642,10 @@ Represents a Potm file.
 The file format is not supported Only for detecting file type.
 
 ### POTX {#POTX}
+
 ```
 public static final int POTX
 ```
-
 
 Represents a Potx file.
 
@@ -648,10 +654,10 @@ Represents a Potx file.
 The file format is not supported Only for detecting file type.
 
 ### PPSM {#PPSM}
+
 ```
 public static final int PPSM
 ```
-
 
 Represents a ppsm file.
 
@@ -660,10 +666,10 @@ Represents a ppsm file.
 The file format is not supported Only for detecting file type.
 
 ### PPSX {#PPSX}
+
 ```
 public static final int PPSX
 ```
-
 
 Represents a ppsx file.
 
@@ -672,10 +678,10 @@ Represents a ppsx file.
 The file format is not supported Only for detecting file type.
 
 ### PPT {#PPT}
+
 ```
 public static final int PPT
 ```
-
 
 Represents a ppt file.
 
@@ -684,10 +690,10 @@ Represents a ppt file.
 The file format is not supported Only for detecting file type.
 
 ### PPTM {#PPTM}
+
 ```
 public static final int PPTM
 ```
-
 
 Represents a pptm file.
 
@@ -696,10 +702,10 @@ Represents a pptm file.
 The file format is not supported Only for detecting file type.
 
 ### PPTX {#PPTX}
+
 ```
 public static final int PPTX
 ```
-
 
 Represents a pptx file.
 
@@ -708,82 +714,82 @@ Represents a pptx file.
 The file format is not supported Only for detecting file type.
 
 ### RTF {#RTF}
+
 ```
 public static final int RTF
 ```
 
-
 Rtf
 
 ### SPREADSHEET_ML {#SPREADSHEET-ML}
+
 ```
 public static final int SPREADSHEET_ML
 ```
 
-
 Excel 2003 XML Data file.
 
 ### SQL_SCRIPT {#SQL-SCRIPT}
+
 ```
 public static final int SQL_SCRIPT
 ```
 
-
 Sql
 
 ### SVG {#SVG}
+
 ```
 public static final int SVG
 ```
 
-
 SVG file.
 
 ### SXC {#SXC}
+
 ```
 public static final int SXC
 ```
 
-
 Represents StarOffice Calc Spreadsheet (.sxc) file format.
 
 ### TAB_DELIMITED {#TAB-DELIMITED}
+
 ```
 public static final int TAB_DELIMITED
 ```
 
-
-Tab-Separated Values(TSV) text file, same with [LoadFormat.TSV](../../com.aspose.cells/loadformat\#TSV).
+Tab-Separated Values(TSV) text file, same with [LoadFormat.TSV](../../com.aspose.cells/loadformat#TSV).
 
 ### TIFF {#TIFF}
+
 ```
 public static final int TIFF
 ```
 
-
 Represents a TIFF file.
 
 ### TSV {#TSV}
+
 ```
 public static final int TSV
 ```
 
-
 Tab-Separated Values(TSV) text file.
 
 ### UNKNOWN {#UNKNOWN}
+
 ```
 public static final int UNKNOWN
 ```
 
-
 Represents unrecognized format, cannot be loaded.
 
 ### VSD {#VSD}
+
 ```
 public static final int VSD
 ```
-
 
 Represents MS Visio VSD binary format.
 
@@ -792,10 +798,10 @@ Represents MS Visio VSD binary format.
 The file format is not supported Only for detecting file type.
 
 ### VSDX {#VSDX}
+
 ```
 public static final int VSDX
 ```
-
 
 Represents MS Visio 2013 VSDX file format.
 
@@ -804,82 +810,82 @@ Represents MS Visio 2013 VSDX file format.
 The file format is not supported Only for detecting file type.
 
 ### WEB_P {#WEB-P}
+
 ```
 public static final int WEB_P
 ```
 
-
 Webp
 
 ### WMF {#WMF}
+
 ```
 public static final int WMF
 ```
 
-
 Windows Metafile.
 
 ### XLAM {#XLAM}
+
 ```
 public static final int XLAM
 ```
 
-
 Office Open XML SpreadsheetML addinMacro-Enabled file.
 
 ### XLSB {#XLSB}
+
 ```
 public static final int XLSB
 ```
 
-
 The Excel Binary File Format (.xlsb)
 
 ### XLSM {#XLSM}
+
 ```
 public static final int XLSM
 ```
 
-
 Office Open XML SpreadsheetML Macro-Enabled file.
 
 ### XLSX {#XLSX}
+
 ```
 public static final int XLSX
 ```
 
-
 Office Open XML SpreadsheetML file (macro-free).
 
 ### XLT {#XLT}
+
 ```
 public static final int XLT
 ```
 
-
 Excel97-2003 spreadsheet template.
 
 ### XLTM {#XLTM}
+
 ```
 public static final int XLTM
 ```
 
-
 Office Open XML SpreadsheetML Macro-Enabled Template.
 
 ### XLTX {#XLTX}
+
 ```
 public static final int XLTX
 ```
 
-
 Office Open XML SpreadsheetML Template (macro-free).
 
 ### XML {#XML}
+
 ```
 public static final int XML
 ```
-
 
 Represents a simple xml file.
 
@@ -888,114 +894,102 @@ Represents a simple xml file.
 The file format is not supported Only for detecting file type.
 
 ### XPS {#XPS}
+
 ```
 public static final int XPS
 ```
 
-
 XPS (XML Paper Specification) format.
 
 ### X_HTML {#X-HTML}
+
 ```
 public static final int X_HTML
 ```
 
-
 Rrepesents XHtml file.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
+
 ```
 public boolean equals(Object arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
 **Returns:**
 boolean
+
 ### getClass() {#getClass--}
+
 ```
 public final native Class<?> getClass()
 ```
 
-
-
-
 **Returns:**
-java.lang.Class<?>
+java.lang.Class
+
 ### hashCode() {#hashCode--}
+
 ```
 public native int hashCode()
 ```
 
-
-
-
 **Returns:**
 int
+
 ### notify() {#notify--}
+
 ```
 public final native void notify()
 ```
 
-
-
-
 ### notifyAll() {#notifyAll--}
+
 ```
 public final native void notifyAll()
 ```
 
-
-
-
 ### toString() {#toString--}
+
 ```
 public String toString()
 ```
 
-
-
-
 **Returns:**
 java.lang.String
+
 ### wait() {#wait--}
+
 ```
 public final void wait()
 ```
 
-
-
-
 ### wait(long arg0) {#wait-long-}
+
 ```
 public final native void wait(long arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
 ### wait(long arg0, int arg1) {#wait-long-int-}
+
 ```
 public final void wait(long arg0, int arg1)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

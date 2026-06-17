@@ -1,25 +1,30 @@
 ---
-title: EmfRenderSetting
-second_title: Aspose.Cells for Java API Reference
-description: Setting for rendering Emf metafile.
+title: "EmfRenderSetting"
+second_title: "Aspose.Cells for Java API Reference"
+description: "Setting for rendering Emf metafile."
 type: docs
-url: /java/com.aspose.cells/emfrendersetting/
+url: "/java/com.aspose.cells/emfrendersetting/"
+source_url: "https://reference.aspose.com/cells/java/com.aspose.cells/emfrendersetting/"
+generated_from: "online-reference"
+fetched_at: "2026-06-16T11:49:49+00:00"
 ---
-
 **Inheritance:**
 java.lang.Object
+
 ```
 public final class EmfRenderSetting
 ```
 
 Setting for rendering Emf metafile.
-## Fields
+
+## Fields {#fields}
 
 | Field | Description |
 | --- | --- |
 | [EMF_ONLY](#EMF-ONLY) | Only rendering Emf records. |
 | [EMF_PLUS_PREFER](#EMF-PLUS-PREFER) | Prefer rendering EmfPlus records. |
-## Methods
+
+## Methods {#methods}
 
 | Method | Description |
 | --- | --- |
@@ -32,115 +37,104 @@ Setting for rendering Emf metafile.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+
 ### EMF_ONLY {#EMF-ONLY}
+
 ```
 public static final int EMF_ONLY
 ```
 
-
 Only rendering Emf records.
 
 ### EMF_PLUS_PREFER {#EMF-PLUS-PREFER}
+
 ```
 public static final int EMF_PLUS_PREFER
 ```
 
-
 Prefer rendering EmfPlus records.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
+
 ```
 public boolean equals(Object arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
 **Returns:**
 boolean
+
 ### getClass() {#getClass--}
+
 ```
 public final native Class<?> getClass()
 ```
 
-
-
-
 **Returns:**
-java.lang.Class<?>
+java.lang.Class
+
 ### hashCode() {#hashCode--}
+
 ```
 public native int hashCode()
 ```
 
-
-
-
 **Returns:**
 int
+
 ### notify() {#notify--}
+
 ```
 public final native void notify()
 ```
 
-
-
-
 ### notifyAll() {#notifyAll--}
+
 ```
 public final native void notifyAll()
 ```
 
-
-
-
 ### toString() {#toString--}
+
 ```
 public String toString()
 ```
 
-
-
-
 **Returns:**
 java.lang.String
+
 ### wait() {#wait--}
+
 ```
 public final void wait()
 ```
 
-
-
-
 ### wait(long arg0) {#wait-long-}
+
 ```
 public final native void wait(long arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
 ### wait(long arg0, int arg1) {#wait-long-int-}
+
 ```
 public final void wait(long arg0, int arg1)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

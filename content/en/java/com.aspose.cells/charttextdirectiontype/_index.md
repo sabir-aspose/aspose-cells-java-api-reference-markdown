@@ -1,28 +1,33 @@
 ---
-title: ChartTextDirectionType
-second_title: Aspose.Cells for Java API Reference
-description: Represents the text direction type of the chart.
+title: "ChartTextDirectionType"
+second_title: "Aspose.Cells for Java API Reference"
+description: "Represents the text direction type of the chart."
 type: docs
-url: /java/com.aspose.cells/charttextdirectiontype/
+url: "/java/com.aspose.cells/charttextdirectiontype/"
+source_url: "https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype/"
+generated_from: "online-reference"
+fetched_at: "2026-06-16T11:48:29+00:00"
 ---
-
 **Inheritance:**
 java.lang.Object
+
 ```
 public final class ChartTextDirectionType
 ```
 
 Represents the text direction type of the chart.
-## Fields
+
+## Fields {#fields}
 
 | Field | Description |
 | --- | --- |
 | [HORIZONTAL](#HORIZONTAL) | Horizontal direction type. |
 | [ROTATE_270](#ROTATE-270) | Rotate 270-degree angle. |
-| [ROTATE_90](#ROTATE-90) | Rotate 90-degree angle. |
+| [ROTATE_90](#ROTATE-90) | Rotate by a ninety-degree angle. |
 | [STACKED](#STACKED) | Stacked text. |
 | [VERTICAL](#VERTICAL) | Vertical direction type. |
-## Methods
+
+## Methods {#methods}
 
 | Method | Description |
 | --- | --- |
@@ -35,139 +40,128 @@ Represents the text direction type of the chart.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+
 ### HORIZONTAL {#HORIZONTAL}
+
 ```
 public static final int HORIZONTAL
 ```
 
-
 Horizontal direction type.
 
 ### ROTATE_270 {#ROTATE-270}
+
 ```
 public static final int ROTATE_270
 ```
 
-
 Rotate 270-degree angle.
 
 ### ROTATE_90 {#ROTATE-90}
+
 ```
 public static final int ROTATE_90
 ```
 
-
-Rotate 90-degree angle.
+Rotate by a ninety-degree angle.
 
 ### STACKED {#STACKED}
+
 ```
 public static final int STACKED
 ```
 
-
 Stacked text.
 
 ### VERTICAL {#VERTICAL}
+
 ```
 public static final int VERTICAL
 ```
 
-
 Vertical direction type.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
+
 ```
 public boolean equals(Object arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
 **Returns:**
 boolean
+
 ### getClass() {#getClass--}
+
 ```
 public final native Class<?> getClass()
 ```
 
-
-
-
 **Returns:**
-java.lang.Class<?>
+java.lang.Class
+
 ### hashCode() {#hashCode--}
+
 ```
 public native int hashCode()
 ```
 
-
-
-
 **Returns:**
 int
+
 ### notify() {#notify--}
+
 ```
 public final native void notify()
 ```
 
-
-
-
 ### notifyAll() {#notifyAll--}
+
 ```
 public final native void notifyAll()
 ```
 
-
-
-
 ### toString() {#toString--}
+
 ```
 public String toString()
 ```
 
-
-
-
 **Returns:**
 java.lang.String
+
 ### wait() {#wait--}
+
 ```
 public final void wait()
 ```
 
-
-
-
 ### wait(long arg0) {#wait-long-}
+
 ```
 public final native void wait(long arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
 ### wait(long arg0, int arg1) {#wait-long-int-}
+
 ```
 public final void wait(long arg0, int arg1)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

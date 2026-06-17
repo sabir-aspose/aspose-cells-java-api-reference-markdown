@@ -1,24 +1,29 @@
 ---
-title: PicFormatOption
-second_title: Aspose.Cells for Java API Reference
-description: Represents picture format option
+title: "PicFormatOption"
+second_title: "Aspose.Cells for Java API Reference"
+description: "Represents picture format option"
 type: docs
-url: /java/com.aspose.cells/picformatoption/
+url: "/java/com.aspose.cells/picformatoption/"
+source_url: "https://reference.aspose.com/cells/java/com.aspose.cells/picformatoption/"
+generated_from: "online-reference"
+fetched_at: "2026-06-16T11:53:30+00:00"
 ---
-
 **Inheritance:**
 java.lang.Object
+
 ```
 public class PicFormatOption
 ```
 
 Represents picture format option
-## Constructors
+
+## Constructors {#constructors}
 
 | Constructor | Description |
 | --- | --- |
 | [PicFormatOption()](#PicFormatOption--) |  |
-## Methods
+
+## Methods {#methods}
 
 | Method | Description |
 | --- | --- |
@@ -43,92 +48,97 @@ Represents picture format option
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+
 ### PicFormatOption() {#PicFormatOption--}
+
 ```
 public PicFormatOption()
 ```
 
-
 ### equals(Object arg0) {#equals-java.lang.Object-}
+
 ```
 public boolean equals(Object arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
 **Returns:**
 boolean
+
 ### getBottom() {#getBottom--}
+
 ```
 public double getBottom()
 ```
-
 
 Gets the bottom offset for stretching picture.
 
 **Returns:**
 double
+
 ### getClass() {#getClass--}
+
 ```
 public final native Class<?> getClass()
 ```
 
-
-
-
 **Returns:**
-java.lang.Class<?>
+java.lang.Class
+
 ### getLeft() {#getLeft--}
+
 ```
 public double getLeft()
 ```
-
 
 Gets the left offset for stretching picture.
 
 **Returns:**
 double
+
 ### getRight() {#getRight--}
+
 ```
 public double getRight()
 ```
-
 
 Gets the right offset for stretching picture.
 
 **Returns:**
 double
+
 ### getScale() {#getScale--}
+
 ```
 public double getScale()
 ```
-
 
 Gets how many the picture stack and scale with.
 
 **Returns:**
 double
+
 ### getTop() {#getTop--}
+
 ```
 public double getTop()
 ```
-
 
 Gets the top offset for stretching picture.
 
 **Returns:**
 double
+
 ### getType() {#getType--}
+
 ```
 public int getType()
 ```
-
 
 Gets the picture fill type.
 
@@ -136,154 +146,150 @@ See [FillPictureType](../../com.aspose.cells/fillpicturetype).
 
 **Returns:**
 int
+
 ### hashCode() {#hashCode--}
+
 ```
 public native int hashCode()
 ```
 
-
-
-
 **Returns:**
 int
+
 ### notify() {#notify--}
+
 ```
 public final native void notify()
 ```
 
-
-
-
 ### notifyAll() {#notifyAll--}
+
 ```
 public final native void notifyAll()
 ```
 
-
-
-
 ### setBottom(double value) {#setBottom-double-}
+
 ```
 public void setBottom(double value)
 ```
 
-
 Sets the bottom offset for stretching picture.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | double |  |
 
 ### setLeft(double value) {#setLeft-double-}
+
 ```
 public void setLeft(double value)
 ```
 
-
 Sets the left offset for stretching picture.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | double |  |
 
 ### setRight(double value) {#setRight-double-}
+
 ```
 public void setRight(double value)
 ```
 
-
 Sets the right offset for stretching picture.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | double |  |
 
 ### setScale(double value) {#setScale-double-}
+
 ```
 public void setScale(double value)
 ```
 
-
 Sets how many the picture stack and scale with.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | double |  |
 
 ### setTop(double value) {#setTop-double-}
+
 ```
 public void setTop(double value)
 ```
 
-
 Sets the top offset for stretching picture.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | double |  |
 
 ### setType(int value) {#setType-int-}
+
 ```
 public void setType(int value)
 ```
-
 
 Sets the picture fill type.
 
 See [FillPictureType](../../com.aspose.cells/fillpicturetype).
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
 
 ### toString() {#toString--}
+
 ```
 public String toString()
 ```
 
-
-
-
 **Returns:**
 java.lang.String
+
 ### wait() {#wait--}
+
 ```
 public final void wait()
 ```
 
-
-
-
 ### wait(long arg0) {#wait-long-}
+
 ```
 public final native void wait(long arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
 ### wait(long arg0, int arg1) {#wait-long-int-}
+
 ```
 public final void wait(long arg0, int arg1)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

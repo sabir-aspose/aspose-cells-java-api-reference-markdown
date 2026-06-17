@@ -1,13 +1,16 @@
 ---
-title: Timeline
-second_title: Aspose.Cells for Java API Reference
-description: Summary description of Timeline View Due to MS Excel Excel 2003 does not support Timeline
+title: "Timeline"
+second_title: "Aspose.Cells for Java API Reference"
+description: "Summary description of Timeline View Due to MS Excel Excel 2003 does not support Timeline"
 type: docs
-url: /java/com.aspose.cells/timeline/
+url: "/java/com.aspose.cells/timeline/"
+source_url: "https://reference.aspose.com/cells/java/com.aspose.cells/timeline/"
+generated_from: "online-reference"
+fetched_at: "2026-06-16T11:56:52+00:00"
 ---
-
 **Inheritance:**
 java.lang.Object
+
 ```
 public class Timeline
 ```
@@ -69,7 +72,8 @@ Summary description of Timeline View Due to MS Excel, Excel 2003 does not suppor
  
          book.save("out.xlsx");
 ```
-## Methods
+
+## Methods {#methods}
 
 | Method | Description |
 | --- | --- |
@@ -109,26 +113,27 @@ Summary description of Timeline View Due to MS Excel, Excel 2003 does not suppor
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+
 ### equals(Object arg0) {#equals-java.lang.Object-}
+
 ```
 public boolean equals(Object arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
 **Returns:**
 boolean
+
 ### getCaption() {#getCaption--}
+
 ```
 public String getCaption()
 ```
-
 
 Gets the caption of this Timeline.
 
@@ -141,21 +146,21 @@ Gets the caption of this Timeline.
 
 **Returns:**
 java.lang.String
+
 ### getClass() {#getClass--}
+
 ```
 public final native Class<?> getClass()
 ```
 
-
-
-
 **Returns:**
-java.lang.Class<?>
+java.lang.Class
+
 ### getCurrentLevel() {#getCurrentLevel--}
+
 ```
 public int getCurrentLevel()
 ```
-
 
 The current time level of the Timeline.
 
@@ -163,11 +168,12 @@ See [TimelineLevelType](../../com.aspose.cells/timelineleveltype).
 
 **Returns:**
 int
+
 ### getHeightPixel() {#getHeightPixel--}
+
 ```
 public int getHeightPixel()
 ```
-
 
 Returns or sets the height of the specified timeline, in pixels.
 
@@ -177,11 +183,12 @@ NOTE: This member is now obsolete. Instead, please use Shape.Height property. Th
 
 **Returns:**
 int
+
 ### getLeftPixel() {#getLeftPixel--}
+
 ```
 public int getLeftPixel()
 ```
-
 
 Returns or sets the horizontal offset of timeline shape from its left column, in pixels.
 
@@ -191,11 +198,12 @@ NOTE: This member is now obsolete. Instead, please use Shape.Left property. This
 
 **Returns:**
 int
+
 ### getName() {#getName--}
+
 ```
 public String getName()
 ```
-
 
 Returns or sets the name of the specified Timeline
 
@@ -208,11 +216,12 @@ Returns or sets the name of the specified Timeline
 
 **Returns:**
 java.lang.String
+
 ### getSelectionLevel() {#getSelectionLevel--}
+
 ```
 public int getSelectionLevel()
 ```
-
 
 Gets the time level at which the current selection was made for the Timeline.
 
@@ -220,71 +229,78 @@ See [TimelineLevelType](../../com.aspose.cells/timelineleveltype).
 
 **Returns:**
 int
+
 ### getShape() {#getShape--}
+
 ```
 public TimelineShape getShape()
 ```
-
 
 Returns the [TimelineShape](../../com.aspose.cells/timelineshape) object associated with this Timeline.
 
 **Returns:**
 [TimelineShape](../../com.aspose.cells/timelineshape)
+
 ### getShowHeader() {#getShowHeader--}
+
 ```
 public boolean getShowHeader()
 ```
-
 
 Indicates whether to display the header.
 
 **Returns:**
 boolean
+
 ### getShowHorizontalScrollbar() {#getShowHorizontalScrollbar--}
+
 ```
 public boolean getShowHorizontalScrollbar()
 ```
-
 
 Indicates whether to display the horizontal ccroll bar.
 
 **Returns:**
 boolean
+
 ### getShowSelectionLabel() {#getShowSelectionLabel--}
+
 ```
 public boolean getShowSelectionLabel()
 ```
-
 
 Indicates whether to display the selction label.
 
 **Returns:**
 boolean
+
 ### getShowTimeLevel() {#getShowTimeLevel--}
+
 ```
 public boolean getShowTimeLevel()
 ```
-
 
 Indicates whether to display the time level.
 
 **Returns:**
 boolean
+
 ### getStartDate() {#getStartDate--}
+
 ```
 public DateTime getStartDate()
 ```
-
 
 Gets the start date of the timespan scrolling position of this [Timeline](../../com.aspose.cells/timeline).
 
 **Returns:**
 [DateTime](../../com.aspose.cells/datetime)
+
 ### getTopPixel() {#getTopPixel--}
+
 ```
 public int getTopPixel()
 ```
-
 
 Returns or sets the vertical offset of timeline shape from its top row, in pixels.
 
@@ -294,11 +310,12 @@ NOTE: This member is now obsolete. Instead, please use Shape.Top property. This 
 
 **Returns:**
 int
+
 ### getWidthPixel() {#getWidthPixel--}
+
 ```
 public int getWidthPixel()
 ```
-
 
 Returns or sets the width of the specified timeline, in pixels.
 
@@ -308,65 +325,63 @@ NOTE: This member is now obsolete. Instead, please use Shape.Width property. Thi
 
 **Returns:**
 int
+
 ### hashCode() {#hashCode--}
+
 ```
 public native int hashCode()
 ```
 
-
-
-
 **Returns:**
 int
+
 ### notify() {#notify--}
+
 ```
 public final native void notify()
 ```
 
-
-
-
 ### notifyAll() {#notifyAll--}
+
 ```
 public final native void notifyAll()
 ```
 
-
-
-
 ### setCaption(String value) {#setCaption-java.lang.String-}
+
 ```
 public void setCaption(String value)
 ```
 
-
 Sets the caption of this Timeline.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String |  |
 
 ### setCurrentLevel(int value) {#setCurrentLevel-int-}
+
 ```
 public void setCurrentLevel(int value)
 ```
-
 
 The current time level of the Timeline.
 
 See [TimelineLevelType](../../com.aspose.cells/timelineleveltype).
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
 
 ### setHeightPixel(int value) {#setHeightPixel-int-}
+
 ```
 public void setHeightPixel(int value)
 ```
-
 
 Returns or sets the height of the specified timeline, in pixels.
 
@@ -375,15 +390,16 @@ Returns or sets the height of the specified timeline, in pixels.
 NOTE: This member is now obsolete. Instead, please use Shape.Height property. This property will be removed 12 months later since May 2025. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
 
 ### setLeftPixel(int value) {#setLeftPixel-int-}
+
 ```
 public void setLeftPixel(int value)
 ```
-
 
 Returns or sets the horizontal offset of timeline shape from its left column, in pixels.
 
@@ -392,108 +408,116 @@ Returns or sets the horizontal offset of timeline shape from its left column, in
 NOTE: This member is now obsolete. Instead, please use Shape.Left property. This property will be removed 12 months later since May 2025. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
 
 ### setName(String value) {#setName-java.lang.String-}
+
 ```
 public void setName(String value)
 ```
 
-
 Returns or sets the name of the specified Timeline
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String |  |
 
 ### setSelectionLevel(int value) {#setSelectionLevel-int-}
+
 ```
 public void setSelectionLevel(int value)
 ```
-
 
 Sets the time level at which the current selection was made for the Timeline.
 
 See [TimelineLevelType](../../com.aspose.cells/timelineleveltype).
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
 
 ### setShowHeader(boolean value) {#setShowHeader-boolean-}
+
 ```
 public void setShowHeader(boolean value)
 ```
 
-
 Indicates whether to display the header.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
 ### setShowHorizontalScrollbar(boolean value) {#setShowHorizontalScrollbar-boolean-}
+
 ```
 public void setShowHorizontalScrollbar(boolean value)
 ```
 
-
 Indicates whether to display the horizontal ccroll bar.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
 ### setShowSelectionLabel(boolean value) {#setShowSelectionLabel-boolean-}
+
 ```
 public void setShowSelectionLabel(boolean value)
 ```
 
-
 Indicates whether to display the selction label.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
 ### setShowTimeLevel(boolean value) {#setShowTimeLevel-boolean-}
+
 ```
 public void setShowTimeLevel(boolean value)
 ```
 
-
 Indicates whether to display the time level.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
 ### setStartDate(DateTime value) {#setStartDate-com.aspose.cells.DateTime-}
+
 ```
 public void setStartDate(DateTime value)
 ```
 
-
 Sets the start date of the timespan scrolling position of this [Timeline](../../com.aspose.cells/timeline).
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [DateTime](../../com.aspose.cells/datetime) |  |
 
 ### setTopPixel(int value) {#setTopPixel-int-}
+
 ```
 public void setTopPixel(int value)
 ```
-
 
 Returns or sets the vertical offset of timeline shape from its top row, in pixels.
 
@@ -502,15 +526,16 @@ Returns or sets the vertical offset of timeline shape from its top row, in pixel
 NOTE: This member is now obsolete. Instead, please use Shape.Top property. This property will be removed 12 months later since May 2025. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
 
 ### setWidthPixel(int value) {#setWidthPixel-int-}
+
 ```
 public void setWidthPixel(int value)
 ```
-
 
 Returns or sets the width of the specified timeline, in pixels.
 
@@ -519,52 +544,47 @@ Returns or sets the width of the specified timeline, in pixels.
 NOTE: This member is now obsolete. Instead, please use Shape.Width property. This property will be removed 12 months later since May 2025. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
 
 ### toString() {#toString--}
+
 ```
 public String toString()
 ```
 
-
-
-
 **Returns:**
 java.lang.String
+
 ### wait() {#wait--}
+
 ```
 public final void wait()
 ```
 
-
-
-
 ### wait(long arg0) {#wait-long-}
+
 ```
 public final native void wait(long arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
 ### wait(long arg0, int arg1) {#wait-long-int-}
+
 ```
 public final void wait(long arg0, int arg1)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

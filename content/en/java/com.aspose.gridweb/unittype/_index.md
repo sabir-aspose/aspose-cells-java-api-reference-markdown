@@ -1,30 +1,35 @@
 ---
-title: UnitType
-second_title: Aspose.Cells for Java API Reference
-description: Specifies the unit of measurement.
+title: "UnitType"
+second_title: "Aspose.Cells for Java API Reference"
+description: "Specifies the unit of measurement."
 type: docs
-url: /java/com.aspose.gridweb/unittype/
+url: "/java/com.aspose.gridweb/unittype/"
+source_url: "https://reference.aspose.com/cells/java/com.aspose.gridweb/unittype/"
+generated_from: "online-reference"
+fetched_at: "2026-06-16T11:59:02+00:00"
 ---
-
 **Inheritance:**
 java.lang.Object
+
 ```
 public class UnitType
 ```
 
 Specifies the unit of measurement.
-## Constructors
+
+## Constructors {#constructors}
 
 | Constructor | Description |
 | --- | --- |
 | [UnitType()](#UnitType--) |  |
-## Fields
+
+## Fields {#fields}
 
 | Field | Description |
 | --- | --- |
 | [CM](#CM) | A centimeter. |
-| [EM](#EM) | A unit of font width relative to its parent element's font. For example, if the font size of a phrase is 2em and it is within a paragraph whose font size is 10px, then the font size of the phrase is 20px. Refer to the World Wide Web Consortium Website for more information. |
-| [EX](#EX) | A unit of font height relative to its parent element's font. Refer to the World Wide Web Consortium Website for more information. |
+| [EM](#EM) | A unit of font width relative to its parent element’s font. For example, if the font size of a phrase is 2em and it is within a paragraph whose font size is 10px, then the font size of the phrase is 20px. Refer to the World Wide Web Consortium Website for more information. |
+| [EX](#EX) | A unit of font height relative to its parent element’s font. Refer to the World Wide Web Consortium Website for more information. |
 | [INCH](#INCH) | An inch. |
 | [MM](#MM) | A millimeter. |
 | [PERCENTAGE](#PERCENTAGE) | A percentage. |
@@ -32,7 +37,8 @@ Specifies the unit of measurement.
 | [PIXEL](#PIXEL) | A pixel. |
 | [POINT](#POINT) | A point. |
 | [Point](#Point) | Alias for POINT. |
-## Methods
+
+## Methods {#methods}
 
 | Method | Description |
 | --- | --- |
@@ -45,185 +51,174 @@ Specifies the unit of measurement.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+
 ### UnitType() {#UnitType--}
+
 ```
 public UnitType()
 ```
 
-
 ### CM {#CM}
+
 ```
 public static int CM
 ```
 
-
 A centimeter.
 
 ### EM {#EM}
+
 ```
 public static int EM
 ```
 
-
-A unit of font width relative to its parent element's font. For example, if the font size of a phrase is 2em and it is within a paragraph whose font size is 10px, then the font size of the phrase is 20px. Refer to the World Wide Web Consortium Website for more information.
+A unit of font width relative to its parent element’s font. For example, if the font size of a phrase is 2em and it is within a paragraph whose font size is 10px, then the font size of the phrase is 20px. Refer to the World Wide Web Consortium Website for more information.
 
 ### EX {#EX}
+
 ```
 public static int EX
 ```
 
-
-A unit of font height relative to its parent element's font. Refer to the World Wide Web Consortium Website for more information.
+A unit of font height relative to its parent element’s font. Refer to the World Wide Web Consortium Website for more information.
 
 ### INCH {#INCH}
+
 ```
 public static int INCH
 ```
 
-
 An inch.
 
 ### MM {#MM}
+
 ```
 public static int MM
 ```
 
-
 A millimeter.
 
 ### PERCENTAGE {#PERCENTAGE}
+
 ```
 public static int PERCENTAGE
 ```
 
-
 A percentage.
 
 ### PICA {#PICA}
+
 ```
 public static int PICA
 ```
 
-
 A pica.
 
 ### PIXEL {#PIXEL}
+
 ```
 public static int PIXEL
 ```
 
-
 A pixel.
 
 ### POINT {#POINT}
+
 ```
 public static int POINT
 ```
 
-
 A point.
 
 ### Point {#Point}
+
 ```
 public static int Point
 ```
 
-
 Alias for POINT.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
+
 ```
 public boolean equals(Object arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
 **Returns:**
 boolean
+
 ### getClass() {#getClass--}
+
 ```
 public final native Class<?> getClass()
 ```
 
-
-
-
 **Returns:**
-java.lang.Class<?>
+java.lang.Class
+
 ### hashCode() {#hashCode--}
+
 ```
 public native int hashCode()
 ```
 
-
-
-
 **Returns:**
 int
+
 ### notify() {#notify--}
+
 ```
 public final native void notify()
 ```
 
-
-
-
 ### notifyAll() {#notifyAll--}
+
 ```
 public final native void notifyAll()
 ```
 
-
-
-
 ### toString() {#toString--}
+
 ```
 public String toString()
 ```
 
-
-
-
 **Returns:**
 java.lang.String
+
 ### wait() {#wait--}
+
 ```
 public final void wait()
 ```
 
-
-
-
 ### wait(long arg0) {#wait-long-}
+
 ```
 public final native void wait(long arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
 ### wait(long arg0, int arg1) {#wait-long-int-}
+
 ```
 public final void wait(long arg0, int arg1)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

@@ -1,16 +1,19 @@
 ---
-title: DigitalSignatureCollection
-second_title: Aspose.Cells for Java API Reference
-description: Provides a collection of digital signatures attached to a document.
+title: "DigitalSignatureCollection"
+second_title: "Aspose.Cells for Java API Reference"
+description: "Provides a collection of digital signatures attached to a document."
 type: docs
-url: /java/com.aspose.cells/digitalsignaturecollection/
+url: "/java/com.aspose.cells/digitalsignaturecollection/"
+source_url: "https://reference.aspose.com/cells/java/com.aspose.cells/digitalsignaturecollection/"
+generated_from: "online-reference"
+fetched_at: "2026-06-16T11:49:37+00:00"
 ---
-
 **Inheritance:**
 java.lang.Object
 
 **All Implemented Interfaces:**
 java.lang.Iterable
+
 ```
 public class DigitalSignatureCollection implements Iterable
 ```
@@ -35,12 +38,14 @@ The following example shows how to validate digital signature.
              System.out.println(existingDs.isValid());
          }
 ```
-## Constructors
+
+## Constructors {#constructors}
 
 | Constructor | Description |
 | --- | --- |
 | [DigitalSignatureCollection()](#DigitalSignatureCollection--) | The constructor of DigitalSignatureCollection. |
-## Methods
+
+## Methods {#methods}
 
 | Method | Description |
 | --- | --- |
@@ -55,130 +60,121 @@ The following example shows how to validate digital signature.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+
 ### DigitalSignatureCollection() {#DigitalSignatureCollection--}
+
 ```
 public DigitalSignatureCollection()
 ```
 
-
 The constructor of DigitalSignatureCollection.
 
 ### add(DigitalSignature digitalSignature) {#add-com.aspose.cells.DigitalSignature-}
+
 ```
 public void add(DigitalSignature digitalSignature)
 ```
 
-
 Add one signature to DigitalSignatureCollection.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | digitalSignature | [DigitalSignature](../../com.aspose.cells/digitalsignature) | Digital signature in collection. |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
+
 ```
 public boolean equals(Object arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
 **Returns:**
 boolean
+
 ### getClass() {#getClass--}
+
 ```
 public final native Class<?> getClass()
 ```
 
-
-
-
 **Returns:**
-java.lang.Class<?>
+java.lang.Class
+
 ### hashCode() {#hashCode--}
+
 ```
 public native int hashCode()
 ```
 
-
-
-
 **Returns:**
 int
+
 ### iterator() {#iterator--}
+
 ```
 public Iterator iterator()
 ```
-
 
 Get the enumerator for DigitalSignatureCollection, this enumerator allows iteration over the collection
 
 **Returns:**
 java.util.Iterator - The enumerator to iteration.
+
 ### notify() {#notify--}
+
 ```
 public final native void notify()
 ```
 
-
-
-
 ### notifyAll() {#notifyAll--}
+
 ```
 public final native void notifyAll()
 ```
 
-
-
-
 ### toString() {#toString--}
+
 ```
 public String toString()
 ```
 
-
-
-
 **Returns:**
 java.lang.String
+
 ### wait() {#wait--}
+
 ```
 public final void wait()
 ```
 
-
-
-
 ### wait(long arg0) {#wait-long-}
+
 ```
 public final native void wait(long arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
 ### wait(long arg0, int arg1) {#wait-long-int-}
+
 ```
 public final void wait(long arg0, int arg1)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

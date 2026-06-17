@@ -1,22 +1,26 @@
 ---
-title: TextParagraphCollection
-second_title: Aspose.Cells for Java API Reference
-description: Represents all text paragraph.
+title: "TextParagraphCollection"
+second_title: "Aspose.Cells for Java API Reference"
+description: "Represents all text paragraph."
 type: docs
-url: /java/com.aspose.cells/textparagraphcollection/
+url: "/java/com.aspose.cells/textparagraphcollection/"
+source_url: "https://reference.aspose.com/cells/java/com.aspose.cells/textparagraphcollection/"
+generated_from: "online-reference"
+fetched_at: "2026-06-16T11:56:33+00:00"
 ---
-
 **Inheritance:**
 java.lang.Object
 
 **All Implemented Interfaces:**
 java.lang.Iterable
+
 ```
 public class TextParagraphCollection implements Iterable
 ```
 
 Represents all text paragraph.
-## Methods
+
+## Methods {#methods}
 
 | Method | Description |
 | --- | --- |
@@ -32,134 +36,127 @@ Represents all text paragraph.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+
 ### equals(Object arg0) {#equals-java.lang.Object-}
+
 ```
 public boolean equals(Object arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
 **Returns:**
 boolean
+
 ### get(int index) {#get-int-}
+
 ```
 public TextParagraph get(int index)
 ```
 
-
 Gets the [TextParagraph](../../com.aspose.cells/textparagraph) object at specific index.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int | The index. |
 
 **Returns:**
-[TextParagraph](../../com.aspose.cells/textparagraph) - 
+[TextParagraph](../../com.aspose.cells/textparagraph) -
+
 ### getClass() {#getClass--}
+
 ```
 public final native Class<?> getClass()
 ```
 
-
-
-
 **Returns:**
-java.lang.Class<?>
+java.lang.Class
+
 ### getCount() {#getCount--}
+
 ```
 public int getCount()
 ```
-
 
 Gets the count of text paragraphs.
 
 **Returns:**
 int
+
 ### hashCode() {#hashCode--}
+
 ```
 public native int hashCode()
 ```
 
-
-
-
 **Returns:**
 int
+
 ### iterator() {#iterator--}
+
 ```
 public Iterator iterator()
 ```
 
-
 Gets the enumerator of the paragraphs.
 
 **Returns:**
-java.util.Iterator - 
+java.util.Iterator -
+
 ### notify() {#notify--}
+
 ```
 public final native void notify()
 ```
 
-
-
-
 ### notifyAll() {#notifyAll--}
+
 ```
 public final native void notifyAll()
 ```
 
-
-
-
 ### toString() {#toString--}
+
 ```
 public String toString()
 ```
 
-
-
-
 **Returns:**
 java.lang.String
+
 ### wait() {#wait--}
+
 ```
 public final void wait()
 ```
 
-
-
-
 ### wait(long arg0) {#wait-long-}
+
 ```
 public final native void wait(long arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
 ### wait(long arg0, int arg1) {#wait-long-int-}
+
 ```
 public final void wait(long arg0, int arg1)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

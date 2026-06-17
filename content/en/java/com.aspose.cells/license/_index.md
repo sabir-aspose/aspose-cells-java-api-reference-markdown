@@ -1,24 +1,29 @@
 ---
-title: License
-second_title: Aspose.Cells for Java API Reference
-description: Provides methods to license the component.
+title: "License"
+second_title: "Aspose.Cells for Java API Reference"
+description: "Provides methods to license the component."
 type: docs
-url: /java/com.aspose.cells/license/
+url: "/java/com.aspose.cells/license/"
+source_url: "https://reference.aspose.com/cells/java/com.aspose.cells/license/"
+generated_from: "online-reference"
+fetched_at: "2026-06-16T11:51:45+00:00"
 ---
-
 **Inheritance:**
 java.lang.Object
+
 ```
 public class License
 ```
 
 Provides methods to license the component.
-## Constructors
+
+## Constructors {#constructors}
 
 | Constructor | Description |
 | --- | --- |
 | [License()](#License--) | Initializes a new instance of this class. |
-## Methods
+
+## Methods {#methods}
 
 | Method | Description |
 | --- | --- |
@@ -33,70 +38,65 @@ Provides methods to license the component.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+
 ### License() {#License--}
+
 ```
 public License()
 ```
 
-
 Initializes a new instance of this class.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
+
 ```
 public boolean equals(Object arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
 **Returns:**
 boolean
+
 ### getClass() {#getClass--}
+
 ```
 public final native Class<?> getClass()
 ```
 
-
-
-
 **Returns:**
-java.lang.Class<?>
+java.lang.Class
+
 ### hashCode() {#hashCode--}
+
 ```
 public native int hashCode()
 ```
 
-
-
-
 **Returns:**
 int
+
 ### notify() {#notify--}
+
 ```
 public final native void notify()
 ```
 
-
-
-
 ### notifyAll() {#notifyAll--}
+
 ```
 public final native void notifyAll()
 ```
 
-
-
-
 ### setLicense(InputStream stream) {#setLicense-java.io.InputStream-}
+
 ```
 public void setLicense(InputStream stream)
 ```
-
 
 Licenses the component.
 
@@ -107,15 +107,16 @@ Use this method to load a license from a stream.
 **Example**
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | stream | java.io.InputStream | A stream that contains the license. |
 
 ### setLicense(String licenseName) {#setLicense-java.lang.String-}
+
 ```
 public void setLicense(String licenseName)
 ```
-
 
 Licenses the component.
 
@@ -124,74 +125,61 @@ Licenses the component.
 Tries to find the license in the following locations:
 
 1. Explicit path.
-
 2. The folder that contains the Aspose component assembly.
-
-3. The folder that contains the client's calling assembly.
-
+3. The folder that contains the client’s calling assembly.
 4. The folder that contains the entry (startup) assembly.
-
-5. An embedded resource in the client's calling assembly.
+5. An embedded resource in the client’s calling assembly.
 
 **Note:**On the .NET Compact Framework, tries to find the license only in these locations:
 
 1. Explicit path.
-
-2. An embedded resource in the client's calling assembly.
-
-2. The current working directory of the java application.
-
-3. The folder that contains the Aspose component JAR file.
-
-4. The folder that contains the client's calling JAR file.
+2. An embedded resource in the client’s calling assembly.
+3. The current working directory of the java application.
+4. The folder that contains the Aspose component JAR file.
+5. The folder that contains the client’s calling JAR file.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | licenseName | java.lang.String |  |
 
 ### toString() {#toString--}
+
 ```
 public String toString()
 ```
 
-
-
-
 **Returns:**
 java.lang.String
+
 ### wait() {#wait--}
+
 ```
 public final void wait()
 ```
 
-
-
-
 ### wait(long arg0) {#wait-long-}
+
 ```
 public final native void wait(long arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
 ### wait(long arg0, int arg1) {#wait-long-int-}
+
 ```
 public final void wait(long arg0, int arg1)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

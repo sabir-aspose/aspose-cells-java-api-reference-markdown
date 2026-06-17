@@ -1,13 +1,16 @@
 ---
-title: PivotConditionalFormat
-second_title: Aspose.Cells for Java API Reference
-description: Represents a PivotTable Format Condition in PivotFormatCondition Collection.
+title: "PivotConditionalFormat"
+second_title: "Aspose.Cells for Java API Reference"
+description: "Represents a PivotTable Format Condition in PivotFormatCondition Collection."
 type: docs
-url: /java/com.aspose.cells/pivotconditionalformat/
+url: "/java/com.aspose.cells/pivotconditionalformat/"
+source_url: "https://reference.aspose.com/cells/java/com.aspose.cells/pivotconditionalformat/"
+generated_from: "online-reference"
+fetched_at: "2026-06-16T11:53:36+00:00"
 ---
-
 **Inheritance:**
 java.lang.Object
+
 ```
 public class PivotConditionalFormat
 ```
@@ -77,7 +80,8 @@ Represents a PivotTable Format Condition in PivotFormatCondition Collection.
  
          book.save("out.xlsx");
 ```
-## Methods
+
+## Methods {#methods}
 
 | Method | Description |
 | --- | --- |
@@ -101,56 +105,61 @@ Represents a PivotTable Format Condition in PivotFormatCondition Collection.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+
 ### addCellArea(CellArea ca) {#addCellArea-com.aspose.cells.CellArea-}
+
 ```
 public void addCellArea(CellArea ca)
 ```
 
-
 Adds an area based on pivot table view.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | ca | [CellArea](../../com.aspose.cells/cellarea) | The cell area. |
 
 ### addFieldArea(int axisType, PivotField field) {#addFieldArea-int-com.aspose.cells.PivotField-}
+
 ```
 public void addFieldArea(int axisType, PivotField field)
 ```
 
-
 Adds an area of pivot field.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | axisType | int | [PivotFieldType](../../com.aspose.cells/pivotfieldtype). The region type. |
 | field | [PivotField](../../com.aspose.cells/pivotfield) | The pivot field. |
 
 ### addFieldArea(int axisType, String fieldName) {#addFieldArea-int-java.lang.String-}
+
 ```
 public void addFieldArea(int axisType, String fieldName)
 ```
 
-
 Adds an area of pivot field.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | axisType | int | [PivotFieldType](../../com.aspose.cells/pivotfieldtype). The region type. |
 | fieldName | java.lang.String | The name of pivot field. |
 
 ### applyTo(int row, int column, int scope) {#applyTo-int-int-int-}
+
 ```
 public void applyTo(int row, int column, int scope)
 ```
 
-
 Applies the conditional format to range. Only for the data region.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | row | int | The selected row. |
@@ -158,65 +167,67 @@ Applies the conditional format to range. Only for the data region.
 | scope | int | [PivotConditionFormatScopeType](../../com.aspose.cells/pivotconditionformatscopetype). The scope |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
+
 ```
 public boolean equals(Object arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
 **Returns:**
 boolean
+
 ### getCellAreas() {#getCellAreas--}
+
 ```
 public CellArea[] getCellAreas()
 ```
 
-
 Gets all cell areas where this conditional format applies to.
 
 **Returns:**
-com.aspose.cells.CellArea[] - 
+com.aspose.cells.CellArea[] -
+
 ### getClass() {#getClass--}
+
 ```
 public final native Class<?> getClass()
 ```
 
-
-
-
 **Returns:**
-java.lang.Class<?>
+java.lang.Class
+
 ### getFormatConditions() {#getFormatConditions--}
+
 ```
 public FormatConditionCollection getFormatConditions()
 ```
-
 
 Get conditions for the pivot table conditional format .
 
 **Returns:**
 [FormatConditionCollection](../../com.aspose.cells/formatconditioncollection)
+
 ### getPivotAreas() {#getPivotAreas--}
+
 ```
 public PivotAreaCollection getPivotAreas()
 ```
-
 
 Gets all pivot areas.
 
 **Returns:**
 [PivotAreaCollection](../../com.aspose.cells/pivotareacollection)
+
 ### getRuleType() {#getRuleType--}
+
 ```
 public int getRuleType()
 ```
-
 
 Gets rule type for the pivot table condition format .
 
@@ -224,11 +235,12 @@ See [PivotConditionFormatRuleType](../../com.aspose.cells/pivotconditionformatru
 
 **Returns:**
 int
+
 ### getScopeType() {#getScopeType--}
+
 ```
 public int getScopeType()
 ```
-
 
 Gets scope type for the pivot table conditional format .
 
@@ -236,104 +248,96 @@ See [PivotConditionFormatScopeType](../../com.aspose.cells/pivotconditionformats
 
 **Returns:**
 int
+
 ### hashCode() {#hashCode--}
+
 ```
 public native int hashCode()
 ```
 
-
-
-
 **Returns:**
 int
+
 ### notify() {#notify--}
+
 ```
 public final native void notify()
 ```
 
-
-
-
 ### notifyAll() {#notifyAll--}
+
 ```
 public final native void notifyAll()
 ```
 
-
-
-
 ### setRuleType(int value) {#setRuleType-int-}
+
 ```
 public void setRuleType(int value)
 ```
-
 
 Sets rule type for the pivot table condition format .
 
 See [PivotConditionFormatRuleType](../../com.aspose.cells/pivotconditionformatruletype).
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
 
 ### setScopeType(int value) {#setScopeType-int-}
+
 ```
 public void setScopeType(int value)
 ```
-
 
 Sets scope type for the pivot table conditional format .
 
 See [PivotConditionFormatScopeType](../../com.aspose.cells/pivotconditionformatscopetype).
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
 
 ### toString() {#toString--}
+
 ```
 public String toString()
 ```
 
-
-
-
 **Returns:**
 java.lang.String
+
 ### wait() {#wait--}
+
 ```
 public final void wait()
 ```
 
-
-
-
 ### wait(long arg0) {#wait-long-}
+
 ```
 public final native void wait(long arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
 ### wait(long arg0, int arg1) {#wait-long-int-}
+
 ```
 public final void wait(long arg0, int arg1)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

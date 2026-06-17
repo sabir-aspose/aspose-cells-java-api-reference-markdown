@@ -1,24 +1,29 @@
 ---
-title: TableToRangeOptions
-second_title: Aspose.Cells for Java API Reference
-description: Represents the options when converting table to range.
+title: "TableToRangeOptions"
+second_title: "Aspose.Cells for Java API Reference"
+description: "Represents the options when converting table to range."
 type: docs
-url: /java/com.aspose.cells/tabletorangeoptions/
+url: "/java/com.aspose.cells/tabletorangeoptions/"
+source_url: "https://reference.aspose.com/cells/java/com.aspose.cells/tabletorangeoptions/"
+generated_from: "online-reference"
+fetched_at: "2026-06-16T11:56:19+00:00"
 ---
-
 **Inheritance:**
 java.lang.Object
+
 ```
 public class TableToRangeOptions
 ```
 
 Represents the options when converting table to range.
-## Constructors
+
+## Constructors {#constructors}
 
 | Constructor | Description |
 | --- | --- |
 | [TableToRangeOptions()](#TableToRangeOptions--) |  |
-## Methods
+
+## Methods {#methods}
 
 | Method | Description |
 | --- | --- |
@@ -33,128 +38,119 @@ Represents the options when converting table to range.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+
 ### TableToRangeOptions() {#TableToRangeOptions--}
+
 ```
 public TableToRangeOptions()
 ```
 
-
 ### equals(Object arg0) {#equals-java.lang.Object-}
+
 ```
 public boolean equals(Object arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
 **Returns:**
 boolean
+
 ### getClass() {#getClass--}
+
 ```
 public final native Class<?> getClass()
 ```
 
-
-
-
 **Returns:**
-java.lang.Class<?>
+java.lang.Class
+
 ### getLastRow() {#getLastRow--}
+
 ```
 public int getLastRow()
 ```
-
 
 Gets the last row index of the table.
 
 **Returns:**
 int
+
 ### hashCode() {#hashCode--}
+
 ```
 public native int hashCode()
 ```
 
-
-
-
 **Returns:**
 int
+
 ### notify() {#notify--}
+
 ```
 public final native void notify()
 ```
 
-
-
-
 ### notifyAll() {#notifyAll--}
+
 ```
 public final native void notifyAll()
 ```
 
-
-
-
 ### setLastRow(int value) {#setLastRow-int-}
+
 ```
 public void setLastRow(int value)
 ```
 
-
 Sets the last row index of the table.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
 
 ### toString() {#toString--}
+
 ```
 public String toString()
 ```
 
-
-
-
 **Returns:**
 java.lang.String
+
 ### wait() {#wait--}
+
 ```
 public final void wait()
 ```
 
-
-
-
 ### wait(long arg0) {#wait-long-}
+
 ```
 public final native void wait(long arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
 ### wait(long arg0, int arg1) {#wait-long-int-}
+
 ```
 public final void wait(long arg0, int arg1)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

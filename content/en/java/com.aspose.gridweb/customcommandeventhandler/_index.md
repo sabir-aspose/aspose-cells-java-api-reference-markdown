@@ -1,13 +1,16 @@
 ---
-title: CustomCommandEventHandler
-second_title: Aspose.Cells for Java API Reference
-description: Represents the interface that intend to handle Custom Command events.
+title: "CustomCommandEventHandler"
+second_title: "Aspose.Cells for Java API Reference"
+description: "Represents the interface that intend to handle Custom Command events."
 type: docs
-url: /java/com.aspose.gridweb/customcommandeventhandler/
+url: "/java/com.aspose.gridweb/customcommandeventhandler/"
+source_url: "https://reference.aspose.com/cells/java/com.aspose.gridweb/customcommandeventhandler/"
+generated_from: "online-reference"
+fetched_at: "2026-06-16T11:58:08+00:00"
 ---
-
 **All Implemented Interfaces:**
 java.io.Serializable
+
 ```
 public interface CustomCommandEventHandler extends Serializable
 ```
@@ -34,22 +37,24 @@ Represents the interface that intend to handle Custom Command events.
          GridWebBean gridweb=ExtPage.getInstance().getBean();
          gridweb.CustomCommand = new MyCustomCommandEventHandler();
 ```
-## Methods
+
+## Methods {#methods}
 
 | Method | Description |
 | --- | --- |
 | [handleCellEvent(Object sender, String command)](#handleCellEvent-java.lang.Object-java.lang.String-) | handle the related Cell Event. |
+
 ### handleCellEvent(Object sender, String command) {#handleCellEvent-java.lang.Object-java.lang.String-}
+
 ```
 public abstract void handleCellEvent(Object sender, String command)
 ```
 
-
 handle the related Cell Event.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
-| sender | java.lang.Object | The source grid of the event. If the event if fired by a child grid's cell in hierarchical displaying mode, the sender parameter represents the child grid object. |
+| sender | java.lang.Object | The source grid of the event. If the event if fired by a child grid’s cell in hierarchical displaying mode, the sender parameter represents the child grid object. |
 | command | java.lang.String | The command string user send. |
-

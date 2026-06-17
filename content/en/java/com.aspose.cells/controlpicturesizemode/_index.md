@@ -1,26 +1,31 @@
 ---
-title: ControlPictureSizeMode
-second_title: Aspose.Cells for Java API Reference
-description: Represents how to display the picture.
+title: "ControlPictureSizeMode"
+second_title: "Aspose.Cells for Java API Reference"
+description: "Represents how to display the picture."
 type: docs
-url: /java/com.aspose.cells/controlpicturesizemode/
+url: "/java/com.aspose.cells/controlpicturesizemode/"
+source_url: "https://reference.aspose.com/cells/java/com.aspose.cells/controlpicturesizemode/"
+generated_from: "online-reference"
+fetched_at: "2026-06-16T11:48:56+00:00"
 ---
-
 **Inheritance:**
 java.lang.Object
+
 ```
 public final class ControlPictureSizeMode
 ```
 
 Represents how to display the picture.
-## Fields
+
+## Fields {#fields}
 
 | Field | Description |
 | --- | --- |
-| [CLIP](#CLIP) | Crops any part of the picture that is larger than the control's boundaries. |
-| [STRETCH](#STRETCH) | Stretches the picture to fill the control's area. |
+| [CLIP](#CLIP) | Crops any part of the picture that is larger than the control’s boundaries. |
+| [STRETCH](#STRETCH) | Stretches the picture to fill the control’s area. |
 | [ZOOM](#ZOOM) | Enlarges the picture, but does not distort the picture in either the horizontal or vertical direction. |
-## Methods
+
+## Methods {#methods}
 
 | Method | Description |
 | --- | --- |
@@ -33,123 +38,112 @@ Represents how to display the picture.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+
 ### CLIP {#CLIP}
+
 ```
 public static final int CLIP
 ```
 
-
-Crops any part of the picture that is larger than the control's boundaries.
+Crops any part of the picture that is larger than the control’s boundaries.
 
 ### STRETCH {#STRETCH}
+
 ```
 public static final int STRETCH
 ```
 
-
-Stretches the picture to fill the control's area. This setting distorts the picture in either the horizontal or vertical direction.
+Stretches the picture to fill the control’s area. This setting distorts the picture in either the horizontal or vertical direction.
 
 ### ZOOM {#ZOOM}
+
 ```
 public static final int ZOOM
 ```
 
-
 Enlarges the picture, but does not distort the picture in either the horizontal or vertical direction.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
+
 ```
 public boolean equals(Object arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
 **Returns:**
 boolean
+
 ### getClass() {#getClass--}
+
 ```
 public final native Class<?> getClass()
 ```
 
-
-
-
 **Returns:**
-java.lang.Class<?>
+java.lang.Class
+
 ### hashCode() {#hashCode--}
+
 ```
 public native int hashCode()
 ```
 
-
-
-
 **Returns:**
 int
+
 ### notify() {#notify--}
+
 ```
 public final native void notify()
 ```
 
-
-
-
 ### notifyAll() {#notifyAll--}
+
 ```
 public final native void notifyAll()
 ```
 
-
-
-
 ### toString() {#toString--}
+
 ```
 public String toString()
 ```
 
-
-
-
 **Returns:**
 java.lang.String
+
 ### wait() {#wait--}
+
 ```
 public final void wait()
 ```
 
-
-
-
 ### wait(long arg0) {#wait-long-}
+
 ```
 public final native void wait(long arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
 ### wait(long arg0, int arg1) {#wait-long-int-}
+
 ```
 public final void wait(long arg0, int arg1)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

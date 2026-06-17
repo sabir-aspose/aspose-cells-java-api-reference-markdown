@@ -1,26 +1,31 @@
 ---
-title: OnErrorActionType
-second_title: Aspose.Cells for Java API Reference
-description: Used in CellError event of the GridWeb.
+title: "OnErrorActionType"
+second_title: "Aspose.Cells for Java API Reference"
+description: "Used in CellError event of the GridWeb."
 type: docs
-url: /java/com.aspose.gridweb/onerroractiontype/
+url: "/java/com.aspose.gridweb/onerroractiontype/"
+source_url: "https://reference.aspose.com/cells/java/com.aspose.gridweb/onerroractiontype/"
+generated_from: "online-reference"
+fetched_at: "2026-06-16T11:58:52+00:00"
 ---
-
 **Inheritance:**
 java.lang.Object
+
 ```
 public final class OnErrorActionType
 ```
 
 Used in CellError event of the GridWeb. User set the OnErrorActionQuery.OnErrorAction to tell the control Stop processing or Ignore error.
-## Fields
+
+## Fields {#fields}
 
 | Field | Description |
 | --- | --- |
 | [IGNORE](#IGNORE) | Ignores the error and continue processing. |
 | [STOP](#STOP) | Stops current processing. |
 | [THROW](#THROW) | Throws the current exception. |
-## Methods
+
+## Methods {#methods}
 
 | Method | Description |
 | --- | --- |
@@ -33,123 +38,112 @@ Used in CellError event of the GridWeb. User set the OnErrorActionQuery.OnErrorA
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+
 ### IGNORE {#IGNORE}
+
 ```
 public static final int IGNORE
 ```
 
-
 Ignores the error and continue processing.
 
 ### STOP {#STOP}
+
 ```
 public static final int STOP
 ```
 
-
 Stops current processing.
 
 ### THROW {#THROW}
+
 ```
 public static final int THROW
 ```
 
-
 Throws the current exception.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
+
 ```
 public boolean equals(Object arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
 **Returns:**
 boolean
+
 ### getClass() {#getClass--}
+
 ```
 public final native Class<?> getClass()
 ```
 
-
-
-
 **Returns:**
-java.lang.Class<?>
+java.lang.Class
+
 ### hashCode() {#hashCode--}
+
 ```
 public native int hashCode()
 ```
 
-
-
-
 **Returns:**
 int
+
 ### notify() {#notify--}
+
 ```
 public final native void notify()
 ```
 
-
-
-
 ### notifyAll() {#notifyAll--}
+
 ```
 public final native void notifyAll()
 ```
 
-
-
-
 ### toString() {#toString--}
+
 ```
 public String toString()
 ```
 
-
-
-
 **Returns:**
 java.lang.String
+
 ### wait() {#wait--}
+
 ```
 public final void wait()
 ```
 
-
-
-
 ### wait(long arg0) {#wait-long-}
+
 ```
 public final native void wait(long arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
 ### wait(long arg0, int arg1) {#wait-long-int-}
+
 ```
 public final void wait(long arg0, int arg1)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

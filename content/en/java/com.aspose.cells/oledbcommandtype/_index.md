@@ -1,19 +1,23 @@
 ---
-title: OLEDBCommandType
-second_title: Aspose.Cells for Java API Reference
-description: Specifies the OLE DB command type.
+title: "OLEDBCommandType"
+second_title: "Aspose.Cells for Java API Reference"
+description: "Specifies the OLE DB command type."
 type: docs
-url: /java/com.aspose.cells/oledbcommandtype/
+url: "/java/com.aspose.cells/oledbcommandtype/"
+source_url: "https://reference.aspose.com/cells/java/com.aspose.cells/oledbcommandtype/"
+generated_from: "online-reference"
+fetched_at: "2026-06-16T11:52:56+00:00"
 ---
-
 **Inheritance:**
 java.lang.Object
+
 ```
 public final class OLEDBCommandType
 ```
 
 Specifies the OLE DB command type.
-## Fields
+
+## Fields {#fields}
 
 | Field | Description |
 | --- | --- |
@@ -24,7 +28,8 @@ Specifies the OLE DB command type.
 | [TABLE_COLLECTION](#TABLE-COLLECTION) | Specifies the table list. |
 | [TABLE_NAME](#TABLE-NAME) | Specifies a table name |
 | [WEB_BASED_LIST](#WEB-BASED-LIST) | Specifies a query which is against a web based List Data Provider. |
-## Methods
+
+## Methods {#methods}
 
 | Method | Description |
 | --- | --- |
@@ -37,11 +42,12 @@ Specifies the OLE DB command type.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+
 ### CUBE_NAME {#CUBE-NAME}
+
 ```
 public static final int CUBE_NAME
 ```
-
 
 Specifies a cube name
 
@@ -50,10 +56,10 @@ Specifies a cube name
 unsupported
 
 ### DEFAULT_INFORMATION {#DEFAULT-INFORMATION}
+
 ```
 public static final int DEFAULT_INFORMATION
 ```
-
 
 Specifies that default information has been given, and it is up to the provider how to interpret.
 
@@ -62,26 +68,26 @@ Specifies that default information has been given, and it is up to the provider 
 unsupported
 
 ### NONE {#NONE}
+
 ```
 public static final int NONE
 ```
 
-
 The command type is not specified.
 
 ### SQL_STATEMENT {#SQL-STATEMENT}
+
 ```
 public static final int SQL_STATEMENT
 ```
 
-
 Specifies a SQL statement
 
 ### TABLE_COLLECTION {#TABLE-COLLECTION}
+
 ```
 public static final int TABLE_COLLECTION
 ```
-
 
 Specifies the table list.
 
@@ -90,18 +96,18 @@ Specifies the table list.
 Only for reading.
 
 ### TABLE_NAME {#TABLE-NAME}
+
 ```
 public static final int TABLE_NAME
 ```
 
-
 Specifies a table name
 
 ### WEB_BASED_LIST {#WEB-BASED-LIST}
+
 ```
 public static final int WEB_BASED_LIST
 ```
-
 
 Specifies a query which is against a web based List Data Provider.
 
@@ -110,98 +116,86 @@ Specifies a query which is against a web based List Data Provider.
 unsupported
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
+
 ```
 public boolean equals(Object arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
 **Returns:**
 boolean
+
 ### getClass() {#getClass--}
+
 ```
 public final native Class<?> getClass()
 ```
 
-
-
-
 **Returns:**
-java.lang.Class<?>
+java.lang.Class
+
 ### hashCode() {#hashCode--}
+
 ```
 public native int hashCode()
 ```
 
-
-
-
 **Returns:**
 int
+
 ### notify() {#notify--}
+
 ```
 public final native void notify()
 ```
 
-
-
-
 ### notifyAll() {#notifyAll--}
+
 ```
 public final native void notifyAll()
 ```
 
-
-
-
 ### toString() {#toString--}
+
 ```
 public String toString()
 ```
 
-
-
-
 **Returns:**
 java.lang.String
+
 ### wait() {#wait--}
+
 ```
 public final void wait()
 ```
 
-
-
-
 ### wait(long arg0) {#wait-long-}
+
 ```
 public final native void wait(long arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
 ### wait(long arg0, int arg1) {#wait-long-int-}
+
 ```
 public final void wait(long arg0, int arg1)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

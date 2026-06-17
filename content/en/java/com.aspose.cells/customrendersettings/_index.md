@@ -1,24 +1,29 @@
 ---
-title: CustomRenderSettings
-second_title: Aspose.Cells for Java API Reference
-description: Represents custom settings during rendering.
+title: "CustomRenderSettings"
+second_title: "Aspose.Cells for Java API Reference"
+description: "Represents custom settings during rendering."
 type: docs
-url: /java/com.aspose.cells/customrendersettings/
+url: "/java/com.aspose.cells/customrendersettings/"
+source_url: "https://reference.aspose.com/cells/java/com.aspose.cells/customrendersettings/"
+generated_from: "online-reference"
+fetched_at: "2026-06-16T11:49:10+00:00"
 ---
-
 **Inheritance:**
 java.lang.Object
+
 ```
 public class CustomRenderSettings
 ```
 
 Represents custom settings during rendering.
-## Constructors
+
+## Constructors {#constructors}
 
 | Constructor | Description |
 | --- | --- |
 | [CustomRenderSettings()](#CustomRenderSettings--) | Ctor. |
-## Methods
+
+## Methods {#methods}
 
 | Method | Description |
 | --- | --- |
@@ -32,34 +37,35 @@ Represents custom settings during rendering.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+
 ### CustomRenderSettings() {#CustomRenderSettings--}
+
 ```
 public CustomRenderSettings()
 ```
 
-
 Ctor.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
+
 ```
 public boolean equals(Object arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
 **Returns:**
 boolean
+
 ### getCellBorderWidth(int borderType) {#getCellBorderWidth-int-}
+
 ```
 public float getCellBorderWidth(int borderType)
 ```
-
 
 Specifies cell border width according to border type.
 
@@ -68,90 +74,80 @@ Specifies cell border width according to border type.
 Any negative value will be ignored.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | borderType | int | [CellBorderType](../../com.aspose.cells/cellbordertype). cell border type |
 
 **Returns:**
 float - cell border width
+
 ### getClass() {#getClass--}
+
 ```
 public final native Class<?> getClass()
 ```
 
-
-
-
 **Returns:**
-java.lang.Class<?>
+java.lang.Class
+
 ### hashCode() {#hashCode--}
+
 ```
 public native int hashCode()
 ```
 
-
-
-
 **Returns:**
 int
+
 ### notify() {#notify--}
+
 ```
 public final native void notify()
 ```
 
-
-
-
 ### notifyAll() {#notifyAll--}
+
 ```
 public final native void notifyAll()
 ```
 
-
-
-
 ### toString() {#toString--}
+
 ```
 public String toString()
 ```
 
-
-
-
 **Returns:**
 java.lang.String
+
 ### wait() {#wait--}
+
 ```
 public final void wait()
 ```
 
-
-
-
 ### wait(long arg0) {#wait-long-}
+
 ```
 public final native void wait(long arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
 ### wait(long arg0, int arg1) {#wait-long-int-}
+
 ```
 public final void wait(long arg0, int arg1)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

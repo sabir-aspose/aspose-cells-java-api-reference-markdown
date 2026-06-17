@@ -1,19 +1,23 @@
 ---
-title: GridPictureCollection
-second_title: Aspose.Cells for Java API Reference
-description: Encapsulates a collection of  objects.
+title: "GridPictureCollection"
+second_title: "Aspose.Cells for Java API Reference"
+description: "Encapsulates a collection of objects."
 type: docs
-url: /java/com.aspose.gridweb/gridpicturecollection/
+url: "/java/com.aspose.gridweb/gridpicturecollection/"
+source_url: "https://reference.aspose.com/cells/java/com.aspose.gridweb/gridpicturecollection/"
+generated_from: "online-reference"
+fetched_at: "2026-06-16T11:58:29+00:00"
 ---
-
 **Inheritance:**
 java.lang.Object
+
 ```
 public class GridPictureCollection
 ```
 
 Encapsulates a collection of [GridPicture](../../com.aspose.gridweb/gridpicture) objects.
-## Methods
+
+## Methods {#methods}
 
 | Method | Description |
 | --- | --- |
@@ -34,15 +38,17 @@ Encapsulates a collection of [GridPicture](../../com.aspose.gridweb/gridpicture)
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+
 ### add(int upperLeftRow, int upperLeftColumn, int lowerRightRow, int lowerRightColumn, String fileName) {#add-int-int-int-int-java.lang.String-}
+
 ```
 public int add(int upperLeftRow, int upperLeftColumn, int lowerRightRow, int lowerRightColumn, String fileName)
 ```
 
-
 Adds a picture to the collection.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | upperLeftRow | int | Upper left row index. |
@@ -53,15 +59,17 @@ Adds a picture to the collection.
 
 **Returns:**
 int - [GridPicture](../../com.aspose.gridweb/gridpicture) object index.
+
 ### add(int upperLeftRow, int upperLeftColumn, String fileName) {#add-int-int-java.lang.String-}
+
 ```
 public int add(int upperLeftRow, int upperLeftColumn, String fileName)
 ```
 
-
 Adds a picture to the collection.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | upperLeftRow | int | Upper left row index. |
@@ -70,15 +78,17 @@ Adds a picture to the collection.
 
 **Returns:**
 int - [GridPicture](../../com.aspose.gridweb/gridpicture) object index.
+
 ### add(int upperLeftRow, int upperLeftColumn, String fileName, int widthScale, int heightScale) {#add-int-int-java.lang.String-int-int-}
+
 ```
 public int add(int upperLeftRow, int upperLeftColumn, String fileName, int widthScale, int heightScale)
 ```
 
-
 Adds a picture to the collection.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | upperLeftRow | int | Upper left row index. |
@@ -89,155 +99,149 @@ Adds a picture to the collection.
 
 **Returns:**
 int - [GridPicture](../../com.aspose.gridweb/gridpicture) object index.
+
 ### clear() {#clear--}
+
 ```
 public void clear()
 ```
 
-
 Clear all pictures.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
+
 ```
 public boolean equals(Object arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
 **Returns:**
 boolean
+
 ### get(int index) {#get-int-}
+
 ```
 public GridPicture get(int index)
 ```
 
-
 Gets the [GridPicture](../../com.aspose.gridweb/gridpicture) element at the specified index.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int | The zero based index of the element. |
 
 **Returns:**
 [GridPicture](../../com.aspose.gridweb/gridpicture) - The element at the specified index.
+
 ### getClass() {#getClass--}
+
 ```
 public final native Class<?> getClass()
 ```
 
-
-
-
 **Returns:**
-java.lang.Class<?>
+java.lang.Class
+
 ### getCount() {#getCount--}
+
 ```
 public int getCount()
 ```
-
 
 Gets the size of enumerator
 
 **Returns:**
 int
+
 ### hashCode() {#hashCode--}
+
 ```
 public native int hashCode()
 ```
 
-
-
-
 **Returns:**
 int
+
 ### iterator() {#iterator--}
+
 ```
 public Iterator iterator()
 ```
-
 
 Gets the rows enumerator
 
 **Returns:**
 java.util.Iterator - The rows enumerator
+
 ### notify() {#notify--}
+
 ```
 public final native void notify()
 ```
 
-
-
-
 ### notifyAll() {#notifyAll--}
+
 ```
 public final native void notifyAll()
 ```
 
-
-
-
 ### removeAt(int param_int) {#removeAt-int-}
+
 ```
 public void removeAt(int param_int)
 ```
 
-
 Remove shapes at the specific index
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | param_int | int |  |
 
 ### toString() {#toString--}
+
 ```
 public String toString()
 ```
 
-
-
-
 **Returns:**
 java.lang.String
+
 ### wait() {#wait--}
+
 ```
 public final void wait()
 ```
 
-
-
-
 ### wait(long arg0) {#wait-long-}
+
 ```
 public final native void wait(long arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
 ### wait(long arg0, int arg1) {#wait-long-int-}
+
 ```
 public final void wait(long arg0, int arg1)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

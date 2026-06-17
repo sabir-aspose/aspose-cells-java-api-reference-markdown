@@ -1,19 +1,23 @@
 ---
-title: CellsDataTableFactory
-second_title: Aspose.Cells for Java API Reference
-description: Utility to build ICellsDataTable from custom objects for users convenience.
+title: "CellsDataTableFactory"
+second_title: "Aspose.Cells for Java API Reference"
+description: "Utility to build ICellsDataTable from custom objects for users convenience."
 type: docs
-url: /java/com.aspose.cells/cellsdatatablefactory/
+url: "/java/com.aspose.cells/cellsdatatablefactory/"
+source_url: "https://reference.aspose.com/cells/java/com.aspose.cells/cellsdatatablefactory/"
+generated_from: "online-reference"
+fetched_at: "2026-06-16T11:48:12+00:00"
 ---
-
 **Inheritance:**
 java.lang.Object
+
 ```
 public class CellsDataTableFactory
 ```
 
-Utility to build ICellsDataTable from custom objects for user's convenience.
-## Methods
+Utility to build ICellsDataTable from custom objects for user’s convenience.
+
+## Methods {#methods}
 
 | Method | Description |
 | --- | --- |
@@ -38,40 +42,41 @@ Utility to build ICellsDataTable from custom objects for user's convenience.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+
 ### equals(Object arg0) {#equals-java.lang.Object-}
+
 ```
 public boolean equals(Object arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
 **Returns:**
 boolean
+
 ### getClass() {#getClass--}
+
 ```
 public final native Class<?> getClass()
 ```
 
-
-
-
 **Returns:**
-java.lang.Class<?>
+java.lang.Class
+
 ### getInstance(double[] vals, boolean vertial) {#getInstance-double---boolean-}
+
 ```
 public ICellsDataTable getInstance(double[] vals, boolean vertial)
 ```
 
-
 Creates ICellsDataTable from given sequence of double values.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | vals | double[] | double values to build table |
@@ -79,15 +84,17 @@ Creates ICellsDataTable from given sequence of double values.
 
 **Returns:**
 [ICellsDataTable](../../com.aspose.cells/icellsdatatable) - Instance of ICellsDataTable
+
 ### getInstance(double[] vals, String[] columnNames) {#getInstance-double---java.lang.String---}
+
 ```
 public ICellsDataTable getInstance(double[] vals, String[] columnNames)
 ```
 
-
 Creates ICellsDataTable from given sequence of double values.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | vals | double[] | double values to build table |
@@ -95,30 +102,34 @@ Creates ICellsDataTable from given sequence of double values.
 
 **Returns:**
 [ICellsDataTable](../../com.aspose.cells/icellsdatatable) - Instance of ICellsDataTable
+
 ### getInstance(double[][] vals) {#getInstance-double-----}
+
 ```
 public ICellsDataTable getInstance(double[][] vals)
 ```
 
-
 Creates ICellsDataTable from a given 2D array.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | vals | double[][] | double values to build table |
 
 **Returns:**
 [ICellsDataTable](../../com.aspose.cells/icellsdatatable) - Instance of ICellsDataTable
+
 ### getInstance(int[] vals, boolean vertial) {#getInstance-int---boolean-}
+
 ```
 public ICellsDataTable getInstance(int[] vals, boolean vertial)
 ```
 
-
 Creates ICellsDataTable from given sequence of integer values.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | vals | int[] | int values to build table |
@@ -126,15 +137,17 @@ Creates ICellsDataTable from given sequence of integer values.
 
 **Returns:**
 [ICellsDataTable](../../com.aspose.cells/icellsdatatable) - Instance of ICellsDataTable
+
 ### getInstance(int[] vals, String[] columnNames) {#getInstance-int---java.lang.String---}
+
 ```
 public ICellsDataTable getInstance(int[] vals, String[] columnNames)
 ```
 
-
 Creates ICellsDataTable from given sequence of integer values.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | vals | int[] | int values to build table |
@@ -142,30 +155,34 @@ Creates ICellsDataTable from given sequence of integer values.
 
 **Returns:**
 [ICellsDataTable](../../com.aspose.cells/icellsdatatable) - Instance of ICellsDataTable
+
 ### getInstance(int[][] vals) {#getInstance-int-----}
+
 ```
 public ICellsDataTable getInstance(int[][] vals)
 ```
 
-
 Creates ICellsDataTable from a given 2D array.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | vals | int[][] | int values to build table |
 
 **Returns:**
 [ICellsDataTable](../../com.aspose.cells/icellsdatatable) - Instance of ICellsDataTable
+
 ### getInstance(Object[] vals, boolean vertial) {#getInstance-java.lang.Object---boolean-}
+
 ```
 public ICellsDataTable getInstance(Object[] vals, boolean vertial)
 ```
 
-
 Creates ICellsDataTable from given sequence of objects.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | vals | java.lang.Object[] | objects to build table |
@@ -173,15 +190,17 @@ Creates ICellsDataTable from given sequence of objects.
 
 **Returns:**
 [ICellsDataTable](../../com.aspose.cells/icellsdatatable) - Instance of ICellsDataTable
+
 ### getInstance(Object[] vals, String[] columnNames) {#getInstance-java.lang.Object---java.lang.String---}
+
 ```
 public ICellsDataTable getInstance(Object[] vals, String[] columnNames)
 ```
 
-
 Creates ICellsDataTable from given sequence of objects.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | vals | java.lang.Object[] | objects to build table |
@@ -189,30 +208,34 @@ Creates ICellsDataTable from given sequence of objects.
 
 **Returns:**
 [ICellsDataTable](../../com.aspose.cells/icellsdatatable) - Instance of ICellsDataTable
+
 ### getInstance(Object[][] vals) {#getInstance-java.lang.Object-----}
+
 ```
 public ICellsDataTable getInstance(Object[][] vals)
 ```
 
-
 Creates ICellsDataTable from a given 2D array.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | vals | java.lang.Object[][] | objects to build table |
 
 **Returns:**
 [ICellsDataTable](../../com.aspose.cells/icellsdatatable) - Instance of ICellsDataTable
+
 ### getInstance(Object[][] vals, boolean hasHeader, String[] columnNames) {#getInstance-java.lang.Object-----boolean-java.lang.String---}
+
 ```
 public ICellsDataTable getInstance(Object[][] vals, boolean hasHeader, String[] columnNames)
 ```
 
-
 Creates an ICellsDataTable from a given sequence of objects.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | vals | java.lang.Object[][] | objects to build table |
@@ -221,30 +244,34 @@ Creates an ICellsDataTable from a given sequence of objects.
 
 **Returns:**
 [ICellsDataTable](../../com.aspose.cells/icellsdatatable) - Instance of ICellsDataTable
+
 ### getInstance(Collection collection) {#getInstance-java.util.Collection-}
+
 ```
 public ICellsDataTable getInstance(Collection collection)
 ```
 
-
 Creates ICellsDataTable from given collection.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | collection | java.util.Collection | the collection to build table |
 
 **Returns:**
 [ICellsDataTable](../../com.aspose.cells/icellsdatatable) - Instance of ICellsDataTable
+
 ### getInstance(Collection collection, boolean hasHeader) {#getInstance-java.util.Collection-boolean-}
+
 ```
 public ICellsDataTable getInstance(Collection collection, boolean hasHeader)
 ```
 
-
 Creates ICellsDataTable from given collection.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | collection | java.util.Collection | the collection to build table |
@@ -252,74 +279,64 @@ Creates ICellsDataTable from given collection.
 
 **Returns:**
 [ICellsDataTable](../../com.aspose.cells/icellsdatatable) - Instance of ICellsDataTable
+
 ### hashCode() {#hashCode--}
+
 ```
 public native int hashCode()
 ```
 
-
-
-
 **Returns:**
 int
+
 ### notify() {#notify--}
+
 ```
 public final native void notify()
 ```
 
-
-
-
 ### notifyAll() {#notifyAll--}
+
 ```
 public final native void notifyAll()
 ```
 
-
-
-
 ### toString() {#toString--}
+
 ```
 public String toString()
 ```
 
-
-
-
 **Returns:**
 java.lang.String
+
 ### wait() {#wait--}
+
 ```
 public final void wait()
 ```
 
-
-
-
 ### wait(long arg0) {#wait-long-}
+
 ```
 public final native void wait(long arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
 ### wait(long arg0, int arg1) {#wait-long-int-}
+
 ```
 public final void wait(long arg0, int arg1)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

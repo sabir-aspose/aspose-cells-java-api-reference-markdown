@@ -1,26 +1,31 @@
 ---
-title: CheckValueType
-second_title: Aspose.Cells for Java API Reference
-description: Represents the check value type of the check box.
+title: "CheckValueType"
+second_title: "Aspose.Cells for Java API Reference"
+description: "Represents the check value type of the check box."
 type: docs
-url: /java/com.aspose.cells/checkvaluetype/
+url: "/java/com.aspose.cells/checkvaluetype/"
+source_url: "https://reference.aspose.com/cells/java/com.aspose.cells/checkvaluetype/"
+generated_from: "online-reference"
+fetched_at: "2026-06-16T11:48:33+00:00"
 ---
-
 **Inheritance:**
 java.lang.Object
+
 ```
 public final class CheckValueType
 ```
 
 Represents the check value type of the check box.
-## Fields
+
+## Fields {#fields}
 
 | Field | Description |
 | --- | --- |
 | [CHECKED](#CHECKED) | Checked |
 | [MIXED](#MIXED) | Mixed |
 | [UN_CHECKED](#UN-CHECKED) | UnChecked |
-## Methods
+
+## Methods {#methods}
 
 | Method | Description |
 | --- | --- |
@@ -33,123 +38,112 @@ Represents the check value type of the check box.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+
 ### CHECKED {#CHECKED}
+
 ```
 public static final int CHECKED
 ```
 
-
 Checked
 
 ### MIXED {#MIXED}
+
 ```
 public static final int MIXED
 ```
 
-
 Mixed
 
 ### UN_CHECKED {#UN-CHECKED}
+
 ```
 public static final int UN_CHECKED
 ```
 
-
 UnChecked
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
+
 ```
 public boolean equals(Object arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
 **Returns:**
 boolean
+
 ### getClass() {#getClass--}
+
 ```
 public final native Class<?> getClass()
 ```
 
-
-
-
 **Returns:**
-java.lang.Class<?>
+java.lang.Class
+
 ### hashCode() {#hashCode--}
+
 ```
 public native int hashCode()
 ```
 
-
-
-
 **Returns:**
 int
+
 ### notify() {#notify--}
+
 ```
 public final native void notify()
 ```
 
-
-
-
 ### notifyAll() {#notifyAll--}
+
 ```
 public final native void notifyAll()
 ```
 
-
-
-
 ### toString() {#toString--}
+
 ```
 public String toString()
 ```
 
-
-
-
 **Returns:**
 java.lang.String
+
 ### wait() {#wait--}
+
 ```
 public final void wait()
 ```
 
-
-
-
 ### wait(long arg0) {#wait-long-}
+
 ```
 public final native void wait(long arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
 ### wait(long arg0, int arg1) {#wait-long-int-}
+
 ```
 public final void wait(long arg0, int arg1)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

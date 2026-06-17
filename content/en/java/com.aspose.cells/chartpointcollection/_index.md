@@ -1,16 +1,19 @@
 ---
-title: ChartPointCollection
-second_title: Aspose.Cells for Java API Reference
-description: Represents a collection that contains all the points in one series.
+title: "ChartPointCollection"
+second_title: "Aspose.Cells for Java API Reference"
+description: "Represents a collection that contains all the points in one series."
 type: docs
-url: /java/com.aspose.cells/chartpointcollection/
+url: "/java/com.aspose.cells/chartpointcollection/"
+source_url: "https://reference.aspose.com/cells/java/com.aspose.cells/chartpointcollection/"
+generated_from: "online-reference"
+fetched_at: "2026-06-16T11:48:27+00:00"
 ---
-
 **Inheritance:**
 java.lang.Object
 
 **All Implemented Interfaces:**
 java.lang.Iterable
+
 ```
 public class ChartPointCollection implements Iterable
 ```
@@ -71,7 +74,8 @@ Represents a collection that contains all the points in one series.
          //Saving the Excel file
          workbook.save("book1.xls");
 ```
-## Methods
+
+## Methods {#methods}
 
 | Method | Description |
 | --- | --- |
@@ -84,160 +88,154 @@ Represents a collection that contains all the points in one series.
 | [iterator()](#iterator--) | Returns an enumerator for the entire [ChartPointCollection](../../com.aspose.cells/chartpointcollection). |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [removeAt(int index)](#removeAt-int-) | Removes point at the index of the series.. |
+| [removeAt(int index)](#removeAt-int-) | Removes point at the index of the series. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+
 ### clear() {#clear--}
+
 ```
 public void clear()
 ```
 
-
 Remove all setting of the chart points.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
+
 ```
 public boolean equals(Object arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
 **Returns:**
 boolean
+
 ### get(int index) {#get-int-}
+
 ```
 public ChartPoint get(int index)
 ```
 
-
 Gets the [ChartPoint](../../com.aspose.cells/chartpoint) element at the specified index in the series.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int | The index of chart point in the series. |
 
 **Returns:**
 [ChartPoint](../../com.aspose.cells/chartpoint) - The ChartPoint object.
+
 ### getClass() {#getClass--}
+
 ```
 public final native Class<?> getClass()
 ```
 
-
-
-
 **Returns:**
-java.lang.Class<?>
+java.lang.Class
+
 ### getCount() {#getCount--}
+
 ```
 public int getCount()
 ```
-
 
 Gets the count of the chart point.
 
 **Returns:**
 int
+
 ### hashCode() {#hashCode--}
+
 ```
 public native int hashCode()
 ```
 
-
-
-
 **Returns:**
 int
+
 ### iterator() {#iterator--}
+
 ```
 public Iterator iterator()
 ```
 
-
 Returns an enumerator for the entire [ChartPointCollection](../../com.aspose.cells/chartpointcollection).
 
 **Returns:**
-java.util.Iterator - 
+java.util.Iterator -
+
 ### notify() {#notify--}
+
 ```
 public final native void notify()
 ```
 
-
-
-
 ### notifyAll() {#notifyAll--}
+
 ```
 public final native void notifyAll()
 ```
 
-
-
-
 ### removeAt(int index) {#removeAt-int-}
+
 ```
 public void removeAt(int index)
 ```
 
-
-Removes point at the index of the series..
+Removes point at the index of the series.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int | The index of the point. |
 
 ### toString() {#toString--}
+
 ```
 public String toString()
 ```
 
-
-
-
 **Returns:**
 java.lang.String
+
 ### wait() {#wait--}
+
 ```
 public final void wait()
 ```
 
-
-
-
 ### wait(long arg0) {#wait-long-}
+
 ```
 public final native void wait(long arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
 ### wait(long arg0, int arg1) {#wait-long-int-}
+
 ```
 public final void wait(long arg0, int arg1)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

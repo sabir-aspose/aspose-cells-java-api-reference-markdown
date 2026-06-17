@@ -1,47 +1,54 @@
 ---
-title: CoWorkUserProvider
-second_title: Aspose.Cells for Java API Reference
-description: Represents the user provider inerface in collabration mode.only available in java version now will be available in .netython version in future.
+title: "CoWorkUserProvider"
+second_title: "Aspose.Cells for Java API Reference"
+description: "Represents the user provider inerface in collabration mode.only available in java version now will be available in .netython version in future."
 type: docs
-url: /java/com.aspose.gridjs/coworkuserprovider/
+url: "/java/com.aspose.gridjs/coworkuserprovider/"
+source_url: "https://reference.aspose.com/cells/java/com.aspose.gridjs/coworkuserprovider/"
+generated_from: "online-reference"
+fetched_at: "2026-06-16T11:57:51+00:00"
 ---
 ```
 public interface CoWorkUserProvider
 ```
 
 Represents the user provider inerface in collabration mode.only available in java version now, will be available in .net/python version in future. Customer application can implement this interface to provide the user information.
-## Methods
+
+## Methods {#methods}
 
 | Method | Description |
 | --- | --- |
 | [getCurrentUserId()](#getCurrentUserId--) | Gets the unique identifier of the current user |
 | [getCurrentUserName()](#getCurrentUserName--) | Gets the username of the current user |
 | [getPermission()](#getPermission--) | Gets the permission level of the current user |
+
 ### getCurrentUserId() {#getCurrentUserId--}
+
 ```
 public abstract long getCurrentUserId()
 ```
-
 
 Gets the unique identifier of the current user
 
 **Returns:**
 long - Current user ID
+
 ### getCurrentUserName() {#getCurrentUserName--}
+
 ```
 public abstract String getCurrentUserName()
 ```
-
 
 Gets the username of the current user
 
 **Returns:**
 java.lang.String - Current username
+
 ### getPermission() {#getPermission--}
+
 ```
 public abstract int getPermission()
 ```
-
 
 Gets the permission level of the current user
 

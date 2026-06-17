@@ -1,24 +1,29 @@
 ---
-title: CellEventArgs
-second_title: Aspose.Cells for Java API Reference
-description: Provides data for cell events.
+title: "CellEventArgs"
+second_title: "Aspose.Cells for Java API Reference"
+description: "Provides data for cell events."
 type: docs
-url: /java/com.aspose.gridweb/celleventargs/
+url: "/java/com.aspose.gridweb/celleventargs/"
+source_url: "https://reference.aspose.com/cells/java/com.aspose.gridweb/celleventargs/"
+generated_from: "online-reference"
+fetched_at: "2026-06-16T11:58:03+00:00"
 ---
-
 **Inheritance:**
 java.lang.Object
+
 ```
 public class CellEventArgs
 ```
 
 Provides data for cell events.
-## Constructors
+
+## Constructors {#constructors}
 
 | Constructor | Description |
 | --- | --- |
 | [CellEventArgs()](#CellEventArgs--) | the default constructor. |
-## Methods
+
+## Methods {#methods}
 
 | Method | Description |
 | --- | --- |
@@ -33,127 +38,120 @@ Provides data for cell events.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+
 ### CellEventArgs() {#CellEventArgs--}
+
 ```
 public CellEventArgs()
 ```
 
-
 the default constructor.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
+
 ```
 public boolean equals(Object arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
 **Returns:**
 boolean
+
 ### getArgument() {#getArgument--}
+
 ```
 public Object getArgument()
 ```
-
 
 The argument of the event.
 
 **Returns:**
 java.lang.Object
+
 ### getCell() {#getCell--}
+
 ```
 public GridCell getCell()
 ```
-
 
 The cell.
 
 **Returns:**
 [GridCell](../../com.aspose.gridweb/gridcell)
+
 ### getClass() {#getClass--}
+
 ```
 public final native Class<?> getClass()
 ```
 
-
-
-
 **Returns:**
-java.lang.Class<?>
+java.lang.Class
+
 ### hashCode() {#hashCode--}
+
 ```
 public native int hashCode()
 ```
 
-
-
-
 **Returns:**
 int
+
 ### notify() {#notify--}
+
 ```
 public final native void notify()
 ```
 
-
-
-
 ### notifyAll() {#notifyAll--}
+
 ```
 public final native void notifyAll()
 ```
 
-
-
-
 ### toString() {#toString--}
+
 ```
 public String toString()
 ```
 
-
 Returns a string represents the current object.
 
 **Returns:**
-java.lang.String - 
+java.lang.String -
+
 ### wait() {#wait--}
+
 ```
 public final void wait()
 ```
 
-
-
-
 ### wait(long arg0) {#wait-long-}
+
 ```
 public final native void wait(long arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
 ### wait(long arg0, int arg1) {#wait-long-int-}
+
 ```
 public final void wait(long arg0, int arg1)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

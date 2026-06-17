@@ -1,13 +1,16 @@
 ---
-title: Trendline
-second_title: Aspose.Cells for Java API Reference
-description: Represents a trendline in a chart.
+title: "Trendline"
+second_title: "Aspose.Cells for Java API Reference"
+description: "Represents a trendline in a chart."
 type: docs
-url: /java/com.aspose.cells/trendline/
+url: "/java/com.aspose.cells/trendline/"
+source_url: "https://reference.aspose.com/cells/java/com.aspose.cells/trendline/"
+generated_from: "online-reference"
+fetched_at: "2026-06-16T11:57:00+00:00"
 ---
-
 **Inheritance:**
 java.lang.Object, [com.aspose.cells.Line](../../com.aspose.cells/line)
+
 ```
 public class Trendline extends Line
 ```
@@ -67,7 +70,8 @@ Represents a trendline in a chart.
          //Saving the Excel file
          workbook.save("book1.xls");
 ```
-## Methods
+
+## Methods {#methods}
 
 | Method | Description |
 | --- | --- |
@@ -145,36 +149,38 @@ Represents a trendline in a chart.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+
 ### equals(Object arg0) {#equals-java.lang.Object-}
+
 ```
 public boolean equals(Object arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
 **Returns:**
 boolean
+
 ### getBackward() {#getBackward--}
+
 ```
 public double getBackward()
 ```
-
 
 Returns or sets the number of periods (or units on a scatter chart) that the trendline extends backward. The number of periods must be greater than or equal to zero. If the chart type is column ,the number of periods must be between 0 and 0.5
 
 **Returns:**
 double
+
 ### getBeginArrowLength() {#getBeginArrowLength--}
+
 ```
 public int getBeginArrowLength()
 ```
-
 
 Specifies the length of the arrowhead for the begin of a line.
 
@@ -182,11 +188,12 @@ See [MsoArrowheadLength](../../com.aspose.cells/msoarrowheadlength).
 
 **Returns:**
 int
+
 ### getBeginArrowWidth() {#getBeginArrowWidth--}
+
 ```
 public int getBeginArrowWidth()
 ```
-
 
 Specifies the width of the arrowhead for the begin of a line.
 
@@ -194,11 +201,12 @@ See [MsoArrowheadWidth](../../com.aspose.cells/msoarrowheadwidth).
 
 **Returns:**
 int
+
 ### getBeginType() {#getBeginType--}
+
 ```
 public int getBeginType()
 ```
-
 
 Specifies an arrowhead for the begin of a line.
 
@@ -206,11 +214,12 @@ See [MsoArrowheadStyle](../../com.aspose.cells/msoarrowheadstyle).
 
 **Returns:**
 int
+
 ### getCapType() {#getCapType--}
+
 ```
 public int getCapType()
 ```
-
 
 Specifies the ending caps.
 
@@ -218,31 +227,32 @@ See [LineCapType](../../com.aspose.cells/linecaptype).
 
 **Returns:**
 int
+
 ### getClass() {#getClass--}
+
 ```
 public final native Class<?> getClass()
 ```
 
-
-
-
 **Returns:**
-java.lang.Class<?>
+java.lang.Class
+
 ### getColor() {#getColor--}
+
 ```
 public Color getColor()
 ```
-
 
 Represents the [Color](../../com.aspose.cells/color) of the line.
 
 **Returns:**
 [Color](../../com.aspose.cells/color)
+
 ### getCompoundType() {#getCompoundType--}
+
 ```
 public int getCompoundType()
 ```
-
 
 Specifies the compound line type
 
@@ -250,11 +260,12 @@ See [MsoLineStyle](../../com.aspose.cells/msolinestyle).
 
 **Returns:**
 int
+
 ### getDashType() {#getDashType--}
+
 ```
 public int getDashType()
 ```
-
 
 Specifies the dash line type
 
@@ -262,41 +273,45 @@ See [MsoLineDashStyle](../../com.aspose.cells/msolinedashstyle).
 
 **Returns:**
 int
+
 ### getDataLabels() {#getDataLabels--}
+
 ```
 public DataLabels getDataLabels()
 ```
-
 
 Represents the DataLabels object for the specified series.
 
 **Returns:**
 [DataLabels](../../com.aspose.cells/datalabels)
+
 ### getDisplayEquation() {#getDisplayEquation--}
+
 ```
 public boolean getDisplayEquation()
 ```
-
 
 Represents if the equation for the trendline is displayed on the chart (in the same data label as the R-squared value). Setting this property to True automatically turns on data labels.
 
 **Returns:**
 boolean
+
 ### getDisplayRSquared() {#getDisplayRSquared--}
+
 ```
 public boolean getDisplayRSquared()
 ```
-
 
 Represents if the R-squared value of the trendline is displayed on the chart (in the same data label as the equation). Setting this property to True automatically turns on data labels.
 
 **Returns:**
 boolean
+
 ### getEndArrowLength() {#getEndArrowLength--}
+
 ```
 public int getEndArrowLength()
 ```
-
 
 Specifies the length of the arrowhead for the end of a line.
 
@@ -304,11 +319,12 @@ See [MsoArrowheadLength](../../com.aspose.cells/msoarrowheadlength).
 
 **Returns:**
 int
+
 ### getEndArrowWidth() {#getEndArrowWidth--}
+
 ```
 public int getEndArrowWidth()
 ```
-
 
 Specifies the width of the arrowhead for the end of a line.
 
@@ -316,11 +332,12 @@ See [MsoArrowheadWidth](../../com.aspose.cells/msoarrowheadwidth).
 
 **Returns:**
 int
+
 ### getEndType() {#getEndType--}
+
 ```
 public int getEndType()
 ```
-
 
 Specifies an arrowhead for the end of a line.
 
@@ -328,11 +345,12 @@ See [MsoArrowheadStyle](../../com.aspose.cells/msoarrowheadstyle).
 
 **Returns:**
 int
+
 ### getFormattingType() {#getFormattingType--}
+
 ```
 public int getFormattingType()
 ```
-
 
 Gets format type.
 
@@ -340,41 +358,45 @@ See [ChartLineFormattingType](../../com.aspose.cells/chartlineformattingtype).
 
 **Returns:**
 int
+
 ### getForward() {#getForward--}
+
 ```
 public double getForward()
 ```
-
 
 Returns or sets the number of periods (or units on a scatter chart) that the trendline extends forward. The number of periods must be greater than or equal to zero.
 
 **Returns:**
 double
+
 ### getGradientFill() {#getGradientFill--}
+
 ```
 public GradientFill getGradientFill()
 ```
-
 
 Represents gradient fill.
 
 **Returns:**
 [GradientFill](../../com.aspose.cells/gradientfill)
+
 ### getIntercept() {#getIntercept--}
+
 ```
 public double getIntercept()
 ```
-
 
 Returns or sets the point where the trendline crosses the value axis.
 
 **Returns:**
 double
+
 ### getJoinType() {#getJoinType--}
+
 ```
 public int getJoinType()
 ```
-
 
 Specifies the joining caps.
 
@@ -382,41 +404,45 @@ See [LineJoinType](../../com.aspose.cells/linejointype).
 
 **Returns:**
 int
+
 ### getLegendEntry() {#getLegendEntry--}
+
 ```
 public LegendEntry getLegendEntry()
 ```
-
 
 Gets the legend entry according to this trendline
 
 **Returns:**
 [LegendEntry](../../com.aspose.cells/legendentry)
+
 ### getName() {#getName--}
+
 ```
 public String getName()
 ```
-
 
 Returns the name of the trendline.
 
 **Returns:**
 java.lang.String
+
 ### getOrder() {#getOrder--}
+
 ```
 public int getOrder()
 ```
-
 
 Returns or sets the trendline order (an integer greater than 1) when the trendline type is Polynomial. The order must be between 2 and 6.
 
 **Returns:**
 int
+
 ### getPeriod() {#getPeriod--}
+
 ```
 public int getPeriod()
 ```
-
 
 Returns or sets the period for the moving-average trendline.
 
@@ -426,11 +452,12 @@ This value should be between 2 and 255. And it must be less than the number of t
 
 **Returns:**
 int
+
 ### getStyle() {#getStyle--}
+
 ```
 public int getStyle()
 ```
-
 
 Represents the style of the line.
 
@@ -438,11 +465,12 @@ See [LineType](../../com.aspose.cells/linetype).
 
 **Returns:**
 int
+
 ### getThemeColor() {#getThemeColor--}
+
 ```
 public ThemeColor getThemeColor()
 ```
-
 
 Gets the theme color.
 
@@ -452,21 +480,23 @@ If the foreground color is not a theme color, NULL will be returned.
 
 **Returns:**
 [ThemeColor](../../com.aspose.cells/themecolor)
+
 ### getTransparency() {#getTransparency--}
+
 ```
 public double getTransparency()
 ```
-
 
 Returns or sets the degree of transparency of the line as a value from 0.0 (opaque) through 1.0 (clear).
 
 **Returns:**
 double
+
 ### getType() {#getType--}
+
 ```
 public int getType()
 ```
-
 
 Returns the trendline type.
 
@@ -474,11 +504,12 @@ See [TrendlineType](../../com.aspose.cells/trendlinetype).
 
 **Returns:**
 int
+
 ### getWeight() {#getWeight--}
+
 ```
 public int getWeight()
 ```
-
 
 Gets the [WeightType](../../com.aspose.cells/weighttype) of the line.
 
@@ -486,415 +517,440 @@ See [WeightType](../../com.aspose.cells/weighttype).
 
 **Returns:**
 int
+
 ### getWeightPt() {#getWeightPt--}
+
 ```
 public double getWeightPt()
 ```
-
 
 Gets the weight of the line in unit of points.
 
 **Returns:**
 double
+
 ### getWeightPx() {#getWeightPx--}
+
 ```
 public double getWeightPx()
 ```
-
 
 Gets the weight of the line in unit of pixels.
 
 **Returns:**
 double
+
 ### hashCode() {#hashCode--}
+
 ```
 public native int hashCode()
 ```
 
-
-
-
 **Returns:**
 int
+
 ### isAuto() {#isAuto--}
+
 ```
 public boolean isAuto()
 ```
-
 
 Indicates whether this line style is auto assigned.
 
 **Returns:**
 boolean
+
 ### isAutomaticColor() {#isAutomaticColor--}
+
 ```
 public boolean isAutomaticColor()
 ```
-
 
 Indicates whether the color of line is automatic assigned.
 
 **Returns:**
 boolean
+
 ### isInterceptAuto() {#isInterceptAuto--}
+
 ```
 public boolean isInterceptAuto()
 ```
-
 
 Indicates whether Microsoft Workbook automatically determines the intercept of the trendline.
 
 **Returns:**
 boolean
+
 ### isNameAuto() {#isNameAuto--}
+
 ```
 public boolean isNameAuto()
 ```
-
 
 Returns if Microsoft Excel automatically determines the name of the trendline.
 
 **Returns:**
 boolean
+
 ### isVisible() {#isVisible--}
+
 ```
 public boolean isVisible()
 ```
-
 
 Represents whether the line is visible.
 
 **Returns:**
 boolean
+
 ### notify() {#notify--}
+
 ```
 public final native void notify()
 ```
 
-
-
-
 ### notifyAll() {#notifyAll--}
+
 ```
 public final native void notifyAll()
 ```
 
-
-
-
 ### setAuto(boolean value) {#setAuto-boolean-}
+
 ```
 public void setAuto(boolean value)
 ```
 
-
 Indicates whether this line style is auto assigned.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
 ### setBackward(double value) {#setBackward-double-}
+
 ```
 public void setBackward(double value)
 ```
 
-
 Returns or sets the number of periods (or units on a scatter chart) that the trendline extends backward. The number of periods must be greater than or equal to zero. If the chart type is column ,the number of periods must be between 0 and 0.5
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | double |  |
 
 ### setBeginArrowLength(int value) {#setBeginArrowLength-int-}
+
 ```
 public void setBeginArrowLength(int value)
 ```
-
 
 Specifies the length of the arrowhead for the begin of a line.
 
 See [MsoArrowheadLength](../../com.aspose.cells/msoarrowheadlength).
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
 
 ### setBeginArrowWidth(int value) {#setBeginArrowWidth-int-}
+
 ```
 public void setBeginArrowWidth(int value)
 ```
-
 
 Specifies the width of the arrowhead for the begin of a line.
 
 See [MsoArrowheadWidth](../../com.aspose.cells/msoarrowheadwidth).
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
 
 ### setBeginType(int value) {#setBeginType-int-}
+
 ```
 public void setBeginType(int value)
 ```
-
 
 Specifies an arrowhead for the begin of a line.
 
 See [MsoArrowheadStyle](../../com.aspose.cells/msoarrowheadstyle).
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
 
 ### setCapType(int value) {#setCapType-int-}
+
 ```
 public void setCapType(int value)
 ```
-
 
 Specifies the ending caps.
 
 See [LineCapType](../../com.aspose.cells/linecaptype).
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
 
 ### setColor(Color value) {#setColor-com.aspose.cells.Color-}
+
 ```
 public void setColor(Color value)
 ```
 
-
 Represents the [Color](../../com.aspose.cells/color) of the line.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [Color](../../com.aspose.cells/color) |  |
 
 ### setCompoundType(int value) {#setCompoundType-int-}
+
 ```
 public void setCompoundType(int value)
 ```
-
 
 Specifies the compound line type
 
 See [MsoLineStyle](../../com.aspose.cells/msolinestyle).
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
 
 ### setDashType(int value) {#setDashType-int-}
+
 ```
 public void setDashType(int value)
 ```
-
 
 Specifies the dash line type
 
 See [MsoLineDashStyle](../../com.aspose.cells/msolinedashstyle).
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
 
 ### setDisplayEquation(boolean value) {#setDisplayEquation-boolean-}
+
 ```
 public void setDisplayEquation(boolean value)
 ```
 
-
 Represents if the equation for the trendline is displayed on the chart (in the same data label as the R-squared value). Setting this property to True automatically turns on data labels.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
 ### setDisplayRSquared(boolean value) {#setDisplayRSquared-boolean-}
+
 ```
 public void setDisplayRSquared(boolean value)
 ```
 
-
 Represents if the R-squared value of the trendline is displayed on the chart (in the same data label as the equation). Setting this property to True automatically turns on data labels.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
 ### setEndArrowLength(int value) {#setEndArrowLength-int-}
+
 ```
 public void setEndArrowLength(int value)
 ```
-
 
 Specifies the length of the arrowhead for the end of a line.
 
 See [MsoArrowheadLength](../../com.aspose.cells/msoarrowheadlength).
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
 
 ### setEndArrowWidth(int value) {#setEndArrowWidth-int-}
+
 ```
 public void setEndArrowWidth(int value)
 ```
-
 
 Specifies the width of the arrowhead for the end of a line.
 
 See [MsoArrowheadWidth](../../com.aspose.cells/msoarrowheadwidth).
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
 
 ### setEndType(int value) {#setEndType-int-}
+
 ```
 public void setEndType(int value)
 ```
-
 
 Specifies an arrowhead for the end of a line.
 
 See [MsoArrowheadStyle](../../com.aspose.cells/msoarrowheadstyle).
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
 
 ### setFormattingType(int value) {#setFormattingType-int-}
+
 ```
 public void setFormattingType(int value)
 ```
-
 
 Sets format type.
 
 See [ChartLineFormattingType](../../com.aspose.cells/chartlineformattingtype).
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
 
 ### setForward(double value) {#setForward-double-}
+
 ```
 public void setForward(double value)
 ```
 
-
 Returns or sets the number of periods (or units on a scatter chart) that the trendline extends forward. The number of periods must be greater than or equal to zero.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | double |  |
 
 ### setIntercept(double value) {#setIntercept-double-}
+
 ```
 public void setIntercept(double value)
 ```
 
-
 Returns or sets the point where the trendline crosses the value axis.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | double |  |
 
 ### setInterceptAuto(boolean isInterceptAuto) {#setInterceptAuto-boolean-}
+
 ```
 public void setInterceptAuto(boolean isInterceptAuto)
 ```
 
-
 Sets whether Microsoft Workbook automatically determines the intercept of the trendline.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | isInterceptAuto | boolean |  |
 
 ### setJoinType(int value) {#setJoinType-int-}
+
 ```
 public void setJoinType(int value)
 ```
-
 
 Specifies the joining caps.
 
 See [LineJoinType](../../com.aspose.cells/linejointype).
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
 
 ### setName(String value) {#setName-java.lang.String-}
+
 ```
 public void setName(String value)
 ```
 
-
 Returns the name of the trendline.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String |  |
 
 ### setNameAuto(boolean value) {#setNameAuto-boolean-}
+
 ```
 public void setNameAuto(boolean value)
 ```
 
-
 Returns if Microsoft Excel automatically determines the name of the trendline.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
 ### setOrder(int value) {#setOrder-int-}
+
 ```
 public void setOrder(int value)
 ```
 
-
 Returns or sets the trendline order (an integer greater than 1) when the trendline type is Polynomial. The order must be between 2 and 6.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
 
 ### setPeriod(int value) {#setPeriod-int-}
+
 ```
 public void setPeriod(int value)
 ```
-
 
 Returns or sets the period for the moving-average trendline.
 
@@ -903,30 +959,32 @@ Returns or sets the period for the moving-average trendline.
 This value should be between 2 and 255. And it must be less than the number of the chart points in the series
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
 
 ### setStyle(int value) {#setStyle-int-}
+
 ```
 public void setStyle(int value)
 ```
-
 
 Represents the style of the line.
 
 See [LineType](../../com.aspose.cells/linetype).
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
 
 ### setThemeColor(ThemeColor value) {#setThemeColor-com.aspose.cells.ThemeColor-}
+
 ```
 public void setThemeColor(ThemeColor value)
 ```
-
 
 Sets the theme color.
 
@@ -935,119 +993,119 @@ Sets the theme color.
 If the foreground color is not a theme color, NULL will be returned.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [ThemeColor](../../com.aspose.cells/themecolor) |  |
 
 ### setTransparency(double value) {#setTransparency-double-}
+
 ```
 public void setTransparency(double value)
 ```
 
-
 Returns or sets the degree of transparency of the line as a value from 0.0 (opaque) through 1.0 (clear).
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | double |  |
 
 ### setVisible(boolean value) {#setVisible-boolean-}
+
 ```
 public void setVisible(boolean value)
 ```
 
-
 Represents whether the line is visible.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
 ### setWeight(int value) {#setWeight-int-}
+
 ```
 public void setWeight(int value)
 ```
-
 
 Sets the [WeightType](../../com.aspose.cells/weighttype) of the line.
 
 See [WeightType](../../com.aspose.cells/weighttype).
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
 
 ### setWeightPt(double value) {#setWeightPt-double-}
+
 ```
 public void setWeightPt(double value)
 ```
 
-
 Sets the weight of the line in unit of points.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | double |  |
 
 ### setWeightPx(double value) {#setWeightPx-double-}
+
 ```
 public void setWeightPx(double value)
 ```
 
-
 Sets the weight of the line in unit of pixels.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | double |  |
 
 ### toString() {#toString--}
+
 ```
 public String toString()
 ```
 
-
-
-
 **Returns:**
 java.lang.String
+
 ### wait() {#wait--}
+
 ```
 public final void wait()
 ```
 
-
-
-
 ### wait(long arg0) {#wait-long-}
+
 ```
 public final native void wait(long arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
 ### wait(long arg0, int arg1) {#wait-long-int-}
+
 ```
 public final void wait(long arg0, int arg1)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

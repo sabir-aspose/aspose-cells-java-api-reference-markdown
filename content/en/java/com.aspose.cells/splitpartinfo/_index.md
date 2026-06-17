@@ -1,19 +1,23 @@
 ---
-title: SplitPartInfo
-second_title: Aspose.Cells for Java API Reference
-description: Represents the information of one input/output for multiple inputs/outputs such as current page to be rendered when converting spreadsheet to image.
+title: "SplitPartInfo"
+second_title: "Aspose.Cells for Java API Reference"
+description: "Represents the information of one input/output for multiple inputs/outputs such as current page to be rendered when converting spreadsheet to image."
 type: docs
-url: /java/com.aspose.cells/splitpartinfo/
+url: "/java/com.aspose.cells/splitpartinfo/"
+source_url: "https://reference.aspose.com/cells/java/com.aspose.cells/splitpartinfo/"
+generated_from: "online-reference"
+fetched_at: "2026-06-16T11:55:58+00:00"
 ---
-
 **Inheritance:**
 java.lang.Object
+
 ```
 public class SplitPartInfo
 ```
 
 Represents the information of one input/output for multiple inputs/outputs, such as current page to be rendered when converting spreadsheet to image.
-## Methods
+
+## Methods {#methods}
 
 | Method | Description |
 | --- | --- |
@@ -29,36 +33,36 @@ Represents the information of one input/output for multiple inputs/outputs, such
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+
 ### equals(Object arg0) {#equals-java.lang.Object-}
+
 ```
 public boolean equals(Object arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
 **Returns:**
 boolean
+
 ### getClass() {#getClass--}
+
 ```
 public final native Class<?> getClass()
 ```
 
-
-
-
 **Returns:**
-java.lang.Class<?>
+java.lang.Class
+
 ### getPartIndex() {#getPartIndex--}
+
 ```
 public int getPartIndex()
 ```
-
 
 Index of current part in sequence(0 based). -1 means there are no multiple parts so the result is single.
 
@@ -68,21 +72,23 @@ If multiple sheets need to be processed and every sheet is processed(split) sepa
 
 **Returns:**
 int
+
 ### getSheetIndex() {#getSheetIndex--}
+
 ```
 public int getSheetIndex()
 ```
-
 
 Index of the sheet where current part is in. -1 denotes there is only one sheet.
 
 **Returns:**
 int
+
 ### getSheetName() {#getSheetName--}
+
 ```
 public String getSheetName()
 ```
-
 
 Name of the sheet where current part is in.
 
@@ -92,74 +98,64 @@ May be null for some situations, such as when rendering the whole workbook to ti
 
 **Returns:**
 java.lang.String
+
 ### hashCode() {#hashCode--}
+
 ```
 public native int hashCode()
 ```
 
-
-
-
 **Returns:**
 int
+
 ### notify() {#notify--}
+
 ```
 public final native void notify()
 ```
 
-
-
-
 ### notifyAll() {#notifyAll--}
+
 ```
 public final native void notifyAll()
 ```
 
-
-
-
 ### toString() {#toString--}
+
 ```
 public String toString()
 ```
 
-
-
-
 **Returns:**
 java.lang.String
+
 ### wait() {#wait--}
+
 ```
 public final void wait()
 ```
 
-
-
-
 ### wait(long arg0) {#wait-long-}
+
 ```
 public final native void wait(long arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
 ### wait(long arg0, int arg1) {#wait-long-int-}
+
 ```
 public final void wait(long arg0, int arg1)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

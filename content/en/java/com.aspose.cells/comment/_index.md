@@ -1,13 +1,16 @@
 ---
-title: Comment
-second_title: Aspose.Cells for Java API Reference
-description: Encapsulates the object that represents a cell comment.
+title: "Comment"
+second_title: "Aspose.Cells for Java API Reference"
+description: "Encapsulates the object that represents a cell comment."
 type: docs
-url: /java/com.aspose.cells/comment/
+url: "/java/com.aspose.cells/comment/"
+source_url: "https://reference.aspose.com/cells/java/com.aspose.cells/comment/"
+generated_from: "online-reference"
+fetched_at: "2026-06-16T11:48:41+00:00"
 ---
-
 **Inheritance:**
 java.lang.Object
+
 ```
 public class Comment
 ```
@@ -36,7 +39,8 @@ Encapsulates the object that represents a cell comment.
          //Save the excel file.
          workbook.save("exmaple.xlsx");
 ```
-## Methods
+
+## Methods {#methods}
 
 | Method | Description |
 | --- | --- |
@@ -87,11 +91,12 @@ Encapsulates the object that represents a cell comment.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+
 ### characters(int startIndex, int length) {#characters-int-int-}
+
 ```
 public FontSetting characters(int startIndex, int length)
 ```
-
 
 Returns a Characters object that represents a range of characters within the comment text.
 
@@ -102,6 +107,7 @@ Returns a Characters object that represents a range of characters within the com
 ```
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | startIndex | int | The index of the start of the character. |
@@ -109,30 +115,32 @@ Returns a Characters object that represents a range of characters within the com
 
 **Returns:**
 [FontSetting](../../com.aspose.cells/fontsetting) - Characters object.
+
 ### equals(Object arg0) {#equals-java.lang.Object-}
+
 ```
 public boolean equals(Object arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
 **Returns:**
 boolean
+
 ### formatCharacters(int startIndex, int length, Font font, StyleFlag flag) {#formatCharacters-int-int-com.aspose.cells.Font-com.aspose.cells.StyleFlag-}
+
 ```
 public void formatCharacters(int startIndex, int length, Font font, StyleFlag flag)
 ```
 
-
 Format some characters with the font setting.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | startIndex | int | The start index. |
@@ -141,10 +149,10 @@ Format some characters with the font setting.
 | flag | [StyleFlag](../../com.aspose.cells/styleflag) | The flag of the font setting. |
 
 ### getAuthor() {#getAuthor--}
+
 ```
 public String getAuthor()
 ```
-
 
 Gets Name of the original comment author
 
@@ -156,11 +164,12 @@ Gets Name of the original comment author
 
 **Returns:**
 java.lang.String
+
 ### getAutoSize() {#getAutoSize--}
+
 ```
 public boolean getAutoSize()
 ```
-
 
 Indicates if size of comment is adjusted automatically according to its content. Note: In some special cases (such as Mac environment), this setting may not take effect. If this setting does not take effect, please replace it with FitToTextSize().
 
@@ -176,11 +185,12 @@ Indicates if size of comment is adjusted automatically according to its content.
 
 **Returns:**
 boolean
+
 ### getCharacters() {#getCharacters--}
+
 ```
 public ArrayList getCharacters()
 ```
-
 
 Returns all Characters objects that represents a range of characters within the comment text.
 
@@ -196,21 +206,21 @@ NOTE: This method is now obsolete. Instead, please use Comment.GetRichFormatting
 
 **Returns:**
 java.util.ArrayList - All Characters objects
+
 ### getClass() {#getClass--}
+
 ```
 public final native Class<?> getClass()
 ```
 
-
-
-
 **Returns:**
-java.lang.Class<?>
+java.lang.Class
+
 ### getColumn() {#getColumn--}
+
 ```
 public int getColumn()
 ```
-
 
 Gets the column index of the comment.
 
@@ -222,11 +232,12 @@ Gets the column index of the comment.
 
 **Returns:**
 int
+
 ### getCommentShape() {#getCommentShape--}
+
 ```
 public CommentShape getCommentShape()
 ```
-
 
 Get a Shape object that represents the shape attached to the specified comment.
 
@@ -240,11 +251,12 @@ Get a Shape object that represents the shape attached to the specified comment.
 
 **Returns:**
 [CommentShape](../../com.aspose.cells/commentshape)
+
 ### getFont() {#getFont--}
+
 ```
 public Font getFont()
 ```
-
 
 Gets the font of comment.
 
@@ -257,11 +269,12 @@ Gets the font of comment.
 
 **Returns:**
 [Font](../../com.aspose.cells/font)
+
 ### getHeight() {#getHeight--}
+
 ```
 public int getHeight()
 ```
-
 
 Represents the Height of the comment, in unit of pixels.
 
@@ -273,11 +286,12 @@ Represents the Height of the comment, in unit of pixels.
 
 **Returns:**
 int
+
 ### getHeightCM() {#getHeightCM--}
+
 ```
 public double getHeightCM()
 ```
-
 
 Represents the height of the comment, in unit of centimeters.
 
@@ -289,11 +303,12 @@ Represents the height of the comment, in unit of centimeters.
 
 **Returns:**
 double
+
 ### getHeightInch() {#getHeightInch--}
+
 ```
 public double getHeightInch()
 ```
-
 
 Represents the height of the comment, in unit of inches.
 
@@ -305,11 +320,12 @@ Represents the height of the comment, in unit of inches.
 
 **Returns:**
 double
+
 ### getHtmlNote() {#getHtmlNote--}
+
 ```
 public String getHtmlNote()
 ```
-
 
 Gets the html string which contains data and some formats in this comment.
 
@@ -325,11 +341,12 @@ If this is a threaded comment, the note could not be changed, otherwise MS Excel
 
 **Returns:**
 java.lang.String
+
 ### getNote() {#getNote--}
+
 ```
 public String getNote()
 ```
-
 
 Represents the content of comment.
 
@@ -345,11 +362,12 @@ If this is a threaded comment, the note could not be changed, otherwise MS Excel
 
 **Returns:**
 java.lang.String
+
 ### getRichFormattings() {#getRichFormattings--}
+
 ```
 public FontSetting[] getRichFormattings()
 ```
-
 
 Returns all Characters objects that represents a range of characters within the comment text.
 
@@ -361,11 +379,12 @@ Returns all Characters objects that represents a range of characters within the 
 
 **Returns:**
 com.aspose.cells.FontSetting[] - All Characters objects
+
 ### getRow() {#getRow--}
+
 ```
 public int getRow()
 ```
-
 
 Gets the row index of the comment.
 
@@ -377,11 +396,12 @@ Gets the row index of the comment.
 
 **Returns:**
 int
+
 ### getTextHorizontalAlignment() {#getTextHorizontalAlignment--}
+
 ```
 public int getTextHorizontalAlignment()
 ```
-
 
 Gets the text horizontal alignment type of the comment.
 
@@ -398,11 +418,12 @@ See [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
 
 **Returns:**
 int
+
 ### getTextOrientationType() {#getTextOrientationType--}
+
 ```
 public int getTextOrientationType()
 ```
-
 
 Gets the text orientation type of the comment.
 
@@ -419,11 +440,12 @@ See [TextOrientationType](../../com.aspose.cells/textorientationtype).
 
 **Returns:**
 int
+
 ### getTextVerticalAlignment() {#getTextVerticalAlignment--}
+
 ```
 public int getTextVerticalAlignment()
 ```
-
 
 Gets the text vertical alignment type of the comment.
 
@@ -440,11 +462,12 @@ See [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
 
 **Returns:**
 int
+
 ### getThreadedComments() {#getThreadedComments--}
+
 ```
 public ThreadedCommentCollection getThreadedComments()
 ```
-
 
 Gets the list of threaded comments;
 
@@ -461,11 +484,12 @@ Gets the list of threaded comments;
 
 **Returns:**
 [ThreadedCommentCollection](../../com.aspose.cells/threadedcommentcollection)
+
 ### getWidth() {#getWidth--}
+
 ```
 public int getWidth()
 ```
-
 
 Represents the width of the comment, in unit of pixels.
 
@@ -477,11 +501,12 @@ Represents the width of the comment, in unit of pixels.
 
 **Returns:**
 int
+
 ### getWidthCM() {#getWidthCM--}
+
 ```
 public double getWidthCM()
 ```
-
 
 Represents the width of the comment, in unit of centimeters.
 
@@ -493,11 +518,12 @@ Represents the width of the comment, in unit of centimeters.
 
 **Returns:**
 double
+
 ### getWidthInch() {#getWidthInch--}
+
 ```
 public double getWidthInch()
 ```
-
 
 Represents the width of the comment, in unit of inches.
 
@@ -509,21 +535,21 @@ Represents the width of the comment, in unit of inches.
 
 **Returns:**
 double
+
 ### hashCode() {#hashCode--}
+
 ```
 public native int hashCode()
 ```
 
-
-
-
 **Returns:**
 int
+
 ### isThreadedComment() {#isThreadedComment--}
+
 ```
 public boolean isThreadedComment()
 ```
-
 
 Indicates whether this comment is a threaded comment.
 
@@ -538,11 +564,12 @@ Indicates whether this comment is a threaded comment.
 
 **Returns:**
 boolean
+
 ### isVisible() {#isVisible--}
+
 ```
 public boolean isVisible()
 ```
-
 
 Represents if the comment is visible or not.
 
@@ -557,92 +584,94 @@ Represents if the comment is visible or not.
 
 **Returns:**
 boolean
+
 ### notify() {#notify--}
+
 ```
 public final native void notify()
 ```
 
-
-
-
 ### notifyAll() {#notifyAll--}
+
 ```
 public final native void notifyAll()
 ```
 
-
-
-
 ### setAuthor(String value) {#setAuthor-java.lang.String-}
+
 ```
 public void setAuthor(String value)
 ```
 
-
 Sets Name of the original comment author
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String |  |
 
 ### setAutoSize(boolean value) {#setAutoSize-boolean-}
+
 ```
 public void setAutoSize(boolean value)
 ```
 
-
 Indicates if size of comment is adjusted automatically according to its content. Note: In some special cases (such as Mac environment), this setting may not take effect. If this setting does not take effect, please replace it with FitToTextSize().
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
 ### setHeight(int value) {#setHeight-int-}
+
 ```
 public void setHeight(int value)
 ```
 
-
 Represents the Height of the comment, in unit of pixels.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
 
 ### setHeightCM(double value) {#setHeightCM-double-}
+
 ```
 public void setHeightCM(double value)
 ```
 
-
 Represents the height of the comment, in unit of centimeters.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | double |  |
 
 ### setHeightInch(double value) {#setHeightInch-double-}
+
 ```
 public void setHeightInch(double value)
 ```
 
-
 Represents the height of the comment, in unit of inches.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | double |  |
 
 ### setHtmlNote(String value) {#setHtmlNote-java.lang.String-}
+
 ```
 public void setHtmlNote(String value)
 ```
-
 
 Sets the html string which contains data and some formats in this comment.
 
@@ -651,15 +680,16 @@ Sets the html string which contains data and some formats in this comment.
 If this is a threaded comment, the note could not be changed, otherwise MS Excel could not process it as a threaded comment.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String |  |
 
 ### setNote(String value) {#setNote-java.lang.String-}
+
 ```
 public void setNote(String value)
 ```
-
 
 Represents the content of comment.
 
@@ -668,149 +698,151 @@ Represents the content of comment.
 If this is a threaded comment, the note could not be changed, otherwise MS Excel could not process it as a threaded comment.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String |  |
 
 ### setTextHorizontalAlignment(int value) {#setTextHorizontalAlignment-int-}
+
 ```
 public void setTextHorizontalAlignment(int value)
 ```
-
 
 Sets the text horizontal alignment type of the comment.
 
 See [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
 
 ### setTextOrientationType(int value) {#setTextOrientationType-int-}
+
 ```
 public void setTextOrientationType(int value)
 ```
-
 
 Sets the text orientation type of the comment.
 
 See [TextOrientationType](../../com.aspose.cells/textorientationtype).
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
 
 ### setTextVerticalAlignment(int value) {#setTextVerticalAlignment-int-}
+
 ```
 public void setTextVerticalAlignment(int value)
 ```
-
 
 Sets the text vertical alignment type of the comment.
 
 See [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
 
 ### setVisible(boolean value) {#setVisible-boolean-}
+
 ```
 public void setVisible(boolean value)
 ```
 
-
 Represents if the comment is visible or not.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
 ### setWidth(int value) {#setWidth-int-}
+
 ```
 public void setWidth(int value)
 ```
 
-
 Represents the width of the comment, in unit of pixels.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
 
 ### setWidthCM(double value) {#setWidthCM-double-}
+
 ```
 public void setWidthCM(double value)
 ```
 
-
 Represents the width of the comment, in unit of centimeters.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | double |  |
 
 ### setWidthInch(double value) {#setWidthInch-double-}
+
 ```
 public void setWidthInch(double value)
 ```
 
-
 Represents the width of the comment, in unit of inches.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | double |  |
 
 ### toString() {#toString--}
+
 ```
 public String toString()
 ```
 
-
-
-
 **Returns:**
 java.lang.String
+
 ### wait() {#wait--}
+
 ```
 public final void wait()
 ```
 
-
-
-
 ### wait(long arg0) {#wait-long-}
+
 ```
 public final native void wait(long arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
 ### wait(long arg0, int arg1) {#wait-long-int-}
+
 ```
 public final void wait(long arg0, int arg1)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

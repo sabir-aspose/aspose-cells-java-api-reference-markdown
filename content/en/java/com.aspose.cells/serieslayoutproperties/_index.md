@@ -1,13 +1,16 @@
 ---
-title: SeriesLayoutProperties
-second_title: Aspose.Cells for Java API Reference
-description: Represents the properties of series layout.
+title: "SeriesLayoutProperties"
+second_title: "Aspose.Cells for Java API Reference"
+description: "Represents the properties of series layout."
 type: docs
-url: /java/com.aspose.cells/serieslayoutproperties/
+url: "/java/com.aspose.cells/serieslayoutproperties/"
+source_url: "https://reference.aspose.com/cells/java/com.aspose.cells/serieslayoutproperties/"
+generated_from: "online-reference"
+fetched_at: "2026-06-16T11:55:15+00:00"
 ---
-
 **Inheritance:**
 java.lang.Object
+
 ```
 public class SeriesLayoutProperties
 ```
@@ -17,12 +20,14 @@ Represents the properties of series layout.
 **Remarks**
 
 Only applicable to BoxWhisker,Funnel,ParetoLine,Sunburst,Treemap,Waterfall and Histogram chart.
-## Constructors
+
+## Constructors {#constructors}
 
 | Constructor | Description |
 | --- | --- |
 | [SeriesLayoutProperties()](#SeriesLayoutProperties--) |  |
-## Methods
+
+## Methods {#methods}
 
 | Method | Description |
 | --- | --- |
@@ -57,42 +62,42 @@ Only applicable to BoxWhisker,Funnel,ParetoLine,Sunburst,Treemap,Waterfall and H
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+
 ### SeriesLayoutProperties() {#SeriesLayoutProperties--}
+
 ```
 public SeriesLayoutProperties()
 ```
 
-
 ### equals(Object arg0) {#equals-java.lang.Object-}
+
 ```
 public boolean equals(Object arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
 **Returns:**
 boolean
+
 ### getClass() {#getClass--}
+
 ```
 public final native Class<?> getClass()
 ```
 
-
-
-
 **Returns:**
-java.lang.Class<?>
+java.lang.Class
+
 ### getMapChartProjectionType() {#getMapChartProjectionType--}
+
 ```
 public int getMapChartProjectionType()
 ```
-
 
 Gets the projection type of the map.
 
@@ -104,11 +109,12 @@ Only for map chart.
 
 **Returns:**
 int
+
 ### getMapChartRegionType() {#getMapChartRegionType--}
+
 ```
 public int getMapChartRegionType()
 ```
-
 
 Gets the region type of the map.
 
@@ -120,11 +126,12 @@ Only for map chart.
 
 **Returns:**
 int
+
 ### getMapLabelLayout() {#getMapLabelLayout--}
+
 ```
 public int getMapLabelLayout()
 ```
-
 
 Gets the layout of map labels.
 
@@ -132,11 +139,12 @@ See [MapChartLabelLayout](../../com.aspose.cells/mapchartlabellayout).
 
 **Returns:**
 int
+
 ### getQuartileCalculation() {#getQuartileCalculation--}
+
 ```
 public int getQuartileCalculation()
 ```
-
 
 Represents the statistical properties for the series.
 
@@ -148,11 +156,12 @@ Only applicable to BoxWhisker chart.
 
 **Returns:**
 int
+
 ### getShowConnectorLines() {#getShowConnectorLines--}
+
 ```
 public boolean getShowConnectorLines()
 ```
-
 
 Indicates whether connector lines are displayed between data points.
 
@@ -162,21 +171,23 @@ Only for Waterfall chart.
 
 **Returns:**
 boolean
+
 ### getShowInnerPoints() {#getShowInnerPoints--}
+
 ```
 public boolean getShowInnerPoints()
 ```
-
 
 Indicates whether to show non-outlier data points.
 
 **Returns:**
 boolean
+
 ### getShowMeanLine() {#getShowMeanLine--}
+
 ```
 public boolean getShowMeanLine()
 ```
-
 
 Indicates whether to show the line connecting all mean points.
 
@@ -186,51 +197,54 @@ Only works for BoxWhisker chart.
 
 **Returns:**
 boolean
+
 ### getShowMeanMarker() {#getShowMeanMarker--}
+
 ```
 public boolean getShowMeanMarker()
 ```
-
 
 Indicates whether markers denoting the mean are shown.
 
 **Returns:**
 boolean
+
 ### getShowOutlierPoints() {#getShowOutlierPoints--}
+
 ```
 public boolean getShowOutlierPoints()
 ```
-
 
 Indicates whether outlier data points are shown.
 
 **Returns:**
 boolean
+
 ### getSubtotals() {#getSubtotals--}
+
 ```
 public int[] getSubtotals()
 ```
-
 
 Represents the index of a subtotal data point.
 
 **Returns:**
 int[]
+
 ### hashCode() {#hashCode--}
+
 ```
 public native int hashCode()
 ```
 
-
-
-
 **Returns:**
 int
+
 ### isIntervalLeftClosed() {#isIntervalLeftClosed--}
+
 ```
 public boolean isIntervalLeftClosed()
 ```
-
 
 Indicates whether the interval is closed on the left side.
 
@@ -240,27 +254,24 @@ Only for ParetoLine chart.
 
 **Returns:**
 boolean
+
 ### notify() {#notify--}
+
 ```
 public final native void notify()
 ```
 
-
-
-
 ### notifyAll() {#notifyAll--}
+
 ```
 public final native void notifyAll()
 ```
 
-
-
-
 ### setIntervalLeftClosed(boolean value) {#setIntervalLeftClosed-boolean-}
+
 ```
 public void setIntervalLeftClosed(boolean value)
 ```
-
 
 Indicates whether the interval is closed on the left side.
 
@@ -269,15 +280,16 @@ Indicates whether the interval is closed on the left side.
 Only for ParetoLine chart.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
 ### setMapChartProjectionType(int value) {#setMapChartProjectionType-int-}
+
 ```
 public void setMapChartProjectionType(int value)
 ```
-
 
 Sets the projection type of the map.
 
@@ -288,15 +300,16 @@ See [MapChartProjectionType](../../com.aspose.cells/mapchartprojectiontype).
 Only for map chart.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
 
 ### setMapChartRegionType(int value) {#setMapChartRegionType-int-}
+
 ```
 public void setMapChartRegionType(int value)
 ```
-
 
 Sets the region type of the map.
 
@@ -307,30 +320,32 @@ See [MapChartRegionType](../../com.aspose.cells/mapchartregiontype).
 Only for map chart.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
 
 ### setMapLabelLayout(int value) {#setMapLabelLayout-int-}
+
 ```
 public void setMapLabelLayout(int value)
 ```
-
 
 Sets the layout of map labels.
 
 See [MapChartLabelLayout](../../com.aspose.cells/mapchartlabellayout).
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
 
 ### setQuartileCalculation(int value) {#setQuartileCalculation-int-}
+
 ```
 public void setQuartileCalculation(int value)
 ```
-
 
 Represents the statistical properties for the series.
 
@@ -341,15 +356,16 @@ See [QuartileCalculationType](../../com.aspose.cells/quartilecalculationtype).
 Only applicable to BoxWhisker chart.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
 
 ### setShowConnectorLines(boolean value) {#setShowConnectorLines-boolean-}
+
 ```
 public void setShowConnectorLines(boolean value)
 ```
-
 
 Indicates whether connector lines are displayed between data points.
 
@@ -358,28 +374,30 @@ Indicates whether connector lines are displayed between data points.
 Only for Waterfall chart.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
 ### setShowInnerPoints(boolean value) {#setShowInnerPoints-boolean-}
+
 ```
 public void setShowInnerPoints(boolean value)
 ```
 
-
 Indicates whether to show non-outlier data points.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
 ### setShowMeanLine(boolean value) {#setShowMeanLine-boolean-}
+
 ```
 public void setShowMeanLine(boolean value)
 ```
-
 
 Indicates whether to show the line connecting all mean points.
 
@@ -388,91 +406,89 @@ Indicates whether to show the line connecting all mean points.
 Only works for BoxWhisker chart.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
 ### setShowMeanMarker(boolean value) {#setShowMeanMarker-boolean-}
+
 ```
 public void setShowMeanMarker(boolean value)
 ```
 
-
 Indicates whether markers denoting the mean are shown.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
 ### setShowOutlierPoints(boolean value) {#setShowOutlierPoints-boolean-}
+
 ```
 public void setShowOutlierPoints(boolean value)
 ```
 
-
 Indicates whether outlier data points are shown.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
 ### setSubtotals(int[] value) {#setSubtotals-int---}
+
 ```
 public void setSubtotals(int[] value)
 ```
 
-
 Represents the index of a subtotal data point.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int[] |  |
 
 ### toString() {#toString--}
+
 ```
 public String toString()
 ```
 
-
-
-
 **Returns:**
 java.lang.String
+
 ### wait() {#wait--}
+
 ```
 public final void wait()
 ```
 
-
-
-
 ### wait(long arg0) {#wait-long-}
+
 ```
 public final native void wait(long arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
 ### wait(long arg0, int arg1) {#wait-long-int-}
+
 ```
 public final void wait(long arg0, int arg1)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

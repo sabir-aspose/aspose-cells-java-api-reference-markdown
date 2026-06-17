@@ -1,13 +1,16 @@
 ---
-title: ShapeCollection
-second_title: Aspose.Cells for Java API Reference
-description: Represents all the shape in a worksheet/chart.
+title: "ShapeCollection"
+second_title: "Aspose.Cells for Java API Reference"
+description: "Represents all the shape in a worksheet/chart."
 type: docs
-url: /java/com.aspose.cells/shapecollection/
+url: "/java/com.aspose.cells/shapecollection/"
+source_url: "https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection/"
+generated_from: "online-reference"
+fetched_at: "2026-06-16T11:55:20+00:00"
 ---
-
 **Inheritance:**
 java.lang.Object, [com.aspose.cells.CollectionBase](../../com.aspose.cells/collectionbase)
+
 ```
 public class ShapeCollection extends CollectionBase
 ```
@@ -28,7 +31,8 @@ Represents all the shape in a worksheet/chart.
          //Save the excel file.
          workbook.save("result.xlsx");
 ```
-## Methods
+
+## Methods {#methods}
 
 | Method | Description |
 | --- | --- |
@@ -99,26 +103,29 @@ Represents all the shape in a worksheet/chart.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+
 ### add(Object o) {#add-java.lang.Object-}
+
 ```
 public int add(Object o)
 ```
 
-
 Adds an item to the CollectionBase instance.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | o | java.lang.Object | The Object to add to the CollectionBase instance. |
 
 **Returns:**
 int - The position into which the new element was inserted.
+
 ### addActiveXControl(int type, int topRow, int top, int leftColumn, int left, int width, int height) {#addActiveXControl-int-int-int-int-int-int-int-}
+
 ```
 public Shape addActiveXControl(int type, int topRow, int top, int leftColumn, int left, int width, int height)
 ```
-
 
 Creates an Activex Control.
 
@@ -130,6 +137,7 @@ Creates an Activex Control.
 ```
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | type | int | [ControlType](../../com.aspose.cells/controltype). The type of the control. |
@@ -141,12 +149,13 @@ Creates an Activex Control.
 | height | int | Represents the height of Shape, in unit of pixel. |
 
 **Returns:**
-[Shape](../../com.aspose.cells/shape) - 
+[Shape](../../com.aspose.cells/shape) -
+
 ### addArc(int topRow, int top, int leftColumn, int left, int height, int width) {#addArc-int-int-int-int-int-int-}
+
 ```
 public ArcShape addArc(int topRow, int top, int leftColumn, int left, int height, int width)
 ```
-
 
 Adds a ArcShape to the worksheet.
 
@@ -158,6 +167,7 @@ Adds a ArcShape to the worksheet.
 ```
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | topRow | int | Upper left row index. |
@@ -169,11 +179,12 @@ Adds a ArcShape to the worksheet.
 
 **Returns:**
 [ArcShape](../../com.aspose.cells/arcshape) - A ArcShape object.
+
 ### addAutoShape(int type, int topRow, int top, int leftColumn, int left, int height, int width) {#addAutoShape-int-int-int-int-int-int-int-}
+
 ```
 public Shape addAutoShape(int type, int topRow, int top, int leftColumn, int left, int height, int width)
 ```
-
 
 Adds a AutoShape to the worksheet.
 
@@ -189,6 +200,7 @@ The type could not be Chart/Comment/Picture/OleObject/Polygon/DialogBox
 ```
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | type | int | [AutoShapeType](../../com.aspose.cells/autoshapetype). Auto shape type. |
@@ -201,11 +213,12 @@ The type could not be Chart/Comment/Picture/OleObject/Polygon/DialogBox
 
 **Returns:**
 [Shape](../../com.aspose.cells/shape) - A Shape object.
+
 ### addAutoShapeInChart(int type, int top, int left, int height, int width) {#addAutoShapeInChart-int-int-int-int-int-}
+
 ```
 public Shape addAutoShapeInChart(int type, int top, int left, int height, int width)
 ```
-
 
 Adds a AutoShape to the chart.
 
@@ -214,6 +227,7 @@ Adds a AutoShape to the chart.
 The type could not be Chart/Comment/Picture/OleObject/Polygon/DialogBox
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | type | int | [AutoShapeType](../../com.aspose.cells/autoshapetype). Auto shape type. |
@@ -224,11 +238,12 @@ The type could not be Chart/Comment/Picture/OleObject/Polygon/DialogBox
 
 **Returns:**
 [Shape](../../com.aspose.cells/shape) - Returns a shape object.
+
 ### addButton(int topRow, int top, int leftColumn, int left, int height, int width) {#addButton-int-int-int-int-int-int-}
+
 ```
 public Button addButton(int topRow, int top, int leftColumn, int left, int height, int width)
 ```
-
 
 Adds a Button to the worksheet.
 
@@ -240,6 +255,7 @@ Adds a Button to the worksheet.
 ```
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | topRow | int | Upper left row index. |
@@ -251,11 +267,12 @@ Adds a Button to the worksheet.
 
 **Returns:**
 [Button](../../com.aspose.cells/button) - A Button object.
+
 ### addCheckBox(int topRow, int top, int leftColumn, int left, int height, int width) {#addCheckBox-int-int-int-int-int-int-}
+
 ```
 public CheckBox addCheckBox(int topRow, int top, int leftColumn, int left, int height, int width)
 ```
-
 
 Adds a checkbox to the worksheet.
 
@@ -267,6 +284,7 @@ Adds a checkbox to the worksheet.
 ```
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | topRow | int | Upper left row index. |
@@ -278,11 +296,12 @@ Adds a checkbox to the worksheet.
 
 **Returns:**
 [CheckBox](../../com.aspose.cells/checkbox) - The new CheckBox object index.
+
 ### addComboBox(int topRow, int top, int leftColumn, int left, int height, int width) {#addComboBox-int-int-int-int-int-int-}
+
 ```
 public ComboBox addComboBox(int topRow, int top, int leftColumn, int left, int height, int width)
 ```
-
 
 Adds a ComboBox to the worksheet.
 
@@ -294,6 +313,7 @@ Adds a ComboBox to the worksheet.
 ```
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | topRow | int | Upper left row index. |
@@ -305,11 +325,12 @@ Adds a ComboBox to the worksheet.
 
 **Returns:**
 [ComboBox](../../com.aspose.cells/combobox) - A ComboBox object.
+
 ### addCopy(Shape sourceShape, int topRow, int top, int leftColumn, int left) {#addCopy-com.aspose.cells.Shape-int-int-int-int-}
+
 ```
 public Shape addCopy(Shape sourceShape, int topRow, int top, int leftColumn, int left)
 ```
-
 
 Adds and copy a shape to the worksheet.
 
@@ -323,6 +344,7 @@ Adds and copy a shape to the worksheet.
 ```
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | sourceShape | [Shape](../../com.aspose.cells/shape) | Source shape. |
@@ -333,11 +355,12 @@ Adds and copy a shape to the worksheet.
 
 **Returns:**
 [Shape](../../com.aspose.cells/shape) - The new [Shape](../../com.aspose.cells/shape) object.
+
 ### addEquation(int topRow, int top, int leftColumn, int left, int height, int width) {#addEquation-int-int-int-int-int-int-}
+
 ```
 public TextBox addEquation(int topRow, int top, int leftColumn, int left, int height, int width)
 ```
-
 
 Adds an equation object to the worksheet.
 
@@ -366,6 +389,7 @@ Adds an equation object to the worksheet.
 ```
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | topRow | int | The top row index. |
@@ -376,12 +400,13 @@ Adds an equation object to the worksheet.
 | width | int | The width of equation, in unit of pixel. |
 
 **Returns:**
-[TextBox](../../com.aspose.cells/textbox) - 
+[TextBox](../../com.aspose.cells/textbox) -
+
 ### addFreeFloatingShape(int type, int top, int left, int height, int width, byte[] imageData, boolean isOriginalSize) {#addFreeFloatingShape-int-int-int-int-int-byte---boolean-}
+
 ```
 public Shape addFreeFloatingShape(int type, int top, int left, int height, int width, byte[] imageData, boolean isOriginalSize)
 ```
-
 
 Adds a free floating shape to the worksheet.Only applies for line/image shape.
 
@@ -404,29 +429,31 @@ Adds a free floating shape to the worksheet.Only applies for line/image shape.
 ```
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | type | int | [MsoDrawingType](../../com.aspose.cells/msodrawingtype). The shape type. |
-| top | int | Represents the vertical offset of shape from the worksheet's top row, in unit of pixel. |
-| left | int | Represents the horizontal offset of shape from the worksheet's left column, in unit of pixel. |
+| top | int | Represents the vertical offset of shape from the worksheet’s top row, in unit of pixel. |
+| left | int | Represents the horizontal offset of shape from the worksheet’s left column, in unit of pixel. |
 | height | int | Represents the height of LineShape, in unit of pixel. |
 | width | int | Represents the width of LineShape, in unit of pixel. |
 | imageData | byte[] | The image data,only applies for the picture. |
 | isOriginalSize | boolean | Whether the shape use original size if the shape is image. |
 
 **Returns:**
-[Shape](../../com.aspose.cells/shape) - 
+[Shape](../../com.aspose.cells/shape) -
+
 ### addFreeform(int topRow, int top, int leftColumn, int left, int height, int width, ShapePath[] paths) {#addFreeform-int-int-int-int-int-int-com.aspose.cells.ShapePath---}
+
 ```
 public Shape addFreeform(int topRow, int top, int leftColumn, int left, int height, int width, ShapePath[] paths)
 ```
-
 
 Adds a freeform shape to the worksheet.
 
 **Remarks**
 
-Notice: That the width and height in the parameters can be any positive integer values, not the total width and height of the ShapePath array specified by \\u9225\\u6a96aths'. The relationship between them is a scale-fill relationship, that is, each ShapePath object will be scaled according to the width and height. Therefore, when there are multiple objects in the 'paths', each ShapePath object needs to be designed reasonably to meet expectations. When there is only one ShapePath object and there are no other requirements, passing the object's width and height as parameter values \\u9225\\u5b27\\u20ac\\u5a94s a good solution.
+Notice: That the width and height in the parameters can be any positive integer values, not the total width and height of the ShapePath array specified by \u9225\u6a96aths’. The relationship between them is a scale-fill relationship, that is, each ShapePath object will be scaled according to the width and height. Therefore, when there are multiple objects in the ‘paths’, each ShapePath object needs to be designed reasonably to meet expectations. When there is only one ShapePath object and there are no other requirements, passing the object’s width and height as parameter values \u9225\u5b27\u20ac\u5a94s a good solution.
 
 **Example**
 
@@ -477,6 +504,7 @@ Notice: That the width and height in the parameters can be any positive integer 
 ```
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | topRow | int | Upper left row index. |
@@ -485,15 +513,16 @@ Notice: That the width and height in the parameters can be any positive integer 
 | left | int | Represents the horizontal offset of freeform shape from its left column, in unit of pixel. |
 | height | int | Represents the height of freeform shape, in unit of pixel. |
 | width | int | Represents the width of freeform shape, in unit of pixel. |
-| paths | [ShapePath\[\]](../../com.aspose.cells/shapepath) | Represents a user-defined path |
+| paths | [ShapePath[]](../../com.aspose.cells/shapepath) | Represents a user-defined path |
 
 **Returns:**
 [Shape](../../com.aspose.cells/shape) - A freeform shape.
+
 ### addGroupBox(int topRow, int top, int leftColumn, int left, int height, int width) {#addGroupBox-int-int-int-int-int-int-}
+
 ```
 public GroupBox addGroupBox(int topRow, int top, int leftColumn, int left, int height, int width)
 ```
-
 
 Adds a GroupBox to the worksheet.
 
@@ -505,6 +534,7 @@ Adds a GroupBox to the worksheet.
 ```
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | topRow | int | Upper left row index. |
@@ -516,11 +546,12 @@ Adds a GroupBox to the worksheet.
 
 **Returns:**
 [GroupBox](../../com.aspose.cells/groupbox) - A GroupBox object.
+
 ### addIcons(int topRow, int top, int leftColumn, int left, int height, int width, byte[] imageByteData, byte[] compatibleImageData) {#addIcons-int-int-int-int-int-int-byte---byte---}
+
 ```
 public Picture addIcons(int topRow, int top, int leftColumn, int left, int height, int width, byte[] imageByteData, byte[] compatibleImageData)
 ```
-
 
 Adds svg image.
 
@@ -540,6 +571,7 @@ Adds svg image.
 ```
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | topRow | int | Upper left row index. |
@@ -552,12 +584,13 @@ Adds svg image.
 | compatibleImageData | byte[] | Converted image data from svg in order to be compatible with Excel 2016 or lower versions. |
 
 **Returns:**
-[Picture](../../com.aspose.cells/picture) - 
+[Picture](../../com.aspose.cells/picture) -
+
 ### addLaTeXEquation(int topRow, int top, int leftColumn, int left, int height, int width, String latex) {#addLaTeXEquation-int-int-int-int-int-int-java.lang.String-}
+
 ```
 public TextBox addLaTeXEquation(int topRow, int top, int leftColumn, int left, int height, int width, String latex)
 ```
-
 
 Adds an equation object to the worksheet using LaTeX format strings.
 
@@ -571,6 +604,7 @@ Adds an equation object to the worksheet using LaTeX format strings.
 ```
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | topRow | int | The top row index. |
@@ -582,12 +616,13 @@ Adds an equation object to the worksheet using LaTeX format strings.
 | latex | java.lang.String | LaTeX format string |
 
 **Returns:**
-[TextBox](../../com.aspose.cells/textbox) - 
+[TextBox](../../com.aspose.cells/textbox) -
+
 ### addLabel(int topRow, int top, int leftColumn, int left, int height, int width) {#addLabel-int-int-int-int-int-int-}
+
 ```
 public Label addLabel(int topRow, int top, int leftColumn, int left, int height, int width)
 ```
-
 
 Adds a Label to the worksheet.
 
@@ -599,6 +634,7 @@ Adds a Label to the worksheet.
 ```
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | topRow | int | Upper left row index. |
@@ -610,15 +646,17 @@ Adds a Label to the worksheet.
 
 **Returns:**
 [Label](../../com.aspose.cells/label) - A Label object.
+
 ### addLabelInChart(int top, int left, int height, int width) {#addLabelInChart-int-int-int-int-}
+
 ```
 public Label addLabelInChart(int top, int left, int height, int width)
 ```
 
-
 Adds a label to the chart.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | top | int | Represents the vertical offset of label from the upper left corner in units of 1/4000 of the chart area. |
@@ -628,11 +666,12 @@ Adds a label to the chart.
 
 **Returns:**
 [Label](../../com.aspose.cells/label) - A new Label object.
+
 ### addLine(int topRow, int top, int leftColumn, int left, int height, int width) {#addLine-int-int-int-int-int-int-}
+
 ```
 public LineShape addLine(int topRow, int top, int leftColumn, int left, int height, int width)
 ```
-
 
 Adds a LineShape to the worksheet.
 
@@ -644,6 +683,7 @@ Adds a LineShape to the worksheet.
 ```
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | topRow | int | Upper left row index. |
@@ -655,15 +695,17 @@ Adds a LineShape to the worksheet.
 
 **Returns:**
 [LineShape](../../com.aspose.cells/lineshape) - A LineShape object.
+
 ### addLinkedPicture(int topRow, int leftColumn, int height, int width, String sourceFullName) {#addLinkedPicture-int-int-int-int-java.lang.String-}
+
 ```
 public Picture addLinkedPicture(int topRow, int leftColumn, int height, int width, String sourceFullName)
 ```
 
-
 Add a linked picture.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | topRow | int | Upper left row index. |
@@ -674,11 +716,12 @@ Add a linked picture.
 
 **Returns:**
 [Picture](../../com.aspose.cells/picture) - [Picture](../../com.aspose.cells/picture) Picture object.
+
 ### addListBox(int topRow, int top, int leftColumn, int left, int height, int width) {#addListBox-int-int-int-int-int-int-}
+
 ```
 public ListBox addListBox(int topRow, int top, int leftColumn, int left, int height, int width)
 ```
-
 
 Adds a ListBox to the worksheet.
 
@@ -690,6 +733,7 @@ Adds a ListBox to the worksheet.
 ```
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | topRow | int | Upper left row index. |
@@ -701,11 +745,12 @@ Adds a ListBox to the worksheet.
 
 **Returns:**
 [ListBox](../../com.aspose.cells/listbox) - A ListBox object.
+
 ### addOleObject(int topRow, int top, int leftColumn, int left, int height, int width, byte[] imageData) {#addOleObject-int-int-int-int-int-int-byte---}
+
 ```
 public OleObject addOleObject(int topRow, int top, int leftColumn, int left, int height, int width, byte[] imageData)
 ```
-
 
 Adds an OleObject.
 
@@ -724,6 +769,7 @@ Adds an OleObject.
 ```
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | topRow | int |  |
@@ -735,16 +781,18 @@ Adds an OleObject.
 | imageData | byte[] |  |
 
 **Returns:**
-[OleObject](../../com.aspose.cells/oleobject) - 
+[OleObject](../../com.aspose.cells/oleobject) -
+
 ### addOleObjectWithLinkedImage(int topRow, int leftColumn, int height, int width, String sourceFullName) {#addOleObjectWithLinkedImage-int-int-int-int-java.lang.String-}
+
 ```
 public OleObject addOleObjectWithLinkedImage(int topRow, int leftColumn, int height, int width, String sourceFullName)
 ```
 
-
 Add a linked picture.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | topRow | int | Upper left row index. |
@@ -755,11 +803,12 @@ Add a linked picture.
 
 **Returns:**
 [OleObject](../../com.aspose.cells/oleobject) - [Picture](../../com.aspose.cells/picture) Picture object.
+
 ### addOval(int topRow, int top, int leftColumn, int left, int height, int width) {#addOval-int-int-int-int-int-int-}
+
 ```
 public Oval addOval(int topRow, int top, int leftColumn, int left, int height, int width)
 ```
-
 
 Adds a Oval to the worksheet.
 
@@ -771,6 +820,7 @@ Adds a Oval to the worksheet.
 ```
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | topRow | int | Upper left row index. |
@@ -782,15 +832,17 @@ Adds a Oval to the worksheet.
 
 **Returns:**
 [Oval](../../com.aspose.cells/oval) - A Oval object.
+
 ### addPicture(int topRow, int leftColumn, int bottomRow, int rightColumn, InputStream stream) {#addPicture-int-int-int-int-java.io.InputStream-}
+
 ```
 public Picture addPicture(int topRow, int leftColumn, int bottomRow, int rightColumn, InputStream stream)
 ```
 
-
 Adds a picture to the collection.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | topRow | int | Upper left row index. |
@@ -801,15 +853,17 @@ Adds a picture to the collection.
 
 **Returns:**
 [Picture](../../com.aspose.cells/picture) - [Picture](../../com.aspose.cells/picture) Picture object.
+
 ### addPicture(int topRow, int leftColumn, InputStream stream, int widthScale, int heightScale) {#addPicture-int-int-java.io.InputStream-int-int-}
+
 ```
 public Picture addPicture(int topRow, int leftColumn, InputStream stream, int widthScale, int heightScale)
 ```
 
-
 Adds a picture to the collection.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | topRow | int | Upper left row index. |
@@ -820,15 +874,17 @@ Adds a picture to the collection.
 
 **Returns:**
 [Picture](../../com.aspose.cells/picture) - [Picture](../../com.aspose.cells/picture) Picture object.
+
 ### addPictureInChart(int top, int left, InputStream stream, int widthScale, int heightScale) {#addPictureInChart-int-int-java.io.InputStream-int-int-}
+
 ```
 public Picture addPictureInChart(int top, int left, InputStream stream, int widthScale, int heightScale)
 ```
 
-
 Adds a picture to the chart.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | top | int | Represents the vertical offset of shape from the upper left corner in units of 1/4000 of the chart area. |
@@ -839,11 +895,12 @@ Adds a picture to the chart.
 
 **Returns:**
 [Picture](../../com.aspose.cells/picture) - Returns a Picture object.
+
 ### addRadioButton(int topRow, int top, int leftColumn, int left, int height, int width) {#addRadioButton-int-int-int-int-int-int-}
+
 ```
 public RadioButton addRadioButton(int topRow, int top, int leftColumn, int left, int height, int width)
 ```
-
 
 Adds a RadioButton to the worksheet.
 
@@ -855,6 +912,7 @@ Adds a RadioButton to the worksheet.
 ```
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | topRow | int | Upper left row index. |
@@ -866,11 +924,12 @@ Adds a RadioButton to the worksheet.
 
 **Returns:**
 [RadioButton](../../com.aspose.cells/radiobutton) - A RadioButton object.
+
 ### addRectangle(int topRow, int top, int leftColumn, int left, int height, int width) {#addRectangle-int-int-int-int-int-int-}
+
 ```
 public RectangleShape addRectangle(int topRow, int top, int leftColumn, int left, int height, int width)
 ```
-
 
 Adds a RectangleShape to the worksheet.
 
@@ -882,6 +941,7 @@ Adds a RectangleShape to the worksheet.
 ```
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | topRow | int | Upper left row index. |
@@ -893,11 +953,12 @@ Adds a RectangleShape to the worksheet.
 
 **Returns:**
 [RectangleShape](../../com.aspose.cells/rectangleshape) - A RectangleShape object.
+
 ### addScrollBar(int topRow, int top, int leftColumn, int left, int height, int width) {#addScrollBar-int-int-int-int-int-int-}
+
 ```
 public ScrollBar addScrollBar(int topRow, int top, int leftColumn, int left, int height, int width)
 ```
-
 
 Adds a ScrollBar to the worksheet.
 
@@ -909,6 +970,7 @@ Adds a ScrollBar to the worksheet.
 ```
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | topRow | int | Upper left row index. |
@@ -920,11 +982,12 @@ Adds a ScrollBar to the worksheet.
 
 **Returns:**
 [ScrollBar](../../com.aspose.cells/scrollbar) - A ScrollBar object.
+
 ### addShape(int type, int topRow, int top, int leftColumn, int left, int height, int width) {#addShape-int-int-int-int-int-int-int-}
+
 ```
 public Shape addShape(int type, int topRow, int top, int leftColumn, int left, int height, int width)
 ```
-
 
 Adds a Shape to the worksheet.
 
@@ -940,6 +1003,7 @@ The type could not be Chart/Comment/Picture/OleObject/Polygon/DialogBox
 ```
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | type | int | [MsoDrawingType](../../com.aspose.cells/msodrawingtype). Mso drawing type. |
@@ -952,15 +1016,17 @@ The type could not be Chart/Comment/Picture/OleObject/Polygon/DialogBox
 
 **Returns:**
 [Shape](../../com.aspose.cells/shape) - A Shape object.
+
 ### addShapeInChart(int type, int placement, int left, int top, int right, int bottom) {#addShapeInChart-int-int-int-int-int-int-}
+
 ```
 public Shape addShapeInChart(int type, int placement, int left, int top, int right, int bottom)
 ```
 
-
 Add a shape to chart .All unit is 1/4000 of chart area.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | type | int | [MsoDrawingType](../../com.aspose.cells/msodrawingtype). The drawing type. |
@@ -972,15 +1038,17 @@ Add a shape to chart .All unit is 1/4000 of chart area.
 
 **Returns:**
 [Shape](../../com.aspose.cells/shape)
+
 ### addShapeInChart(int type, int placement, int left, int top, int right, int bottom, byte[] imageData) {#addShapeInChart-int-int-int-int-int-int-byte---}
+
 ```
 public Shape addShapeInChart(int type, int placement, int left, int top, int right, int bottom, byte[] imageData)
 ```
 
-
 Add a shape to chart .All unit is 1/4000 of chart area.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | type | int | [MsoDrawingType](../../com.aspose.cells/msodrawingtype). The drawing type. |
@@ -993,15 +1061,17 @@ Add a shape to chart .All unit is 1/4000 of chart area.
 
 **Returns:**
 [Shape](../../com.aspose.cells/shape)
+
 ### addShapeInChartByScale(int type, int placement, double left, double top, double right, double bottom) {#addShapeInChartByScale-int-int-double-double-double-double-}
+
 ```
 public Shape addShapeInChartByScale(int type, int placement, double left, double top, double right, double bottom)
 ```
 
-
 Add a shape to chart. All unit is percent scale of chart area.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | type | int | [MsoDrawingType](../../com.aspose.cells/msodrawingtype). The drawing type. |
@@ -1013,15 +1083,17 @@ Add a shape to chart. All unit is percent scale of chart area.
 
 **Returns:**
 [Shape](../../com.aspose.cells/shape)
+
 ### addShapeInChartByScale(int type, int placement, double left, double top, double right, double bottom, byte[] imageData) {#addShapeInChartByScale-int-int-double-double-double-double-byte---}
+
 ```
 public Shape addShapeInChartByScale(int type, int placement, double left, double top, double right, double bottom, byte[] imageData)
 ```
 
-
 Add a shape to chart .All unit is 1/4000 of chart area.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | type | int | [MsoDrawingType](../../com.aspose.cells/msodrawingtype). The drawing type. |
@@ -1034,11 +1106,12 @@ Add a shape to chart .All unit is 1/4000 of chart area.
 
 **Returns:**
 [Shape](../../com.aspose.cells/shape)
+
 ### addSignatureLine(int topRow, int leftColumn, SignatureLine signatureLine) {#addSignatureLine-int-int-com.aspose.cells.SignatureLine-}
+
 ```
 public Picture addSignatureLine(int topRow, int leftColumn, SignatureLine signatureLine)
 ```
-
 
 Adds a Signature Line to the worksheet.
 
@@ -1058,6 +1131,7 @@ Adds a Signature Line to the worksheet.
 ```
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | topRow | int | Upper left row index. |
@@ -1065,12 +1139,13 @@ Adds a Signature Line to the worksheet.
 | signatureLine | [SignatureLine](../../com.aspose.cells/signatureline) | Represents a signature line object. |
 
 **Returns:**
-[Picture](../../com.aspose.cells/picture) - 
+[Picture](../../com.aspose.cells/picture) -
+
 ### addSpinner(int topRow, int top, int leftColumn, int left, int height, int width) {#addSpinner-int-int-int-int-int-int-}
+
 ```
 public Spinner addSpinner(int topRow, int top, int leftColumn, int left, int height, int width)
 ```
-
 
 Adds a Spinner to the worksheet.
 
@@ -1082,6 +1157,7 @@ Adds a Spinner to the worksheet.
 ```
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | topRow | int | Upper left row index. |
@@ -1093,11 +1169,12 @@ Adds a Spinner to the worksheet.
 
 **Returns:**
 [Spinner](../../com.aspose.cells/spinner) - A Spinner object.
+
 ### addSvg(int topRow, int top, int leftColumn, int left, int height, int width, byte[] svgData, byte[] compatibleImageData) {#addSvg-int-int-int-int-int-int-byte---byte---}
+
 ```
 public Picture addSvg(int topRow, int top, int leftColumn, int left, int height, int width, byte[] svgData, byte[] compatibleImageData)
 ```
-
 
 Adds svg image.
 
@@ -1117,6 +1194,7 @@ Adds svg image.
 ```
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | topRow | int | Upper left row index. |
@@ -1129,12 +1207,13 @@ Adds svg image.
 | compatibleImageData | byte[] | Converted image data from svg in order to be compatible with Excel 2016 or lower versions. |
 
 **Returns:**
-[Picture](../../com.aspose.cells/picture) - 
+[Picture](../../com.aspose.cells/picture) -
+
 ### addTextBox(int topRow, int top, int leftColumn, int left, int height, int width) {#addTextBox-int-int-int-int-int-int-}
+
 ```
 public TextBox addTextBox(int topRow, int top, int leftColumn, int left, int height, int width)
 ```
-
 
 Adds a text box to the worksheet.
 
@@ -1146,6 +1225,7 @@ Adds a text box to the worksheet.
 ```
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | topRow | int | Upper left row index. |
@@ -1157,15 +1237,17 @@ Adds a text box to the worksheet.
 
 **Returns:**
 [TextBox](../../com.aspose.cells/textbox) - A [TextBox](../../com.aspose.cells/textbox) object.
+
 ### addTextBoxInChart(int top, int left, int height, int width) {#addTextBoxInChart-int-int-int-int-}
+
 ```
 public TextBox addTextBoxInChart(int top, int left, int height, int width)
 ```
 
-
 Adds a textbox to the chart.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | top | int | Represents the vertical offset of textbox from the upper left corner in units of 1/4000 of the chart area. |
@@ -1175,11 +1257,12 @@ Adds a textbox to the chart.
 
 **Returns:**
 [TextBox](../../com.aspose.cells/textbox) - A TextBox object.
+
 ### addTextEffect(int effect, String text, String fontName, int size, boolean fontBold, boolean fontItalic, int topRow, int top, int leftColumn, int left, int height, int width) {#addTextEffect-int-java.lang.String-java.lang.String-int-boolean-boolean-int-int-int-int-int-int-}
+
 ```
 public Shape addTextEffect(int effect, String text, String fontName, int size, boolean fontBold, boolean fontItalic, int topRow, int top, int leftColumn, int left, int height, int width)
 ```
-
 
 Inserts a WordArt object.
 
@@ -1191,6 +1274,7 @@ Inserts a WordArt object.
 ```
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | effect | int | [MsoPresetTextEffect](../../com.aspose.cells/msopresettexteffect). The mso preset text effect type. |
@@ -1208,15 +1292,17 @@ Inserts a WordArt object.
 
 **Returns:**
 [Shape](../../com.aspose.cells/shape) - Returns a Shape object that represents the new WordArt object.
+
 ### addTextEffectInChart(int effect, String text, String fontName, int size, boolean fontBold, boolean fontItalic, int top, int left, int height, int width) {#addTextEffectInChart-int-java.lang.String-java.lang.String-int-boolean-boolean-int-int-int-int-}
+
 ```
 public Shape addTextEffectInChart(int effect, String text, String fontName, int size, boolean fontBold, boolean fontItalic, int top, int left, int height, int width)
 ```
 
-
 Inserts a WordArt object to the chart
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | effect | int | [MsoPresetTextEffect](../../com.aspose.cells/msopresettexteffect). The mso preset text effect type. |
@@ -1232,11 +1318,12 @@ Inserts a WordArt object to the chart
 
 **Returns:**
 [Shape](../../com.aspose.cells/shape) - Returns a Shape object that represents the new WordArt object.
+
 ### addWordArt(int style, String text, int topRow, int top, int leftColumn, int left, int height, int width) {#addWordArt-int-java.lang.String-int-int-int-int-int-int-}
+
 ```
 public Shape addWordArt(int style, String text, int topRow, int top, int leftColumn, int left, int height, int width)
 ```
-
 
 Adds preset WordArt since Excel 2007.s
 
@@ -1248,6 +1335,7 @@ Adds preset WordArt since Excel 2007.s
 ```
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | style | int | [PresetWordArtStyle](../../com.aspose.cells/presetwordartstyle). The preset WordArt Style. |
@@ -1260,12 +1348,13 @@ Adds preset WordArt since Excel 2007.s
 | width | int | Represents the width of shape, in unit of pixel. |
 
 **Returns:**
-[Shape](../../com.aspose.cells/shape) - 
+[Shape](../../com.aspose.cells/shape) -
+
 ### clear() {#clear--}
+
 ```
 public void clear()
 ```
-
 
 Clear all shapes in the worksheet.
 
@@ -1279,25 +1368,27 @@ Clear all shapes in the worksheet.
 ```
 
 ### contains(Object o) {#contains-java.lang.Object-}
+
 ```
 public boolean contains(Object o)
 ```
 
-
 Return whether instance contains this object
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | o | java.lang.Object | test object |
 
 **Returns:**
 boolean - Whether instance contains this object
+
 ### copyCommentsInRange(ShapeCollection shapes, CellArea ca, int destRow, int destColumn) {#copyCommentsInRange-com.aspose.cells.ShapeCollection-com.aspose.cells.CellArea-int-int-}
+
 ```
 public void copyCommentsInRange(ShapeCollection shapes, CellArea ca, int destRow, int destColumn)
 ```
-
 
 Copy all comments in the range.
 
@@ -1328,6 +1419,7 @@ Copy all comments in the range.
 ```
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | shapes | [ShapeCollection](../../com.aspose.cells/shapecollection) | The source shapes. |
@@ -1336,10 +1428,10 @@ Copy all comments in the range.
 | destColumn | int | The dest range start column. |
 
 ### copyInRange(ShapeCollection sourceShapes, CellArea ca, int destRow, int destColumn, boolean isContained) {#copyInRange-com.aspose.cells.ShapeCollection-com.aspose.cells.CellArea-int-int-boolean-}
+
 ```
 public void copyInRange(ShapeCollection sourceShapes, CellArea ca, int destRow, int destColumn, boolean isContained)
 ```
-
 
 Copy shapes in the range to destination range.
 
@@ -1359,6 +1451,7 @@ Copy shapes in the range to destination range.
 ```
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | sourceShapes | [ShapeCollection](../../com.aspose.cells/shapecollection) | Source shapes. |
@@ -1368,10 +1461,10 @@ Copy shapes in the range to destination range.
 | isContained | boolean | Whether only copy the shapes which are contained in the range. If true,only copies the shapes in the range. Otherwise,it works as MS Office. |
 
 ### deleteInRange(CellArea ca) {#deleteInRange-com.aspose.cells.CellArea-}
+
 ```
 public void deleteInRange(CellArea ca)
 ```
-
 
 Delete shapes in the range.Comment shapes will not be deleted.
 
@@ -1394,15 +1487,16 @@ Delete shapes in the range.Comment shapes will not be deleted.
 ```
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | ca | [CellArea](../../com.aspose.cells/cellarea) | The range.If the shapes are contained in the range, they will be removed. |
 
 ### deleteShape(Shape shape) {#deleteShape-com.aspose.cells.Shape-}
+
 ```
 public void deleteShape(Shape shape)
 ```
-
 
 Delete a shape. If the shape is in the group or is a comment shape, it will not be deleted.
 
@@ -1418,30 +1512,31 @@ Delete a shape. If the shape is in the group or is a comment shape, it will not 
 ```
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | shape | [Shape](../../com.aspose.cells/shape) |  |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
+
 ```
 public boolean equals(Object arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
 **Returns:**
 boolean
+
 ### get(int index) {#get-int-}
+
 ```
 public Shape get(int index)
 ```
-
 
 Gets the [Shape](../../com.aspose.cells/shape) object at the specific index in the list.
 
@@ -1453,17 +1548,19 @@ Gets the [Shape](../../com.aspose.cells/shape) object at the specific index in t
 ```
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int | The index. |
 
 **Returns:**
-[Shape](../../com.aspose.cells/shape) - 
+[Shape](../../com.aspose.cells/shape) -
+
 ### get(String name) {#get-java.lang.String-}
+
 ```
 public Shape get(String name)
 ```
-
 
 Gets the [Shape](../../com.aspose.cells/shape) object by the name of the shape.
 
@@ -1481,37 +1578,39 @@ Gets the [Shape](../../com.aspose.cells/shape) object by the name of the shape.
 ```
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | name | java.lang.String | The name of the shape. |
 
 **Returns:**
-[Shape](../../com.aspose.cells/shape) - 
+[Shape](../../com.aspose.cells/shape) -
+
 ### getClass() {#getClass--}
+
 ```
 public final native Class<?> getClass()
 ```
 
-
-
-
 **Returns:**
-java.lang.Class<?>
+java.lang.Class
+
 ### getCount() {#getCount--}
+
 ```
 public int getCount()
 ```
-
 
 Gets the number of elements contained in the CollectionBase instance.
 
 **Returns:**
 int - The number of elements contained in the CollectionBase instance.
+
 ### group(Shape[] groupItems) {#group-com.aspose.cells.Shape---}
+
 ```
 public GroupShape group(Shape[] groupItems)
 ```
-
 
 Group the shapes.
 
@@ -1532,68 +1631,68 @@ The shape in the groupItems should not be grouped. The shape must be in this Sha
 ```
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
-| groupItems | [Shape\[\]](../../com.aspose.cells/shape) | the group items. |
+| groupItems | [Shape[]](../../com.aspose.cells/shape) | the group items. |
 
 **Returns:**
 [GroupShape](../../com.aspose.cells/groupshape) - Return the group shape.
+
 ### hashCode() {#hashCode--}
+
 ```
 public native int hashCode()
 ```
 
-
-
-
 **Returns:**
 int
+
 ### indexOf(Object o) {#indexOf-java.lang.Object-}
+
 ```
 public int indexOf(Object o)
 ```
 
-
 Determines the index of a specific item in the CollectionBase instance.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | o | java.lang.Object | Determines the index of a specific item in the CollectionBase instance. |
 
 **Returns:**
 int - The index of value if found in the list; otherwise, -1.
+
 ### iterator() {#iterator--}
+
 ```
 public Iterator iterator()
 ```
-
 
 Returns an enumerator that iterates through the CollectionBase instance.
 
 **Returns:**
 java.util.Iterator - An iterator for the CollectionBase instance.
+
 ### notify() {#notify--}
+
 ```
 public final native void notify()
 ```
 
-
-
-
 ### notifyAll() {#notifyAll--}
+
 ```
 public final native void notifyAll()
 ```
 
-
-
-
 ### remove(Shape shape) {#remove-com.aspose.cells.Shape-}
+
 ```
 public void remove(Shape shape)
 ```
-
 
 Remove the shape.
 
@@ -1615,15 +1714,16 @@ Remove the shape.
 ```
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | shape | [Shape](../../com.aspose.cells/shape) |  |
 
 ### removeAt(int index) {#removeAt-int-}
+
 ```
 public void removeAt(int index)
 ```
-
 
 Remove the shape.
 
@@ -1640,25 +1740,25 @@ Remove the shape.
 ```
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int | The index of the shape. |
 
 ### toString() {#toString--}
+
 ```
 public String toString()
 ```
 
-
-
-
 **Returns:**
 java.lang.String
+
 ### ungroup(GroupShape group) {#ungroup-com.aspose.cells.GroupShape-}
+
 ```
 public void ungroup(GroupShape group)
 ```
-
 
 Ungroups the shape items.
 
@@ -1683,50 +1783,46 @@ If the group shape is grouped by another group shape,nothing will be done.
 ```
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | group | [GroupShape](../../com.aspose.cells/groupshape) | The group shape. |
 
 ### updateSelectedValue() {#updateSelectedValue--}
+
 ```
 public void updateSelectedValue()
 ```
 
-
 Update the selected value by the value of the linked cell or range of the shape.
 
 ### wait() {#wait--}
+
 ```
 public final void wait()
 ```
 
-
-
-
 ### wait(long arg0) {#wait-long-}
+
 ```
 public final native void wait(long arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
 ### wait(long arg0, int arg1) {#wait-long-int-}
+
 ```
 public final void wait(long arg0, int arg1)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

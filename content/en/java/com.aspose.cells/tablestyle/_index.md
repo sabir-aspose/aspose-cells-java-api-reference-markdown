@@ -1,13 +1,16 @@
 ---
-title: TableStyle
-second_title: Aspose.Cells for Java API Reference
-description: Represents the style of the table.
+title: "TableStyle"
+second_title: "Aspose.Cells for Java API Reference"
+description: "Represents the style of the table."
 type: docs
-url: /java/com.aspose.cells/tablestyle/
+url: "/java/com.aspose.cells/tablestyle/"
+source_url: "https://reference.aspose.com/cells/java/com.aspose.cells/tablestyle/"
+generated_from: "online-reference"
+fetched_at: "2026-06-16T11:56:14+00:00"
 ---
-
 **Inheritance:**
 java.lang.Object
+
 ```
 public class TableStyle
 ```
@@ -57,7 +60,8 @@ Represents the style of the table.
          table.setTableStyleName(tableStyleName);
          workbook.save("Book1.xlsx");
 ```
-## Methods
+
+## Methods {#methods}
 
 | Method | Description |
 | --- | --- |
@@ -73,135 +77,128 @@ Represents the style of the table.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+
 ### create(String name, WorksheetCollection sheets) {#create-java.lang.String-com.aspose.cells.WorksheetCollection-}
+
 ```
 public static TableStyle create(String name, WorksheetCollection sheets)
 ```
 
-
 Creates an empty table/pivot table style.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | name | java.lang.String | The name of table. |
 | sheets | [WorksheetCollection](../../com.aspose.cells/worksheetcollection) | The [WorksheetCollection](../../com.aspose.cells/worksheetcollection) |
 
 **Returns:**
-[TableStyle](../../com.aspose.cells/tablestyle) - 
+[TableStyle](../../com.aspose.cells/tablestyle) -
+
 ### equals(Object arg0) {#equals-java.lang.Object-}
+
 ```
 public boolean equals(Object arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
 **Returns:**
 boolean
+
 ### getClass() {#getClass--}
+
 ```
 public final native Class<?> getClass()
 ```
 
-
-
-
 **Returns:**
-java.lang.Class<?>
+java.lang.Class
+
 ### getName() {#getName--}
+
 ```
 public String getName()
 ```
-
 
 Gets the name of table style.
 
 **Returns:**
 java.lang.String
+
 ### getTableStyleElements() {#getTableStyleElements--}
+
 ```
 public TableStyleElementCollection getTableStyleElements()
 ```
-
 
 Gets all elements of the table style.
 
 **Returns:**
 [TableStyleElementCollection](../../com.aspose.cells/tablestyleelementcollection)
+
 ### hashCode() {#hashCode--}
+
 ```
 public native int hashCode()
 ```
 
-
-
-
 **Returns:**
 int
+
 ### notify() {#notify--}
+
 ```
 public final native void notify()
 ```
 
-
-
-
 ### notifyAll() {#notifyAll--}
+
 ```
 public final native void notifyAll()
 ```
 
-
-
-
 ### toString() {#toString--}
+
 ```
 public String toString()
 ```
 
-
-
-
 **Returns:**
 java.lang.String
+
 ### wait() {#wait--}
+
 ```
 public final void wait()
 ```
 
-
-
-
 ### wait(long arg0) {#wait-long-}
+
 ```
 public final native void wait(long arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
 ### wait(long arg0, int arg1) {#wait-long-int-}
+
 ```
 public final void wait(long arg0, int arg1)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

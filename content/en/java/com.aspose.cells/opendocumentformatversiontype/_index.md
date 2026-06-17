@@ -1,19 +1,23 @@
 ---
-title: OpenDocumentFormatVersionType
-second_title: Aspose.Cells for Java API Reference
-description: Open Document Format version type.
+title: "OpenDocumentFormatVersionType"
+second_title: "Aspose.Cells for Java API Reference"
+description: "Open Document Format version type."
 type: docs
-url: /java/com.aspose.cells/opendocumentformatversiontype/
+url: "/java/com.aspose.cells/opendocumentformatversiontype/"
+source_url: "https://reference.aspose.com/cells/java/com.aspose.cells/opendocumentformatversiontype/"
+generated_from: "online-reference"
+fetched_at: "2026-06-16T11:53:01+00:00"
 ---
-
 **Inheritance:**
 java.lang.Object
+
 ```
 public final class OpenDocumentFormatVersionType
 ```
 
 Open Document Format version type.
-## Fields
+
+## Fields {#fields}
 
 | Field | Description |
 | --- | --- |
@@ -22,7 +26,8 @@ Open Document Format version type.
 | [ODF_12](#ODF-12) | ODF Version 1.2 |
 | [ODF_13](#ODF-13) | ODF Version 1.3 |
 | [ODF_14](#ODF-14) | ODF Version 1.4 |
-## Methods
+
+## Methods {#methods}
 
 | Method | Description |
 | --- | --- |
@@ -35,11 +40,12 @@ Open Document Format version type.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+
 ### NONE {#NONE}
+
 ```
 public static final int NONE
 ```
-
 
 None strict.
 
@@ -48,130 +54,118 @@ None strict.
 There are some difference between Excel and ODF. In order to keep the data of Excel file, we can not follow the strict of ODF.
 
 ### ODF_11 {#ODF-11}
+
 ```
 public static final int ODF_11
 ```
 
-
 ODF Version 1.1
 
 ### ODF_12 {#ODF-12}
+
 ```
 public static final int ODF_12
 ```
 
-
 ODF Version 1.2
 
 ### ODF_13 {#ODF-13}
+
 ```
 public static final int ODF_13
 ```
 
-
 ODF Version 1.3
 
 ### ODF_14 {#ODF-14}
+
 ```
 public static final int ODF_14
 ```
 
-
 ODF Version 1.4
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
+
 ```
 public boolean equals(Object arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
 **Returns:**
 boolean
+
 ### getClass() {#getClass--}
+
 ```
 public final native Class<?> getClass()
 ```
 
-
-
-
 **Returns:**
-java.lang.Class<?>
+java.lang.Class
+
 ### hashCode() {#hashCode--}
+
 ```
 public native int hashCode()
 ```
 
-
-
-
 **Returns:**
 int
+
 ### notify() {#notify--}
+
 ```
 public final native void notify()
 ```
 
-
-
-
 ### notifyAll() {#notifyAll--}
+
 ```
 public final native void notifyAll()
 ```
 
-
-
-
 ### toString() {#toString--}
+
 ```
 public String toString()
 ```
 
-
-
-
 **Returns:**
 java.lang.String
+
 ### wait() {#wait--}
+
 ```
 public final void wait()
 ```
 
-
-
-
 ### wait(long arg0) {#wait-long-}
+
 ```
 public final native void wait(long arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
 ### wait(long arg0, int arg1) {#wait-long-int-}
+
 ```
 public final void wait(long arg0, int arg1)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

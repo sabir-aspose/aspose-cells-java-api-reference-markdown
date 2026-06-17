@@ -1,19 +1,23 @@
 ---
-title: RevisionLog
-second_title: Aspose.Cells for Java API Reference
-description: Represents the revision log.
+title: "RevisionLog"
+second_title: "Aspose.Cells for Java API Reference"
+description: "Represents the revision log."
 type: docs
-url: /java/com.aspose.cells/revisionlog/
+url: "/java/com.aspose.cells/revisionlog/"
+source_url: "https://reference.aspose.com/cells/java/com.aspose.cells/revisionlog/"
+generated_from: "online-reference"
+fetched_at: "2026-06-16T11:54:57+00:00"
 ---
-
 **Inheritance:**
 java.lang.Object
+
 ```
 public class RevisionLog
 ```
 
 Represents the revision log.
-## Methods
+
+## Methods {#methods}
 
 | Method | Description |
 | --- | --- |
@@ -28,119 +32,110 @@ Represents the revision log.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+
 ### equals(Object arg0) {#equals-java.lang.Object-}
+
 ```
 public boolean equals(Object arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
 **Returns:**
 boolean
+
 ### getClass() {#getClass--}
+
 ```
 public final native Class<?> getClass()
 ```
 
-
-
-
 **Returns:**
-java.lang.Class<?>
+java.lang.Class
+
 ### getMetadataTable() {#getMetadataTable--}
+
 ```
 public RevisionHeader getMetadataTable()
 ```
-
 
 Gets table that contains metadata about a list of specific changes that have taken place for this workbook.
 
 **Returns:**
 [RevisionHeader](../../com.aspose.cells/revisionheader)
+
 ### getRevisions() {#getRevisions--}
+
 ```
 public RevisionCollection getRevisions()
 ```
-
 
 Gets all revisions in this log.
 
 **Returns:**
 [RevisionCollection](../../com.aspose.cells/revisioncollection)
+
 ### hashCode() {#hashCode--}
+
 ```
 public native int hashCode()
 ```
 
-
-
-
 **Returns:**
 int
+
 ### notify() {#notify--}
+
 ```
 public final native void notify()
 ```
 
-
-
-
 ### notifyAll() {#notifyAll--}
+
 ```
 public final native void notifyAll()
 ```
 
-
-
-
 ### toString() {#toString--}
+
 ```
 public String toString()
 ```
 
-
-
-
 **Returns:**
 java.lang.String
+
 ### wait() {#wait--}
+
 ```
 public final void wait()
 ```
 
-
-
-
 ### wait(long arg0) {#wait-long-}
+
 ```
 public final native void wait(long arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
 ### wait(long arg0, int arg1) {#wait-long-int-}
+
 ```
 public final void wait(long arg0, int arg1)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

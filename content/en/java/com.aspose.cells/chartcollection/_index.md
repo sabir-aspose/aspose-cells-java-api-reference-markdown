@@ -1,13 +1,16 @@
 ---
-title: ChartCollection
-second_title: Aspose.Cells for Java API Reference
-description: Encapsulates a collection of  objects.
+title: "ChartCollection"
+second_title: "Aspose.Cells for Java API Reference"
+description: "Encapsulates a collection of objects."
 type: docs
-url: /java/com.aspose.cells/chartcollection/
+url: "/java/com.aspose.cells/chartcollection/"
+source_url: "https://reference.aspose.com/cells/java/com.aspose.cells/chartcollection/"
+generated_from: "online-reference"
+fetched_at: "2026-06-16T11:48:22+00:00"
 ---
-
 **Inheritance:**
 java.lang.Object, [com.aspose.cells.CollectionBase](../../com.aspose.cells/collectionbase)
+
 ```
 public class ChartCollection extends CollectionBase
 ```
@@ -21,7 +24,8 @@ Encapsulates a collection of [Chart](../../com.aspose.cells/chart) objects.
  
          ChartCollection charts = workbook.getWorksheets().get(0).getCharts();
 ```
-## Methods
+
+## Methods {#methods}
 
 | Method | Description |
 | --- | --- |
@@ -49,15 +53,17 @@ Encapsulates a collection of [Chart](../../com.aspose.cells/chart) objects.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+
 ### add(byte[] data, String dataRange, boolean isVertical, int topRow, int leftColumn, int rightRow, int bottomColumn) {#add-byte---java.lang.String-boolean-int-int-int-int-}
+
 ```
 public int add(byte[] data, String dataRange, boolean isVertical, int topRow, int leftColumn, int rightRow, int bottomColumn)
 ```
 
-
 Adds a chart with preset template.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | data | byte[] | The data of chart template file(.crtx). |
@@ -70,15 +76,17 @@ Adds a chart with preset template.
 
 **Returns:**
 int - [Chart](../../com.aspose.cells/chart) object index.
+
 ### add(int type, int topRow, int leftColumn, int bottomRow, int rightColumn) {#add-int-int-int-int-int-}
+
 ```
 public int add(int type, int topRow, int leftColumn, int bottomRow, int rightColumn)
 ```
 
-
 Adds a chart to the collection.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | type | int | [ChartType](../../com.aspose.cells/charttype). Chart type |
@@ -89,15 +97,17 @@ Adds a chart to the collection.
 
 **Returns:**
 int - [Chart](../../com.aspose.cells/chart) object index.
+
 ### add(int type, String dataRange, boolean isVertical, int topRow, int leftColumn, int rightRow, int bottomColumn) {#add-int-java.lang.String-boolean-int-int-int-int-}
+
 ```
 public int add(int type, String dataRange, boolean isVertical, int topRow, int leftColumn, int rightRow, int bottomColumn)
 ```
 
-
 Adds a chart to the collection.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | type | int | [ChartType](../../com.aspose.cells/charttype). Chart type |
@@ -110,19 +120,21 @@ Adds a chart to the collection.
 
 **Returns:**
 int - [Chart](../../com.aspose.cells/chart) object index.
+
 ### add(int type, String dataRange, int topRow, int leftColumn, int rightRow, int bottomColumn) {#add-int-java.lang.String-int-int-int-int-}
+
 ```
 public int add(int type, String dataRange, int topRow, int leftColumn, int rightRow, int bottomColumn)
 ```
-
 
 Adds a chart to the collection.
 
 **Remarks**
 
-NOTE: This member is now obsolete. Instead, please use [add(int,String,boolean,int,int,int,int)](../../com.aspose.cells/chartcollection\#add-int-String-boolean-int-int-int-int-) property. This property will be removed 12 months later since May 2022. Aspose apologizes for any inconvenience you may have experienced.
+NOTE: This member is now obsolete. Instead, please use [add(int,String,boolean,int,int,int,int)](../../com.aspose.cells/chartcollection#add-int-String-boolean-int-int-int-int-) property. This property will be removed 12 months later since May 2022. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | type | int | [ChartType](../../com.aspose.cells/charttype). Chart type |
@@ -134,30 +146,34 @@ NOTE: This member is now obsolete. Instead, please use [add(int,String,boolean,i
 
 **Returns:**
 int - [Chart](../../com.aspose.cells/chart) object index.
+
 ### add(Object o) {#add-java.lang.Object-}
+
 ```
 public int add(Object o)
 ```
 
-
 Adds an item to the CollectionBase instance.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | o | java.lang.Object | The Object to add to the CollectionBase instance. |
 
 **Returns:**
 int - The position into which the new element was inserted.
+
 ### addFloatingChart(int type, int left, int top, int width, int height) {#addFloatingChart-int-int-int-int-int-}
+
 ```
 public int addFloatingChart(int type, int left, int top, int width, int height)
 ```
 
-
 Adds a chart to the collection.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | type | int | [ChartType](../../com.aspose.cells/charttype). Chart type |
@@ -168,64 +184,69 @@ Adds a chart to the collection.
 
 **Returns:**
 int - [Chart](../../com.aspose.cells/chart) object index.
+
 ### clear() {#clear--}
+
 ```
 public void clear()
 ```
 
-
 Clear all charts.
 
 ### contains(Object o) {#contains-java.lang.Object-}
+
 ```
 public boolean contains(Object o)
 ```
 
-
 Return whether instance contains this object
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | o | java.lang.Object | test object |
 
 **Returns:**
 boolean - Whether instance contains this object
+
 ### equals(Object arg0) {#equals-java.lang.Object-}
+
 ```
 public boolean equals(Object arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
 **Returns:**
 boolean
+
 ### get(int index) {#get-int-}
+
 ```
 public Chart get(int index)
 ```
 
-
 Gets the [Chart](../../com.aspose.cells/chart) element at the specified index.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int | The zero based index of the element. |
 
 **Returns:**
 [Chart](../../com.aspose.cells/chart) - The element at the specified index.
+
 ### get(String name) {#get-java.lang.String-}
+
 ```
 public Chart get(String name)
 ```
-
 
 Gets the chart by the name.
 
@@ -234,151 +255,147 @@ Gets the chart by the name.
 The default chart name is null. So you have to explicitly set the name of the chart.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | name | java.lang.String | The chart name. |
 
 **Returns:**
 [Chart](../../com.aspose.cells/chart) - The chart.
+
 ### getClass() {#getClass--}
+
 ```
 public final native Class<?> getClass()
 ```
 
-
-
-
 **Returns:**
-java.lang.Class<?>
+java.lang.Class
+
 ### getCount() {#getCount--}
+
 ```
 public int getCount()
 ```
-
 
 Gets the number of elements contained in the CollectionBase instance.
 
 **Returns:**
 int - The number of elements contained in the CollectionBase instance.
+
 ### hashCode() {#hashCode--}
+
 ```
 public native int hashCode()
 ```
 
-
-
-
 **Returns:**
 int
+
 ### indexOf(Object o) {#indexOf-java.lang.Object-}
+
 ```
 public int indexOf(Object o)
 ```
 
-
 Determines the index of a specific item in the CollectionBase instance.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | o | java.lang.Object | Determines the index of a specific item in the CollectionBase instance. |
 
 **Returns:**
 int - The index of value if found in the list; otherwise, -1.
+
 ### iterator() {#iterator--}
+
 ```
 public Iterator iterator()
 ```
-
 
 Returns an enumerator that iterates through the CollectionBase instance.
 
 **Returns:**
 java.util.Iterator - An iterator for the CollectionBase instance.
+
 ### notify() {#notify--}
+
 ```
 public final native void notify()
 ```
 
-
-
-
 ### notifyAll() {#notifyAll--}
+
 ```
 public final native void notifyAll()
 ```
 
-
-
-
 ### remove(Chart chart) {#remove-com.aspose.cells.Chart-}
+
 ```
 public void remove(Chart chart)
 ```
 
-
 Remove the specific chart.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | chart | [Chart](../../com.aspose.cells/chart) |  |
 
 ### removeAt(int index) {#removeAt-int-}
+
 ```
 public void removeAt(int index)
 ```
 
-
 Remove a chart at the specific index.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int | The chart index. |
 
 ### toString() {#toString--}
+
 ```
 public String toString()
 ```
 
-
-
-
 **Returns:**
 java.lang.String
+
 ### wait() {#wait--}
+
 ```
 public final void wait()
 ```
 
-
-
-
 ### wait(long arg0) {#wait-long-}
+
 ```
 public final native void wait(long arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
 ### wait(long arg0, int arg1) {#wait-long-int-}
+
 ```
 public final void wait(long arg0, int arg1)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

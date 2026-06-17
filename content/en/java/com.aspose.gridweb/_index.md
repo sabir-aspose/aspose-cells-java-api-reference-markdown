@@ -1,21 +1,21 @@
 ---
-title: com.aspose.gridweb
-second_title: Aspose.Cells for Java API Reference
-description: Provides apis to manipulate components of spreadsheet for web application.
+title: "com.aspose.gridweb"
+second_title: "Aspose.Cells for Java API Reference"
+description: "Provides apis to manipulate components of spreadsheet for web application."
 type: docs
-url: /java/com.aspose.gridweb/
+url: "/java/com.aspose.gridweb/"
+source_url: "https://reference.aspose.com/cells/java/com.aspose.gridweb/"
+generated_from: "online-reference"
+fetched_at: "2026-06-16T11:47:28+00:00"
 ---
-
-
 Provides apis to manipulate components of spreadsheet for web application.
 
-
-## Classes
+## Classes {#classes}
 
 | Class | Description |
 | --- | --- |
 | [BindColumn](../com.aspose.gridweb/bindcolumn) | BindColumn. |
-| [BorderCollapseType](../com.aspose.gridweb/bordercollapsetype) | Collapse type of a table's border object. |
+| [BorderCollapseType](../com.aspose.gridweb/bordercollapsetype) | Collapse type of a table’s border object. |
 | [BorderStyle](../com.aspose.gridweb/borderstyle) | The BorderStyle represents the different border style options for a web control.. |
 | [CellEventArgs](../com.aspose.gridweb/celleventargs) | Provides data for cell events. |
 | [CollectionBase](../com.aspose.gridweb/collectionbase) | Provides the abstract base class for a strongly typed collection. |
@@ -31,8 +31,8 @@ Provides apis to manipulate components of spreadsheet for web application.
 | [FontInfo](../com.aspose.gridweb/fontinfo) | The FontInfo represents font-related style information for a web control.. |
 | [FontSize](../com.aspose.gridweb/fontsize) | The FontSize represents font size information for a web control. |
 | [FontUnit](../com.aspose.gridweb/fontunit) | Represents the size of a font. |
-| [GridAbstractCalculationEngine](../com.aspose.gridweb/gridabstractcalculationengine) | Represents user's custom calculation engine to extend the default calculation engine of Aspose.Cells. |
-| [GridCalculationData](../com.aspose.gridweb/gridcalculationdata) | Represents the required data when calculating one function, such as function name, parameters, ...etc. |
+| [GridAbstractCalculationEngine](../com.aspose.gridweb/gridabstractcalculationengine) | Represents user’s custom calculation engine to extend the default calculation engine of Aspose.Cells. |
+| [GridCalculationData](../com.aspose.gridweb/gridcalculationdata) | Represents the required data when calculating one function, such as function name, parameters, …etc. |
 | [GridCell](../com.aspose.gridweb/gridcell) | Represents a cell object. |
 | [GridCellArea](../com.aspose.gridweb/gridcellarea) | Represents an area of cells. |
 | [GridCellErrorType](../com.aspose.gridweb/gridcellerrortype) | Used in WebCellException. |
@@ -117,7 +117,7 @@ Provides apis to manipulate components of spreadsheet for web application.
 | [WebWorksheet](../com.aspose.gridweb/webworksheet) | Represents a web worksheet. |
 | [WorksheetDesign](../com.aspose.gridweb/worksheetdesign) | Inherited from WebWorksheet. |
 
-## Interfaces
+## Interfaces {#interfaces}
 
 | Interface | Description |
 | --- | --- |

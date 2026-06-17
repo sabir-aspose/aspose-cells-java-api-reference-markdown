@@ -1,13 +1,16 @@
 ---
-title: SignatureLine
-second_title: Aspose.Cells for Java API Reference
-description: Represent the signature line.
+title: "SignatureLine"
+second_title: "Aspose.Cells for Java API Reference"
+description: "Represent the signature line."
 type: docs
-url: /java/com.aspose.cells/signatureline/
+url: "/java/com.aspose.cells/signatureline/"
+source_url: "https://reference.aspose.com/cells/java/com.aspose.cells/signatureline/"
+generated_from: "online-reference"
+fetched_at: "2026-06-16T11:55:36+00:00"
 ---
-
 **Inheritance:**
 java.lang.Object
+
 ```
 public class SignatureLine
 ```
@@ -36,12 +39,14 @@ Represent the signature line.
          //Save the excel file.
          workbook.save("result.xlsx");
 ```
-## Constructors
+
+## Constructors {#constructors}
 
 | Constructor | Description |
 | --- | --- |
 | [SignatureLine()](#SignatureLine--) |  |
-## Methods
+
+## Methods {#methods}
 
 | Method | Description |
 | --- | --- |
@@ -74,32 +79,33 @@ Represent the signature line.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+
 ### SignatureLine() {#SignatureLine--}
+
 ```
 public SignatureLine()
 ```
 
-
 ### equals(Object arg0) {#equals-java.lang.Object-}
+
 ```
 public boolean equals(Object arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
 **Returns:**
 boolean
+
 ### getAllowComments() {#getAllowComments--}
+
 ```
 public boolean getAllowComments()
 ```
-
 
 Indicates whether comments could be attached.
 
@@ -114,21 +120,21 @@ Indicates whether comments could be attached.
 
 **Returns:**
 boolean
+
 ### getClass() {#getClass--}
+
 ```
 public final native Class<?> getClass()
 ```
 
-
-
-
 **Returns:**
-java.lang.Class<?>
+java.lang.Class
+
 ### getEmail() {#getEmail--}
+
 ```
 public String getEmail()
 ```
-
 
 Gets the email of singer.
 
@@ -142,11 +148,12 @@ Gets the email of singer.
 
 **Returns:**
 java.lang.String
+
 ### getId() {#getId--}
+
 ```
 public UUID getId()
 ```
-
 
 Gets identifier for this signature line.
 
@@ -160,11 +167,12 @@ Gets identifier for this signature line.
 
 **Returns:**
 java.util.UUID
+
 ### getInstructions() {#getInstructions--}
+
 ```
 public String getInstructions()
 ```
-
 
 Gets the text shown to user at signing time.
 
@@ -178,17 +186,18 @@ Gets the text shown to user at signing time.
 
 **Returns:**
 java.lang.String
+
 ### getProviderId() {#getProviderId--}
+
 ```
 public UUID getProviderId()
 ```
-
 
 Gets the id of signature provider.
 
 **Remarks**
 
-It's typically the CLSID of the provider com add-in.
+It’s typically the CLSID of the provider com add-in.
 
 **Example**
 
@@ -200,11 +209,12 @@ It's typically the CLSID of the provider com add-in.
 
 **Returns:**
 java.util.UUID
+
 ### getShowSignedDate() {#getShowSignedDate--}
+
 ```
 public boolean getShowSignedDate()
 ```
-
 
 Indicates whether show signed date.
 
@@ -219,23 +229,25 @@ Indicates whether show signed date.
 
 **Returns:**
 boolean
+
 ### getSignatureLineType() {#getSignatureLineType--}
+
 ```
 public int getSignatureLineType()
 ```
 
-
-Gets the signature type. Default - When the default value is set, the corresponding ProviderId value is fixed to \{0000000000-0000-0000-0000-0000000000\}. Stamp - When the value is Stamp, the corresponding ProviderId value is usually \{000CD6A4-0000-0000-C000-000000000046\}. Custom - When the value is Custom, the corresponding ProviderId value usually needs to be set by the user. it should be obtained from the documentation shipped with the provider.
+Gets the signature type. Default - When the default value is set, the corresponding ProviderId value is fixed to {0000000000-0000-0000-0000-0000000000}. Stamp - When the value is Stamp, the corresponding ProviderId value is usually {000CD6A4-0000-0000-C000-000000000046}. Custom - When the value is Custom, the corresponding ProviderId value usually needs to be set by the user. it should be obtained from the documentation shipped with the provider.
 
 See [SignatureType](../../com.aspose.cells/signaturetype).
 
 **Returns:**
 int
+
 ### getSigner() {#getSigner--}
+
 ```
 public String getSigner()
 ```
-
 
 Gets the signer.
 
@@ -249,11 +261,12 @@ Gets the signer.
 
 **Returns:**
 java.lang.String
+
 ### getTitle() {#getTitle--}
+
 ```
 public String getTitle()
 ```
-
 
 Gets the title of singer.
 
@@ -267,21 +280,21 @@ Gets the title of singer.
 
 **Returns:**
 java.lang.String
+
 ### hashCode() {#hashCode--}
+
 ```
 public native int hashCode()
 ```
 
-
-
-
 **Returns:**
 int
+
 ### isLine() {#isLine--}
+
 ```
 public boolean isLine()
 ```
-
 
 Indicates whether it is a signature line.
 
@@ -296,200 +309,201 @@ Indicates whether it is a signature line.
 
 **Returns:**
 boolean
+
 ### notify() {#notify--}
+
 ```
 public final native void notify()
 ```
 
-
-
-
 ### notifyAll() {#notifyAll--}
+
 ```
 public final native void notifyAll()
 ```
 
-
-
-
 ### setAllowComments(boolean value) {#setAllowComments-boolean-}
+
 ```
 public void setAllowComments(boolean value)
 ```
 
-
 Indicates whether comments could be attached.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
 ### setEmail(String value) {#setEmail-java.lang.String-}
+
 ```
 public void setEmail(String value)
 ```
 
-
 Sets the email of singer.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String |  |
 
 ### setId(UUID value) {#setId-java.util.UUID-}
+
 ```
 public void setId(UUID value)
 ```
 
-
 Sets identifier for this signature line.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.util.UUID |  |
 
 ### setInstructions(String value) {#setInstructions-java.lang.String-}
+
 ```
 public void setInstructions(String value)
 ```
 
-
 Sets the text shown to user at signing time.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String |  |
 
 ### setLine(boolean value) {#setLine-boolean-}
+
 ```
 public void setLine(boolean value)
 ```
 
-
 Indicates whether it is a signature line.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
 ### setProviderId(UUID value) {#setProviderId-java.util.UUID-}
+
 ```
 public void setProviderId(UUID value)
 ```
-
 
 Sets the id of signature provider.
 
 **Remarks**
 
-It's typically the CLSID of the provider com add-in.
+It’s typically the CLSID of the provider com add-in.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.util.UUID |  |
 
 ### setShowSignedDate(boolean value) {#setShowSignedDate-boolean-}
+
 ```
 public void setShowSignedDate(boolean value)
 ```
 
-
 Indicates whether show signed date.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
 ### setSignatureLineType(int value) {#setSignatureLineType-int-}
+
 ```
 public void setSignatureLineType(int value)
 ```
 
-
-Sets the signature type. Default - When the default value is set, the corresponding ProviderId value is fixed to \{0000000000-0000-0000-0000-0000000000\}. Stamp - When the value is Stamp, the corresponding ProviderId value is usually \{000CD6A4-0000-0000-C000-000000000046\}. Custom - When the value is Custom, the corresponding ProviderId value usually needs to be set by the user. it should be obtained from the documentation shipped with the provider.
+Sets the signature type. Default - When the default value is set, the corresponding ProviderId value is fixed to {0000000000-0000-0000-0000-0000000000}. Stamp - When the value is Stamp, the corresponding ProviderId value is usually {000CD6A4-0000-0000-C000-000000000046}. Custom - When the value is Custom, the corresponding ProviderId value usually needs to be set by the user. it should be obtained from the documentation shipped with the provider.
 
 See [SignatureType](../../com.aspose.cells/signaturetype).
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
 
 ### setSigner(String value) {#setSigner-java.lang.String-}
+
 ```
 public void setSigner(String value)
 ```
 
-
 Sets the signer.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String |  |
 
 ### setTitle(String value) {#setTitle-java.lang.String-}
+
 ```
 public void setTitle(String value)
 ```
 
-
 Sets the title of singer.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String |  |
 
 ### toString() {#toString--}
+
 ```
 public String toString()
 ```
 
-
-
-
 **Returns:**
 java.lang.String
+
 ### wait() {#wait--}
+
 ```
 public final void wait()
 ```
 
-
-
-
 ### wait(long arg0) {#wait-long-}
+
 ```
 public final native void wait(long arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
 ### wait(long arg0, int arg1) {#wait-long-int-}
+
 ```
 public final void wait(long arg0, int arg1)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

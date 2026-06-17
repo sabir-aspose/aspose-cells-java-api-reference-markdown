@@ -1,13 +1,16 @@
 ---
-title: SlicerCache
-second_title: Aspose.Cells for Java API Reference
-description: Represent summary description of slicer cache
+title: "SlicerCache"
+second_title: "Aspose.Cells for Java API Reference"
+description: "Represent summary description of slicer cache"
 type: docs
-url: /java/com.aspose.cells/slicercache/
+url: "/java/com.aspose.cells/slicercache/"
+source_url: "https://reference.aspose.com/cells/java/com.aspose.cells/slicercache/"
+generated_from: "online-reference"
+fetched_at: "2026-06-16T11:55:39+00:00"
 ---
-
 **Inheritance:**
 java.lang.Object
+
 ```
 public class SlicerCache
 ```
@@ -74,7 +77,8 @@ Represent summary description of slicer cache
  
          book.save("out.xlsx");
 ```
-## Methods
+
+## Methods {#methods}
 
 | Method | Description |
 | --- | --- |
@@ -93,36 +97,36 @@ Represent summary description of slicer cache
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+
 ### equals(Object arg0) {#equals-java.lang.Object-}
+
 ```
 public boolean equals(Object arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
 **Returns:**
 boolean
+
 ### getClass() {#getClass--}
+
 ```
 public final native Class<?> getClass()
 ```
 
-
-
-
 **Returns:**
-java.lang.Class<?>
+java.lang.Class
+
 ### getCrossFilterType() {#getCrossFilterType--}
+
 ```
 public int getCrossFilterType()
 ```
-
 
 Indicates how to show items with no data of slicer.
 
@@ -130,15 +134,16 @@ See [SlicerCacheCrossFilterType](../../com.aspose.cells/slicercachecrossfilterty
 
 **Remarks**
 
-NOTE: This member is now obsolete. Instead, please use [Slicer.getShowTypeOfItemsWithNoData()](../../com.aspose.cells/slicer\#getShowTypeOfItemsWithNoData--) property. This property will be removed 12 months later since January 2026. Aspose apologizes for any inconvenience you may have experienced.
+NOTE: This member is now obsolete. Instead, please use [Slicer.getShowTypeOfItemsWithNoData()](../../com.aspose.cells/slicer#getShowTypeOfItemsWithNoData--) property. This property will be removed 12 months later since January 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 int
+
 ### getList() {#getList--}
+
 ```
 public boolean getList()
 ```
-
 
 Indicates whether the slicer associated with the specified slicer cache is based on an Non-OLAP data source.
 
@@ -150,11 +155,12 @@ Indicates whether the slicer associated with the specified slicer cache is based
 
 **Returns:**
 boolean
+
 ### getName() {#getName--}
+
 ```
 public String getName()
 ```
-
 
 Returns the name of the slicer cache.
 
@@ -167,11 +173,12 @@ Returns the name of the slicer cache.
 
 **Returns:**
 java.lang.String
+
 ### getSlicerCacheItems() {#getSlicerCacheItems--}
+
 ```
 public SlicerCacheItemCollection getSlicerCacheItems()
 ```
-
 
 Returns a SlicerCacheItem collection that contains the collection of all items in the slicer cache. Read-only
 
@@ -185,11 +192,12 @@ Returns a SlicerCacheItem collection that contains the collection of all items i
 
 **Returns:**
 [SlicerCacheItemCollection](../../com.aspose.cells/slicercacheitemcollection)
+
 ### getSourceName() {#getSourceName--}
+
 ```
 public String getSourceName()
 ```
-
 
 Returns the name of this slicer cache.
 
@@ -202,37 +210,33 @@ Returns the name of this slicer cache.
 
 **Returns:**
 java.lang.String
+
 ### hashCode() {#hashCode--}
+
 ```
 public native int hashCode()
 ```
 
-
-
-
 **Returns:**
 int
+
 ### notify() {#notify--}
+
 ```
 public final native void notify()
 ```
 
-
-
-
 ### notifyAll() {#notifyAll--}
+
 ```
 public final native void notifyAll()
 ```
 
-
-
-
 ### setCrossFilterType(int value) {#setCrossFilterType-int-}
+
 ```
 public void setCrossFilterType(int value)
 ```
-
 
 Indicates how to show items with no data of slicer.
 
@@ -240,55 +244,50 @@ See [SlicerCacheCrossFilterType](../../com.aspose.cells/slicercachecrossfilterty
 
 **Remarks**
 
-NOTE: This member is now obsolete. Instead, please use [Slicer.getShowTypeOfItemsWithNoData()](../../com.aspose.cells/slicer\#getShowTypeOfItemsWithNoData--) property. This property will be removed 12 months later since January 2026. Aspose apologizes for any inconvenience you may have experienced.
+NOTE: This member is now obsolete. Instead, please use [Slicer.getShowTypeOfItemsWithNoData()](../../com.aspose.cells/slicer#getShowTypeOfItemsWithNoData--) property. This property will be removed 12 months later since January 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
 
 ### toString() {#toString--}
+
 ```
 public String toString()
 ```
 
-
-
-
 **Returns:**
 java.lang.String
+
 ### wait() {#wait--}
+
 ```
 public final void wait()
 ```
 
-
-
-
 ### wait(long arg0) {#wait-long-}
+
 ```
 public final native void wait(long arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
 ### wait(long arg0, int arg1) {#wait-long-int-}
+
 ```
 public final void wait(long arg0, int arg1)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

@@ -1,31 +1,37 @@
 ---
-title: GridCustomServerValidation
-second_title: Aspose.Cells for Java API Reference
-description: the interface you need to implement when use server side validation.
+title: "GridCustomServerValidation"
+second_title: "Aspose.Cells for Java API Reference"
+description: "the interface you need to implement when use server side validation."
 type: docs
-url: /java/com.aspose.gridweb/gridcustomservervalidation/
+url: "/java/com.aspose.gridweb/gridcustomservervalidation/"
+source_url: "https://reference.aspose.com/cells/java/com.aspose.gridweb/gridcustomservervalidation/"
+generated_from: "online-reference"
+fetched_at: "2026-06-16T11:58:22+00:00"
 ---
 ```
 public interface GridCustomServerValidation
 ```
 
 the interface you need to implement when use server side validation. CustomServerFunction.
-## Methods
+
+## Methods {#methods}
 
 | Method | Description |
 | --- | --- |
 | [validate(GridWorksheet sheet, int row, int col, String value)](#validate-com.aspose.gridweb.GridWorksheet-int-int-java.lang.String-) | **Remarks** |
+
 ### validate(GridWorksheet sheet, int row, int col, String value) {#validate-com.aspose.gridweb.GridWorksheet-int-int-java.lang.String-}
+
 ```
 public abstract String validate(GridWorksheet sheet, int row, int col, String value)
 ```
-
 
 **Remarks**
 
 if return string.empty the validate is passed,else you can return any related message which can be deal in ClientCallback function
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | sheet | [GridWorksheet](../../com.aspose.gridweb/gridworksheet) | the GridWorksheet |

@@ -1,24 +1,29 @@
 ---
-title: Control
-second_title: Aspose.Cells for Java API Reference
-description: Represent the  base Control class internal use only.
+title: "Control"
+second_title: "Aspose.Cells for Java API Reference"
+description: "Represent the base Control class internal use only."
 type: docs
-url: /java/com.aspose.gridweb/control/
+url: "/java/com.aspose.gridweb/control/"
+source_url: "https://reference.aspose.com/cells/java/com.aspose.gridweb/control/"
+generated_from: "online-reference"
+fetched_at: "2026-06-16T11:58:06+00:00"
 ---
-
 **Inheritance:**
 java.lang.Object
+
 ```
 public class Control
 ```
 
 Represent the base Control class, internal use only.
-## Constructors
+
+## Constructors {#constructors}
 
 | Constructor | Description |
 | --- | --- |
 | [Control()](#Control--) |  |
-## Methods
+
+## Methods {#methods}
 
 | Method | Description |
 | --- | --- |
@@ -34,138 +39,130 @@ Represent the base Control class, internal use only.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+
 ### Control() {#Control--}
+
 ```
 public Control()
 ```
 
-
 ### equals(Object arg0) {#equals-java.lang.Object-}
+
 ```
 public boolean equals(Object arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
 **Returns:**
 boolean
+
 ### getClass() {#getClass--}
+
 ```
 public final native Class<?> getClass()
 ```
 
-
-
-
 **Returns:**
-java.lang.Class<?>
+java.lang.Class
+
 ### getUniqueID() {#getUniqueID--}
+
 ```
 public String getUniqueID()
 ```
-
 
 Gets the UniqueID in the Control
 
 **Returns:**
 java.lang.String
+
 ### getVisible() {#getVisible--}
+
 ```
 public boolean getVisible()
 ```
-
 
 Gets the Visible in the Control
 
 **Returns:**
 boolean
+
 ### hashCode() {#hashCode--}
+
 ```
 public native int hashCode()
 ```
 
-
-
-
 **Returns:**
 int
+
 ### notify() {#notify--}
+
 ```
 public final native void notify()
 ```
 
-
-
-
 ### notifyAll() {#notifyAll--}
+
 ```
 public final native void notifyAll()
 ```
 
-
-
-
 ### setVisible(boolean value) {#setVisible-boolean-}
+
 ```
 public void setVisible(boolean value)
 ```
 
-
 Sets the Visible in the Control
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
 ### toString() {#toString--}
+
 ```
 public String toString()
 ```
 
-
-
-
 **Returns:**
 java.lang.String
+
 ### wait() {#wait--}
+
 ```
 public final void wait()
 ```
 
-
-
-
 ### wait(long arg0) {#wait-long-}
+
 ```
 public final native void wait(long arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
 ### wait(long arg0, int arg1) {#wait-long-int-}
+
 ```
 public final void wait(long arg0, int arg1)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

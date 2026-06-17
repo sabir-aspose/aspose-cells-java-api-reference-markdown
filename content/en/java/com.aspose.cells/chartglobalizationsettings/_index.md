@@ -1,24 +1,29 @@
 ---
-title: ChartGlobalizationSettings
-second_title: Aspose.Cells for Java API Reference
-description: Represents the globalization settings for a chart.
+title: "ChartGlobalizationSettings"
+second_title: "Aspose.Cells for Java API Reference"
+description: "Represents the globalization settings for a chart."
 type: docs
-url: /java/com.aspose.cells/chartglobalizationsettings/
+url: "/java/com.aspose.cells/chartglobalizationsettings/"
+source_url: "https://reference.aspose.com/cells/java/com.aspose.cells/chartglobalizationsettings/"
+generated_from: "online-reference"
+fetched_at: "2026-06-16T11:48:25+00:00"
 ---
-
 **Inheritance:**
 java.lang.Object
+
 ```
 public class ChartGlobalizationSettings
 ```
 
 Represents the globalization settings for a chart.
-## Constructors
+
+## Constructors {#constructors}
 
 | Constructor | Description |
 | --- | --- |
 | [ChartGlobalizationSettings()](#ChartGlobalizationSettings--) |  |
-## Methods
+
+## Methods {#methods}
 
 | Method | Description |
 | --- | --- |
@@ -30,7 +35,7 @@ Represents the globalization settings for a chart.
 | [getLegendDecreaseName()](#getLegendDecreaseName--) | Gets the name of Decrease for Legend. |
 | [getLegendIncreaseName()](#getLegendIncreaseName--) | Gets the name of increase for Legend. |
 | [getLegendTotalName()](#getLegendTotalName--) | Gets the name of Total for Legend. |
-| [getOtherName()](#getOtherName--) | Gets the name of "Other" labels for Chart. |
+| [getOtherName()](#getOtherName--) | Gets the name of “Other” labels for Chart. |
 | [getSeriesName()](#getSeriesName--) | Gets the name of Series in the Chart. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
@@ -39,190 +44,188 @@ Represents the globalization settings for a chart.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+
 ### ChartGlobalizationSettings() {#ChartGlobalizationSettings--}
+
 ```
 public ChartGlobalizationSettings()
 ```
 
-
 ### equals(Object arg0) {#equals-java.lang.Object-}
+
 ```
 public boolean equals(Object arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
 **Returns:**
 boolean
+
 ### getAxisTitleName() {#getAxisTitleName--}
+
 ```
 public String getAxisTitleName()
 ```
 
-
 Gets the name of Title for Axis.
 
 **Returns:**
-java.lang.String - 
+java.lang.String -
+
 ### getAxisUnitName(int type) {#getAxisUnitName-int-}
+
 ```
 public String getAxisUnitName(int type)
 ```
 
-
 Gets the Name of Axis Unit.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | type | int |  |
 
 **Returns:**
-java.lang.String - 
+java.lang.String -
+
 ### getChartTitleName() {#getChartTitleName--}
+
 ```
 public String getChartTitleName()
 ```
 
-
 Gets the name of Chart Title.
 
 **Returns:**
-java.lang.String - 
+java.lang.String -
+
 ### getClass() {#getClass--}
+
 ```
 public final native Class<?> getClass()
 ```
 
-
-
-
 **Returns:**
-java.lang.Class<?>
+java.lang.Class
+
 ### getLegendDecreaseName() {#getLegendDecreaseName--}
+
 ```
 public String getLegendDecreaseName()
 ```
 
-
 Gets the name of Decrease for Legend.
 
 **Returns:**
-java.lang.String - 
+java.lang.String -
+
 ### getLegendIncreaseName() {#getLegendIncreaseName--}
+
 ```
 public String getLegendIncreaseName()
 ```
 
-
 Gets the name of increase for Legend.
 
 **Returns:**
-java.lang.String - 
+java.lang.String -
+
 ### getLegendTotalName() {#getLegendTotalName--}
+
 ```
 public String getLegendTotalName()
 ```
 
-
 Gets the name of Total for Legend.
 
 **Returns:**
-java.lang.String - 
+java.lang.String -
+
 ### getOtherName() {#getOtherName--}
+
 ```
 public String getOtherName()
 ```
 
-
-Gets the name of "Other" labels for Chart.
+Gets the name of “Other” labels for Chart.
 
 **Returns:**
-java.lang.String - 
+java.lang.String -
+
 ### getSeriesName() {#getSeriesName--}
+
 ```
 public String getSeriesName()
 ```
 
-
 Gets the name of Series in the Chart.
 
 **Returns:**
-java.lang.String - 
+java.lang.String -
+
 ### hashCode() {#hashCode--}
+
 ```
 public native int hashCode()
 ```
 
-
-
-
 **Returns:**
 int
+
 ### notify() {#notify--}
+
 ```
 public final native void notify()
 ```
 
-
-
-
 ### notifyAll() {#notifyAll--}
+
 ```
 public final native void notifyAll()
 ```
 
-
-
-
 ### toString() {#toString--}
+
 ```
 public String toString()
 ```
 
-
-
-
 **Returns:**
 java.lang.String
+
 ### wait() {#wait--}
+
 ```
 public final void wait()
 ```
 
-
-
-
 ### wait(long arg0) {#wait-long-}
+
 ```
 public final native void wait(long arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
 ### wait(long arg0, int arg1) {#wait-long-int-}
+
 ```
 public final void wait(long arg0, int arg1)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

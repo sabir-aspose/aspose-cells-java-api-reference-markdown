@@ -1,34 +1,39 @@
 ---
-title: RowColumnEventHandler
-second_title: Aspose.Cells for Java API Reference
-description: Represents the interface that intend to handle row/column events.
+title: "RowColumnEventHandler"
+second_title: "Aspose.Cells for Java API Reference"
+description: "Represents the interface that intend to handle row/column events."
 type: docs
-url: /java/com.aspose.gridweb/rowcolumneventhandler/
+url: "/java/com.aspose.gridweb/rowcolumneventhandler/"
+source_url: "https://reference.aspose.com/cells/java/com.aspose.gridweb/rowcolumneventhandler/"
+generated_from: "online-reference"
+fetched_at: "2026-06-16T11:58:56+00:00"
 ---
-
 **All Implemented Interfaces:**
 java.io.Serializable
+
 ```
 public interface RowColumnEventHandler extends Serializable
 ```
 
 Represents the interface that intend to handle row/column events.
-## Methods
+
+## Methods {#methods}
 
 | Method | Description |
 | --- | --- |
 | [handleCellEvent(Object sender, RowColumnEventArgs e)](#handleCellEvent-java.lang.Object-com.aspose.gridweb.RowColumnEventArgs-) | handle the related Cell Event. |
+
 ### handleCellEvent(Object sender, RowColumnEventArgs e) {#handleCellEvent-java.lang.Object-com.aspose.gridweb.RowColumnEventArgs-}
+
 ```
 public abstract void handleCellEvent(Object sender, RowColumnEventArgs e)
 ```
 
-
 handle the related Cell Event.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | sender | java.lang.Object | The source of the event. |
 | e | [RowColumnEventArgs](../../com.aspose.gridweb/rowcolumneventargs) | The event argument. Call e.RejectOperation() if you want to cancel the deleting operation in RowDeleting or ColumnDeleting event handlers. |
-

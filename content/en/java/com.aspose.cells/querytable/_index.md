@@ -1,13 +1,16 @@
 ---
-title: QueryTable
-second_title: Aspose.Cells for Java API Reference
-description: Represents QueryTable information.
+title: "QueryTable"
+second_title: "Aspose.Cells for Java API Reference"
+description: "Represents QueryTable information."
 type: docs
-url: /java/com.aspose.cells/querytable/
+url: "/java/com.aspose.cells/querytable/"
+source_url: "https://reference.aspose.com/cells/java/com.aspose.cells/querytable/"
+generated_from: "online-reference"
+fetched_at: "2026-06-16T11:54:30+00:00"
 ---
-
 **Inheritance:**
 java.lang.Object
+
 ```
 public class QueryTable
 ```
@@ -27,7 +30,8 @@ Represents QueryTable information.
          //Getting display address of the query table.
          //string address = qt.ResultRange.Address;
 ```
-## Methods
+
+## Methods {#methods}
 
 | Method | Description |
 | --- | --- |
@@ -48,185 +52,182 @@ Represents QueryTable information.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+
 ### equals(Object arg0) {#equals-java.lang.Object-}
+
 ```
 public boolean equals(Object arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
 **Returns:**
 boolean
+
 ### getAdjustColumnWidth() {#getAdjustColumnWidth--}
+
 ```
 public boolean getAdjustColumnWidth()
 ```
-
 
 Returns or sets the AdjustColumnWidth of the object.
 
 **Returns:**
 boolean
+
 ### getClass() {#getClass--}
+
 ```
 public final native Class<?> getClass()
 ```
 
-
-
-
 **Returns:**
-java.lang.Class<?>
+java.lang.Class
+
 ### getConnectionId() {#getConnectionId--}
+
 ```
 public int getConnectionId()
 ```
-
 
 Gets the connection id of the query table.
 
 **Returns:**
 int
+
 ### getExternalConnection() {#getExternalConnection--}
+
 ```
 public ExternalConnection getExternalConnection()
 ```
-
 
 Gets the relate external connection.
 
 **Returns:**
 [ExternalConnection](../../com.aspose.cells/externalconnection)
+
 ### getName() {#getName--}
+
 ```
 public String getName()
 ```
-
 
 Gets the name of querytable.
 
 **Returns:**
 java.lang.String
+
 ### getPreserveFormatting() {#getPreserveFormatting--}
+
 ```
 public boolean getPreserveFormatting()
 ```
-
 
 Returns or sets the PreserveFormatting of the object.
 
 **Returns:**
 boolean
+
 ### getResultRange() {#getResultRange--}
+
 ```
 public Range getResultRange()
 ```
 
-
 Gets the range of the result.
 
 **Returns:**
-[Range](../../com.aspose.cells/range) - 
+[Range](../../com.aspose.cells/range) -
+
 ### hashCode() {#hashCode--}
+
 ```
 public native int hashCode()
 ```
 
-
-
-
 **Returns:**
 int
+
 ### notify() {#notify--}
+
 ```
 public final native void notify()
 ```
 
-
-
-
 ### notifyAll() {#notifyAll--}
+
 ```
 public final native void notifyAll()
 ```
 
-
-
-
 ### setAdjustColumnWidth(boolean value) {#setAdjustColumnWidth-boolean-}
+
 ```
 public void setAdjustColumnWidth(boolean value)
 ```
 
-
 Returns or sets the AdjustColumnWidth of the object.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
 ### setPreserveFormatting(boolean value) {#setPreserveFormatting-boolean-}
+
 ```
 public void setPreserveFormatting(boolean value)
 ```
 
-
 Returns or sets the PreserveFormatting of the object.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
 ### toString() {#toString--}
+
 ```
 public String toString()
 ```
 
-
-
-
 **Returns:**
 java.lang.String
+
 ### wait() {#wait--}
+
 ```
 public final void wait()
 ```
 
-
-
-
 ### wait(long arg0) {#wait-long-}
+
 ```
 public final native void wait(long arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
 ### wait(long arg0, int arg1) {#wait-long-int-}
+
 ```
 public final void wait(long arg0, int arg1)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

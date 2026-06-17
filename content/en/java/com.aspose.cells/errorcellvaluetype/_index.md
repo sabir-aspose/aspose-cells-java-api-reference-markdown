@@ -1,36 +1,41 @@
 ---
-title: ErrorCellValueType
-second_title: Aspose.Cells for Java API Reference
-description: Represents a cell value which contains an error.
+title: "ErrorCellValueType"
+second_title: "Aspose.Cells for Java API Reference"
+description: "Represents a cell value which contains an error."
 type: docs
-url: /java/com.aspose.cells/errorcellvaluetype/
+url: "/java/com.aspose.cells/errorcellvaluetype/"
+source_url: "https://reference.aspose.com/cells/java/com.aspose.cells/errorcellvaluetype/"
+generated_from: "online-reference"
+fetched_at: "2026-06-16T11:50:01+00:00"
 ---
-
 **Inheritance:**
 java.lang.Object
+
 ```
 public final class ErrorCellValueType
 ```
 
 Represents a cell value which contains an error.
-## Fields
+
+## Fields {#fields}
 
 | Field | Description |
 | --- | --- |
-| [BLOCKED](#BLOCKED) | Represents the value of a cell containing a \#BLOCKED! |
-| [BUSY](#BUSY) | Represents the value of a cell containing a \#BUSY! |
-| [CALC](#CALC) | Represents the value of a cell containing a \#CALC! |
-| [CONNECT](#CONNECT) | Represents the value of a cell containing a \#CONNECT! |
-| [EXTERNAL](#EXTERNAL) | Represents the value of a cell containing an \#EXTERNAL! |
-| [FIELD](#FIELD) | Represents the value of a cell containing a \#FIELD! |
-| [NA](#NA) | Represents the value of a cell containing a \#N/A error. |
-| [NAME](#NAME) | Represents the value of a cell containing a \#NAME? |
-| [REF](#REF) | Represents the value of a cell containing a \#REF! |
-| [SPILL](#SPILL) | Represents the value of a cell containing a \#SPILL! |
-| [TIME_OUT](#TIME-OUT) | Represents the value of a cell containing a \#TIMEOUT! |
-| [UNKNOWN](#UNKNOWN) | Represents the value of a cell containing a \#UNKNOWN! |
-| [VALUE](#VALUE) | Represents the value of a cell containing a \#VALUE! |
-## Methods
+| [BLOCKED](#BLOCKED) | Represents the value of a cell containing a #BLOCKED! |
+| [BUSY](#BUSY) | Represents the value of a cell containing a #BUSY! |
+| [CALC](#CALC) | Represents the value of a cell containing a #CALC! |
+| [CONNECT](#CONNECT) | Represents the value of a cell containing a #CONNECT! |
+| [EXTERNAL](#EXTERNAL) | Represents the value of a cell containing an #EXTERNAL! |
+| [FIELD](#FIELD) | Represents the value of a cell containing a #FIELD! |
+| [NA](#NA) | Represents the value of a cell containing a #N/A error. |
+| [NAME](#NAME) | Represents the value of a cell containing a #NAME? |
+| [REF](#REF) | Represents the value of a cell containing a #REF! |
+| [SPILL](#SPILL) | Represents the value of a cell containing a #SPILL! |
+| [TIME_OUT](#TIME-OUT) | Represents the value of a cell containing a #TIMEOUT! |
+| [UNKNOWN](#UNKNOWN) | Represents the value of a cell containing a #UNKNOWN! |
+| [VALUE](#VALUE) | Represents the value of a cell containing a #VALUE! |
+
+## Methods {#methods}
 
 | Method | Description |
 | --- | --- |
@@ -43,203 +48,192 @@ Represents a cell value which contains an error.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+
 ### BLOCKED {#BLOCKED}
+
 ```
 public static final int BLOCKED
 ```
 
-
-Represents the value of a cell containing a \#BLOCKED! error.
+Represents the value of a cell containing a #BLOCKED! error.
 
 ### BUSY {#BUSY}
+
 ```
 public static final int BUSY
 ```
 
-
-Represents the value of a cell containing a \#BUSY! error.
+Represents the value of a cell containing a #BUSY! error.
 
 ### CALC {#CALC}
+
 ```
 public static final int CALC
 ```
 
-
-Represents the value of a cell containing a \#CALC! error.
+Represents the value of a cell containing a #CALC! error.
 
 ### CONNECT {#CONNECT}
+
 ```
 public static final int CONNECT
 ```
 
-
-Represents the value of a cell containing a \#CONNECT! error.
+Represents the value of a cell containing a #CONNECT! error.
 
 ### EXTERNAL {#EXTERNAL}
+
 ```
 public static final int EXTERNAL
 ```
 
-
-Represents the value of a cell containing an \#EXTERNAL! error.
+Represents the value of a cell containing an #EXTERNAL! error.
 
 ### FIELD {#FIELD}
+
 ```
 public static final int FIELD
 ```
 
-
-Represents the value of a cell containing a \#FIELD! error.
+Represents the value of a cell containing a #FIELD! error.
 
 ### NA {#NA}
+
 ```
 public static final int NA
 ```
 
-
-Represents the value of a cell containing a \#N/A error.
+Represents the value of a cell containing a #N/A error.
 
 ### NAME {#NAME}
+
 ```
 public static final int NAME
 ```
 
-
-Represents the value of a cell containing a \#NAME? error.
+Represents the value of a cell containing a #NAME? error.
 
 ### REF {#REF}
+
 ```
 public static final int REF
 ```
 
-
-Represents the value of a cell containing a \#REF! error.
+Represents the value of a cell containing a #REF! error.
 
 ### SPILL {#SPILL}
+
 ```
 public static final int SPILL
 ```
 
-
-Represents the value of a cell containing a \#SPILL! error.
+Represents the value of a cell containing a #SPILL! error.
 
 ### TIME_OUT {#TIME-OUT}
+
 ```
 public static final int TIME_OUT
 ```
 
-
-Represents the value of a cell containing a \#TIMEOUT! error.
+Represents the value of a cell containing a #TIMEOUT! error.
 
 ### UNKNOWN {#UNKNOWN}
+
 ```
 public static final int UNKNOWN
 ```
 
-
-Represents the value of a cell containing a \#UNKNOWN! error.
+Represents the value of a cell containing a #UNKNOWN! error.
 
 ### VALUE {#VALUE}
+
 ```
 public static final int VALUE
 ```
 
-
-Represents the value of a cell containing a \#VALUE! error.
+Represents the value of a cell containing a #VALUE! error.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
+
 ```
 public boolean equals(Object arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
 **Returns:**
 boolean
+
 ### getClass() {#getClass--}
+
 ```
 public final native Class<?> getClass()
 ```
 
-
-
-
 **Returns:**
-java.lang.Class<?>
+java.lang.Class
+
 ### hashCode() {#hashCode--}
+
 ```
 public native int hashCode()
 ```
 
-
-
-
 **Returns:**
 int
+
 ### notify() {#notify--}
+
 ```
 public final native void notify()
 ```
 
-
-
-
 ### notifyAll() {#notifyAll--}
+
 ```
 public final native void notifyAll()
 ```
 
-
-
-
 ### toString() {#toString--}
+
 ```
 public String toString()
 ```
 
-
-
-
 **Returns:**
 java.lang.String
+
 ### wait() {#wait--}
+
 ```
 public final void wait()
 ```
 
-
-
-
 ### wait(long arg0) {#wait-long-}
+
 ```
 public final native void wait(long arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
 ### wait(long arg0, int arg1) {#wait-long-int-}
+
 ```
 public final void wait(long arg0, int arg1)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

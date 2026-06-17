@@ -1,25 +1,30 @@
 ---
-title: EquationDelimiterShapeType
-second_title: Aspose.Cells for Java API Reference
-description: This specifies the shape of delimiters in the delimiter object.
+title: "EquationDelimiterShapeType"
+second_title: "Aspose.Cells for Java API Reference"
+description: "This specifies the shape of delimiters in the delimiter object."
 type: docs
-url: /java/com.aspose.cells/equationdelimitershapetype/
+url: "/java/com.aspose.cells/equationdelimitershapetype/"
+source_url: "https://reference.aspose.com/cells/java/com.aspose.cells/equationdelimitershapetype/"
+generated_from: "online-reference"
+fetched_at: "2026-06-16T11:49:53+00:00"
 ---
-
 **Inheritance:**
 java.lang.Object
+
 ```
 public final class EquationDelimiterShapeType
 ```
 
 This specifies the shape of delimiters in the delimiter object.
-## Fields
+
+## Fields {#fields}
 
 | Field | Description |
 | --- | --- |
 | [CENTERED](#CENTERED) | The divider is centered around the entire height of its content. |
-| [MATCH](#MATCH) | The divider is altered to exactly match their contents' height. |
-## Methods
+| [MATCH](#MATCH) | The divider is altered to exactly match their contents’ height. |
+
+## Methods {#methods}
 
 | Method | Description |
 | --- | --- |
@@ -32,115 +37,104 @@ This specifies the shape of delimiters in the delimiter object.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+
 ### CENTERED {#CENTERED}
+
 ```
 public static final int CENTERED
 ```
 
-
 The divider is centered around the entire height of its content.
 
 ### MATCH {#MATCH}
+
 ```
 public static final int MATCH
 ```
 
-
-The divider is altered to exactly match their contents' height.
+The divider is altered to exactly match their contents’ height.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
+
 ```
 public boolean equals(Object arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
 **Returns:**
 boolean
+
 ### getClass() {#getClass--}
+
 ```
 public final native Class<?> getClass()
 ```
 
-
-
-
 **Returns:**
-java.lang.Class<?>
+java.lang.Class
+
 ### hashCode() {#hashCode--}
+
 ```
 public native int hashCode()
 ```
 
-
-
-
 **Returns:**
 int
+
 ### notify() {#notify--}
+
 ```
 public final native void notify()
 ```
 
-
-
-
 ### notifyAll() {#notifyAll--}
+
 ```
 public final native void notifyAll()
 ```
 
-
-
-
 ### toString() {#toString--}
+
 ```
 public String toString()
 ```
 
-
-
-
 **Returns:**
 java.lang.String
+
 ### wait() {#wait--}
+
 ```
 public final void wait()
 ```
 
-
-
-
 ### wait(long arg0) {#wait-long-}
+
 ```
 public final native void wait(long arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
 ### wait(long arg0, int arg1) {#wait-long-int-}
+
 ```
 public final void wait(long arg0, int arg1)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

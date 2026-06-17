@@ -1,13 +1,16 @@
 ---
-title: CellEventHandler
-second_title: Aspose.Cells for Java API Reference
-description: Represents the interface that intend to handle cell events.
+title: "CellEventHandler"
+second_title: "Aspose.Cells for Java API Reference"
+description: "Represents the interface that intend to handle cell events."
 type: docs
-url: /java/com.aspose.gridweb/celleventhandler/
+url: "/java/com.aspose.gridweb/celleventhandler/"
+source_url: "https://reference.aspose.com/cells/java/com.aspose.gridweb/celleventhandler/"
+generated_from: "online-reference"
+fetched_at: "2026-06-16T11:58:04+00:00"
 ---
-
 **All Implemented Interfaces:**
 java.io.Serializable
+
 ```
 public interface CellEventHandler extends Serializable
 ```
@@ -46,22 +49,24 @@ Represents the interface that intend to handle cell events.
          GridWebBean gridweb=ExtPage.getInstance().getBean();
          gridweb.CellCommand = new SortEventHandler();
 ```
-## Methods
+
+## Methods {#methods}
 
 | Method | Description |
 | --- | --- |
 | [handleCellEvent(Object sender, CellEventArgs e)](#handleCellEvent-java.lang.Object-com.aspose.gridweb.CellEventArgs-) | handle the related Cell Event. |
+
 ### handleCellEvent(Object sender, CellEventArgs e) {#handleCellEvent-java.lang.Object-com.aspose.gridweb.CellEventArgs-}
+
 ```
 public abstract void handleCellEvent(Object sender, CellEventArgs e)
 ```
 
-
 handle the related Cell Event.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
-| sender | java.lang.Object | The source grid of the event. If the event if fired by a child grid's cell in hierarchical displaying mode, the sender parameter represents the child grid object. |
+| sender | java.lang.Object | The source grid of the event. If the event if fired by a child grid’s cell in hierarchical displaying mode, the sender parameter represents the child grid object. |
 | e | [CellEventArgs](../../com.aspose.gridweb/celleventargs) | The event argument. The e.Cell is the cell who fires the event. The e.Argument contains the argument of the event. |
-

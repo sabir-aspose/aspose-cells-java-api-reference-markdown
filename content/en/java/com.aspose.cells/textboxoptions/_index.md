@@ -1,13 +1,16 @@
 ---
-title: TextBoxOptions
-second_title: Aspose.Cells for Java API Reference
-description: Represents the text options of the shape
+title: "TextBoxOptions"
+second_title: "Aspose.Cells for Java API Reference"
+description: "Represents the text options of the shape"
 type: docs
-url: /java/com.aspose.cells/textboxoptions/
+url: "/java/com.aspose.cells/textboxoptions/"
+source_url: "https://reference.aspose.com/cells/java/com.aspose.cells/textboxoptions/"
+generated_from: "online-reference"
+fetched_at: "2026-06-16T11:56:25+00:00"
 ---
-
 **Inheritance:**
 java.lang.Object
+
 ```
 public class TextBoxOptions
 ```
@@ -28,7 +31,8 @@ Represents the text options of the shape
          //Save the excel file.
          workbook.save("exmaple.xlsx");
 ```
-## Methods
+
+## Methods {#methods}
 
 | Method | Description |
 | --- | --- |
@@ -40,7 +44,7 @@ Represents the text options of the shape
 | [getResizeToFitText()](#getResizeToFitText--) | Indicates whether to resize the shape to fit the text |
 | [getRightMarginPt()](#getRightMarginPt--) | Gets the right margin in unit of Points. |
 | [getShapeTextDirection()](#getShapeTextDirection--) | Gets the text display direction within a given text body. |
-| [getShapeTextVerticalAlignment()](#getShapeTextVerticalAlignment--) | It corresponds to "Format Shape - Text Options - Text Box - Vertical Alignment" in Excel. |
+| [getShapeTextVerticalAlignment()](#getShapeTextVerticalAlignment--) | It corresponds to “Format Shape - Text Options - Text Box - Vertical Alignment” in Excel. |
 | [getTopMarginPt()](#getTopMarginPt--) | Gets the top margin in unit of Points. |
 | [getWrapTextInShape()](#getWrapTextInShape--) | Specifies text wrapping within a shape. |
 | [hashCode()](#hashCode--) |  |
@@ -52,33 +56,34 @@ Represents the text options of the shape
 | [setResizeToFitText(boolean value)](#setResizeToFitText-boolean-) | Indicates whether to resize the shape to fit the text |
 | [setRightMarginPt(double value)](#setRightMarginPt-double-) | Sets the right margin in unit of Points. |
 | [setShapeTextDirection(int value)](#setShapeTextDirection-int-) | Sets the text display direction within a given text body. |
-| [setShapeTextVerticalAlignment(int value)](#setShapeTextVerticalAlignment-int-) | It corresponds to "Format Shape - Text Options - Text Box - Vertical Alignment" in Excel. |
+| [setShapeTextVerticalAlignment(int value)](#setShapeTextVerticalAlignment-int-) | It corresponds to “Format Shape - Text Options - Text Box - Vertical Alignment” in Excel. |
 | [setTopMarginPt(double value)](#setTopMarginPt-double-) | Sets the top margin in unit of Points. |
 | [setWrapTextInShape(boolean value)](#setWrapTextInShape-boolean-) | Specifies text wrapping within a shape. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+
 ### equals(Object arg0) {#equals-java.lang.Object-}
+
 ```
 public boolean equals(Object arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
 **Returns:**
 boolean
+
 ### getAllowTextToOverflow() {#getAllowTextToOverflow--}
+
 ```
 public boolean getAllowTextToOverflow()
 ```
-
 
 Whether allow text to overflow shape.
 
@@ -90,11 +95,12 @@ Whether allow text to overflow shape.
 
 **Returns:**
 boolean
+
 ### getBottomMarginPt() {#getBottomMarginPt--}
+
 ```
 public double getBottomMarginPt()
 ```
-
 
 Returns the bottom margin in unit of Points
 
@@ -106,21 +112,21 @@ Returns the bottom margin in unit of Points
 
 **Returns:**
 double
+
 ### getClass() {#getClass--}
+
 ```
 public final native Class<?> getClass()
 ```
 
-
-
-
 **Returns:**
-java.lang.Class<?>
+java.lang.Class
+
 ### getLeftMarginPt() {#getLeftMarginPt--}
+
 ```
 public double getLeftMarginPt()
 ```
-
 
 Gets the left margin in unit of Points.
 
@@ -132,11 +138,12 @@ Gets the left margin in unit of Points.
 
 **Returns:**
 double
+
 ### getResizeToFitText() {#getResizeToFitText--}
+
 ```
 public boolean getResizeToFitText()
 ```
-
 
 Indicates whether to resize the shape to fit the text
 
@@ -148,11 +155,12 @@ Indicates whether to resize the shape to fit the text
 
 **Returns:**
 boolean
+
 ### getRightMarginPt() {#getRightMarginPt--}
+
 ```
 public double getRightMarginPt()
 ```
-
 
 Gets the right margin in unit of Points.
 
@@ -164,13 +172,14 @@ Gets the right margin in unit of Points.
 
 **Returns:**
 double
+
 ### getShapeTextDirection() {#getShapeTextDirection--}
+
 ```
 public int getShapeTextDirection()
 ```
 
-
-Gets the text display direction within a given text body. It corresponds to "Format Shape - Text Options - Text Box - Text direction" in Excel
+Gets the text display direction within a given text body. It corresponds to “Format Shape - Text Options - Text Box - Text direction” in Excel
 
 See [TextVerticalType](../../com.aspose.cells/textverticaltype).
 
@@ -182,13 +191,14 @@ See [TextVerticalType](../../com.aspose.cells/textverticaltype).
 
 **Returns:**
 int
+
 ### getShapeTextVerticalAlignment() {#getShapeTextVerticalAlignment--}
+
 ```
 public int getShapeTextVerticalAlignment()
 ```
 
-
-It corresponds to "Format Shape - Text Options - Text Box - Vertical Alignment" in Excel.
+It corresponds to “Format Shape - Text Options - Text Box - Vertical Alignment” in Excel.
 
 See [ShapeTextVerticalAlignmentType](../../com.aspose.cells/shapetextverticalalignmenttype).
 
@@ -200,11 +210,12 @@ See [ShapeTextVerticalAlignmentType](../../com.aspose.cells/shapetextverticalali
 
 **Returns:**
 int
+
 ### getTopMarginPt() {#getTopMarginPt--}
+
 ```
 public double getTopMarginPt()
 ```
-
 
 Gets the top margin in unit of Points.
 
@@ -216,11 +227,12 @@ Gets the top margin in unit of Points.
 
 **Returns:**
 double
+
 ### getWrapTextInShape() {#getWrapTextInShape--}
+
 ```
 public boolean getWrapTextInShape()
 ```
-
 
 Specifies text wrapping within a shape. False - No wrapping will occur on text body. True - Wrapping will occur on text body.
 
@@ -232,195 +244,194 @@ Specifies text wrapping within a shape. False - No wrapping will occur on text b
 
 **Returns:**
 boolean
+
 ### hashCode() {#hashCode--}
+
 ```
 public native int hashCode()
 ```
 
-
-
-
 **Returns:**
 int
+
 ### notify() {#notify--}
+
 ```
 public final native void notify()
 ```
 
-
-
-
 ### notifyAll() {#notifyAll--}
+
 ```
 public final native void notifyAll()
 ```
 
-
-
-
 ### setAllowTextToOverflow(boolean value) {#setAllowTextToOverflow-boolean-}
+
 ```
 public void setAllowTextToOverflow(boolean value)
 ```
 
-
 Whether allow text to overflow shape.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
 ### setBottomMarginPt(double value) {#setBottomMarginPt-double-}
+
 ```
 public void setBottomMarginPt(double value)
 ```
 
-
 Returns the bottom margin in unit of Points
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | double |  |
 
 ### setLeftMarginPt(double value) {#setLeftMarginPt-double-}
+
 ```
 public void setLeftMarginPt(double value)
 ```
 
-
 Sets the left margin in unit of Points.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | double |  |
 
 ### setResizeToFitText(boolean value) {#setResizeToFitText-boolean-}
+
 ```
 public void setResizeToFitText(boolean value)
 ```
 
-
 Indicates whether to resize the shape to fit the text
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
 ### setRightMarginPt(double value) {#setRightMarginPt-double-}
+
 ```
 public void setRightMarginPt(double value)
 ```
 
-
 Sets the right margin in unit of Points.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | double |  |
 
 ### setShapeTextDirection(int value) {#setShapeTextDirection-int-}
+
 ```
 public void setShapeTextDirection(int value)
 ```
 
-
-Sets the text display direction within a given text body. It corresponds to "Format Shape - Text Options - Text Box - Text direction" in Excel
+Sets the text display direction within a given text body. It corresponds to “Format Shape - Text Options - Text Box - Text direction” in Excel
 
 See [TextVerticalType](../../com.aspose.cells/textverticaltype).
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
 
 ### setShapeTextVerticalAlignment(int value) {#setShapeTextVerticalAlignment-int-}
+
 ```
 public void setShapeTextVerticalAlignment(int value)
 ```
 
-
-It corresponds to "Format Shape - Text Options - Text Box - Vertical Alignment" in Excel.
+It corresponds to “Format Shape - Text Options - Text Box - Vertical Alignment” in Excel.
 
 See [ShapeTextVerticalAlignmentType](../../com.aspose.cells/shapetextverticalalignmenttype).
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
 
 ### setTopMarginPt(double value) {#setTopMarginPt-double-}
+
 ```
 public void setTopMarginPt(double value)
 ```
 
-
 Sets the top margin in unit of Points.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | double |  |
 
 ### setWrapTextInShape(boolean value) {#setWrapTextInShape-boolean-}
+
 ```
 public void setWrapTextInShape(boolean value)
 ```
 
-
 Specifies text wrapping within a shape. False - No wrapping will occur on text body. True - Wrapping will occur on text body.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
 ### toString() {#toString--}
+
 ```
 public String toString()
 ```
 
-
-
-
 **Returns:**
 java.lang.String
+
 ### wait() {#wait--}
+
 ```
 public final void wait()
 ```
 
-
-
-
 ### wait(long arg0) {#wait-long-}
+
 ```
 public final native void wait(long arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
 ### wait(long arg0, int arg1) {#wait-long-int-}
+
 ```
 public final void wait(long arg0, int arg1)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

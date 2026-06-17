@@ -1,24 +1,29 @@
 ---
-title: SheetPrintingPreview
-second_title: Aspose.Cells for Java API Reference
-description: Worksheet printing preview.
+title: "SheetPrintingPreview"
+second_title: "Aspose.Cells for Java API Reference"
+description: "Worksheet printing preview."
 type: docs
-url: /java/com.aspose.cells/sheetprintingpreview/
+url: "/java/com.aspose.cells/sheetprintingpreview/"
+source_url: "https://reference.aspose.com/cells/java/com.aspose.cells/sheetprintingpreview/"
+generated_from: "online-reference"
+fetched_at: "2026-06-16T11:55:31+00:00"
 ---
-
 **Inheritance:**
 java.lang.Object
+
 ```
 public class SheetPrintingPreview
 ```
 
 Worksheet printing preview.
-## Constructors
+
+## Constructors {#constructors}
 
 | Constructor | Description |
 | --- | --- |
 | [SheetPrintingPreview(Worksheet sheet, ImageOrPrintOptions options)](#SheetPrintingPreview-com.aspose.cells.Worksheet-com.aspose.cells.ImageOrPrintOptions-) | The construct of SheetPrintingPreview |
-## Methods
+
+## Methods {#methods}
 
 | Method | Description |
 | --- | --- |
@@ -32,50 +37,51 @@ Worksheet printing preview.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+
 ### SheetPrintingPreview(Worksheet sheet, ImageOrPrintOptions options) {#SheetPrintingPreview-com.aspose.cells.Worksheet-com.aspose.cells.ImageOrPrintOptions-}
+
 ```
 public SheetPrintingPreview(Worksheet sheet, ImageOrPrintOptions options)
 ```
 
-
 The construct of SheetPrintingPreview
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | sheet | [Worksheet](../../com.aspose.cells/worksheet) | Indicate which spreadsheet to be printed. |
 | options | [ImageOrPrintOptions](../../com.aspose.cells/imageorprintoptions) | ImageOrPrintOptions contains some property of output |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
+
 ```
 public boolean equals(Object arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
 **Returns:**
 boolean
+
 ### getClass() {#getClass--}
+
 ```
 public final native Class<?> getClass()
 ```
 
-
-
-
 **Returns:**
-java.lang.Class<?>
+java.lang.Class
+
 ### getEvaluatedPageCount() {#getEvaluatedPageCount--}
+
 ```
 public int getEvaluatedPageCount()
 ```
-
 
 Evaluate the total page count of this worksheet
 
@@ -94,74 +100,64 @@ The following code shows the fastest way to get page count of a worksheet.
 
 **Returns:**
 int
+
 ### hashCode() {#hashCode--}
+
 ```
 public native int hashCode()
 ```
 
-
-
-
 **Returns:**
 int
+
 ### notify() {#notify--}
+
 ```
 public final native void notify()
 ```
 
-
-
-
 ### notifyAll() {#notifyAll--}
+
 ```
 public final native void notifyAll()
 ```
 
-
-
-
 ### toString() {#toString--}
+
 ```
 public String toString()
 ```
 
-
-
-
 **Returns:**
 java.lang.String
+
 ### wait() {#wait--}
+
 ```
 public final void wait()
 ```
 
-
-
-
 ### wait(long arg0) {#wait-long-}
+
 ```
 public final native void wait(long arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
 ### wait(long arg0, int arg1) {#wait-long-int-}
+
 ```
 public final void wait(long arg0, int arg1)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

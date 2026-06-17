@@ -1,25 +1,30 @@
 ---
-title: SlideViewType
-second_title: Aspose.Cells for Java API Reference
-description: Represents the type when exporting to slides.
+title: "SlideViewType"
+second_title: "Aspose.Cells for Java API Reference"
+description: "Represents the type when exporting to slides."
 type: docs
-url: /java/com.aspose.cells/slideviewtype/
+url: "/java/com.aspose.cells/slideviewtype/"
+source_url: "https://reference.aspose.com/cells/java/com.aspose.cells/slideviewtype/"
+generated_from: "online-reference"
+fetched_at: "2026-06-16T11:55:43+00:00"
 ---
-
 **Inheritance:**
 java.lang.Object
+
 ```
 public final class SlideViewType
 ```
 
 Represents the type when exporting to slides.
-## Fields
+
+## Fields {#fields}
 
 | Field | Description |
 | --- | --- |
 | [PRINT](#PRINT) | Exporting as printing. |
 | [VIEW](#VIEW) | Exporting as view in MS Excel. |
-## Methods
+
+## Methods {#methods}
 
 | Method | Description |
 | --- | --- |
@@ -32,115 +37,104 @@ Represents the type when exporting to slides.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+
 ### PRINT {#PRINT}
+
 ```
 public static final int PRINT
 ```
 
-
 Exporting as printing.
 
 ### VIEW {#VIEW}
+
 ```
 public static final int VIEW
 ```
 
-
 Exporting as view in MS Excel.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
+
 ```
 public boolean equals(Object arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
 **Returns:**
 boolean
+
 ### getClass() {#getClass--}
+
 ```
 public final native Class<?> getClass()
 ```
 
-
-
-
 **Returns:**
-java.lang.Class<?>
+java.lang.Class
+
 ### hashCode() {#hashCode--}
+
 ```
 public native int hashCode()
 ```
 
-
-
-
 **Returns:**
 int
+
 ### notify() {#notify--}
+
 ```
 public final native void notify()
 ```
 
-
-
-
 ### notifyAll() {#notifyAll--}
+
 ```
 public final native void notifyAll()
 ```
 
-
-
-
 ### toString() {#toString--}
+
 ```
 public String toString()
 ```
 
-
-
-
 **Returns:**
 java.lang.String
+
 ### wait() {#wait--}
+
 ```
 public final void wait()
 ```
 
-
-
-
 ### wait(long arg0) {#wait-long-}
+
 ```
 public final native void wait(long arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
 ### wait(long arg0, int arg1) {#wait-long-int-}
+
 ```
 public final void wait(long arg0, int arg1)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

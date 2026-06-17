@@ -1,19 +1,23 @@
 ---
-title: FontUnderlineType
-second_title: Aspose.Cells for Java API Reference
-description: Enumerates the font underline types.
+title: "FontUnderlineType"
+second_title: "Aspose.Cells for Java API Reference"
+description: "Enumerates the font underline types."
 type: docs
-url: /java/com.aspose.cells/fontunderlinetype/
+url: "/java/com.aspose.cells/fontunderlinetype/"
+source_url: "https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype/"
+generated_from: "online-reference"
+fetched_at: "2026-06-16T11:50:28+00:00"
 ---
-
 **Inheritance:**
 java.lang.Object
+
 ```
 public final class FontUnderlineType
 ```
 
 Enumerates the font underline types.
-## Fields
+
+## Fields {#fields}
 
 | Field | Description |
 | --- | --- |
@@ -37,7 +41,8 @@ Enumerates the font underline types.
 | [WAVY_DOUBLE](#WAVY-DOUBLE) | Represents Double Wave Underline |
 | [WAVY_HEAVY](#WAVY-HEAVY) | Represents Heavy Wave Underline |
 | [WORDS](#WORDS) | Represents Underline Non-Space Characters. |
-## Methods
+
+## Methods {#methods}
 
 | Method | Description |
 | --- | --- |
@@ -50,19 +55,20 @@ Enumerates the font underline types.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+
 ### ACCOUNTING {#ACCOUNTING}
+
 ```
 public static final int ACCOUNTING
 ```
 
-
 Represents single accounting underline.
 
 ### DASH {#DASH}
+
 ```
 public static final int DASH
 ```
-
 
 Represents Dashed Underline
 
@@ -71,10 +77,10 @@ Represents Dashed Underline
 Only can be applied to chart and shape.
 
 ### DASHED_HEAVY {#DASHED-HEAVY}
+
 ```
 public static final int DASHED_HEAVY
 ```
-
 
 Represents Thick Dashed Underline
 
@@ -83,10 +89,10 @@ Represents Thick Dashed Underline
 Only can be applied to chart and shape.
 
 ### DASH_DOT_DOT_HEAVY {#DASH-DOT-DOT-HEAVY}
+
 ```
 public static final int DASH_DOT_DOT_HEAVY
 ```
-
 
 Represents Thick Dash-Dot-Dot Underline
 
@@ -95,10 +101,10 @@ Represents Thick Dash-Dot-Dot Underline
 Only can be applied to chart and shape.
 
 ### DASH_DOT_HEAVY {#DASH-DOT-HEAVY}
+
 ```
 public static final int DASH_DOT_HEAVY
 ```
-
 
 Represents Thick Dash-Dot Underline
 
@@ -107,10 +113,10 @@ Represents Thick Dash-Dot Underline
 Only can be applied to chart and shape.
 
 ### DASH_LONG {#DASH-LONG}
+
 ```
 public static final int DASH_LONG
 ```
-
 
 Represents Long Dashed Underline
 
@@ -119,10 +125,10 @@ Represents Long Dashed Underline
 Only can be applied to chart and shape.
 
 ### DASH_LONG_HEAVY {#DASH-LONG-HEAVY}
+
 ```
 public static final int DASH_LONG_HEAVY
 ```
-
 
 Represents Thick Long Dashed Underline
 
@@ -131,10 +137,10 @@ Represents Thick Long Dashed Underline
 Only can be applied to chart and shape.
 
 ### DOTTED {#DOTTED}
+
 ```
 public static final int DOTTED
 ```
-
 
 Represents Dotted Underline
 
@@ -143,10 +149,10 @@ Represents Dotted Underline
 Only can be applied to chart and shape.
 
 ### DOTTED_HEAVY {#DOTTED-HEAVY}
+
 ```
 public static final int DOTTED_HEAVY
 ```
-
 
 Represents Thick Dotted Underline
 
@@ -155,10 +161,10 @@ Represents Thick Dotted Underline
 Only can be applied to chart and shape.
 
 ### DOT_DASH {#DOT-DASH}
+
 ```
 public static final int DOT_DASH
 ```
-
 
 Represents Dash-Dot Underline
 
@@ -167,10 +173,10 @@ Represents Dash-Dot Underline
 Only can be applied to chart and shape.
 
 ### DOT_DOT_DASH {#DOT-DOT-DASH}
+
 ```
 public static final int DOT_DOT_DASH
 ```
-
 
 Represents Dash-Dot-Dot Underline
 
@@ -179,26 +185,26 @@ Represents Dash-Dot-Dot Underline
 Only can be applied to chart and shape.
 
 ### DOUBLE {#DOUBLE}
+
 ```
 public static final int DOUBLE
 ```
 
-
 Represents double underline.
 
 ### DOUBLE_ACCOUNTING {#DOUBLE-ACCOUNTING}
+
 ```
 public static final int DOUBLE_ACCOUNTING
 ```
 
-
 Represents double accounting underline.
 
 ### HEAVY {#HEAVY}
+
 ```
 public static final int HEAVY
 ```
-
 
 Represents Thick Underline
 
@@ -207,26 +213,26 @@ Represents Thick Underline
 Only can be applied to chart and shape.
 
 ### NONE {#NONE}
+
 ```
 public static final int NONE
 ```
 
-
 Represents no underline.
 
 ### SINGLE {#SINGLE}
+
 ```
 public static final int SINGLE
 ```
 
-
 Represents single underline.
 
 ### WAVE {#WAVE}
+
 ```
 public static final int WAVE
 ```
-
 
 Represents Wave Underline
 
@@ -235,10 +241,10 @@ Represents Wave Underline
 Only can be applied to chart and shape.
 
 ### WAVY_DOUBLE {#WAVY-DOUBLE}
+
 ```
 public static final int WAVY_DOUBLE
 ```
-
 
 Represents Double Wave Underline
 
@@ -247,10 +253,10 @@ Represents Double Wave Underline
 Only can be applied to chart and shape.
 
 ### WAVY_HEAVY {#WAVY-HEAVY}
+
 ```
 public static final int WAVY_HEAVY
 ```
-
 
 Represents Heavy Wave Underline
 
@@ -259,10 +265,10 @@ Represents Heavy Wave Underline
 Only can be applied to chart and shape.
 
 ### WORDS {#WORDS}
+
 ```
 public static final int WORDS
 ```
-
 
 Represents Underline Non-Space Characters.
 
@@ -271,98 +277,86 @@ Represents Underline Non-Space Characters.
 Only can be applied to chart and shape.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
+
 ```
 public boolean equals(Object arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
 **Returns:**
 boolean
+
 ### getClass() {#getClass--}
+
 ```
 public final native Class<?> getClass()
 ```
 
-
-
-
 **Returns:**
-java.lang.Class<?>
+java.lang.Class
+
 ### hashCode() {#hashCode--}
+
 ```
 public native int hashCode()
 ```
 
-
-
-
 **Returns:**
 int
+
 ### notify() {#notify--}
+
 ```
 public final native void notify()
 ```
 
-
-
-
 ### notifyAll() {#notifyAll--}
+
 ```
 public final native void notifyAll()
 ```
 
-
-
-
 ### toString() {#toString--}
+
 ```
 public String toString()
 ```
 
-
-
-
 **Returns:**
 java.lang.String
+
 ### wait() {#wait--}
+
 ```
 public final void wait()
 ```
 
-
-
-
 ### wait(long arg0) {#wait-long-}
+
 ```
 public final native void wait(long arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
 ### wait(long arg0, int arg1) {#wait-long-int-}
+
 ```
 public final void wait(long arg0, int arg1)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

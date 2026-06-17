@@ -1,160 +1,164 @@
 ---
-title: SlicerCacheItem
-second_title: Aspose.Cells for Java API Reference
-description: Represent slicer data source item
+title: "SlicerCacheItem"
+second_title: "Aspose.Cells for Java API Reference"
+description: "Represent slicer data source item"
 type: docs
-url: /java/com.aspose.cells/slicercacheitem/
+url: "/java/com.aspose.cells/slicercacheitem/"
+source_url: "https://reference.aspose.com/cells/java/com.aspose.cells/slicercacheitem/"
+generated_from: "online-reference"
+fetched_at: "2026-06-16T11:55:40+00:00"
 ---
-
 **Inheritance:**
 java.lang.Object
+
 ```
 public class SlicerCacheItem
 ```
 
 Represent slicer data source item
-## Methods
+
+## Methods {#methods}
 
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getSelected()](#getSelected--) | Specifies whether the SlicerItem is selected or not. |
+| [getSelected()](#getSelected--) | Specifies whether the [SlicerCacheItem](../../com.aspose.cells/slicercacheitem) is selected or not. |
 | [getValue()](#getValue--) | Returns the label text for the slicer item. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setSelected(boolean value)](#setSelected-boolean-) | Specifies whether the SlicerItem is selected or not. |
+| [setSelected(boolean value)](#setSelected-boolean-) | Specifies whether the [SlicerCacheItem](../../com.aspose.cells/slicercacheitem) is selected or not. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+
 ### equals(Object arg0) {#equals-java.lang.Object-}
+
 ```
 public boolean equals(Object arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
 **Returns:**
 boolean
+
 ### getClass() {#getClass--}
+
 ```
 public final native Class<?> getClass()
 ```
 
-
-
-
 **Returns:**
-java.lang.Class<?>
+java.lang.Class
+
 ### getSelected() {#getSelected--}
+
 ```
 public boolean getSelected()
 ```
 
+Specifies whether the [SlicerCacheItem](../../com.aspose.cells/slicercacheitem) is selected or not.
 
-Specifies whether the SlicerItem is selected or not.
+**Remarks**
+
+Please use [Slicer.selectItems(String[],boolean)](../../com.aspose.cells/slicer#selectItems-String---boolean-) method instead if you want to select item. Because this refresh operation causes poor performance due to full data reload every time selection changes.
 
 **Returns:**
 boolean
+
 ### getValue() {#getValue--}
+
 ```
 public String getValue()
 ```
-
 
 Returns the label text for the slicer item.
 
 **Returns:**
 java.lang.String
+
 ### hashCode() {#hashCode--}
+
 ```
 public native int hashCode()
 ```
 
-
-
-
 **Returns:**
 int
+
 ### notify() {#notify--}
+
 ```
 public final native void notify()
 ```
 
-
-
-
 ### notifyAll() {#notifyAll--}
+
 ```
 public final native void notifyAll()
 ```
 
-
-
-
 ### setSelected(boolean value) {#setSelected-boolean-}
+
 ```
 public void setSelected(boolean value)
 ```
 
+Specifies whether the [SlicerCacheItem](../../com.aspose.cells/slicercacheitem) is selected or not.
 
-Specifies whether the SlicerItem is selected or not.
+**Remarks**
+
+Please use [Slicer.selectItems(String[],boolean)](../../com.aspose.cells/slicer#selectItems-String---boolean-) method instead if you want to select item. Because this refresh operation causes poor performance due to full data reload every time selection changes.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
 ### toString() {#toString--}
+
 ```
 public String toString()
 ```
 
-
-
-
 **Returns:**
 java.lang.String
+
 ### wait() {#wait--}
+
 ```
 public final void wait()
 ```
 
-
-
-
 ### wait(long arg0) {#wait-long-}
+
 ```
 public final native void wait(long arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
 ### wait(long arg0, int arg1) {#wait-long-int-}
+
 ```
 public final void wait(long arg0, int arg1)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

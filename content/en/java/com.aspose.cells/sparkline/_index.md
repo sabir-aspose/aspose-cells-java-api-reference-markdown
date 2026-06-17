@@ -1,13 +1,16 @@
 ---
-title: Sparkline
-second_title: Aspose.Cells for Java API Reference
-description: A sparkline represents a tiny chart or graphic in a worksheet cell that provides a visual representation of data.
+title: "Sparkline"
+second_title: "Aspose.Cells for Java API Reference"
+description: "A sparkline represents a tiny chart or graphic in a worksheet cell that provides a visual representation of data."
 type: docs
-url: /java/com.aspose.cells/sparkline/
+url: "/java/com.aspose.cells/sparkline/"
+source_url: "https://reference.aspose.com/cells/java/com.aspose.cells/sparkline/"
+generated_from: "online-reference"
+fetched_at: "2026-06-16T11:55:52+00:00"
 ---
-
 **Inheritance:**
 java.lang.Object
+
 ```
 public class Sparkline
 ```
@@ -40,7 +43,8 @@ A sparkline represents a tiny chart or graphic in a worksheet cell that provides
          System.out.println("Saprkline data range: " + line.getDataRange() + ", row: " + line.getRow() + ", column: " + line.getColumn());
          line.toImage("output.png", new ImageOrPrintOptions());
 ```
-## Methods
+
+## Methods {#methods}
 
 | Method | Description |
 | --- | --- |
@@ -59,170 +63,165 @@ A sparkline represents a tiny chart or graphic in a worksheet cell that provides
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+
 ### equals(Object arg0) {#equals-java.lang.Object-}
+
 ```
 public boolean equals(Object arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
 **Returns:**
 boolean
+
 ### getClass() {#getClass--}
+
 ```
 public final native Class<?> getClass()
 ```
 
-
-
-
 **Returns:**
-java.lang.Class<?>
+java.lang.Class
+
 ### getColumn() {#getColumn--}
+
 ```
 public int getColumn()
 ```
-
 
 Gets the column index of the sparkline.
 
 **Returns:**
 int
+
 ### getDataRange() {#getDataRange--}
+
 ```
 public String getDataRange()
 ```
-
 
 Represents the data range of the sparkline.
 
 **Returns:**
 java.lang.String
+
 ### getRow() {#getRow--}
+
 ```
 public int getRow()
 ```
-
 
 Gets the row index of the sparkline.
 
 **Returns:**
 int
+
 ### hashCode() {#hashCode--}
+
 ```
 public native int hashCode()
 ```
 
-
-
-
 **Returns:**
 int
+
 ### notify() {#notify--}
+
 ```
 public final native void notify()
 ```
 
-
-
-
 ### notifyAll() {#notifyAll--}
+
 ```
 public final native void notifyAll()
 ```
 
-
-
-
 ### setDataRange(String value) {#setDataRange-java.lang.String-}
+
 ```
 public void setDataRange(String value)
 ```
 
-
 Represents the data range of the sparkline.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String |  |
 
 ### toImage(OutputStream stream, ImageOrPrintOptions options) {#toImage-java.io.OutputStream-com.aspose.cells.ImageOrPrintOptions-}
+
 ```
 public void toImage(OutputStream stream, ImageOrPrintOptions options)
 ```
 
-
 Converts a sparkline to an image.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | stream | java.io.OutputStream | The image stream. |
 | options | [ImageOrPrintOptions](../../com.aspose.cells/imageorprintoptions) | The image options. |
 
 ### toImage(String fileName, ImageOrPrintOptions options) {#toImage-java.lang.String-com.aspose.cells.ImageOrPrintOptions-}
+
 ```
 public void toImage(String fileName, ImageOrPrintOptions options)
 ```
 
-
 Converts a sparkline to an image.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fileName | java.lang.String | The image file name. |
 | options | [ImageOrPrintOptions](../../com.aspose.cells/imageorprintoptions) | The image options |
 
 ### toString() {#toString--}
+
 ```
 public String toString()
 ```
 
-
-
-
 **Returns:**
 java.lang.String
+
 ### wait() {#wait--}
+
 ```
 public final void wait()
 ```
 
-
-
-
 ### wait(long arg0) {#wait-long-}
+
 ```
 public final native void wait(long arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
 ### wait(long arg0, int arg1) {#wait-long-int-}
+
 ```
 public final void wait(long arg0, int arg1)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

@@ -1,28 +1,33 @@
 ---
-title: ColorType
-second_title: Aspose.Cells for Java API Reference
-description: Represents all color type
+title: "ColorType"
+second_title: "Aspose.Cells for Java API Reference"
+description: "Represents all color type"
 type: docs
-url: /java/com.aspose.cells/colortype/
+url: "/java/com.aspose.cells/colortype/"
+source_url: "https://reference.aspose.com/cells/java/com.aspose.cells/colortype/"
+generated_from: "online-reference"
+fetched_at: "2026-06-16T11:48:38+00:00"
 ---
-
 **Inheritance:**
 java.lang.Object
+
 ```
 public final class ColorType
 ```
 
 Represents all color type
-## Fields
+
+## Fields {#fields}
 
 | Field | Description |
 | --- | --- |
 | [AUTOMATIC](#AUTOMATIC) | Automatic color. |
-| [AUTOMATIC_INDEX](#AUTOMATIC-INDEX) | It's automatic color,but the displayed color depends the setting of the OS System. |
+| [AUTOMATIC_INDEX](#AUTOMATIC-INDEX) | It’s automatic color,but the displayed color depends the setting of the OS System. |
 | [INDEXED_COLOR](#INDEXED-COLOR) | The color index in the color palette. |
 | [RGB](#RGB) | The RGB color. |
 | [THEME](#THEME) | The theme color. |
-## Methods
+
+## Methods {#methods}
 
 | Method | Description |
 | --- | --- |
@@ -35,143 +40,132 @@ Represents all color type
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+
 ### AUTOMATIC {#AUTOMATIC}
+
 ```
 public static final int AUTOMATIC
 ```
 
-
 Automatic color.
 
 ### AUTOMATIC_INDEX {#AUTOMATIC-INDEX}
+
 ```
 public static final int AUTOMATIC_INDEX
 ```
 
-
-It's automatic color,but the displayed color depends the setting of the OS System.
+It’s automatic color,but the displayed color depends the setting of the OS System.
 
 **Remarks**
 
 Not supported.
 
 ### INDEXED_COLOR {#INDEXED-COLOR}
+
 ```
 public static final int INDEXED_COLOR
 ```
 
-
 The color index in the color palette.
 
 ### RGB {#RGB}
+
 ```
 public static final int RGB
 ```
 
-
 The RGB color.
 
 ### THEME {#THEME}
+
 ```
 public static final int THEME
 ```
 
-
 The theme color.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
+
 ```
 public boolean equals(Object arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
 **Returns:**
 boolean
+
 ### getClass() {#getClass--}
+
 ```
 public final native Class<?> getClass()
 ```
 
-
-
-
 **Returns:**
-java.lang.Class<?>
+java.lang.Class
+
 ### hashCode() {#hashCode--}
+
 ```
 public native int hashCode()
 ```
 
-
-
-
 **Returns:**
 int
+
 ### notify() {#notify--}
+
 ```
 public final native void notify()
 ```
 
-
-
-
 ### notifyAll() {#notifyAll--}
+
 ```
 public final native void notifyAll()
 ```
 
-
-
-
 ### toString() {#toString--}
+
 ```
 public String toString()
 ```
 
-
-
-
 **Returns:**
 java.lang.String
+
 ### wait() {#wait--}
+
 ```
 public final void wait()
 ```
 
-
-
-
 ### wait(long arg0) {#wait-long-}
+
 ```
 public final native void wait(long arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
 ### wait(long arg0, int arg1) {#wait-long-int-}
+
 ```
 public final void wait(long arg0, int arg1)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

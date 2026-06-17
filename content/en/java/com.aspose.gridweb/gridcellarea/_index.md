@@ -1,25 +1,30 @@
 ---
-title: GridCellArea
-second_title: Aspose.Cells for Java API Reference
-description: Represents an area of cells.
+title: "GridCellArea"
+second_title: "Aspose.Cells for Java API Reference"
+description: "Represents an area of cells."
 type: docs
-url: /java/com.aspose.gridweb/gridcellarea/
+url: "/java/com.aspose.gridweb/gridcellarea/"
+source_url: "https://reference.aspose.com/cells/java/com.aspose.gridweb/gridcellarea/"
+generated_from: "online-reference"
+fetched_at: "2026-06-16T11:58:16+00:00"
 ---
-
 **Inheritance:**
 java.lang.Object
+
 ```
 public class GridCellArea
 ```
 
 Represents an area of cells.
-## Constructors
+
+## Constructors {#constructors}
 
 | Constructor | Description |
 | --- | --- |
 | [GridCellArea()](#GridCellArea--) | Creat a cell area. |
 | [GridCellArea(int startRow, int startColumn, int endRow, int endColumn)](#GridCellArea-int-int-int-int-) | Creat a cell area. |
-## Fields
+
+## Fields {#fields}
 
 | Field | Description |
 | --- | --- |
@@ -27,7 +32,8 @@ Represents an area of cells.
 | [EndRow](#EndRow) | Gets or sets the end row of this area. |
 | [StartColumn](#StartColumn) | Gets or sets the start column of this area. |
 | [StartRow](#StartRow) | Gets or sets the start row of this area. |
-## Methods
+
+## Methods {#methods}
 
 | Method | Description |
 | --- | --- |
@@ -40,23 +46,25 @@ Represents an area of cells.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+
 ### GridCellArea() {#GridCellArea--}
+
 ```
 public GridCellArea()
 ```
 
-
 Creat a cell area.
 
 ### GridCellArea(int startRow, int startColumn, int endRow, int endColumn) {#GridCellArea-int-int-int-int-}
+
 ```
 public GridCellArea(int startRow, int startColumn, int endRow, int endColumn)
 ```
 
-
 Creat a cell area.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | startRow | int | The start row. |
@@ -65,130 +73,122 @@ Creat a cell area.
 | endColumn | int | The end column. |
 
 ### EndColumn {#EndColumn}
+
 ```
 public int EndColumn
 ```
 
-
 Gets or sets the end column of this area.
 
 ### EndRow {#EndRow}
+
 ```
 public int EndRow
 ```
 
-
 Gets or sets the end row of this area.
 
 ### StartColumn {#StartColumn}
+
 ```
 public int StartColumn
 ```
 
-
 Gets or sets the start column of this area.
 
 ### StartRow {#StartRow}
+
 ```
 public int StartRow
 ```
 
-
 Gets or sets the start row of this area.
 
 ### equals(Object obj) {#equals-java.lang.Object-}
+
 ```
 public boolean equals(Object obj)
 ```
 
-
 Test if the object equals to another WebCellArea object.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | obj | java.lang.Object |  |
 
 **Returns:**
-boolean - 
+boolean -
+
 ### getClass() {#getClass--}
+
 ```
 public final native Class<?> getClass()
 ```
 
-
-
-
 **Returns:**
-java.lang.Class<?>
+java.lang.Class
+
 ### hashCode() {#hashCode--}
+
 ```
 public int hashCode()
 ```
 
-
 Get the hashcode.
 
 **Returns:**
-int - 
+int -
+
 ### notify() {#notify--}
+
 ```
 public final native void notify()
 ```
 
-
-
-
 ### notifyAll() {#notifyAll--}
+
 ```
 public final native void notifyAll()
 ```
 
-
-
-
 ### toString() {#toString--}
+
 ```
 public String toString()
 ```
 
-
-
-
 **Returns:**
 java.lang.String
+
 ### wait() {#wait--}
+
 ```
 public final void wait()
 ```
 
-
-
-
 ### wait(long arg0) {#wait-long-}
+
 ```
 public final native void wait(long arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
 ### wait(long arg0, int arg1) {#wait-long-int-}
+
 ```
 public final void wait(long arg0, int arg1)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

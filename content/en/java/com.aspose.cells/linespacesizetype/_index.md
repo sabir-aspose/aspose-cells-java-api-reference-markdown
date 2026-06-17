@@ -1,25 +1,30 @@
 ---
-title: LineSpaceSizeType
-second_title: Aspose.Cells for Java API Reference
-description: Represents the unit type of line space size.
+title: "LineSpaceSizeType"
+second_title: "Aspose.Cells for Java API Reference"
+description: "Represents the unit type of line space size."
 type: docs
-url: /java/com.aspose.cells/linespacesizetype/
+url: "/java/com.aspose.cells/linespacesizetype/"
+source_url: "https://reference.aspose.com/cells/java/com.aspose.cells/linespacesizetype/"
+generated_from: "online-reference"
+fetched_at: "2026-06-16T11:51:59+00:00"
 ---
-
 **Inheritance:**
 java.lang.Object
+
 ```
 public final class LineSpaceSizeType
 ```
 
 Represents the unit type of line space size.
-## Fields
+
+## Fields {#fields}
 
 | Field | Description |
 | --- | --- |
 | [PERCENTAGE](#PERCENTAGE) | Represents in unit of a percentage of the text size. |
 | [POINTS](#POINTS) | Represents in unit of points. |
-## Methods
+
+## Methods {#methods}
 
 | Method | Description |
 | --- | --- |
@@ -32,115 +37,104 @@ Represents the unit type of line space size.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+
 ### PERCENTAGE {#PERCENTAGE}
+
 ```
 public static final int PERCENTAGE
 ```
 
-
 Represents in unit of a percentage of the text size.
 
 ### POINTS {#POINTS}
+
 ```
 public static final int POINTS
 ```
 
-
 Represents in unit of points.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
+
 ```
 public boolean equals(Object arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
 **Returns:**
 boolean
+
 ### getClass() {#getClass--}
+
 ```
 public final native Class<?> getClass()
 ```
 
-
-
-
 **Returns:**
-java.lang.Class<?>
+java.lang.Class
+
 ### hashCode() {#hashCode--}
+
 ```
 public native int hashCode()
 ```
 
-
-
-
 **Returns:**
 int
+
 ### notify() {#notify--}
+
 ```
 public final native void notify()
 ```
 
-
-
-
 ### notifyAll() {#notifyAll--}
+
 ```
 public final native void notifyAll()
 ```
 
-
-
-
 ### toString() {#toString--}
+
 ```
 public String toString()
 ```
 
-
-
-
 **Returns:**
 java.lang.String
+
 ### wait() {#wait--}
+
 ```
 public final void wait()
 ```
 
-
-
-
 ### wait(long arg0) {#wait-long-}
+
 ```
 public final native void wait(long arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
 ### wait(long arg0, int arg1) {#wait-long-int-}
+
 ```
 public final void wait(long arg0, int arg1)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

@@ -1,13 +1,16 @@
 ---
-title: PivotFilter
-second_title: Aspose.Cells for Java API Reference
-description: Represents a PivotFilter in PivotFilter Collection.
+title: "PivotFilter"
+second_title: "Aspose.Cells for Java API Reference"
+description: "Represents a PivotFilter in PivotFilter Collection."
 type: docs
-url: /java/com.aspose.cells/pivotfilter/
+url: "/java/com.aspose.cells/pivotfilter/"
+source_url: "https://reference.aspose.com/cells/java/com.aspose.cells/pivotfilter/"
+generated_from: "online-reference"
+fetched_at: "2026-06-16T11:53:46+00:00"
 ---
-
 **Inheritance:**
 java.lang.Object
+
 ```
 public class PivotFilter
 ```
@@ -70,7 +73,8 @@ Represents a PivotFilter in PivotFilter Collection.
  
          book.save("out.xlsx");
 ```
-## Methods
+
+## Methods {#methods}
 
 | Method | Description |
 | --- | --- |
@@ -108,26 +112,27 @@ Represents a PivotFilter in PivotFilter Collection.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+
 ### equals(Object arg0) {#equals-java.lang.Object-}
+
 ```
 public boolean equals(Object arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
 **Returns:**
 boolean
+
 ### getAutoFilter() {#getAutoFilter--}
+
 ```
 public AutoFilter getAutoFilter()
 ```
-
 
 Gets the autofilter of the pivot filter.
 
@@ -137,51 +142,54 @@ NOTE: This method is now obsolete. Instead, please use FilterLabel, FilterValue,
 
 **Returns:**
 [AutoFilter](../../com.aspose.cells/autofilter)
+
 ### getClass() {#getClass--}
+
 ```
 public final native Class<?> getClass()
 ```
 
-
-
-
 **Returns:**
-java.lang.Class<?>
+java.lang.Class
+
 ### getDateTimeValues() {#getDateTimeValues--}
+
 ```
 public DateTime[] getDateTimeValues()
 ```
 
-
 Gets values of the number filter.
 
 **Returns:**
-com.aspose.cells.DateTime[] - 
+com.aspose.cells.DateTime[] -
+
 ### getEvaluationOrder() {#getEvaluationOrder--}
+
 ```
 public int getEvaluationOrder()
 ```
-
 
 Gets the Evaluation Order of the pivot filter.
 
 **Returns:**
 int
+
 ### getFieldIndex() {#getFieldIndex--}
+
 ```
 public int getFieldIndex()
 ```
-
 
 Gets the index of source field which this pivot filter is applied to.
 
 **Returns:**
 int
+
 ### getFilterCategory() {#getFilterCategory--}
+
 ```
 public int getFilterCategory()
 ```
-
 
 Gets the category of this filter.
 
@@ -189,11 +197,12 @@ See [FilterCategory](../../com.aspose.cells/filtercategory).
 
 **Returns:**
 int
+
 ### getFilterType() {#getFilterType--}
+
 ```
 public int getFilterType()
 ```
-
 
 Gets the filter type of the pivot filter.
 
@@ -201,31 +210,34 @@ See [PivotFilterType](../../com.aspose.cells/pivotfiltertype).
 
 **Returns:**
 int
+
 ### getLabels() {#getLabels--}
+
 ```
 public String[] getLabels()
 ```
 
-
 Gets labels of the caption filter.
 
 **Returns:**
-java.lang.String[] - 
+java.lang.String[] -
+
 ### getMeasureCubeFieldIndex() {#getMeasureCubeFieldIndex--}
+
 ```
 public int getMeasureCubeFieldIndex()
 ```
-
 
 Specifies the index of the measure cube field. this property is used only by filters in OLAP pivots and specifies on which measure a value filter should apply.
 
 **Returns:**
 int
+
 ### getMeasureFldIndex() {#getMeasureFldIndex--}
+
 ```
 public int getMeasureFldIndex()
 ```
-
 
 Gets the measure field index of the pivot filter.
 
@@ -235,130 +247,135 @@ NOTE: This method is now obsolete. Instead, please use PivotFilter.ValueFieldInd
 
 **Returns:**
 int
+
 ### getMemberPropertyFieldIndex() {#getMemberPropertyFieldIndex--}
+
 ```
 public int getMemberPropertyFieldIndex()
 ```
-
 
 Gets the member property field index of the pivot filter.
 
 **Returns:**
 int
+
 ### getName() {#getName--}
+
 ```
 public String getName()
 ```
-
 
 Gets the name of the pivot filter.
 
 **Returns:**
 java.lang.String
+
 ### getNumberValues() {#getNumberValues--}
+
 ```
 public double[] getNumberValues()
 ```
 
-
 Gets values of the number filter.
 
 **Returns:**
-double[] - 
+double[] -
+
 ### getTop10Value() {#getTop10Value--}
+
 ```
 public Top10Filter getTop10Value()
 ```
-
 
 Gets top 10 setting of the filter.
 
 **Returns:**
 [Top10Filter](../../com.aspose.cells/top10filter)
+
 ### getUseWholeDay() {#getUseWholeDay--}
+
 ```
 public boolean getUseWholeDay()
 ```
-
 
 Indicates whether to use whole days in its date filtering criteria.
 
 **Returns:**
 boolean
+
 ### getValue1() {#getValue1--}
+
 ```
 public String getValue1()
 ```
-
 
 Gets the string value1 of the label pivot filter.
 
 **Returns:**
 java.lang.String
+
 ### getValue2() {#getValue2--}
+
 ```
 public String getValue2()
 ```
-
 
 Gets the string value2 of the label pivot filter.
 
 **Returns:**
 java.lang.String
+
 ### getValueFieldIndex() {#getValueFieldIndex--}
+
 ```
 public int getValueFieldIndex()
 ```
-
 
 Gets the index of value field in the value region.
 
 **Returns:**
 int
+
 ### hashCode() {#hashCode--}
+
 ```
 public native int hashCode()
 ```
 
-
-
-
 **Returns:**
 int
+
 ### notify() {#notify--}
+
 ```
 public final native void notify()
 ```
 
-
-
-
 ### notifyAll() {#notifyAll--}
+
 ```
 public final native void notifyAll()
 ```
 
-
-
-
 ### setEvaluationOrder(int value) {#setEvaluationOrder-int-}
+
 ```
 public void setEvaluationOrder(int value)
 ```
 
-
 Gets the Evaluation Order of the pivot filter.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
 
 ### setMeasureFldIndex(int value) {#setMeasureFldIndex-int-}
+
 ```
 public void setMeasureFldIndex(int value)
 ```
-
 
 Gets the measure field index of the pivot filter.
 
@@ -367,130 +384,131 @@ Gets the measure field index of the pivot filter.
 NOTE: This method is now obsolete. Instead, please use PivotFilter.ValueFieldIndex property. This method will be removed 12 months later since November 2024. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
 
 ### setMemberPropertyFieldIndex(int value) {#setMemberPropertyFieldIndex-int-}
+
 ```
 public void setMemberPropertyFieldIndex(int value)
 ```
 
-
 Gets the member property field index of the pivot filter.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
 
 ### setName(String value) {#setName-java.lang.String-}
+
 ```
 public void setName(String value)
 ```
 
-
 Gets the name of the pivot filter.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String |  |
 
 ### setUseWholeDay(boolean value) {#setUseWholeDay-boolean-}
+
 ```
 public void setUseWholeDay(boolean value)
 ```
 
-
 Indicates whether to use whole days in its date filtering criteria.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
 ### setValue1(String value) {#setValue1-java.lang.String-}
+
 ```
 public void setValue1(String value)
 ```
 
-
 Gets the string value1 of the label pivot filter.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String |  |
 
 ### setValue2(String value) {#setValue2-java.lang.String-}
+
 ```
 public void setValue2(String value)
 ```
 
-
 Gets the string value2 of the label pivot filter.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String |  |
 
 ### setValueFieldIndex(int value) {#setValueFieldIndex-int-}
+
 ```
 public void setValueFieldIndex(int value)
 ```
 
-
 Gets the index of value field in the value region.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
 
 ### toString() {#toString--}
+
 ```
 public String toString()
 ```
 
-
-
-
 **Returns:**
 java.lang.String
+
 ### wait() {#wait--}
+
 ```
 public final void wait()
 ```
 
-
-
-
 ### wait(long arg0) {#wait-long-}
+
 ```
 public final native void wait(long arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
 ### wait(long arg0, int arg1) {#wait-long-int-}
+
 ```
 public final void wait(long arg0, int arg1)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

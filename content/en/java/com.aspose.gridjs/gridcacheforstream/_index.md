@@ -1,24 +1,29 @@
 ---
-title: GridCacheForStream
-second_title: Aspose.Cells for Java API Reference
-description: This class contains the cache operations for GridJs.
+title: "GridCacheForStream"
+second_title: "Aspose.Cells for Java API Reference"
+description: "This class contains the cache operations for GridJs."
 type: docs
-url: /java/com.aspose.gridjs/gridcacheforstream/
+url: "/java/com.aspose.gridjs/gridcacheforstream/"
+source_url: "https://reference.aspose.com/cells/java/com.aspose.gridjs/gridcacheforstream/"
+generated_from: "online-reference"
+fetched_at: "2026-06-16T11:57:52+00:00"
 ---
-
 **Inheritance:**
 java.lang.Object
+
 ```
 public abstract class GridCacheForStream
 ```
 
 This class contains the cache operations for GridJs. User shall implement his own business logic for storage based on it..
-## Constructors
+
+## Constructors {#constructors}
 
 | Constructor | Description |
 | --- | --- |
 | [GridCacheForStream()](#GridCacheForStream--) |  |
-## Methods
+
+## Methods {#methods}
 
 | Method | Description |
 | --- | --- |
@@ -35,164 +40,160 @@ This class contains the cache operations for GridJs. User shall implement his ow
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+
 ### GridCacheForStream() {#GridCacheForStream--}
+
 ```
 public GridCacheForStream()
 ```
 
-
 ### equals(Object arg0) {#equals-java.lang.Object-}
+
 ```
 public boolean equals(Object arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
 **Returns:**
 boolean
+
 ### getClass() {#getClass--}
+
 ```
 public final native Class<?> getClass()
 ```
 
-
-
-
 **Returns:**
-java.lang.Class<?>
+java.lang.Class
+
 ### getFileUrl(String uid) {#getFileUrl-java.lang.String-}
+
 ```
 public abstract String getFileUrl(String uid)
 ```
 
-
 Implements this method to get the file url from the cache.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | uid | java.lang.String | The unique id for the file cache. |
 
 **Returns:**
 java.lang.String - The URL of the file
+
 ### hashCode() {#hashCode--}
+
 ```
 public native int hashCode()
 ```
 
-
-
-
 **Returns:**
 int
+
 ### isExisted(String uid) {#isExisted-java.lang.String-}
+
 ```
 public abstract boolean isExisted(String uid)
 ```
 
-
 Checks whether the cache with uid is existed
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | uid | java.lang.String | The unique id for the file cache. |
 
 **Returns:**
 boolean - The bool value
+
 ### loadStream(String uid) {#loadStream-java.lang.String-}
+
 ```
 public abstract InputStream loadStream(String uid)
 ```
 
-
 Implements this method to load cache with the key uid,return the stream from the cache.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | uid | java.lang.String |  |
 
 **Returns:**
 java.io.InputStream
+
 ### notify() {#notify--}
+
 ```
 public final native void notify()
 ```
 
-
-
-
 ### notifyAll() {#notifyAll--}
+
 ```
 public final native void notifyAll()
 ```
 
-
-
-
 ### saveStream(InputStream s, String uid) {#saveStream-java.io.InputStream-java.lang.String-}
+
 ```
 public abstract void saveStream(InputStream s, String uid)
 ```
 
-
 Implements this method to save cache,save the stream to the cache with the key uid.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | s | java.io.InputStream |  |
 | uid | java.lang.String |  |
 
 ### toString() {#toString--}
+
 ```
 public String toString()
 ```
 
-
-
-
 **Returns:**
 java.lang.String
+
 ### wait() {#wait--}
+
 ```
 public final void wait()
 ```
 
-
-
-
 ### wait(long arg0) {#wait-long-}
+
 ```
 public final native void wait(long arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
 ### wait(long arg0, int arg1) {#wait-long-int-}
+
 ```
 public final void wait(long arg0, int arg1)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

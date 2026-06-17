@@ -1,19 +1,23 @@
 ---
-title: WarningInfo
-second_title: Aspose.Cells for Java API Reference
-description: Warning info
+title: "WarningInfo"
+second_title: "Aspose.Cells for Java API Reference"
+description: "Warning info"
 type: docs
-url: /java/com.aspose.cells/warninginfo/
+url: "/java/com.aspose.cells/warninginfo/"
+source_url: "https://reference.aspose.com/cells/java/com.aspose.cells/warninginfo/"
+generated_from: "online-reference"
+fetched_at: "2026-06-16T11:57:25+00:00"
 ---
-
 **Inheritance:**
 java.lang.Object
+
 ```
 public class WarningInfo
 ```
 
 Warning info
-## Methods
+
+## Methods {#methods}
 
 | Method | Description |
 | --- | --- |
@@ -32,66 +36,69 @@ Warning info
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+
 ### equals(Object arg0) {#equals-java.lang.Object-}
+
 ```
 public boolean equals(Object arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
 **Returns:**
 boolean
+
 ### getClass() {#getClass--}
+
 ```
 public final native Class<?> getClass()
 ```
 
-
-
-
 **Returns:**
-java.lang.Class<?>
+java.lang.Class
+
 ### getCorrectedObject() {#getCorrectedObject--}
+
 ```
 public Object getCorrectedObject()
 ```
-
 
 Gets the corrected object.
 
 **Returns:**
 java.lang.Object
+
 ### getDescription() {#getDescription--}
+
 ```
 public String getDescription()
 ```
-
 
 Get description of warning info.
 
 **Returns:**
 java.lang.String
+
 ### getErrorObject() {#getErrorObject--}
+
 ```
 public Object getErrorObject()
 ```
-
 
 The error object.
 
 **Returns:**
 java.lang.Object
+
 ### getType() {#getType--}
+
 ```
 public int getType()
 ```
-
 
 Get warning type.
 
@@ -99,11 +106,12 @@ See [ExceptionType](../../com.aspose.cells/exceptiontype).
 
 **Returns:**
 int
+
 ### getWarningType() {#getWarningType--}
+
 ```
 public int getWarningType()
 ```
-
 
 Get warning type.
 
@@ -115,87 +123,78 @@ NOTE: This member is now obsolete. Instead, please use WarningInfo.Type property
 
 **Returns:**
 int
+
 ### hashCode() {#hashCode--}
+
 ```
 public native int hashCode()
 ```
 
-
-
-
 **Returns:**
 int
+
 ### notify() {#notify--}
+
 ```
 public final native void notify()
 ```
 
-
-
-
 ### notifyAll() {#notifyAll--}
+
 ```
 public final native void notifyAll()
 ```
 
-
-
-
 ### setCorrectedObject(Object value) {#setCorrectedObject-java.lang.Object-}
+
 ```
 public void setCorrectedObject(Object value)
 ```
 
-
 Sets the corrected object.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.Object |  |
 
 ### toString() {#toString--}
+
 ```
 public String toString()
 ```
 
-
-
-
 **Returns:**
 java.lang.String
+
 ### wait() {#wait--}
+
 ```
 public final void wait()
 ```
 
-
-
-
 ### wait(long arg0) {#wait-long-}
+
 ```
 public final native void wait(long arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
 ### wait(long arg0, int arg1) {#wait-long-int-}
+
 ```
 public final void wait(long arg0, int arg1)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

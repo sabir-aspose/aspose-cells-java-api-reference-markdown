@@ -1,9 +1,12 @@
 ---
-title: IExportObjectListener
-second_title: Aspose.Cells for Java API Reference
-description: Allows users to manipulate objects while exporting.
+title: "IExportObjectListener"
+second_title: "Aspose.Cells for Java API Reference"
+description: "Allows users to manipulate objects while exporting."
 type: docs
-url: /java/com.aspose.cells/iexportobjectlistener/
+url: "/java/com.aspose.cells/iexportobjectlistener/"
+source_url: "https://reference.aspose.com/cells/java/com.aspose.cells/iexportobjectlistener/"
+generated_from: "online-reference"
+fetched_at: "2026-06-16T11:51:16+00:00"
 ---
 ```
 public interface IExportObjectListener
@@ -57,20 +60,23 @@ The following example creates a Workbook, opens a file named designer.xls in it 
                  java.io.InputStream stream = null; //build your stream here
                  book.save("res.html", saveOptions); //or here you can build your out put stream and save the workbook to stream
 ```
-## Methods
+
+## Methods {#methods}
 
 | Method | Description |
 | --- | --- |
 | [exportObject(ExportObjectEvent e)](#exportObject-com.aspose.cells.ExportObjectEvent-) | Export one object. |
+
 ### exportObject(ExportObjectEvent e) {#exportObject-com.aspose.cells.ExportObjectEvent-}
+
 ```
 public abstract Object exportObject(ExportObjectEvent e)
 ```
 
-
 Export one object.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | e | [ExportObjectEvent](../../com.aspose.cells/exportobjectevent) | The event triggered when one object needs to be exported. |
@@ -78,4 +84,4 @@ Export one object.
 **Returns:**
 java.lang.Object - The information about the result of exporting object.
 
- *  For exporting objects when export workbook to HTML format, the result is URL string to access the saved Image from the html file which contains this exported object.
+* For exporting objects when export workbook to HTML format, the result is URL string to access the saved Image from the html file which contains this exported object.

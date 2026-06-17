@@ -1,19 +1,23 @@
 ---
-title: DataModelTable
-second_title: Aspose.Cells for Java API Reference
-description: Represents properties of a single table in spreadsheet data model.
+title: "DataModelTable"
+second_title: "Aspose.Cells for Java API Reference"
+description: "Represents properties of a single table in spreadsheet data model."
 type: docs
-url: /java/com.aspose.cells/datamodeltable/
+url: "/java/com.aspose.cells/datamodeltable/"
+source_url: "https://reference.aspose.com/cells/java/com.aspose.cells/datamodeltable/"
+generated_from: "online-reference"
+fetched_at: "2026-06-16T11:49:23+00:00"
 ---
-
 **Inheritance:**
 java.lang.Object
+
 ```
 public class DataModelTable
 ```
 
 Represents properties of a single table in spreadsheet data model.
-## Methods
+
+## Methods {#methods}
 
 | Method | Description |
 | --- | --- |
@@ -29,129 +33,121 @@ Represents properties of a single table in spreadsheet data model.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+
 ### equals(Object arg0) {#equals-java.lang.Object-}
+
 ```
 public boolean equals(Object arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
 **Returns:**
 boolean
+
 ### getClass() {#getClass--}
+
 ```
 public final native Class<?> getClass()
 ```
 
-
-
-
 **Returns:**
-java.lang.Class<?>
+java.lang.Class
+
 ### getConnectionName() {#getConnectionName--}
+
 ```
 public String getConnectionName()
 ```
-
 
 Gets the connection name of the data model table.
 
 **Returns:**
 java.lang.String
+
 ### getId() {#getId--}
+
 ```
 public String getId()
 ```
-
 
 Gets the id of the data model table.
 
 **Returns:**
 java.lang.String
+
 ### getName() {#getName--}
+
 ```
 public String getName()
 ```
-
 
 Gets the name of the data model table.
 
 **Returns:**
 java.lang.String
+
 ### hashCode() {#hashCode--}
+
 ```
 public native int hashCode()
 ```
 
-
-
-
 **Returns:**
 int
+
 ### notify() {#notify--}
+
 ```
 public final native void notify()
 ```
 
-
-
-
 ### notifyAll() {#notifyAll--}
+
 ```
 public final native void notifyAll()
 ```
 
-
-
-
 ### toString() {#toString--}
+
 ```
 public String toString()
 ```
 
-
-
-
 **Returns:**
 java.lang.String
+
 ### wait() {#wait--}
+
 ```
 public final void wait()
 ```
 
-
-
-
 ### wait(long arg0) {#wait-long-}
+
 ```
 public final native void wait(long arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
 ### wait(long arg0, int arg1) {#wait-long-int-}
+
 ```
 public final void wait(long arg0, int arg1)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

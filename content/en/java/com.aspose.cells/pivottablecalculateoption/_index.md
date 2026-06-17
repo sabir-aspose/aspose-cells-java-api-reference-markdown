@@ -1,24 +1,29 @@
 ---
-title: PivotTableCalculateOption
-second_title: Aspose.Cells for Java API Reference
-description: Rerepsents the options of calculating data of the pivot table.
+title: "PivotTableCalculateOption"
+second_title: "Aspose.Cells for Java API Reference"
+description: "Rerepsents the options of calculating data of the pivot table."
 type: docs
-url: /java/com.aspose.cells/pivottablecalculateoption/
+url: "/java/com.aspose.cells/pivottablecalculateoption/"
+source_url: "https://reference.aspose.com/cells/java/com.aspose.cells/pivottablecalculateoption/"
+generated_from: "online-reference"
+fetched_at: "2026-06-16T11:54:03+00:00"
 ---
-
 **Inheritance:**
 java.lang.Object
+
 ```
 public class PivotTableCalculateOption
 ```
 
 Rerepsents the options of calculating data of the pivot table.
-## Constructors
+
+## Constructors {#constructors}
 
 | Constructor | Description |
 | --- | --- |
 | [PivotTableCalculateOption()](#PivotTableCalculateOption--) |  |
-## Methods
+
+## Methods {#methods}
 
 | Method | Description |
 | --- | --- |
@@ -37,52 +42,53 @@ Rerepsents the options of calculating data of the pivot table.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+
 ### PivotTableCalculateOption() {#PivotTableCalculateOption--}
+
 ```
 public PivotTableCalculateOption()
 ```
 
-
 ### equals(Object arg0) {#equals-java.lang.Object-}
+
 ```
 public boolean equals(Object arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
 **Returns:**
 boolean
+
 ### getClass() {#getClass--}
+
 ```
 public final native Class<?> getClass()
 ```
 
-
-
-
 **Returns:**
-java.lang.Class<?>
+java.lang.Class
+
 ### getRefreshCharts() {#getRefreshCharts--}
+
 ```
 public boolean getRefreshCharts()
 ```
-
 
 Indicates whether refreshing charts are based on this pivot table.
 
 **Returns:**
 boolean
+
 ### getRefreshData() {#getRefreshData--}
+
 ```
 public boolean getRefreshData()
 ```
-
 
 Indicates whether refreshing data source of the pivottable.
 
@@ -92,11 +98,12 @@ If it is true, refresh pivot cache from data source,then calculate all pivot tab
 
 **Returns:**
 boolean
+
 ### getReserveMissingPivotItemType() {#getReserveMissingPivotItemType--}
+
 ```
 public int getReserveMissingPivotItemType()
 ```
-
 
 Represents how to reserve missing pivot items.
 
@@ -104,54 +111,51 @@ See [ReserveMissingPivotItemType](../../com.aspose.cells/reservemissingpivotitem
 
 **Remarks**
 
-Only works when [getRefreshData()](../../com.aspose.cells/pivottablecalculateoption\#getRefreshData--) is true.
+Only works when [getRefreshData()](../../com.aspose.cells/pivottablecalculateoption#getRefreshData--) is true.
 
 **Returns:**
 int
+
 ### hashCode() {#hashCode--}
+
 ```
 public native int hashCode()
 ```
 
-
-
-
 **Returns:**
 int
+
 ### notify() {#notify--}
+
 ```
 public final native void notify()
 ```
 
-
-
-
 ### notifyAll() {#notifyAll--}
+
 ```
 public final native void notifyAll()
 ```
 
-
-
-
 ### setRefreshCharts(boolean value) {#setRefreshCharts-boolean-}
+
 ```
 public void setRefreshCharts(boolean value)
 ```
 
-
 Indicates whether refreshing charts are based on this pivot table.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
 ### setRefreshData(boolean value) {#setRefreshData-boolean-}
+
 ```
 public void setRefreshData(boolean value)
 ```
-
 
 Indicates whether refreshing data source of the pivottable.
 
@@ -160,15 +164,16 @@ Indicates whether refreshing data source of the pivottable.
 If it is true, refresh pivot cache from data source,then calculate all pivot tables based same pivot cache.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
 ### setReserveMissingPivotItemType(int value) {#setReserveMissingPivotItemType-int-}
+
 ```
 public void setReserveMissingPivotItemType(int value)
 ```
-
 
 Represents how to reserve missing pivot items.
 
@@ -176,55 +181,50 @@ See [ReserveMissingPivotItemType](../../com.aspose.cells/reservemissingpivotitem
 
 **Remarks**
 
-Only works when [getRefreshData()](../../com.aspose.cells/pivottablecalculateoption\#getRefreshData--) is true.
+Only works when [getRefreshData()](../../com.aspose.cells/pivottablecalculateoption#getRefreshData--) is true.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
 
 ### toString() {#toString--}
+
 ```
 public String toString()
 ```
 
-
-
-
 **Returns:**
 java.lang.String
+
 ### wait() {#wait--}
+
 ```
 public final void wait()
 ```
 
-
-
-
 ### wait(long arg0) {#wait-long-}
+
 ```
 public final native void wait(long arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
 ### wait(long arg0, int arg1) {#wait-long-int-}
+
 ```
 public final void wait(long arg0, int arg1)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

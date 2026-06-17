@@ -1,19 +1,23 @@
 ---
-title: GridCommentCollection
-second_title: Aspose.Cells for Java API Reference
-description: Encapsulates a collection of  objects.
+title: "GridCommentCollection"
+second_title: "Aspose.Cells for Java API Reference"
+description: "Encapsulates a collection of objects."
 type: docs
-url: /java/com.aspose.gridweb/gridcommentcollection/
+url: "/java/com.aspose.gridweb/gridcommentcollection/"
+source_url: "https://reference.aspose.com/cells/java/com.aspose.gridweb/gridcommentcollection/"
+generated_from: "online-reference"
+fetched_at: "2026-06-16T11:58:21+00:00"
 ---
-
 **Inheritance:**
 java.lang.Object
+
 ```
 public class GridCommentCollection
 ```
 
 Encapsulates a collection of [GridComment](../../com.aspose.gridweb/gridcomment) objects.
-## Methods
+
+## Methods {#methods}
 
 | Method | Description |
 | --- | --- |
@@ -36,15 +40,17 @@ Encapsulates a collection of [GridComment](../../com.aspose.gridweb/gridcomment)
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+
 ### add(int row, int column) {#add-int-int-}
+
 ```
 public int add(int row, int column)
 ```
 
-
 Adds a comment to the collection.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | row | int | Cell row index. |
@@ -52,68 +58,74 @@ Adds a comment to the collection.
 
 **Returns:**
 int - [GridComment](../../com.aspose.gridweb/gridcomment) object index.
+
 ### add(String cellName) {#add-java.lang.String-}
+
 ```
 public int add(String cellName)
 ```
 
-
 Adds a comment to the collection.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | cellName | java.lang.String | Cell name. |
 
 **Returns:**
 int - [GridComment](../../com.aspose.gridweb/gridcomment) object index.
+
 ### clear() {#clear--}
+
 ```
 public void clear()
 ```
 
-
 Removes all comments;
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
+
 ```
 public boolean equals(Object arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
 **Returns:**
 boolean
+
 ### get(int index) {#get-int-}
+
 ```
 public GridComment get(int index)
 ```
 
-
 Gets the [GridComment](../../com.aspose.gridweb/gridcomment) element at the specified index.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int | The zero based index of the element. |
 
 **Returns:**
 [GridComment](../../com.aspose.gridweb/gridcomment) - The element at the specified index.
+
 ### get(int row, int column) {#get-int-int-}
+
 ```
 public GridComment get(int row, int column)
 ```
 
-
 Gets the [GridComment](../../com.aspose.gridweb/gridcomment) element at the specified row index and column index.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | row | int | Row index. |
@@ -121,146 +133,141 @@ Gets the [GridComment](../../com.aspose.gridweb/gridcomment) element at the spec
 
 **Returns:**
 [GridComment](../../com.aspose.gridweb/gridcomment) - The element at the specified cell.
+
 ### get(String cellName) {#get-java.lang.String-}
+
 ```
 public GridComment get(String cellName)
 ```
 
-
 Gets the [GridComment](../../com.aspose.gridweb/gridcomment) element at the specified cell.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | cellName | java.lang.String | Cell name. |
 
 **Returns:**
 [GridComment](../../com.aspose.gridweb/gridcomment) - The element at the specified cell.
+
 ### getClass() {#getClass--}
+
 ```
 public final native Class<?> getClass()
 ```
 
-
-
-
 **Returns:**
-java.lang.Class<?>
+java.lang.Class
+
 ### getCount() {#getCount--}
+
 ```
 public int getCount()
 ```
-
 
 Gets the size of enumerator
 
 **Returns:**
 int
+
 ### hashCode() {#hashCode--}
+
 ```
 public native int hashCode()
 ```
 
-
-
-
 **Returns:**
 int
+
 ### iterator() {#iterator--}
+
 ```
 public Iterator iterator()
 ```
-
 
 Gets the rows enumerator
 
 **Returns:**
 java.util.Iterator - The rows enumerator
+
 ### notify() {#notify--}
+
 ```
 public final native void notify()
 ```
 
-
-
-
 ### notifyAll() {#notifyAll--}
+
 ```
 public final native void notifyAll()
 ```
 
-
-
-
 ### removeAt(int row, int column) {#removeAt-int-int-}
+
 ```
 public void removeAt(int row, int column)
 ```
 
-
 Removes the comment of the specific cell.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | row | int | The row index. |
 | column | int | the column index. |
 
 ### removeAt(String cellName) {#removeAt-java.lang.String-}
+
 ```
 public void removeAt(String cellName)
 ```
 
-
 Removes the comment of the specific cell.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | cellName | java.lang.String | The name of cell which contains a comment. |
 
 ### toString() {#toString--}
+
 ```
 public String toString()
 ```
 
-
-
-
 **Returns:**
 java.lang.String
+
 ### wait() {#wait--}
+
 ```
 public final void wait()
 ```
 
-
-
-
 ### wait(long arg0) {#wait-long-}
+
 ```
 public final native void wait(long arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
 ### wait(long arg0, int arg1) {#wait-long-int-}
+
 ```
 public final void wait(long arg0, int arg1)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

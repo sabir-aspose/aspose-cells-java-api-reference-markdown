@@ -1,21 +1,21 @@
 {
   "authority": "https://reference.aspose.com/cells/java/",
-  "generated_at": "2026-06-17T03:12:32+00:00",
+  "generated_at": "2026-06-17T03:16:01+00:00",
   "generator": "examples-rag-platform",
   "platforms": {
     "java": {
       "content": "content/en/java",
       "language": "en",
       "manifest": "manifests/java.json",
-      "markdown_files": 956,
+      "markdown_files": 958,
       "namespaces": 3,
-      "pages": 956,
+      "pages": 958,
       "partial_generated_files": 0,
       "status": "completed",
-      "types_completed": 952,
-      "types_discovered": 952,
+      "types_completed": 954,
+      "types_discovered": 954,
       "types_failed": 0,
-      "types_selected": 952,
+      "types_selected": 954,
       "types_skipped": 0
     }
   },

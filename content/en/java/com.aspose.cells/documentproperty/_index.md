@@ -1,13 +1,16 @@
 ---
-title: DocumentProperty
-second_title: Aspose.Cells for Java API Reference
-description: Represents a custom or built-in document property.
+title: "DocumentProperty"
+second_title: "Aspose.Cells for Java API Reference"
+description: "Represents a custom or built-in document property."
 type: docs
-url: /java/com.aspose.cells/documentproperty/
+url: "/java/com.aspose.cells/documentproperty/"
+source_url: "https://reference.aspose.com/cells/java/com.aspose.cells/documentproperty/"
+generated_from: "online-reference"
+fetched_at: "2026-06-16T11:49:40+00:00"
 ---
-
 **Inheritance:**
 java.lang.Object
+
 ```
 public class DocumentProperty
 ```
@@ -29,7 +32,8 @@ Represents a custom or built-in document property.
          //Accessng a custom document property by using the property name
          DocumentProperty customProperty2 = customProperties.get("Owner");
 ```
-## Methods
+
+## Methods {#methods}
 
 | Method | Description |
 | --- | --- |
@@ -53,56 +57,58 @@ Represents a custom or built-in document property.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+
 ### equals(Object arg0) {#equals-java.lang.Object-}
+
 ```
 public boolean equals(Object arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
 **Returns:**
 boolean
+
 ### getClass() {#getClass--}
+
 ```
 public final native Class<?> getClass()
 ```
 
-
-
-
 **Returns:**
-java.lang.Class<?>
+java.lang.Class
+
 ### getName() {#getName--}
+
 ```
 public String getName()
 ```
-
 
 Returns the name of the property.
 
 **Returns:**
 java.lang.String
+
 ### getSource() {#getSource--}
+
 ```
 public String getSource()
 ```
-
 
 The linked content source.
 
 **Returns:**
 java.lang.String
+
 ### getType() {#getType--}
+
 ```
 public int getType()
 ```
-
 
 Gets the data type of the property.
 
@@ -110,80 +116,80 @@ See [PropertyType](../../com.aspose.cells/propertytype).
 
 **Returns:**
 int
+
 ### getValue() {#getValue--}
+
 ```
 public Object getValue()
 ```
-
 
 Gets the value of the property.
 
 **Returns:**
 java.lang.Object
+
 ### hashCode() {#hashCode--}
+
 ```
 public native int hashCode()
 ```
 
-
-
-
 **Returns:**
 int
+
 ### isGeneratedName() {#isGeneratedName--}
+
 ```
 public boolean isGeneratedName()
 ```
-
 
 Returns true if this property does not have a name in the OLE2 storage and a unique name was generated only for the public API.
 
 **Returns:**
 boolean
+
 ### isLinkedToContent() {#isLinkedToContent--}
+
 ```
 public boolean isLinkedToContent()
 ```
-
 
 Indicates whether this property is linked to content
 
 **Returns:**
 boolean
+
 ### notify() {#notify--}
+
 ```
 public final native void notify()
 ```
 
-
-
-
 ### notifyAll() {#notifyAll--}
+
 ```
 public final native void notifyAll()
 ```
 
-
-
-
 ### setValue(Object value) {#setValue-java.lang.Object-}
+
 ```
 public void setValue(Object value)
 ```
 
-
 Sets the value of the property.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.Object |  |
 
 ### toBool() {#toBool--}
+
 ```
 public boolean toBool()
 ```
-
 
 Returns the property value as bool.
 
@@ -193,11 +199,12 @@ Throws an exception if the property type is not PropertyType.Boolean.
 
 **Returns:**
 boolean
+
 ### toDateTime() {#toDateTime--}
+
 ```
 public DateTime toDateTime()
 ```
-
 
 Returns the property value as DateTime in local timezone.
 
@@ -207,11 +214,12 @@ Throws an exception if the property type is not PropertyType.Date.
 
 **Returns:**
 [DateTime](../../com.aspose.cells/datetime)
+
 ### toDouble() {#toDouble--}
+
 ```
 public double toDouble()
 ```
-
 
 Returns the property value as double.
 
@@ -221,11 +229,12 @@ Throws an exception if the property type is not PropertyType.Float.
 
 **Returns:**
 double
+
 ### toInt() {#toInt--}
+
 ```
 public int toInt()
 ```
-
 
 Returns the property value as integer.
 
@@ -235,52 +244,49 @@ Throws an exception if the property type is not PropertyType.Number.
 
 **Returns:**
 int
+
 ### toString() {#toString--}
+
 ```
 public String toString()
 ```
-
 
 Returns the property value as a string.
 
 **Remarks**
 
-Converts a number property using Object.ToString(). Converts a boolean property into "Y" or "N". Converts a date property into a short date string.
+Converts a number property using Object.ToString(). Converts a boolean property into “Y” or “N”. Converts a date property into a short date string.
 
 **Returns:**
 java.lang.String
+
 ### wait() {#wait--}
+
 ```
 public final void wait()
 ```
 
-
-
-
 ### wait(long arg0) {#wait-long-}
+
 ```
 public final native void wait(long arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
 ### wait(long arg0, int arg1) {#wait-long-int-}
+
 ```
 public final void wait(long arg0, int arg1)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

@@ -1,19 +1,23 @@
 ---
-title: IconFilter
-second_title: Aspose.Cells for Java API Reference
-description: Represents icon filter.
+title: "IconFilter"
+second_title: "Aspose.Cells for Java API Reference"
+description: "Represents icon filter."
 type: docs
-url: /java/com.aspose.cells/iconfilter/
+url: "/java/com.aspose.cells/iconfilter/"
+source_url: "https://reference.aspose.com/cells/java/com.aspose.cells/iconfilter/"
+generated_from: "online-reference"
+fetched_at: "2026-06-16T11:51:14+00:00"
 ---
-
 **Inheritance:**
 java.lang.Object
+
 ```
 public class IconFilter
 ```
 
 Represents icon filter.
-## Methods
+
+## Methods {#methods}
 
 | Method | Description |
 | --- | --- |
@@ -30,46 +34,47 @@ Represents icon filter.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+
 ### equals(Object arg0) {#equals-java.lang.Object-}
+
 ```
 public boolean equals(Object arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
 **Returns:**
 boolean
+
 ### getClass() {#getClass--}
+
 ```
 public final native Class<?> getClass()
 ```
 
-
-
-
 **Returns:**
-java.lang.Class<?>
+java.lang.Class
+
 ### getIconId() {#getIconId--}
+
 ```
 public int getIconId()
 ```
-
 
 Gets Zero-based index of an icon in an icon set.
 
 **Returns:**
 int
+
 ### getIconSetType() {#getIconSetType--}
+
 ```
 public int getIconSetType()
 ```
-
 
 Gets which icon set is used for this filter criteria.
 
@@ -77,102 +82,94 @@ See [IconSetType](../../com.aspose.cells/iconsettype).
 
 **Returns:**
 int
+
 ### hashCode() {#hashCode--}
+
 ```
 public native int hashCode()
 ```
 
-
-
-
 **Returns:**
 int
+
 ### notify() {#notify--}
+
 ```
 public final native void notify()
 ```
 
-
-
-
 ### notifyAll() {#notifyAll--}
+
 ```
 public final native void notifyAll()
 ```
 
-
-
-
 ### setIconId(int value) {#setIconId-int-}
+
 ```
 public void setIconId(int value)
 ```
 
-
 Sets Zero-based index of an icon in an icon set.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
 
 ### setIconSetType(int value) {#setIconSetType-int-}
+
 ```
 public void setIconSetType(int value)
 ```
-
 
 Sets which icon set is used for this filter criteria.
 
 See [IconSetType](../../com.aspose.cells/iconsettype).
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
 
 ### toString() {#toString--}
+
 ```
 public String toString()
 ```
 
-
-
-
 **Returns:**
 java.lang.String
+
 ### wait() {#wait--}
+
 ```
 public final void wait()
 ```
 
-
-
-
 ### wait(long arg0) {#wait-long-}
+
 ```
 public final native void wait(long arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
 ### wait(long arg0, int arg1) {#wait-long-int-}
+
 ```
 public final void wait(long arg0, int arg1)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

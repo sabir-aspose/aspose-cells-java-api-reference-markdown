@@ -1,19 +1,23 @@
 ---
-title: PivotFieldSortSetting
-second_title: Aspose.Cells for Java API Reference
-description: Represents the setting for sorting pivot fields.
+title: "PivotFieldSortSetting"
+second_title: "Aspose.Cells for Java API Reference"
+description: "Represents the setting for sorting pivot fields."
 type: docs
-url: /java/com.aspose.cells/pivotfieldsortsetting/
+url: "/java/com.aspose.cells/pivotfieldsortsetting/"
+source_url: "https://reference.aspose.com/cells/java/com.aspose.cells/pivotfieldsortsetting/"
+generated_from: "online-reference"
+fetched_at: "2026-06-16T11:53:44+00:00"
 ---
-
 **Inheritance:**
 java.lang.Object
+
 ```
 public class PivotFieldSortSetting
 ```
 
 Represents the setting for sorting pivot fields.
-## Methods
+
+## Methods {#methods}
 
 | Method | Description |
 | --- | --- |
@@ -32,56 +36,58 @@ Represents the setting for sorting pivot fields.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+
 ### equals(Object arg0) {#equals-java.lang.Object-}
+
 ```
 public boolean equals(Object arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
 **Returns:**
 boolean
+
 ### getCell() {#getCell--}
+
 ```
 public String getCell()
 ```
-
 
 Sorts by the values in which row or column.
 
 **Returns:**
 java.lang.String
+
 ### getClass() {#getClass--}
+
 ```
 public final native Class<?> getClass()
 ```
 
-
-
-
 **Returns:**
-java.lang.Class<?>
+java.lang.Class
+
 ### getFieldIndex() {#getFieldIndex--}
+
 ```
 public int getFieldIndex()
 ```
-
 
 Represents the index of the field sorted by. -1 means sorting the PivotField by the labels,others means sorting by the data field.
 
 **Returns:**
 int
+
 ### getLineTypeSortedBy() {#getLineTypeSortedBy--}
+
 ```
 public int getLineTypeSortedBy()
 ```
-
 
 The pivot line type sorted by.
 
@@ -93,11 +99,12 @@ Only works when not sorting this field by labels.
 
 **Returns:**
 int
+
 ### getSortType() {#getSortType--}
+
 ```
 public int getSortType()
 ```
-
 
 Represents the [SortOrder](../../com.aspose.cells/sortorder).
 
@@ -105,21 +112,21 @@ See [SortOrder](../../com.aspose.cells/sortorder).
 
 **Returns:**
 int
+
 ### hashCode() {#hashCode--}
+
 ```
 public native int hashCode()
 ```
 
-
-
-
 **Returns:**
 int
+
 ### isSimpleSort() {#isSimpleSort--}
+
 ```
 public boolean isSimpleSort()
 ```
-
 
 Indicates whether a simple data sort operation will be applied.
 
@@ -129,74 +136,66 @@ The default value is true.
 
 **Returns:**
 boolean
+
 ### isSortByLabels() {#isSortByLabels--}
+
 ```
 public boolean isSortByLabels()
 ```
-
 
 Indicates whether to sort the field by itself or data field.
 
 **Returns:**
 boolean
+
 ### notify() {#notify--}
+
 ```
 public final native void notify()
 ```
 
-
-
-
 ### notifyAll() {#notifyAll--}
+
 ```
 public final native void notifyAll()
 ```
 
-
-
-
 ### toString() {#toString--}
+
 ```
 public String toString()
 ```
 
-
-
-
 **Returns:**
 java.lang.String
+
 ### wait() {#wait--}
+
 ```
 public final void wait()
 ```
 
-
-
-
 ### wait(long arg0) {#wait-long-}
+
 ```
 public final native void wait(long arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
 ### wait(long arg0, int arg1) {#wait-long-int-}
+
 ```
 public final void wait(long arg0, int arg1)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

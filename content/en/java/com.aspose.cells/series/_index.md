@@ -1,13 +1,16 @@
 ---
-title: Series
-second_title: Aspose.Cells for Java API Reference
-description: Encapsulates the object that represents a single data series in a chart.
+title: "Series"
+second_title: "Aspose.Cells for Java API Reference"
+description: "Encapsulates the object that represents a single data series in a chart."
 type: docs
-url: /java/com.aspose.cells/series/
+url: "/java/com.aspose.cells/series/"
+source_url: "https://reference.aspose.com/cells/java/com.aspose.cells/series/"
+generated_from: "online-reference"
+fetched_at: "2026-06-16T11:55:13+00:00"
 ---
-
 **Inheritance:**
 java.lang.Object
+
 ```
 public class Series
 ```
@@ -71,7 +74,8 @@ Encapsulates the object that represents a single data series in a chart.
          //Saving the Excel file
          workbook.save("book1.xls");
 ```
-## Methods
+
+## Methods {#methods}
 
 | Method | Description |
 | --- | --- |
@@ -88,7 +92,7 @@ Encapsulates the object that represents a single data series in a chart.
 | [getClass()](#getClass--) |  |
 | [getCountOfDataValues()](#getCountOfDataValues--) | Gets the number of the data values. |
 | [getDataLabels()](#getDataLabels--) | Represents the DataLabels object for the specified ASeries. |
-| [getDisplayName()](#getDisplayName--) | Gets the series's name that displays on the chart graph. |
+| [getDisplayName()](#getDisplayName--) | Gets the series’s name that displays on the chart graph. |
 | [getDoughnutHoleSize()](#getDoughnutHoleSize--) | Returns or sets the size of the hole in a doughnut chart group. |
 | [getDownBars()](#getDownBars--) | Returns a [DropBars](../../com.aspose.cells/dropbars) object that represents the down bars on a line chart. |
 | [getDropLines()](#getDropLines--) | Returns a [Line](../../com.aspose.cells/line) object that represents the drop lines for a series on the line chart or area chart. |
@@ -100,7 +104,7 @@ Encapsulates the object that represents a single data series in a chart.
 | [getLayoutProperties()](#getLayoutProperties--) | Represents the properties of layout. |
 | [getLeaderLines()](#getLeaderLines--) | Represents leader lines on a chart. |
 | [getLegendEntry()](#getLegendEntry--) | Gets the legend entry according to this series. |
-| [getMarker()](#getMarker--) | Gets the [getMarker()](../../com.aspose.cells/series\#getMarker--). |
+| [getMarker()](#getMarker--) | Gets the [getMarker()](../../com.aspose.cells/series#getMarker--). |
 | [getName()](#getName--) | Gets the name of the data series. |
 | [getOverlap()](#getOverlap--) | Specifies how bars and columns are positioned. |
 | [getPlotOnSecondAxis()](#getPlotOnSecondAxis--) | Indicates if this series is plotted on the second value axis. |
@@ -116,13 +120,13 @@ Encapsulates the object that represents a single data series in a chart.
 | [getSplitType()](#getSplitType--) | Returns or sets a value that how to determine which data points are in the second pie or bar on a pie of pie or bar of pie chart. |
 | [getSplitValue()](#getSplitValue--) | Returns or sets a value that shall be used to determine which data points are in the second pie or bar on a pie of pie or bar of pie chart. |
 | [getTrendLines()](#getTrendLines--) | Returns all the trendlines of this series. |
-| [getType()](#getType--) | Gets a data series' type. |
+| [getType()](#getType--) | Gets a data series’ type. |
 | [getUpBars()](#getUpBars--) | Returns a DropBars object that represents the up bars on a line chart. |
 | [getValues()](#getValues--) | Represents the Y values of this chart series. |
 | [getValuesFormatCode()](#getValuesFormatCode--) | Represents the format code of the Values NumberList. |
 | [getXErrorBar()](#getXErrorBar--) | Represents X direction error bar of the series. |
 | [getXValues()](#getXValues--) | Represents the X values of this chart series. |
-| [getXValuesFormatCode()](#getXValuesFormatCode--) | Represents format code of X Values' NumberList. |
+| [getXValuesFormatCode()](#getXValuesFormatCode--) | Represents format code of X Values’ NumberList. |
 | [getYErrorBar()](#getYErrorBar--) | Represents Y direction error bar of the series. |
 | [hasDropLines()](#hasDropLines--) | True if the chart has drop lines. |
 | [hasHiLoLines()](#hasHiLoLines--) | True if the line chart has high-low lines. |
@@ -165,45 +169,47 @@ Encapsulates the object that represents a single data series in a chart.
 | [setSmooth(boolean value)](#setSmooth-boolean-) | Represents curve smoothing. |
 | [setSplitType(int value)](#setSplitType-int-) | Returns or sets a value that how to determine which data points are in the second pie or bar on a pie of pie or bar of pie chart. |
 | [setSplitValue(double value)](#setSplitValue-double-) | Returns or sets a value that shall be used to determine which data points are in the second pie or bar on a pie of pie or bar of pie chart. |
-| [setType(int value)](#setType-int-) | Sets a data series' type. |
+| [setType(int value)](#setType-int-) | Sets a data series’ type. |
 | [setValues(String value)](#setValues-java.lang.String-) | Represents the Y values of this chart series. |
 | [setValuesFormatCode(String value)](#setValuesFormatCode-java.lang.String-) | Represents the format code of the Values NumberList. |
 | [setXValues(String value)](#setXValues-java.lang.String-) | Represents the X values of this chart series. |
-| [setXValuesFormatCode(String value)](#setXValuesFormatCode-java.lang.String-) | Represents format code of X Values' NumberList. |
+| [setXValuesFormatCode(String value)](#setXValuesFormatCode-java.lang.String-) | Represents format code of X Values’ NumberList. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+
 ### equals(Object arg0) {#equals-java.lang.Object-}
+
 ```
 public boolean equals(Object arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
 **Returns:**
 boolean
+
 ### getArea() {#getArea--}
+
 ```
 public Area getArea()
 ```
-
 
 Represents the background area of the Series object.
 
 **Returns:**
 [Area](../../com.aspose.cells/area)
+
 ### getBar3DShapeType() {#getBar3DShapeType--}
+
 ```
 public int getBar3DShapeType()
 ```
-
 
 Gets the 3D shape type used with the 3-D bar or column chart.
 
@@ -211,31 +217,34 @@ See [Bar3DShapeType](../../com.aspose.cells/bar3dshapetype).
 
 **Returns:**
 int
+
 ### getBorder() {#getBorder--}
+
 ```
 public Line getBorder()
 ```
-
 
 Represents the border of a Series object.
 
 **Returns:**
 [Line](../../com.aspose.cells/line)
+
 ### getBubbleScale() {#getBubbleScale--}
+
 ```
 public int getBubbleScale()
 ```
-
 
 Gets the scale factor for bubbles in the specified chart group. It can be an integer value from 0 (zero) to 300, corresponding to a percentage of the default size. Applies only to bubble charts.
 
 **Returns:**
 int
+
 ### getBubbleSizeRepresents() {#getBubbleSizeRepresents--}
+
 ```
 public int getBubbleSizeRepresents()
 ```
-
 
 Gets what the bubble size represents on a bubble chart.
 
@@ -247,25 +256,27 @@ NOTE: This member is now obsolete. Instead, please use Aspose.Cells.Charts.Serie
 
 **Returns:**
 int
+
 ### getBubbleSizes() {#getBubbleSizes--}
+
 ```
 public String getBubbleSizes()
 ```
-
 
 Gets the bubble size values of the chart series.
 
 **Remarks**
 
-Only for [ChartType.BUBBLE](../../com.aspose.cells/charttype\#BUBBLE) or [ChartType.BUBBLE\_3\_D](../../com.aspose.cells/charttype\#BUBBLE-3-D).
+Only for [ChartType.BUBBLE](../../com.aspose.cells/charttype#BUBBLE) or [ChartType.BUBBLE_3_D](../../com.aspose.cells/charttype#BUBBLE-3-D).
 
 **Returns:**
 java.lang.String
+
 ### getCachedCategoryValues() {#getCachedCategoryValues--}
+
 ```
 public ArrayList getCachedCategoryValues()
 ```
-
 
 Gets the cached category values for the series
 
@@ -275,11 +286,12 @@ NOTE: This property is currently for internal use only. It will be changed or re
 
 **Returns:**
 java.util.ArrayList
+
 ### getCachedValues() {#getCachedValues--}
+
 ```
 public ArrayList getCachedValues()
 ```
-
 
 Gets the cached values for the series
 
@@ -289,17 +301,18 @@ NOTE: This property is currently for internal use only. It will be changed or re
 
 **Returns:**
 java.util.ArrayList
+
 ### getCategoryValues() {#getCategoryValues--}
+
 ```
 public ChartDataValue[][] getCategoryValues()
 ```
-
 
 Gets the actual category values that are used to plot every point of this series in the chart.
 
 **Remarks**
 
-This property provides one convenient way to get the actual values corresponding to the data defined by [getXValues()](../../com.aspose.cells/series\#getXValues--), especially when the specified data source is external link, formula, ...etc.
+This property provides one convenient way to get the actual values corresponding to the data defined by [getXValues()](../../com.aspose.cells/series#getXValues--), especially when the specified data source is external link, formula, …etc.
 
 **Example**
 
@@ -320,175 +333,190 @@ This property provides one convenient way to get the actual values corresponding
 
 **Returns:**
 com.aspose.cells.ChartDataValue[][]
+
 ### getClass() {#getClass--}
+
 ```
 public final native Class<?> getClass()
 ```
 
-
-
-
 **Returns:**
-java.lang.Class<?>
+java.lang.Class
+
 ### getCountOfDataValues() {#getCountOfDataValues--}
+
 ```
 public int getCountOfDataValues()
 ```
-
 
 Gets the number of the data values.
 
 **Returns:**
 int
+
 ### getDataLabels() {#getDataLabels--}
+
 ```
 public DataLabels getDataLabels()
 ```
-
 
 Represents the DataLabels object for the specified ASeries.
 
 **Returns:**
 [DataLabels](../../com.aspose.cells/datalabels)
+
 ### getDisplayName() {#getDisplayName--}
+
 ```
 public String getDisplayName()
 ```
 
-
-Gets the series's name that displays on the chart graph.
+Gets the series’s name that displays on the chart graph.
 
 **Returns:**
 java.lang.String
+
 ### getDoughnutHoleSize() {#getDoughnutHoleSize--}
+
 ```
 public int getDoughnutHoleSize()
 ```
-
 
 Returns or sets the size of the hole in a doughnut chart group. The hole size is expressed as a percentage of the chart size, between 10 and 90 percent.
 
 **Returns:**
 int
+
 ### getDownBars() {#getDownBars--}
+
 ```
 public DropBars getDownBars()
 ```
-
 
 Returns a [DropBars](../../com.aspose.cells/dropbars) object that represents the down bars on a line chart. Applies only to line charts.
 
 **Returns:**
 [DropBars](../../com.aspose.cells/dropbars)
+
 ### getDropLines() {#getDropLines--}
+
 ```
 public Line getDropLines()
 ```
-
 
 Returns a [Line](../../com.aspose.cells/line) object that represents the drop lines for a series on the line chart or area chart. Applies only to line charts or area charts.
 
 **Returns:**
 [Line](../../com.aspose.cells/line)
+
 ### getExplosion() {#getExplosion--}
+
 ```
 public int getExplosion()
 ```
-
 
 The distance of an open pie slice from the center of the pie chart is expressed as a percentage of the pie diameter.
 
 **Returns:**
 int
+
 ### getFirstSliceAngle() {#getFirstSliceAngle--}
+
 ```
 public short getFirstSliceAngle()
 ```
-
 
 Gets the angle of the first pie-chart or doughnut-chart slice, in degrees (clockwise from vertical). Applies only to pie, 3-D pie, and doughnut charts, with values from 0 to 360.
 
 **Returns:**
 short
+
 ### getGapWidth() {#getGapWidth--}
+
 ```
 public short getGapWidth()
 ```
-
 
 Returns or sets the space between bar or column clusters, as a percentage of the bar or column width. The value of this property must be between 0 and 500.
 
 **Returns:**
 short
+
 ### getHas3DEffect() {#getHas3DEffect--}
+
 ```
 public boolean getHas3DEffect()
 ```
-
 
 True if the series has a three-dimensional appearance.
 
 **Remarks**
 
-Applies only to [ChartType.BUBBLE](../../com.aspose.cells/charttype\#BUBBLE) or [ChartType.BUBBLE\_3\_D](../../com.aspose.cells/charttype\#BUBBLE-3-D) charts.
+Applies only to [ChartType.BUBBLE](../../com.aspose.cells/charttype#BUBBLE) or [ChartType.BUBBLE_3_D](../../com.aspose.cells/charttype#BUBBLE-3-D) charts.
 
 **Returns:**
 boolean
+
 ### getHiLoLines() {#getHiLoLines--}
+
 ```
 public Line getHiLoLines()
 ```
-
 
 Returns a HiLoLines object that represents the high-low lines for a series on a line chart. Applies only to line charts.
 
 **Returns:**
 [Line](../../com.aspose.cells/line)
+
 ### getLayoutProperties() {#getLayoutProperties--}
+
 ```
 public SeriesLayoutProperties getLayoutProperties()
 ```
-
 
 Represents the properties of layout.
 
 **Returns:**
 [SeriesLayoutProperties](../../com.aspose.cells/serieslayoutproperties)
+
 ### getLeaderLines() {#getLeaderLines--}
+
 ```
 public Line getLeaderLines()
 ```
 
-
-Represents leader lines on a chart. Leader lines connect data labels to data points. This object isn't a collection; there's no object that represents a single leader line.
+Represents leader lines on a chart. Leader lines connect data labels to data points. This object isn’t a collection; there’s no object that represents a single leader line.
 
 **Returns:**
 [Line](../../com.aspose.cells/line)
+
 ### getLegendEntry() {#getLegendEntry--}
+
 ```
 public LegendEntry getLegendEntry()
 ```
-
 
 Gets the legend entry according to this series.
 
 **Returns:**
 [LegendEntry](../../com.aspose.cells/legendentry)
+
 ### getMarker() {#getMarker--}
+
 ```
 public Marker getMarker()
 ```
 
-
-Gets the [getMarker()](../../com.aspose.cells/series\#getMarker--).
+Gets the [getMarker()](../../com.aspose.cells/series#getMarker--).
 
 **Returns:**
 [Marker](../../com.aspose.cells/marker)
+
 ### getName() {#getName--}
+
 ```
 public String getName()
 ```
-
 
 Gets the name of the data series.
 
@@ -504,37 +532,40 @@ Gets the name of the data series.
 
 **Returns:**
 java.lang.String
+
 ### getOverlap() {#getOverlap--}
+
 ```
 public short getOverlap()
 ```
-
 
 Specifies how bars and columns are positioned. Can be a value between -100 and 100. Applies only to 2-D bar and 2-D column charts.
 
 **Returns:**
 short
+
 ### getPlotOnSecondAxis() {#getPlotOnSecondAxis--}
+
 ```
 public boolean getPlotOnSecondAxis()
 ```
-
 
 Indicates if this series is plotted on the second value axis.
 
 **Returns:**
 boolean
+
 ### getPointValues() {#getPointValues--}
+
 ```
 public ChartDataValue[] getPointValues()
 ```
-
 
 Gets the actual values that are used to plot every point of this series in the chart.
 
 **Remarks**
 
-This property provides one convenient way to get the actual values corresponding to the data defined by [getValues()](../../com.aspose.cells/series\#getValues--), especially when the specified data source is external link, formula, ...etc.
+This property provides one convenient way to get the actual values corresponding to the data defined by [getValues()](../../com.aspose.cells/series#getValues--), especially when the specified data source is external link, formula, …etc.
 
 **Example**
 
@@ -554,11 +585,12 @@ This property provides one convenient way to get the actual values corresponding
 
 **Returns:**
 com.aspose.cells.ChartDataValue[]
+
 ### getPoints() {#getPoints--}
+
 ```
 public ChartPointCollection getPoints()
 ```
-
 
 Gets the collection of points in a series in a chart.
 
@@ -568,61 +600,67 @@ When the chart is Pie of Pie or Bar of Pie, the last point is other point in fir
 
 **Returns:**
 [ChartPointCollection](../../com.aspose.cells/chartpointcollection)
+
 ### getSecondPlotSize() {#getSecondPlotSize--}
+
 ```
 public short getSecondPlotSize()
 ```
-
 
 Returns or sets the size of the secondary section of either a pie of pie chart or a bar of pie chart, as a percentage of the size of the primary pie. Can be a value from 5 to 200.
 
 **Returns:**
 short
+
 ### getSeriesLines() {#getSeriesLines--}
+
 ```
 public Line getSeriesLines()
 ```
-
 
 Returns a SeriesLines object that represents the series lines for a stacked bar chart or a stacked column chart. Applies only to stacked bar and stacked column charts.
 
 **Returns:**
 [Line](../../com.aspose.cells/line)
+
 ### getShadow() {#getShadow--}
+
 ```
 public boolean getShadow()
 ```
-
 
 True if the series has a shadow.
 
 **Returns:**
 boolean
+
 ### getShapeProperties() {#getShapeProperties--}
+
 ```
 public ShapePropertyCollection getShapeProperties()
 ```
-
 
 Gets the [ShapePropertyCollection](../../com.aspose.cells/shapepropertycollection) object that holds the visual shape properties of the Series.
 
 **Returns:**
 [ShapePropertyCollection](../../com.aspose.cells/shapepropertycollection)
+
 ### getShowNegativeBubbles() {#getShowNegativeBubbles--}
+
 ```
 public boolean getShowNegativeBubbles()
 ```
-
 
 True if negative bubbles are shown for the chart group. Valid only for bubble charts.
 
 **Returns:**
 boolean
+
 ### getSizeRepresents() {#getSizeRepresents--}
+
 ```
 public int getSizeRepresents()
 ```
-
 
 Gets what the bubble size represents on a bubble chart.
 
@@ -630,25 +668,27 @@ See [BubbleSizeRepresents](../../com.aspose.cells/bubblesizerepresents).
 
 **Remarks**
 
-BubbleSizeRepresents.SizeIsArea means the value [getBubbleSizes()](../../com.aspose.cells/series\#getBubbleSizes--) is the area of the bubble. BubbleSizeRepresents.SizeIsWidth means the value [getBubbleSizes()](../../com.aspose.cells/series\#getBubbleSizes--) is the width of the bubble.
+BubbleSizeRepresents.SizeIsArea means the value [getBubbleSizes()](../../com.aspose.cells/series#getBubbleSizes--) is the area of the bubble. BubbleSizeRepresents.SizeIsWidth means the value [getBubbleSizes()](../../com.aspose.cells/series#getBubbleSizes--) is the width of the bubble.
 
 **Returns:**
 int
+
 ### getSmooth() {#getSmooth--}
+
 ```
 public boolean getSmooth()
 ```
-
 
 Represents curve smoothing. True if curve smoothing is turned on for the line chart or scatter chart. Applies only to line charts and scatter charts with lines.
 
 **Returns:**
 boolean
+
 ### getSplitType() {#getSplitType--}
+
 ```
 public int getSplitType()
 ```
-
 
 Returns or sets a value that how to determine which data points are in the second pie or bar on a pie of pie or bar of pie chart.
 
@@ -656,288 +696,307 @@ See [ChartSplitType](../../com.aspose.cells/chartsplittype).
 
 **Returns:**
 int
+
 ### getSplitValue() {#getSplitValue--}
+
 ```
 public double getSplitValue()
 ```
-
 
 Returns or sets a value that shall be used to determine which data points are in the second pie or bar on a pie of pie or bar of pie chart.
 
 **Returns:**
 double
+
 ### getTrendLines() {#getTrendLines--}
+
 ```
 public TrendlineCollection getTrendLines()
 ```
-
 
 Returns all the trendlines of this series.
 
 **Returns:**
 [TrendlineCollection](../../com.aspose.cells/trendlinecollection)
+
 ### getType() {#getType--}
+
 ```
 public int getType()
 ```
 
-
-Gets a data series' type.
+Gets a data series’ type.
 
 See [ChartType](../../com.aspose.cells/charttype).
 
 **Returns:**
 int
+
 ### getUpBars() {#getUpBars--}
+
 ```
 public DropBars getUpBars()
 ```
-
 
 Returns a DropBars object that represents the up bars on a line chart. Applies only to line charts.
 
 **Returns:**
 [DropBars](../../com.aspose.cells/dropbars)
+
 ### getValues() {#getValues--}
+
 ```
 public String getValues()
 ```
-
 
 Represents the Y values of this chart series.
 
 **Remarks**
 
-To get the actual values(corresponding to every point of this series) defined by this property, please use [getPointValues()](../../com.aspose.cells/series\#getPointValues--).
+To get the actual values(corresponding to every point of this series) defined by this property, please use [getPointValues()](../../com.aspose.cells/series#getPointValues--).
 
 **Returns:**
 java.lang.String
+
 ### getValuesFormatCode() {#getValuesFormatCode--}
+
 ```
 public String getValuesFormatCode()
 ```
-
 
 Represents the format code of the Values NumberList.
 
 **Returns:**
 java.lang.String
+
 ### getXErrorBar() {#getXErrorBar--}
+
 ```
 public ErrorBar getXErrorBar()
 ```
-
 
 Represents X direction error bar of the series.
 
 **Returns:**
 [ErrorBar](../../com.aspose.cells/errorbar)
+
 ### getXValues() {#getXValues--}
+
 ```
 public String getXValues()
 ```
-
 
 Represents the X values of this chart series.
 
 **Remarks**
 
-Only for Scatter and Bubble chart. Please use [SeriesCollection.getCategoryData()](../../com.aspose.cells/seriescollection\#getCategoryData--) for other types of charts [getCategoryValues()](../../com.aspose.cells/series\#getCategoryValues--) is used to get the actual category values of this series.
+Only for Scatter and Bubble chart. Please use [SeriesCollection.getCategoryData()](../../com.aspose.cells/seriescollection#getCategoryData--) for other types of charts [getCategoryValues()](../../com.aspose.cells/series#getCategoryValues--) is used to get the actual category values of this series.
 
 **Returns:**
 java.lang.String
+
 ### getXValuesFormatCode() {#getXValuesFormatCode--}
+
 ```
 public String getXValuesFormatCode()
 ```
 
-
-Represents format code of X Values' NumberList.
+Represents format code of X Values’ NumberList.
 
 **Returns:**
 java.lang.String
+
 ### getYErrorBar() {#getYErrorBar--}
+
 ```
 public ErrorBar getYErrorBar()
 ```
-
 
 Represents Y direction error bar of the series.
 
 **Returns:**
 [ErrorBar](../../com.aspose.cells/errorbar)
+
 ### hasDropLines() {#hasDropLines--}
+
 ```
 public boolean hasDropLines()
 ```
-
 
 True if the chart has drop lines. Applies only to line chart or area charts.
 
 **Returns:**
 boolean
+
 ### hasHiLoLines() {#hasHiLoLines--}
+
 ```
 public boolean hasHiLoLines()
 ```
-
 
 True if the line chart has high-low lines. Applies only to line charts.
 
 **Returns:**
 boolean
+
 ### hasLeaderLines() {#hasLeaderLines--}
+
 ```
 public boolean hasLeaderLines()
 ```
-
 
 True if the series has leader lines.
 
 **Returns:**
 boolean
+
 ### hasRadarAxisLabels() {#hasRadarAxisLabels--}
+
 ```
 public boolean hasRadarAxisLabels()
 ```
-
 
 True if a radar chart has category axis labels. Applies only to radar charts.
 
 **Returns:**
 boolean
+
 ### hasSeriesLines() {#hasSeriesLines--}
+
 ```
 public boolean hasSeriesLines()
 ```
-
 
 True if a stacked column chart or bar chart has series lines or if a Pie of Pie chart or Bar of Pie chart has connector lines between the two sections. Applies only to stacked column charts, bar charts, Pie of Pie charts, or Bar of Pie charts.
 
 **Returns:**
 boolean
+
 ### hasUpDownBars() {#hasUpDownBars--}
+
 ```
 public boolean hasUpDownBars()
 ```
-
 
 True if a line chart has up and down bars. Applies only to line charts.
 
 **Returns:**
 boolean
+
 ### hashCode() {#hashCode--}
+
 ```
 public native int hashCode()
 ```
 
-
-
-
 **Returns:**
 int
+
 ### isAutoSplit() {#isAutoSplit--}
+
 ```
 public boolean isAutoSplit()
 ```
-
 
 Indicates whether the threshold value is automatic.
 
 **Returns:**
 boolean
+
 ### isColorVaried() {#isColorVaried--}
+
 ```
 public boolean isColorVaried()
 ```
-
 
 Represents whether the color of points is varied. The chart must contain only one series or this chart is a pie chart.
 
 **Returns:**
 boolean
+
 ### isFiltered() {#isFiltered--}
+
 ```
 public boolean isFiltered()
 ```
-
 
 Indicates whether the series is selected or filtered. True indicates that this series is filtered, and it will not be displayed on the chart.
 
 **Returns:**
 boolean
+
 ### isVerticalValues() {#isVerticalValues--}
+
 ```
 public boolean isVerticalValues()
 ```
-
 
 Indicates whether the data source is vertical.
 
 **Returns:**
 boolean
+
 ### move(int count) {#move-int-}
+
 ```
 public void move(int count)
 ```
 
-
 Moves the series up or down.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | count | int | The number of moving up or down. Move the series up if this is less than zero; Move the series down if this is greater than zero. |
 
 ### notify() {#notify--}
+
 ```
 public final native void notify()
 ```
 
-
-
-
 ### notifyAll() {#notifyAll--}
+
 ```
 public final native void notifyAll()
 ```
 
-
-
-
 ### setBar3DShapeType(int value) {#setBar3DShapeType-int-}
+
 ```
 public void setBar3DShapeType(int value)
 ```
-
 
 Sets the 3D shape type used with the 3-D bar or column chart.
 
 See [Bar3DShapeType](../../com.aspose.cells/bar3dshapetype).
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
 
 ### setBubbleScale(int value) {#setBubbleScale-int-}
+
 ```
 public void setBubbleScale(int value)
 ```
 
-
 Sets the scale factor for bubbles in the specified chart group. It can be an integer value from 0 (zero) to 300, corresponding to a percentage of the default size. Applies only to bubble charts.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
 
 ### setBubbleSizeRepresents(int value) {#setBubbleSizeRepresents-int-}
+
 ```
 public void setBubbleSizeRepresents(int value)
 ```
-
 
 Gets what the bubble size represents on a bubble chart.
 
@@ -948,283 +1007,304 @@ See [BubbleSizeRepresents](../../com.aspose.cells/bubblesizerepresents).
 NOTE: This member is now obsolete. Instead, please use Aspose.Cells.Charts.Series.SizeRepresents property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
 
 ### setBubbleSizes(String value) {#setBubbleSizes-java.lang.String-}
+
 ```
 public void setBubbleSizes(String value)
 ```
-
 
 Sets the bubble size values of the chart series.
 
 **Remarks**
 
-Only for [ChartType.BUBBLE](../../com.aspose.cells/charttype\#BUBBLE) or [ChartType.BUBBLE\_3\_D](../../com.aspose.cells/charttype\#BUBBLE-3-D).
+Only for [ChartType.BUBBLE](../../com.aspose.cells/charttype#BUBBLE) or [ChartType.BUBBLE_3_D](../../com.aspose.cells/charttype#BUBBLE-3-D).
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String |  |
 
 ### setColorVaried(boolean value) {#setColorVaried-boolean-}
+
 ```
 public void setColorVaried(boolean value)
 ```
 
-
 Represents whether the color of points is varied. The chart must contain only one series or this chart is a pie chart.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
 ### setDoughnutHoleSize(int value) {#setDoughnutHoleSize-int-}
+
 ```
 public void setDoughnutHoleSize(int value)
 ```
 
-
 Returns or sets the size of the hole in a doughnut chart group. The hole size is expressed as a percentage of the chart size, between 10 and 90 percent.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
 
 ### setExplosion(int value) {#setExplosion-int-}
+
 ```
 public void setExplosion(int value)
 ```
 
-
 The distance of an open pie slice from the center of the pie chart is expressed as a percentage of the pie diameter.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
 
 ### setFiltered(boolean value) {#setFiltered-boolean-}
+
 ```
 public void setFiltered(boolean value)
 ```
 
-
 Indicates whether the series is selected or filtered. True indicates that this series is filtered, and it will not be displayed on the chart.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
 ### setFirstSliceAngle(short value) {#setFirstSliceAngle-short-}
+
 ```
 public void setFirstSliceAngle(short value)
 ```
 
-
 Sets the angle of the first pie-chart or doughnut-chart slice, in degrees (clockwise from vertical). Applies only to pie, 3-D pie, and doughnut charts, with values from 0 to 360.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | short |  |
 
 ### setGapWidth(short value) {#setGapWidth-short-}
+
 ```
 public void setGapWidth(short value)
 ```
 
-
 Returns or sets the space between bar or column clusters, as a percentage of the bar or column width. The value of this property must be between 0 and 500.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | short |  |
 
 ### setHas3DEffect(boolean value) {#setHas3DEffect-boolean-}
+
 ```
 public void setHas3DEffect(boolean value)
 ```
-
 
 True if the series has a three-dimensional appearance.
 
 **Remarks**
 
-Applies only to [ChartType.BUBBLE](../../com.aspose.cells/charttype\#BUBBLE) or [ChartType.BUBBLE\_3\_D](../../com.aspose.cells/charttype\#BUBBLE-3-D) charts.
+Applies only to [ChartType.BUBBLE](../../com.aspose.cells/charttype#BUBBLE) or [ChartType.BUBBLE_3_D](../../com.aspose.cells/charttype#BUBBLE-3-D) charts.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
 ### setHasDropLines(boolean value) {#setHasDropLines-boolean-}
+
 ```
 public void setHasDropLines(boolean value)
 ```
 
-
 True if the chart has drop lines. Applies only to line chart or area charts.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
 ### setHasHiLoLines(boolean value) {#setHasHiLoLines-boolean-}
+
 ```
 public void setHasHiLoLines(boolean value)
 ```
 
-
 True if the line chart has high-low lines. Applies only to line charts.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
 ### setHasLeaderLines(boolean value) {#setHasLeaderLines-boolean-}
+
 ```
 public void setHasLeaderLines(boolean value)
 ```
 
-
 True if the series has leader lines.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
 ### setHasRadarAxisLabels(boolean value) {#setHasRadarAxisLabels-boolean-}
+
 ```
 public void setHasRadarAxisLabels(boolean value)
 ```
 
-
 True if a radar chart has category axis labels. Applies only to radar charts.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
 ### setHasSeriesLines(boolean value) {#setHasSeriesLines-boolean-}
+
 ```
 public void setHasSeriesLines(boolean value)
 ```
 
-
 True if a stacked column chart or bar chart has series lines or if a Pie of Pie chart or Bar of Pie chart has connector lines between the two sections. Applies only to stacked column charts, bar charts, Pie of Pie charts, or Bar of Pie charts.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
 ### setHasUpDownBars(boolean value) {#setHasUpDownBars-boolean-}
+
 ```
 public void setHasUpDownBars(boolean value)
 ```
 
-
 True if a line chart has up and down bars. Applies only to line charts.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
 ### setName(String value) {#setName-java.lang.String-}
+
 ```
 public void setName(String value)
 ```
 
-
 Sets the name of the data series.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String |  |
 
 ### setOverlap(short value) {#setOverlap-short-}
+
 ```
 public void setOverlap(short value)
 ```
 
-
 Specifies how bars and columns are positioned. Can be a value between -100 and 100. Applies only to 2-D bar and 2-D column charts.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | short |  |
 
 ### setPlotOnSecondAxis(boolean value) {#setPlotOnSecondAxis-boolean-}
+
 ```
 public void setPlotOnSecondAxis(boolean value)
 ```
 
-
 Indicates if this series is plotted on the second value axis.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
 ### setSecondPlotSize(short value) {#setSecondPlotSize-short-}
+
 ```
 public void setSecondPlotSize(short value)
 ```
 
-
 Returns or sets the size of the secondary section of either a pie of pie chart or a bar of pie chart, as a percentage of the size of the primary pie. Can be a value from 5 to 200.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | short |  |
 
 ### setShadow(boolean value) {#setShadow-boolean-}
+
 ```
 public void setShadow(boolean value)
 ```
 
-
 True if the series has a shadow.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
 ### setShowNegativeBubbles(boolean value) {#setShowNegativeBubbles-boolean-}
+
 ```
 public void setShowNegativeBubbles(boolean value)
 ```
 
-
 True if negative bubbles are shown for the chart group. Valid only for bubble charts.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
 ### setSizeRepresents(int value) {#setSizeRepresents-int-}
+
 ```
 public void setSizeRepresents(int value)
 ```
-
 
 Sets what the bubble size represents on a bubble chart.
 
@@ -1232,171 +1312,174 @@ See [BubbleSizeRepresents](../../com.aspose.cells/bubblesizerepresents).
 
 **Remarks**
 
-BubbleSizeRepresents.SizeIsArea means the value [getBubbleSizes()](../../com.aspose.cells/series\#getBubbleSizes--) is the area of the bubble. BubbleSizeRepresents.SizeIsWidth means the value [getBubbleSizes()](../../com.aspose.cells/series\#getBubbleSizes--) is the width of the bubble.
+BubbleSizeRepresents.SizeIsArea means the value [getBubbleSizes()](../../com.aspose.cells/series#getBubbleSizes--) is the area of the bubble. BubbleSizeRepresents.SizeIsWidth means the value [getBubbleSizes()](../../com.aspose.cells/series#getBubbleSizes--) is the width of the bubble.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
 
 ### setSmooth(boolean value) {#setSmooth-boolean-}
+
 ```
 public void setSmooth(boolean value)
 ```
 
-
 Represents curve smoothing. True if curve smoothing is turned on for the line chart or scatter chart. Applies only to line charts and scatter charts with lines.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
 ### setSplitType(int value) {#setSplitType-int-}
+
 ```
 public void setSplitType(int value)
 ```
-
 
 Returns or sets a value that how to determine which data points are in the second pie or bar on a pie of pie or bar of pie chart.
 
 See [ChartSplitType](../../com.aspose.cells/chartsplittype).
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
 
 ### setSplitValue(double value) {#setSplitValue-double-}
+
 ```
 public void setSplitValue(double value)
 ```
 
-
 Returns or sets a value that shall be used to determine which data points are in the second pie or bar on a pie of pie or bar of pie chart.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | double |  |
 
 ### setType(int value) {#setType-int-}
+
 ```
 public void setType(int value)
 ```
 
-
-Sets a data series' type.
+Sets a data series’ type.
 
 See [ChartType](../../com.aspose.cells/charttype).
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
 
 ### setValues(String value) {#setValues-java.lang.String-}
+
 ```
 public void setValues(String value)
 ```
-
 
 Represents the Y values of this chart series.
 
 **Remarks**
 
-To get the actual values(corresponding to every point of this series) defined by this property, please use [getPointValues()](../../com.aspose.cells/series\#getPointValues--).
+To get the actual values(corresponding to every point of this series) defined by this property, please use [getPointValues()](../../com.aspose.cells/series#getPointValues--).
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String |  |
 
 ### setValuesFormatCode(String value) {#setValuesFormatCode-java.lang.String-}
+
 ```
 public void setValuesFormatCode(String value)
 ```
 
-
 Represents the format code of the Values NumberList.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String |  |
 
 ### setXValues(String value) {#setXValues-java.lang.String-}
+
 ```
 public void setXValues(String value)
 ```
-
 
 Represents the X values of this chart series.
 
 **Remarks**
 
-Only for Scatter and Bubble chart. Please use [SeriesCollection.getCategoryData()](../../com.aspose.cells/seriescollection\#getCategoryData--) for other types of charts [getCategoryValues()](../../com.aspose.cells/series\#getCategoryValues--) is used to get the actual category values of this series.
+Only for Scatter and Bubble chart. Please use [SeriesCollection.getCategoryData()](../../com.aspose.cells/seriescollection#getCategoryData--) for other types of charts [getCategoryValues()](../../com.aspose.cells/series#getCategoryValues--) is used to get the actual category values of this series.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String |  |
 
 ### setXValuesFormatCode(String value) {#setXValuesFormatCode-java.lang.String-}
+
 ```
 public void setXValuesFormatCode(String value)
 ```
 
-
-Represents format code of X Values' NumberList.
+Represents format code of X Values’ NumberList.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String |  |
 
 ### toString() {#toString--}
+
 ```
 public String toString()
 ```
 
-
-
-
 **Returns:**
 java.lang.String
+
 ### wait() {#wait--}
+
 ```
 public final void wait()
 ```
 
-
-
-
 ### wait(long arg0) {#wait-long-}
+
 ```
 public final native void wait(long arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
 ### wait(long arg0, int arg1) {#wait-long-int-}
+
 ```
 public final void wait(long arg0, int arg1)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

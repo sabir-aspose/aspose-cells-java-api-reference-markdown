@@ -1,26 +1,31 @@
 ---
-title: CopyFormatType
-second_title: Aspose.Cells for Java API Reference
-description: Represents the type of copying format when inserting rows.
+title: "CopyFormatType"
+second_title: "Aspose.Cells for Java API Reference"
+description: "Represents the type of copying format when inserting rows."
 type: docs
-url: /java/com.aspose.cells/copyformattype/
+url: "/java/com.aspose.cells/copyformattype/"
+source_url: "https://reference.aspose.com/cells/java/com.aspose.cells/copyformattype/"
+generated_from: "online-reference"
+fetched_at: "2026-06-16T11:49:01+00:00"
 ---
-
 **Inheritance:**
 java.lang.Object
+
 ```
 public final class CopyFormatType
 ```
 
 Represents the type of copying format when inserting rows.
-## Fields
+
+## Fields {#fields}
 
 | Field | Description |
 | --- | --- |
 | [CLEAR](#CLEAR) | Clears formatting. |
 | [SAME_AS_ABOVE](#SAME-AS-ABOVE) | Formats same as above row. |
 | [SAME_AS_BELOW](#SAME-AS-BELOW) | Formats same as below row. |
-## Methods
+
+## Methods {#methods}
 
 | Method | Description |
 | --- | --- |
@@ -33,123 +38,112 @@ Represents the type of copying format when inserting rows.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+
 ### CLEAR {#CLEAR}
+
 ```
 public static final int CLEAR
 ```
 
-
 Clears formatting.
 
 ### SAME_AS_ABOVE {#SAME-AS-ABOVE}
+
 ```
 public static final int SAME_AS_ABOVE
 ```
 
-
 Formats same as above row.
 
 ### SAME_AS_BELOW {#SAME-AS-BELOW}
+
 ```
 public static final int SAME_AS_BELOW
 ```
 
-
 Formats same as below row.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
+
 ```
 public boolean equals(Object arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
 **Returns:**
 boolean
+
 ### getClass() {#getClass--}
+
 ```
 public final native Class<?> getClass()
 ```
 
-
-
-
 **Returns:**
-java.lang.Class<?>
+java.lang.Class
+
 ### hashCode() {#hashCode--}
+
 ```
 public native int hashCode()
 ```
 
-
-
-
 **Returns:**
 int
+
 ### notify() {#notify--}
+
 ```
 public final native void notify()
 ```
 
-
-
-
 ### notifyAll() {#notifyAll--}
+
 ```
 public final native void notifyAll()
 ```
 
-
-
-
 ### toString() {#toString--}
+
 ```
 public String toString()
 ```
 
-
-
-
 **Returns:**
 java.lang.String
+
 ### wait() {#wait--}
+
 ```
 public final void wait()
 ```
 
-
-
-
 ### wait(long arg0) {#wait-long-}
+
 ```
 public final native void wait(long arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
 ### wait(long arg0, int arg1) {#wait-long-int-}
+
 ```
 public final void wait(long arg0, int arg1)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

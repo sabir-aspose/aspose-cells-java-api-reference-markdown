@@ -1,19 +1,23 @@
 ---
-title: LineCapType
-second_title: Aspose.Cells for Java API Reference
-description: Represents the caps of a line
+title: "LineCapType"
+second_title: "Aspose.Cells for Java API Reference"
+description: "Represents the caps of a line"
 type: docs
-url: /java/com.aspose.cells/linecaptype/
+url: "/java/com.aspose.cells/linecaptype/"
+source_url: "https://reference.aspose.com/cells/java/com.aspose.cells/linecaptype/"
+generated_from: "online-reference"
+fetched_at: "2026-06-16T11:51:51+00:00"
 ---
-
 **Inheritance:**
 java.lang.Object
+
 ```
 public final class LineCapType
 ```
 
 Represents the caps of a line
-## Fields
+
+## Fields {#fields}
 
 | Field | Description |
 | --- | --- |
@@ -21,7 +25,8 @@ Represents the caps of a line
 | [NONE](#NONE) | None cap |
 | [ROUND](#ROUND) | Rounded ends. |
 | [SQUARE](#SQUARE) | Square protrudes by half line width. |
-## Methods
+
+## Methods {#methods}
 
 | Method | Description |
 | --- | --- |
@@ -34,131 +39,120 @@ Represents the caps of a line
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+
 ### FLAT {#FLAT}
+
 ```
 public static final int FLAT
 ```
 
-
 Line ends at end point.
 
 ### NONE {#NONE}
+
 ```
 public static final int NONE
 ```
 
-
 None cap
 
 ### ROUND {#ROUND}
+
 ```
 public static final int ROUND
 ```
 
-
 Rounded ends.
 
 ### SQUARE {#SQUARE}
+
 ```
 public static final int SQUARE
 ```
 
-
 Square protrudes by half line width.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
+
 ```
 public boolean equals(Object arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
 **Returns:**
 boolean
+
 ### getClass() {#getClass--}
+
 ```
 public final native Class<?> getClass()
 ```
 
-
-
-
 **Returns:**
-java.lang.Class<?>
+java.lang.Class
+
 ### hashCode() {#hashCode--}
+
 ```
 public native int hashCode()
 ```
 
-
-
-
 **Returns:**
 int
+
 ### notify() {#notify--}
+
 ```
 public final native void notify()
 ```
 
-
-
-
 ### notifyAll() {#notifyAll--}
+
 ```
 public final native void notifyAll()
 ```
 
-
-
-
 ### toString() {#toString--}
+
 ```
 public String toString()
 ```
 
-
-
-
 **Returns:**
 java.lang.String
+
 ### wait() {#wait--}
+
 ```
 public final void wait()
 ```
 
-
-
-
 ### wait(long arg0) {#wait-long-}
+
 ```
 public final native void wait(long arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
 ### wait(long arg0, int arg1) {#wait-long-int-}
+
 ```
 public final void wait(long arg0, int arg1)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

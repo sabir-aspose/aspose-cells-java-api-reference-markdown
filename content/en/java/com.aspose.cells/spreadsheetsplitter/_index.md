@@ -1,13 +1,16 @@
 ---
-title: SpreadsheetSplitter
-second_title: Aspose.Cells for Java API Reference
-description: Splits spreadsheet file into multiple parts.
+title: "SpreadsheetSplitter"
+second_title: "Aspose.Cells for Java API Reference"
+description: "Splits spreadsheet file into multiple parts."
 type: docs
-url: /java/com.aspose.cells/spreadsheetsplitter/
+url: "/java/com.aspose.cells/spreadsheetsplitter/"
+source_url: "https://reference.aspose.com/cells/java/com.aspose.cells/spreadsheetsplitter/"
+generated_from: "online-reference"
+fetched_at: "2026-06-16T11:56:02+00:00"
 ---
-
 **Inheritance:**
 java.lang.Object
+
 ```
 public class SpreadsheetSplitter
 ```
@@ -19,7 +22,8 @@ Splits spreadsheet file into multiple parts.
 ```
          SpreadsheetSplitter.process("template.xlsx", "split.xlsx");
 ```
-## Methods
+
+## Methods {#methods}
 
 | Method | Description |
 | --- | --- |
@@ -34,130 +38,121 @@ Splits spreadsheet file into multiple parts.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+
 ### equals(Object arg0) {#equals-java.lang.Object-}
+
 ```
 public boolean equals(Object arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
 **Returns:**
 boolean
+
 ### getClass() {#getClass--}
+
 ```
 public final native Class<?> getClass()
 ```
 
-
-
-
 **Returns:**
-java.lang.Class<?>
+java.lang.Class
+
 ### hashCode() {#hashCode--}
+
 ```
 public native int hashCode()
 ```
 
-
-
-
 **Returns:**
 int
+
 ### notify() {#notify--}
+
 ```
 public final native void notify()
 ```
 
-
-
-
 ### notifyAll() {#notifyAll--}
+
 ```
 public final native void notifyAll()
 ```
 
-
-
-
 ### process(LowCodeSplitOptions options) {#process-com.aspose.cells.LowCodeSplitOptions-}
+
 ```
 public static void process(LowCodeSplitOptions options)
 ```
 
-
 Splits spreadsheet file into multiple parts.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | options | [LowCodeSplitOptions](../../com.aspose.cells/lowcodesplitoptions) | Options for splitting spreadsheet |
 
 ### process(String templateFile, String resultFile) {#process-java.lang.String-java.lang.String-}
+
 ```
 public static void process(String templateFile, String resultFile)
 ```
-
 
 Splits given template file into multiple parts.
 
 **Remarks**
 
-The output files will be build from the specified resultant file by appending sequence number of the sheet and split part. For example, if the specified output file is Split.xlsx, then the generated files will be Split\_0\_0.xlsx, Split\_0\_1.xlsx, ..., Split\_1\_0.xlsx, ...
+The output files will be build from the specified resultant file by appending sequence number of the sheet and split part. For example, if the specified output file is Split.xlsx, then the generated files will be Split_0_0.xlsx, Split_0_1.xlsx, …, Split_1_0.xlsx, …
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | templateFile | java.lang.String | The template file to be split |
 | resultFile | java.lang.String | The resultant file(name pattern) |
 
 ### toString() {#toString--}
+
 ```
 public String toString()
 ```
 
-
-
-
 **Returns:**
 java.lang.String
+
 ### wait() {#wait--}
+
 ```
 public final void wait()
 ```
 
-
-
-
 ### wait(long arg0) {#wait-long-}
+
 ```
 public final native void wait(long arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
 ### wait(long arg0, int arg1) {#wait-long-int-}
+
 ```
 public final void wait(long arg0, int arg1)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

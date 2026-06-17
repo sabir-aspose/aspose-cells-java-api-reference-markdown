@@ -1,13 +1,16 @@
 ---
-title: CommentCollection
-second_title: Aspose.Cells for Java API Reference
-description: Encapsulates a collection of  objects.
+title: "CommentCollection"
+second_title: "Aspose.Cells for Java API Reference"
+description: "Encapsulates a collection of objects."
 type: docs
-url: /java/com.aspose.cells/commentcollection/
+url: "/java/com.aspose.cells/commentcollection/"
+source_url: "https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection/"
+generated_from: "online-reference"
+fetched_at: "2026-06-16T11:48:42+00:00"
 ---
-
 **Inheritance:**
 java.lang.Object, [com.aspose.cells.CollectionBase](../../com.aspose.cells/collectionbase)
+
 ```
 public class CommentCollection extends CollectionBase
 ```
@@ -23,7 +26,8 @@ Encapsulates a collection of [Comment](../../com.aspose.cells/comment) objects.
  
          //do your business
 ```
-## Methods
+
+## Methods {#methods}
 
 | Method | Description |
 | --- | --- |
@@ -54,11 +58,12 @@ Encapsulates a collection of [Comment](../../com.aspose.cells/comment) objects.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+
 ### add(int row, int column) {#add-int-int-}
+
 ```
 public int add(int row, int column)
 ```
-
 
 Adds a comment to the collection.
 
@@ -72,6 +77,7 @@ Adds a comment to the collection.
 ```
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | row | int | Cell row index. |
@@ -79,26 +85,29 @@ Adds a comment to the collection.
 
 **Returns:**
 int - [Comment](../../com.aspose.cells/comment) object index.
+
 ### add(Object o) {#add-java.lang.Object-}
+
 ```
 public int add(Object o)
 ```
 
-
 Adds an item to the CollectionBase instance.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | o | java.lang.Object | The Object to add to the CollectionBase instance. |
 
 **Returns:**
 int - The position into which the new element was inserted.
+
 ### add(String cellName) {#add-java.lang.String-}
+
 ```
 public int add(String cellName)
 ```
-
 
 Adds a comment to the collection.
 
@@ -112,21 +121,24 @@ Adds a comment to the collection.
 ```
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | cellName | java.lang.String | Cell name. |
 
 **Returns:**
 int - [Comment](../../com.aspose.cells/comment) object index.
+
 ### addThreadedComment(int row, int column, String text, ThreadedCommentAuthor author) {#addThreadedComment-int-int-java.lang.String-com.aspose.cells.ThreadedCommentAuthor-}
+
 ```
 public int addThreadedComment(int row, int column, String text, ThreadedCommentAuthor author)
 ```
 
-
 Adds a threaded comment.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | row | int | Cell row index. |
@@ -136,15 +148,17 @@ Adds a threaded comment.
 
 **Returns:**
 int - [ThreadedComment](../../com.aspose.cells/threadedcomment) object index.
+
 ### addThreadedComment(String cellName, String text, ThreadedCommentAuthor author) {#addThreadedComment-java.lang.String-java.lang.String-com.aspose.cells.ThreadedCommentAuthor-}
+
 ```
 public int addThreadedComment(String cellName, String text, ThreadedCommentAuthor author)
 ```
 
-
 Adds a threaded comment.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | cellName | java.lang.String | The name of the cell. |
@@ -153,11 +167,12 @@ Adds a threaded comment.
 
 **Returns:**
 int - [ThreadedComment](../../com.aspose.cells/threadedcomment) object index.
+
 ### clear() {#clear--}
+
 ```
 public void clear()
 ```
-
 
 Removes all comments;
 
@@ -168,40 +183,42 @@ Removes all comments;
 ```
 
 ### contains(Object o) {#contains-java.lang.Object-}
+
 ```
 public boolean contains(Object o)
 ```
 
-
 Return whether instance contains this object
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | o | java.lang.Object | test object |
 
 **Returns:**
 boolean - Whether instance contains this object
+
 ### equals(Object arg0) {#equals-java.lang.Object-}
+
 ```
 public boolean equals(Object arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
 **Returns:**
 boolean
+
 ### get(int index) {#get-int-}
+
 ```
 public Comment get(int index)
 ```
-
 
 Gets the [Comment](../../com.aspose.cells/comment) element at the specified index.
 
@@ -213,17 +230,19 @@ Gets the [Comment](../../com.aspose.cells/comment) element at the specified inde
 ```
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int | The zero based index of the element. |
 
 **Returns:**
 [Comment](../../com.aspose.cells/comment) - The element at the specified index.
+
 ### get(int row, int column) {#get-int-int-}
+
 ```
 public Comment get(int row, int column)
 ```
-
 
 Gets the [Comment](../../com.aspose.cells/comment) element at the specified row index and column index.
 
@@ -235,6 +254,7 @@ Gets the [Comment](../../com.aspose.cells/comment) element at the specified row 
 ```
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | row | int | Row index. |
@@ -242,11 +262,12 @@ Gets the [Comment](../../com.aspose.cells/comment) element at the specified row 
 
 **Returns:**
 [Comment](../../com.aspose.cells/comment) - The element at the specified cell.
+
 ### get(String cellName) {#get-java.lang.String-}
+
 ```
 public Comment get(String cellName)
 ```
-
 
 Gets the [Comment](../../com.aspose.cells/comment) element at the specified cell.
 
@@ -258,37 +279,39 @@ Gets the [Comment](../../com.aspose.cells/comment) element at the specified cell
 ```
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | cellName | java.lang.String | Cell name. |
 
 **Returns:**
 [Comment](../../com.aspose.cells/comment) - The element at the specified cell.
+
 ### getClass() {#getClass--}
+
 ```
 public final native Class<?> getClass()
 ```
 
-
-
-
 **Returns:**
-java.lang.Class<?>
+java.lang.Class
+
 ### getCount() {#getCount--}
+
 ```
 public int getCount()
 ```
-
 
 Gets the number of elements contained in the CollectionBase instance.
 
 **Returns:**
 int - The number of elements contained in the CollectionBase instance.
+
 ### getThreadedComments(int row, int column) {#getThreadedComments-int-int-}
+
 ```
 public ThreadedCommentCollection getThreadedComments(int row, int column)
 ```
-
 
 Gets the threaded comments by row and column index.
 
@@ -304,18 +327,20 @@ Gets the threaded comments by row and column index.
 ```
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | row | int | The row index. |
 | column | int | The column index. |
 
 **Returns:**
-[ThreadedCommentCollection](../../com.aspose.cells/threadedcommentcollection) - 
+[ThreadedCommentCollection](../../com.aspose.cells/threadedcommentcollection) -
+
 ### getThreadedComments(String cellName) {#getThreadedComments-java.lang.String-}
+
 ```
 public ThreadedCommentCollection getThreadedComments(String cellName)
 ```
-
 
 Gets the threaded comments by cell name.
 
@@ -331,81 +356,82 @@ Gets the threaded comments by cell name.
 ```
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | cellName | java.lang.String | The name of the cell. |
 
 **Returns:**
-[ThreadedCommentCollection](../../com.aspose.cells/threadedcommentcollection) - 
+[ThreadedCommentCollection](../../com.aspose.cells/threadedcommentcollection) -
+
 ### hashCode() {#hashCode--}
+
 ```
 public native int hashCode()
 ```
 
-
-
-
 **Returns:**
 int
+
 ### indexOf(Object o) {#indexOf-java.lang.Object-}
+
 ```
 public int indexOf(Object o)
 ```
 
-
 Determines the index of a specific item in the CollectionBase instance.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | o | java.lang.Object | Determines the index of a specific item in the CollectionBase instance. |
 
 **Returns:**
 int - The index of value if found in the list; otherwise, -1.
+
 ### iterator() {#iterator--}
+
 ```
 public Iterator iterator()
 ```
-
 
 Returns an enumerator that iterates through the CollectionBase instance.
 
 **Returns:**
 java.util.Iterator - An iterator for the CollectionBase instance.
+
 ### notify() {#notify--}
+
 ```
 public final native void notify()
 ```
 
-
-
-
 ### notifyAll() {#notifyAll--}
+
 ```
 public final native void notifyAll()
 ```
 
-
-
-
 ### removeAt(int index) {#removeAt-int-}
+
 ```
 public void removeAt(int index)
 ```
 
-
 Removes the item at the specified index.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int | The zero-based index of the item to remove. |
 
 ### removeAt(int row, int column) {#removeAt-int-int-}
+
 ```
 public void removeAt(int row, int column)
 ```
-
 
 Removes the comment of the specific cell.
 
@@ -416,16 +442,17 @@ Removes the comment of the specific cell.
 ```
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | row | int | The row index. |
 | column | int | the column index. |
 
 ### removeAt(String cellName) {#removeAt-java.lang.String-}
+
 ```
 public void removeAt(String cellName)
 ```
-
 
 Removes the comment of the specific cell.
 
@@ -436,52 +463,47 @@ Removes the comment of the specific cell.
 ```
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | cellName | java.lang.String | The name of cell which contains a comment. |
 
 ### toString() {#toString--}
+
 ```
 public String toString()
 ```
 
-
-
-
 **Returns:**
 java.lang.String
+
 ### wait() {#wait--}
+
 ```
 public final void wait()
 ```
 
-
-
-
 ### wait(long arg0) {#wait-long-}
+
 ```
 public final native void wait(long arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
 ### wait(long arg0, int arg1) {#wait-long-int-}
+
 ```
 public final void wait(long arg0, int arg1)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

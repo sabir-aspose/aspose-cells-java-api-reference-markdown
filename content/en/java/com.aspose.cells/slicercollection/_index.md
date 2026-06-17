@@ -1,13 +1,16 @@
 ---
-title: SlicerCollection
-second_title: Aspose.Cells for Java API Reference
-description: Specifies the collection of all the Slicer objects on the specified worksheet.
+title: "SlicerCollection"
+second_title: "Aspose.Cells for Java API Reference"
+description: "Specifies the collection of all the Slicer objects on the specified worksheet."
 type: docs
-url: /java/com.aspose.cells/slicercollection/
+url: "/java/com.aspose.cells/slicercollection/"
+source_url: "https://reference.aspose.com/cells/java/com.aspose.cells/slicercollection/"
+generated_from: "online-reference"
+fetched_at: "2026-06-16T11:55:41+00:00"
 ---
-
 **Inheritance:**
 java.lang.Object, [com.aspose.cells.CollectionBase](../../com.aspose.cells/collectionbase)
+
 ```
 public class SlicerCollection extends CollectionBase
 ```
@@ -71,7 +74,8 @@ Specifies the collection of all the Slicer objects on the specified worksheet.
  
          book.save("out.xlsx");
 ```
-## Methods
+
+## Methods {#methods}
 
 | Method | Description |
 | --- | --- |
@@ -89,7 +93,7 @@ Specifies the collection of all the Slicer objects on the specified worksheet.
 | [contains(Object o)](#contains-java.lang.Object-) | Return whether instance contains this object |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [get(int index)](#get-int-) | Gets the Slicer by index. |
-| [get(String name)](#get-java.lang.String-) | Gets the Slicer by slicer's name. |
+| [get(String name)](#get-java.lang.String-) | Gets the Slicer by slicer’s name. |
 | [getClass()](#getClass--) |  |
 | [getCount()](#getCount--) | Gets the number of elements contained in the CollectionBase instance. |
 | [hashCode()](#hashCode--) |  |
@@ -103,11 +107,12 @@ Specifies the collection of all the Slicer objects on the specified worksheet.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+
 ### add(ListObject table, ListColumn listColumn, int row, int column) {#add-com.aspose.cells.ListObject-com.aspose.cells.ListColumn-int-int-}
+
 ```
 public int add(ListObject table, ListColumn listColumn, int row, int column)
 ```
-
 
 Add a new Slicer using ListObjet as data source
 
@@ -118,6 +123,7 @@ Add a new Slicer using ListObjet as data source
 ```
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | table | [ListObject](../../com.aspose.cells/listobject) | ListObject object |
@@ -127,11 +133,12 @@ Add a new Slicer using ListObjet as data source
 
 **Returns:**
 int - The new add Slicer index
+
 ### add(ListObject table, ListColumn listColumn, String destCellName) {#add-com.aspose.cells.ListObject-com.aspose.cells.ListColumn-java.lang.String-}
+
 ```
 public int add(ListObject table, ListColumn listColumn, String destCellName)
 ```
-
 
 Add a new Slicer using ListObjet as data source
 
@@ -142,6 +149,7 @@ Add a new Slicer using ListObjet as data source
 ```
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | table | [ListObject](../../com.aspose.cells/listobject) | ListObject object |
@@ -150,11 +158,12 @@ Add a new Slicer using ListObjet as data source
 
 **Returns:**
 int - The new add Slicer index
+
 ### add(ListObject table, int index, String destCellName) {#add-com.aspose.cells.ListObject-int-java.lang.String-}
+
 ```
 public int add(ListObject table, int index, String destCellName)
 ```
-
 
 Add a new Slicer using ListObjet as data source
 
@@ -165,6 +174,7 @@ Add a new Slicer using ListObjet as data source
 ```
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | table | [ListObject](../../com.aspose.cells/listobject) | ListObject object |
@@ -173,11 +183,12 @@ Add a new Slicer using ListObjet as data source
 
 **Returns:**
 int - The new add Slicer index
+
 ### add(PivotTable pivot, int row, int column, PivotField baseField) {#add-com.aspose.cells.PivotTable-int-int-com.aspose.cells.PivotField-}
+
 ```
 public int add(PivotTable pivot, int row, int column, PivotField baseField)
 ```
-
 
 Add a new Slicer using PivotTable as data source
 
@@ -188,6 +199,7 @@ Add a new Slicer using PivotTable as data source
 ```
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | pivot | [PivotTable](../../com.aspose.cells/pivottable) | PivotTable object |
@@ -197,11 +209,12 @@ Add a new Slicer using PivotTable as data source
 
 **Returns:**
 int - The new add Slicer index
+
 ### add(PivotTable pivot, int row, int column, int baseFieldIndex) {#add-com.aspose.cells.PivotTable-int-int-int-}
+
 ```
 public int add(PivotTable pivot, int row, int column, int baseFieldIndex)
 ```
-
 
 Add a new Slicer using PivotTable as data source
 
@@ -212,6 +225,7 @@ Add a new Slicer using PivotTable as data source
 ```
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | pivot | [PivotTable](../../com.aspose.cells/pivottable) | PivotTable object |
@@ -221,11 +235,12 @@ Add a new Slicer using PivotTable as data source
 
 **Returns:**
 int - The new add Slicer index
+
 ### add(PivotTable pivot, int row, int column, String baseFieldName) {#add-com.aspose.cells.PivotTable-int-int-java.lang.String-}
+
 ```
 public int add(PivotTable pivot, int row, int column, String baseFieldName)
 ```
-
 
 Add a new Slicer using PivotTable as data source
 
@@ -236,6 +251,7 @@ Add a new Slicer using PivotTable as data source
 ```
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | pivot | [PivotTable](../../com.aspose.cells/pivottable) | PivotTable object |
@@ -245,11 +261,12 @@ Add a new Slicer using PivotTable as data source
 
 **Returns:**
 int - The new add Slicer index
+
 ### add(PivotTable pivot, String destCellName, PivotField baseField) {#add-com.aspose.cells.PivotTable-java.lang.String-com.aspose.cells.PivotField-}
+
 ```
 public int add(PivotTable pivot, String destCellName, PivotField baseField)
 ```
-
 
 Add a new Slicer using PivotTable as data source
 
@@ -260,6 +277,7 @@ Add a new Slicer using PivotTable as data source
 ```
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | pivot | [PivotTable](../../com.aspose.cells/pivottable) | PivotTable object |
@@ -268,11 +286,12 @@ Add a new Slicer using PivotTable as data source
 
 **Returns:**
 int - The new add Slicer index
+
 ### add(PivotTable pivot, String destCellName, int baseFieldIndex) {#add-com.aspose.cells.PivotTable-java.lang.String-int-}
+
 ```
 public int add(PivotTable pivot, String destCellName, int baseFieldIndex)
 ```
-
 
 Add a new Slicer using PivotTable as data source
 
@@ -283,6 +302,7 @@ Add a new Slicer using PivotTable as data source
 ```
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | pivot | [PivotTable](../../com.aspose.cells/pivottable) | PivotTable object |
@@ -291,11 +311,12 @@ Add a new Slicer using PivotTable as data source
 
 **Returns:**
 int - The new add Slicer index
+
 ### add(PivotTable pivot, String destCellName, String baseFieldName) {#add-com.aspose.cells.PivotTable-java.lang.String-java.lang.String-}
+
 ```
 public int add(PivotTable pivot, String destCellName, String baseFieldName)
 ```
-
 
 Add a new Slicer using PivotTable as data source
 
@@ -306,6 +327,7 @@ Add a new Slicer using PivotTable as data source
 ```
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | pivot | [PivotTable](../../com.aspose.cells/pivottable) | PivotTable object |
@@ -314,64 +336,69 @@ Add a new Slicer using PivotTable as data source
 
 **Returns:**
 int - The new add Slicer index
+
 ### add(Object o) {#add-java.lang.Object-}
+
 ```
 public int add(Object o)
 ```
 
-
 Adds an item to the CollectionBase instance.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | o | java.lang.Object | The Object to add to the CollectionBase instance. |
 
 **Returns:**
 int - The position into which the new element was inserted.
+
 ### clear() {#clear--}
+
 ```
 public void clear()
 ```
 
-
 Clear all Slicers.
 
 ### contains(Object o) {#contains-java.lang.Object-}
+
 ```
 public boolean contains(Object o)
 ```
 
-
 Return whether instance contains this object
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | o | java.lang.Object | test object |
 
 **Returns:**
 boolean - Whether instance contains this object
+
 ### equals(Object arg0) {#equals-java.lang.Object-}
+
 ```
 public boolean equals(Object arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
 **Returns:**
 boolean
+
 ### get(int index) {#get-int-}
+
 ```
 public Slicer get(int index)
 ```
-
 
 Gets the Slicer by index.
 
@@ -382,19 +409,21 @@ Gets the Slicer by index.
 ```
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int |  |
 
 **Returns:**
 [Slicer](../../com.aspose.cells/slicer)
+
 ### get(String name) {#get-java.lang.String-}
+
 ```
 public Slicer get(String name)
 ```
 
-
-Gets the Slicer by slicer's name.
+Gets the Slicer by slicer’s name.
 
 **Example**
 
@@ -403,88 +432,88 @@ Gets the Slicer by slicer's name.
 ```
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | name | java.lang.String |  |
 
 **Returns:**
 [Slicer](../../com.aspose.cells/slicer)
+
 ### getClass() {#getClass--}
+
 ```
 public final native Class<?> getClass()
 ```
 
-
-
-
 **Returns:**
-java.lang.Class<?>
+java.lang.Class
+
 ### getCount() {#getCount--}
+
 ```
 public int getCount()
 ```
-
 
 Gets the number of elements contained in the CollectionBase instance.
 
 **Returns:**
 int - The number of elements contained in the CollectionBase instance.
+
 ### hashCode() {#hashCode--}
+
 ```
 public native int hashCode()
 ```
 
-
-
-
 **Returns:**
 int
+
 ### indexOf(Object o) {#indexOf-java.lang.Object-}
+
 ```
 public int indexOf(Object o)
 ```
 
-
 Determines the index of a specific item in the CollectionBase instance.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | o | java.lang.Object | Determines the index of a specific item in the CollectionBase instance. |
 
 **Returns:**
 int - The index of value if found in the list; otherwise, -1.
+
 ### iterator() {#iterator--}
+
 ```
 public Iterator iterator()
 ```
-
 
 Returns an enumerator that iterates through the CollectionBase instance.
 
 **Returns:**
 java.util.Iterator - An iterator for the CollectionBase instance.
+
 ### notify() {#notify--}
+
 ```
 public final native void notify()
 ```
 
-
-
-
 ### notifyAll() {#notifyAll--}
+
 ```
 public final native void notifyAll()
 ```
 
-
-
-
 ### remove(Slicer slicer) {#remove-com.aspose.cells.Slicer-}
+
 ```
 public void remove(Slicer slicer)
 ```
-
 
 Remove the specified Slicer
 
@@ -496,15 +525,16 @@ Remove the specified Slicer
 ```
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | slicer | [Slicer](../../com.aspose.cells/slicer) | The Slicer object |
 
 ### removeAt(int index) {#removeAt-int-}
+
 ```
 public void removeAt(int index)
 ```
-
 
 Deletes the Slicer at the specified index
 
@@ -515,52 +545,47 @@ Deletes the Slicer at the specified index
 ```
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int | The position index in Slicer collection |
 
 ### toString() {#toString--}
+
 ```
 public String toString()
 ```
 
-
-
-
 **Returns:**
 java.lang.String
+
 ### wait() {#wait--}
+
 ```
 public final void wait()
 ```
 
-
-
-
 ### wait(long arg0) {#wait-long-}
+
 ```
 public final native void wait(long arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
 ### wait(long arg0, int arg1) {#wait-long-int-}
+
 ```
 public final void wait(long arg0, int arg1)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

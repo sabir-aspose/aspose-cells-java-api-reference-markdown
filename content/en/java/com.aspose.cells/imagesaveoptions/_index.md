@@ -1,25 +1,30 @@
 ---
-title: ImageSaveOptions
-second_title: Aspose.Cells for Java API Reference
-description: Represents image save options.
+title: "ImageSaveOptions"
+second_title: "Aspose.Cells for Java API Reference"
+description: "Represents image save options."
 type: docs
-url: /java/com.aspose.cells/imagesaveoptions/
+url: "/java/com.aspose.cells/imagesaveoptions/"
+source_url: "https://reference.aspose.com/cells/java/com.aspose.cells/imagesaveoptions/"
+generated_from: "online-reference"
+fetched_at: "2026-06-16T11:51:23+00:00"
 ---
-
 **Inheritance:**
 java.lang.Object, [com.aspose.cells.SaveOptions](../../com.aspose.cells/saveoptions)
+
 ```
 public class ImageSaveOptions extends SaveOptions
 ```
 
 Represents image save options. For advanced usage, please use [WorkbookRender](../../com.aspose.cells/workbookrender) or [SheetRender](../../com.aspose.cells/sheetrender).
-## Constructors
+
+## Constructors {#constructors}
 
 | Constructor | Description |
 | --- | --- |
 | [ImageSaveOptions()](#ImageSaveOptions--) | Creates the options for saving image file. |
 | [ImageSaveOptions(int saveFormat)](#ImageSaveOptions-int-) | Creates the options for saving image file. |
-## Methods
+
+## Methods {#methods}
 
 | Method | Description |
 | --- | --- |
@@ -60,11 +65,12 @@ Represents image save options. For advanced usage, please use [WorkbookRender](.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+
 ### ImageSaveOptions() {#ImageSaveOptions--}
+
 ```
 public ImageSaveOptions()
 ```
-
 
 Creates the options for saving image file.
 
@@ -73,38 +79,39 @@ Creates the options for saving image file.
 The default type is Tiff.
 
 ### ImageSaveOptions(int saveFormat) {#ImageSaveOptions-int-}
+
 ```
 public ImageSaveOptions(int saveFormat)
 ```
 
-
 Creates the options for saving image file.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
-| saveFormat | int | [SaveFormat](../../com.aspose.cells/saveformat). The file format. It should be one of following types: [SaveFormat.TIFF](../../com.aspose.cells/saveformat\#TIFF), [SaveFormat.SVG](../../com.aspose.cells/saveformat\#SVG), [SaveFormat.BMP](../../com.aspose.cells/saveformat\#BMP), [SaveFormat.PNG](../../com.aspose.cells/saveformat\#PNG), [SaveFormat.JPG](../../com.aspose.cells/saveformat\#JPG), [SaveFormat.EMF](../../com.aspose.cells/saveformat\#EMF) or [SaveFormat.GIF](../../com.aspose.cells/saveformat\#GIF), otherwise the saved format will be set as [SaveFormat.TIFF](../../com.aspose.cells/saveformat\#TIFF) automatically. |
+| saveFormat | int | [SaveFormat](../../com.aspose.cells/saveformat). The file format. It should be one of following types: [SaveFormat.TIFF](../../com.aspose.cells/saveformat#TIFF), [SaveFormat.SVG](../../com.aspose.cells/saveformat#SVG), [SaveFormat.BMP](../../com.aspose.cells/saveformat#BMP), [SaveFormat.PNG](../../com.aspose.cells/saveformat#PNG), [SaveFormat.JPG](../../com.aspose.cells/saveformat#JPG), [SaveFormat.EMF](../../com.aspose.cells/saveformat#EMF) or [SaveFormat.GIF](../../com.aspose.cells/saveformat#GIF), otherwise the saved format will be set as [SaveFormat.TIFF](../../com.aspose.cells/saveformat#TIFF) automatically. |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
+
 ```
 public boolean equals(Object arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
 **Returns:**
 boolean
+
 ### getCachedFileFolder() {#getCachedFileFolder--}
+
 ```
 public String getCachedFileFolder()
 ```
-
 
 The folder for temporary files that may be used as data cache.
 
@@ -114,41 +121,43 @@ If the folder has not been specified, the default value for it is void
 
 **Returns:**
 java.lang.String
+
 ### getCheckExcelRestriction() {#getCheckExcelRestriction--}
+
 ```
 public boolean getCheckExcelRestriction()
 ```
-
 
 Whether check restriction of excel file when user modify cells related objects. For example, excel does not allow inputting string value longer than 32K. When you input a value longer than 32K, it will be truncated.
 
 **Returns:**
 boolean
+
 ### getClass() {#getClass--}
+
 ```
 public final native Class<?> getClass()
 ```
 
-
-
-
 **Returns:**
-java.lang.Class<?>
+java.lang.Class
+
 ### getClearData() {#getClearData--}
+
 ```
 public boolean getClearData()
 ```
-
 
 Make the workbook empty after saving the file.
 
 **Returns:**
 boolean
+
 ### getCreateDirectory() {#getCreateDirectory--}
+
 ```
 public boolean getCreateDirectory()
 ```
-
 
 If true and the directory does not exist, the directory will be automatically created before saving the file.
 
@@ -158,11 +167,12 @@ The default value is false.
 
 **Returns:**
 boolean
+
 ### getEncryptDocumentProperties() {#getEncryptDocumentProperties--}
+
 ```
 public boolean getEncryptDocumentProperties()
 ```
-
 
 Indicates whether encrypt document properties when saving as .xls file. The default value is true.
 
@@ -172,11 +182,12 @@ Only for .xls,xlsx,xlsb and xlsm file.
 
 **Returns:**
 boolean
+
 ### getImageOrPrintOptions() {#getImageOrPrintOptions--}
+
 ```
 public ImageOrPrintOptions getImageOrPrintOptions()
 ```
-
 
 Additional image creation options.
 
@@ -186,11 +197,12 @@ For advanced usage, please use [WorkbookRender](../../com.aspose.cells/workbookr
 
 **Returns:**
 [ImageOrPrintOptions](../../com.aspose.cells/imageorprintoptions)
+
 ### getMergeAreas() {#getMergeAreas--}
+
 ```
 public boolean getMergeAreas()
 ```
-
 
 Indicates whether merge the areas of conditional formatting and validation before saving the file.
 
@@ -200,21 +212,23 @@ The default value is false.
 
 **Returns:**
 boolean
+
 ### getRefreshChartCache() {#getRefreshChartCache--}
+
 ```
 public boolean getRefreshChartCache()
 ```
-
 
 Indicates whether to cache the latest data of the chart.
 
 **Returns:**
 boolean
+
 ### getSaveFormat() {#getSaveFormat--}
+
 ```
 public int getSaveFormat()
 ```
-
 
 Gets the save file format.
 
@@ -222,31 +236,34 @@ See [SaveFormat](../../com.aspose.cells/saveformat).
 
 **Returns:**
 int
+
 ### getSortExternalNames() {#getSortExternalNames--}
+
 ```
 public boolean getSortExternalNames()
 ```
-
 
 Indicates whether sorting external defined names before saving file.
 
 **Returns:**
 boolean
+
 ### getSortNames() {#getSortNames--}
+
 ```
 public boolean getSortNames()
 ```
-
 
 Indicates whether sorting defined names before saving file.
 
 **Returns:**
 boolean
+
 ### getStreamProvider() {#getStreamProvider--}
+
 ```
 public IStreamProvider getStreamProvider()
 ```
-
 
 Gets the IStreamProvider for exporting objects.
 
@@ -256,11 +273,12 @@ If saving as Tiff, this property is ignored. Otherwise, if more than one image s
 
 **Returns:**
 [IStreamProvider](../../com.aspose.cells/istreamprovider)
+
 ### getUpdateSmartArt() {#getUpdateSmartArt--}
+
 ```
 public boolean getUpdateSmartArt()
 ```
-
 
 Indicates whether updating smart art setting. The default value is false.
 
@@ -270,11 +288,12 @@ Only effects after calling Shape.GetResultOfSmartArt() method and the cached sha
 
 **Returns:**
 boolean
+
 ### getValidateMergedAreas() {#getValidateMergedAreas--}
+
 ```
 public boolean getValidateMergedAreas()
 ```
-
 
 Indicates whether validate merged cells before saving the file.
 
@@ -284,47 +303,44 @@ The default value is false.
 
 **Returns:**
 boolean
+
 ### getWarningCallback() {#getWarningCallback--}
+
 ```
 public IWarningCallback getWarningCallback()
 ```
-
 
 Gets warning callback.
 
 **Returns:**
 [IWarningCallback](../../com.aspose.cells/iwarningcallback)
+
 ### hashCode() {#hashCode--}
+
 ```
 public native int hashCode()
 ```
 
-
-
-
 **Returns:**
 int
+
 ### notify() {#notify--}
+
 ```
 public final native void notify()
 ```
 
-
-
-
 ### notifyAll() {#notifyAll--}
+
 ```
 public final native void notifyAll()
 ```
 
-
-
-
 ### setCachedFileFolder(String value) {#setCachedFileFolder-java.lang.String-}
+
 ```
 public void setCachedFileFolder(String value)
 ```
-
 
 The folder for temporary files that may be used as data cache.
 
@@ -333,41 +349,44 @@ The folder for temporary files that may be used as data cache.
 If the folder has not been specified, the default value for it is void
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String |  |
 
 ### setCheckExcelRestriction(boolean value) {#setCheckExcelRestriction-boolean-}
+
 ```
 public void setCheckExcelRestriction(boolean value)
 ```
 
-
 Whether check restriction of excel file when user modify cells related objects. For example, excel does not allow inputting string value longer than 32K. When you input a value longer than 32K, it will be truncated.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
 ### setClearData(boolean value) {#setClearData-boolean-}
+
 ```
 public void setClearData(boolean value)
 ```
 
-
 Make the workbook empty after saving the file.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
 ### setCreateDirectory(boolean value) {#setCreateDirectory-boolean-}
+
 ```
 public void setCreateDirectory(boolean value)
 ```
-
 
 If true and the directory does not exist, the directory will be automatically created before saving the file.
 
@@ -376,15 +395,16 @@ If true and the directory does not exist, the directory will be automatically cr
 The default value is false.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
 ### setEncryptDocumentProperties(boolean value) {#setEncryptDocumentProperties-boolean-}
+
 ```
 public void setEncryptDocumentProperties(boolean value)
 ```
-
 
 Indicates whether encrypt document properties when saving as .xls file. The default value is true.
 
@@ -393,15 +413,16 @@ Indicates whether encrypt document properties when saving as .xls file. The defa
 Only for .xls,xlsx,xlsb and xlsm file.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
 ### setMergeAreas(boolean value) {#setMergeAreas-boolean-}
+
 ```
 public void setMergeAreas(boolean value)
 ```
-
 
 Indicates whether merge the areas of conditional formatting and validation before saving the file.
 
@@ -410,54 +431,58 @@ Indicates whether merge the areas of conditional formatting and validation befor
 The default value is false.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
 ### setRefreshChartCache(boolean value) {#setRefreshChartCache-boolean-}
+
 ```
 public void setRefreshChartCache(boolean value)
 ```
 
-
 Indicates whether to cache the latest data of the chart.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
 ### setSortExternalNames(boolean value) {#setSortExternalNames-boolean-}
+
 ```
 public void setSortExternalNames(boolean value)
 ```
 
-
 Indicates whether sorting external defined names before saving file.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
 ### setSortNames(boolean value) {#setSortNames-boolean-}
+
 ```
 public void setSortNames(boolean value)
 ```
 
-
 Indicates whether sorting defined names before saving file.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
 ### setStreamProvider(IStreamProvider value) {#setStreamProvider-com.aspose.cells.IStreamProvider-}
+
 ```
 public void setStreamProvider(IStreamProvider value)
 ```
-
 
 Sets the IStreamProvider for exporting objects.
 
@@ -466,15 +491,16 @@ Sets the IStreamProvider for exporting objects.
 If saving as Tiff, this property is ignored. Otherwise, if more than one image should be saving, we will write other images by this. For advanced usage, please use [WorkbookRender](../../com.aspose.cells/workbookrender) or [SheetRender](../../com.aspose.cells/sheetrender).
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [IStreamProvider](../../com.aspose.cells/istreamprovider) |  |
 
 ### setUpdateSmartArt(boolean value) {#setUpdateSmartArt-boolean-}
+
 ```
 public void setUpdateSmartArt(boolean value)
 ```
-
 
 Indicates whether updating smart art setting. The default value is false.
 
@@ -483,15 +509,16 @@ Indicates whether updating smart art setting. The default value is false.
 Only effects after calling Shape.GetResultOfSmartArt() method and the cached shapes exist in the template file.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
 ### setValidateMergedAreas(boolean value) {#setValidateMergedAreas-boolean-}
+
 ```
 public void setValidateMergedAreas(boolean value)
 ```
-
 
 Indicates whether validate merged cells before saving the file.
 
@@ -500,65 +527,61 @@ Indicates whether validate merged cells before saving the file.
 The default value is false.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
 ### setWarningCallback(IWarningCallback value) {#setWarningCallback-com.aspose.cells.IWarningCallback-}
+
 ```
 public void setWarningCallback(IWarningCallback value)
 ```
 
-
 Sets warning callback.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [IWarningCallback](../../com.aspose.cells/iwarningcallback) |  |
 
 ### toString() {#toString--}
+
 ```
 public String toString()
 ```
 
-
-
-
 **Returns:**
 java.lang.String
+
 ### wait() {#wait--}
+
 ```
 public final void wait()
 ```
 
-
-
-
 ### wait(long arg0) {#wait-long-}
+
 ```
 public final native void wait(long arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
 ### wait(long arg0, int arg1) {#wait-long-int-}
+
 ```
 public final void wait(long arg0, int arg1)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

@@ -1,26 +1,31 @@
 ---
-title: ItemsWithNoDataShowMode
-second_title: Aspose.Cells for Java API Reference
-description: Represent the type how to show items with no data for slicer.
+title: "ItemsWithNoDataShowMode"
+second_title: "Aspose.Cells for Java API Reference"
+description: "Represent the type how to show items with no data for slicer."
 type: docs
-url: /java/com.aspose.cells/itemswithnodatashowmode/
+url: "/java/com.aspose.cells/itemswithnodatashowmode/"
+source_url: "https://reference.aspose.com/cells/java/com.aspose.cells/itemswithnodatashowmode/"
+generated_from: "online-reference"
+fetched_at: "2026-06-16T11:51:32+00:00"
 ---
-
 **Inheritance:**
 java.lang.Object
+
 ```
 public final class ItemsWithNoDataShowMode
 ```
 
 Represent the type how to show items with no data for slicer.
-## Fields
+
+## Fields {#fields}
 
 | Field | Description |
 | --- | --- |
 | [LAST](#LAST) | Show items with no data last. |
 | [NATURAL](#NATURAL) | Show items with no data with natural order. |
 | [NONE](#NONE) | Hide items with no data. |
-## Methods
+
+## Methods {#methods}
 
 | Method | Description |
 | --- | --- |
@@ -33,123 +38,112 @@ Represent the type how to show items with no data for slicer.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+
 ### LAST {#LAST}
+
 ```
 public static final int LAST
 ```
 
-
 Show items with no data last.
 
 ### NATURAL {#NATURAL}
+
 ```
 public static final int NATURAL
 ```
 
-
 Show items with no data with natural order.
 
 ### NONE {#NONE}
+
 ```
 public static final int NONE
 ```
 
-
 Hide items with no data.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
+
 ```
 public boolean equals(Object arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
 **Returns:**
 boolean
+
 ### getClass() {#getClass--}
+
 ```
 public final native Class<?> getClass()
 ```
 
-
-
-
 **Returns:**
-java.lang.Class<?>
+java.lang.Class
+
 ### hashCode() {#hashCode--}
+
 ```
 public native int hashCode()
 ```
 
-
-
-
 **Returns:**
 int
+
 ### notify() {#notify--}
+
 ```
 public final native void notify()
 ```
 
-
-
-
 ### notifyAll() {#notifyAll--}
+
 ```
 public final native void notifyAll()
 ```
 
-
-
-
 ### toString() {#toString--}
+
 ```
 public String toString()
 ```
 
-
-
-
 **Returns:**
 java.lang.String
+
 ### wait() {#wait--}
+
 ```
 public final void wait()
 ```
 
-
-
-
 ### wait(long arg0) {#wait-long-}
+
 ```
 public final native void wait(long arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
 ### wait(long arg0, int arg1) {#wait-long-int-}
+
 ```
 public final void wait(long arg0, int arg1)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

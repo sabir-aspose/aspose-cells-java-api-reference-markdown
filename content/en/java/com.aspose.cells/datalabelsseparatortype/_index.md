@@ -1,30 +1,35 @@
 ---
-title: DataLabelsSeparatorType
-second_title: Aspose.Cells for Java API Reference
-description: Represents the separator type of DataLabels.
+title: "DataLabelsSeparatorType"
+second_title: "Aspose.Cells for Java API Reference"
+description: "Represents the separator type of DataLabels."
 type: docs
-url: /java/com.aspose.cells/datalabelsseparatortype/
+url: "/java/com.aspose.cells/datalabelsseparatortype/"
+source_url: "https://reference.aspose.com/cells/java/com.aspose.cells/datalabelsseparatortype/"
+generated_from: "online-reference"
+fetched_at: "2026-06-16T11:49:19+00:00"
 ---
-
 **Inheritance:**
 java.lang.Object
+
 ```
 public final class DataLabelsSeparatorType
 ```
 
 Represents the separator type of DataLabels.
-## Fields
+
+## Fields {#fields}
 
 | Field | Description |
 | --- | --- |
 | [AUTO](#AUTO) | Represents automatic separator |
 | [COMMA](#COMMA) | Represents comma(",") |
 | [CUSTOM](#CUSTOM) | Represents custom separator |
-| [NEW_LINE](#NEW-LINE) | Represents newline("\\n") |
+| [NEW_LINE](#NEW-LINE) | Represents newline("\n") |
 | [PERIOD](#PERIOD) | Represents period(".") |
-| [SEMICOLON](#SEMICOLON) | Represents semicolon(";") |
-| [SPACE](#SPACE) | Represents space(" ") |
-## Methods
+| [SEMICOLON](#SEMICOLON) | Represents a semicolon(";") |
+| [SPACE](#SPACE) | Represents space(" “) |
+
+## Methods {#methods}
 
 | Method | Description |
 | --- | --- |
@@ -37,155 +42,144 @@ Represents the separator type of DataLabels.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+
 ### AUTO {#AUTO}
+
 ```
 public static final int AUTO
 ```
 
-
 Represents automatic separator
 
 ### COMMA {#COMMA}
+
 ```
 public static final int COMMA
 ```
 
-
-Represents comma(",")
+Represents comma(”,")
 
 ### CUSTOM {#CUSTOM}
+
 ```
 public static final int CUSTOM
 ```
 
-
 Represents custom separator
 
 ### NEW_LINE {#NEW-LINE}
+
 ```
 public static final int NEW_LINE
 ```
 
-
-Represents newline("\\n")
+Represents newline("\n")
 
 ### PERIOD {#PERIOD}
+
 ```
 public static final int PERIOD
 ```
 
-
 Represents period(".")
 
 ### SEMICOLON {#SEMICOLON}
+
 ```
 public static final int SEMICOLON
 ```
 
-
-Represents semicolon(";")
+Represents a semicolon(";")
 
 ### SPACE {#SPACE}
+
 ```
 public static final int SPACE
 ```
 
-
-Represents space(" ")
+Represents space(" “)
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
+
 ```
 public boolean equals(Object arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
 **Returns:**
 boolean
+
 ### getClass() {#getClass--}
+
 ```
 public final native Class<?> getClass()
 ```
 
-
-
-
 **Returns:**
-java.lang.Class<?>
+java.lang.Class
+
 ### hashCode() {#hashCode--}
+
 ```
 public native int hashCode()
 ```
 
-
-
-
 **Returns:**
 int
+
 ### notify() {#notify--}
+
 ```
 public final native void notify()
 ```
 
-
-
-
 ### notifyAll() {#notifyAll--}
+
 ```
 public final native void notifyAll()
 ```
 
-
-
-
 ### toString() {#toString--}
+
 ```
 public String toString()
 ```
 
-
-
-
 **Returns:**
 java.lang.String
+
 ### wait() {#wait--}
+
 ```
 public final void wait()
 ```
 
-
-
-
 ### wait(long arg0) {#wait-long-}
+
 ```
 public final native void wait(long arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
 ### wait(long arg0, int arg1) {#wait-long-int-}
+
 ```
 public final void wait(long arg0, int arg1)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

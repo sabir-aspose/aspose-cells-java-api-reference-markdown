@@ -1,19 +1,23 @@
 ---
-title: LabelPositionType
-second_title: Aspose.Cells for Java API Reference
-description: Represents data label position type.
+title: "LabelPositionType"
+second_title: "Aspose.Cells for Java API Reference"
+description: "Represents data label position type."
 type: docs
-url: /java/com.aspose.cells/labelpositiontype/
+url: "/java/com.aspose.cells/labelpositiontype/"
+source_url: "https://reference.aspose.com/cells/java/com.aspose.cells/labelpositiontype/"
+generated_from: "online-reference"
+fetched_at: "2026-06-16T11:51:40+00:00"
 ---
-
 **Inheritance:**
 java.lang.Object
+
 ```
 public final class LabelPositionType
 ```
 
 Represents data label position type.
-## Fields
+
+## Fields {#fields}
 
 | Field | Description |
 | --- | --- |
@@ -27,7 +31,8 @@ Represents data label position type.
 | [MOVED](#MOVED) | User moved the data labels. |
 | [OUTSIDE_END](#OUTSIDE-END) | Applies only to bar, 2d/3d pie charts |
 | [RIGHT](#RIGHT) | Applies only to line charts |
-## Methods
+
+## Methods {#methods}
 
 | Method | Description |
 | --- | --- |
@@ -40,179 +45,168 @@ Represents data label position type.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+
 ### ABOVE {#ABOVE}
+
 ```
 public static final int ABOVE
 ```
 
-
 Applies only to line charts
 
 ### BELOW {#BELOW}
+
 ```
 public static final int BELOW
 ```
 
-
 Applies only to line charts
 
 ### BEST_FIT {#BEST-FIT}
+
 ```
 public static final int BEST_FIT
 ```
 
-
 Applies only to 2D/3D pie charts
 
 ### CENTER {#CENTER}
+
 ```
 public static final int CENTER
 ```
 
-
 Applies only to bar, 2D/3D pie charts
 
 ### INSIDE_BASE {#INSIDE-BASE}
+
 ```
 public static final int INSIDE_BASE
 ```
 
-
 Applies only to bar, 2D/3D pie charts
 
 ### INSIDE_END {#INSIDE-END}
+
 ```
 public static final int INSIDE_END
 ```
 
-
 Applies only to bar charts
 
 ### LEFT {#LEFT}
+
 ```
 public static final int LEFT
 ```
 
-
 Applies only to line charts
 
 ### MOVED {#MOVED}
+
 ```
 public static final int MOVED
 ```
 
-
-User moved the data labels. This is only for reading chart from template file.
+User moved the data labels. This is only for reading the chart from the template file.
 
 ### OUTSIDE_END {#OUTSIDE-END}
+
 ```
 public static final int OUTSIDE_END
 ```
 
-
 Applies only to bar, 2d/3d pie charts
 
 ### RIGHT {#RIGHT}
+
 ```
 public static final int RIGHT
 ```
 
-
 Applies only to line charts
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
+
 ```
 public boolean equals(Object arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
 **Returns:**
 boolean
+
 ### getClass() {#getClass--}
+
 ```
 public final native Class<?> getClass()
 ```
 
-
-
-
 **Returns:**
-java.lang.Class<?>
+java.lang.Class
+
 ### hashCode() {#hashCode--}
+
 ```
 public native int hashCode()
 ```
 
-
-
-
 **Returns:**
 int
+
 ### notify() {#notify--}
+
 ```
 public final native void notify()
 ```
 
-
-
-
 ### notifyAll() {#notifyAll--}
+
 ```
 public final native void notifyAll()
 ```
 
-
-
-
 ### toString() {#toString--}
+
 ```
 public String toString()
 ```
 
-
-
-
 **Returns:**
 java.lang.String
+
 ### wait() {#wait--}
+
 ```
 public final void wait()
 ```
 
-
-
-
 ### wait(long arg0) {#wait-long-}
+
 ```
 public final native void wait(long arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
 ### wait(long arg0, int arg1) {#wait-long-int-}
+
 ```
 public final void wait(long arg0, int arg1)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

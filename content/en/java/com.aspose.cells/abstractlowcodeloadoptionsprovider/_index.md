@@ -1,13 +1,16 @@
 ---
-title: AbstractLowCodeLoadOptionsProvider
-second_title: Aspose.Cells for Java API Reference
-description: Implementation to provide multiple load options for processes that use multiple inputssuch as template files.
+title: "AbstractLowCodeLoadOptionsProvider"
+second_title: "Aspose.Cells for Java API Reference"
+description: "Implementation to provide multiple load options for processes that use multiple inputssuch as template files."
 type: docs
-url: /java/com.aspose.cells/abstractlowcodeloadoptionsprovider/
+url: "/java/com.aspose.cells/abstractlowcodeloadoptionsprovider/"
+source_url: "https://reference.aspose.com/cells/java/com.aspose.cells/abstractlowcodeloadoptionsprovider/"
+generated_from: "online-reference"
+fetched_at: "2026-06-16T11:47:31+00:00"
 ---
-
 **Inheritance:**
 java.lang.Object
+
 ```
 public abstract class AbstractLowCodeLoadOptionsProvider
 ```
@@ -17,12 +20,14 @@ Implementation to provide multiple load options for processes that use multiple 
 **Remarks**
 
 For example, [SpreadsheetMerger](../../com.aspose.cells/spreadsheetmerger) feature requires multiple template files to merge.
-## Constructors
+
+## Constructors {#constructors}
 
 | Constructor | Description |
 | --- | --- |
 | [AbstractLowCodeLoadOptionsProvider()](#AbstractLowCodeLoadOptionsProvider--) |  |
-## Methods
+
+## Methods {#methods}
 
 | Method | Description |
 | --- | --- |
@@ -38,142 +43,134 @@ For example, [SpreadsheetMerger](../../com.aspose.cells/spreadsheetmerger) featu
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+
 ### AbstractLowCodeLoadOptionsProvider() {#AbstractLowCodeLoadOptionsProvider--}
+
 ```
 public AbstractLowCodeLoadOptionsProvider()
 ```
 
-
 ### equals(Object arg0) {#equals-java.lang.Object-}
+
 ```
 public boolean equals(Object arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
 **Returns:**
 boolean
+
 ### finish(LowCodeLoadOptions part) {#finish-com.aspose.cells.LowCodeLoadOptions-}
+
 ```
 public void finish(LowCodeLoadOptions part)
 ```
-
 
 Releases resources after processing currently part of input.
 
 **Remarks**
 
-By default this method just closes the stream specified by the [LowCodeLoadOptions.getInputStream()](../../com.aspose.cells/lowcodeloadoptions\#getInputStream--) directly(if the load options specified a Stream as source). User may overwrite this method to control how to release resources according to their requirement and the implementation of [getCurrent()](../../com.aspose.cells/abstractlowcodeloadoptionsprovider\#getCurrent--).
+By default this method just closes the stream specified by the [LowCodeLoadOptions.getInputStream()](../../com.aspose.cells/lowcodeloadoptions#getInputStream--) directly(if the load options specified a Stream as source). User may overwrite this method to control how to release resources according to their requirement and the implementation of [getCurrent()](../../com.aspose.cells/abstractlowcodeloadoptionsprovider#getCurrent--).
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | part | [LowCodeLoadOptions](../../com.aspose.cells/lowcodeloadoptions) | the load options used for currently split part. |
 
 ### getClass() {#getClass--}
+
 ```
 public final native Class<?> getClass()
 ```
 
-
-
-
 **Returns:**
-java.lang.Class<?>
+java.lang.Class
+
 ### getCurrent() {#getCurrent--}
+
 ```
 public abstract LowCodeLoadOptions getCurrent()
 ```
-
 
 Gets the load options from which to load data of currently processed part.
 
 **Returns:**
 [LowCodeLoadOptions](../../com.aspose.cells/lowcodeloadoptions)
+
 ### hashCode() {#hashCode--}
+
 ```
 public native int hashCode()
 ```
 
-
-
-
 **Returns:**
 int
+
 ### moveNext() {#moveNext--}
+
 ```
 public abstract boolean moveNext()
 ```
-
 
 Checks whether there is more input.
 
 **Returns:**
 boolean
+
 ### notify() {#notify--}
+
 ```
 public final native void notify()
 ```
 
-
-
-
 ### notifyAll() {#notifyAll--}
+
 ```
 public final native void notifyAll()
 ```
 
-
-
-
 ### toString() {#toString--}
+
 ```
 public String toString()
 ```
 
-
-
-
 **Returns:**
 java.lang.String
+
 ### wait() {#wait--}
+
 ```
 public final void wait()
 ```
 
-
-
-
 ### wait(long arg0) {#wait-long-}
+
 ```
 public final native void wait(long arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
 ### wait(long arg0, int arg1) {#wait-long-int-}
+
 ```
 public final void wait(long arg0, int arg1)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

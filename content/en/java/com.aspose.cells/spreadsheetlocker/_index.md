@@ -1,13 +1,16 @@
 ---
-title: SpreadsheetLocker
-second_title: Aspose.Cells for Java API Reference
-description: Low code api to lock spreadsheet file.
+title: "SpreadsheetLocker"
+second_title: "Aspose.Cells for Java API Reference"
+description: "Low code api to lock spreadsheet file."
 type: docs
-url: /java/com.aspose.cells/spreadsheetlocker/
+url: "/java/com.aspose.cells/spreadsheetlocker/"
+source_url: "https://reference.aspose.com/cells/java/com.aspose.cells/spreadsheetlocker/"
+generated_from: "online-reference"
+fetched_at: "2026-06-16T11:56:00+00:00"
 ---
-
 **Inheritance:**
 java.lang.Object
+
 ```
 public class SpreadsheetLocker
 ```
@@ -19,7 +22,8 @@ Low code api to lock spreadsheet file.
 ```
          SpreadsheetLocker.process("template.xlsx", "locked.xlsx", "mypassword", "mypassword");
 ```
-## Methods
+
+## Methods {#methods}
 
 | Method | Description |
 | --- | --- |
@@ -36,66 +40,62 @@ Low code api to lock spreadsheet file.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+
 ### equals(Object arg0) {#equals-java.lang.Object-}
+
 ```
 public boolean equals(Object arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
 **Returns:**
 boolean
+
 ### getClass() {#getClass--}
+
 ```
 public final native Class<?> getClass()
 ```
 
-
-
-
 **Returns:**
-java.lang.Class<?>
+java.lang.Class
+
 ### hashCode() {#hashCode--}
+
 ```
 public native int hashCode()
 ```
 
-
-
-
 **Returns:**
 int
+
 ### notify() {#notify--}
+
 ```
 public final native void notify()
 ```
 
-
-
-
 ### notifyAll() {#notifyAll--}
+
 ```
 public final native void notifyAll()
 ```
 
-
-
-
 ### process(LowCodeLoadOptions loadOptions, LowCodeSaveOptions saveOptions, AbstractLowCodeProtectionProvider provider) {#process-com.aspose.cells.LowCodeLoadOptions-com.aspose.cells.LowCodeSaveOptions-com.aspose.cells.AbstractLowCodeProtectionProvider-}
+
 ```
 public static void process(LowCodeLoadOptions loadOptions, LowCodeSaveOptions saveOptions, AbstractLowCodeProtectionProvider provider)
 ```
 
-
 Locks spreadsheet file with specified settings.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | loadOptions | [LowCodeLoadOptions](../../com.aspose.cells/lowcodeloadoptions) | Options for input and loading |
@@ -103,14 +103,15 @@ Locks spreadsheet file with specified settings.
 | provider | [AbstractLowCodeProtectionProvider](../../com.aspose.cells/abstractlowcodeprotectionprovider) | Implementation to provide protections settings |
 
 ### process(LowCodeLoadOptions loadOptions, LowCodeSaveOptions saveOptions, String openPassword, String writePassword) {#process-com.aspose.cells.LowCodeLoadOptions-com.aspose.cells.LowCodeSaveOptions-java.lang.String-java.lang.String-}
+
 ```
 public static void process(LowCodeLoadOptions loadOptions, LowCodeSaveOptions saveOptions, String openPassword, String writePassword)
 ```
 
-
 Locks spreadsheet file with specified settings.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | loadOptions | [LowCodeLoadOptions](../../com.aspose.cells/lowcodeloadoptions) | Options for input and loading |
@@ -119,14 +120,15 @@ Locks spreadsheet file with specified settings.
 | writePassword | java.lang.String | Password for protection of modifying spreadsheet |
 
 ### process(LowCodeLoadOptions loadOptions, LowCodeSaveOptions saveOptions, String openPassword, String writePassword, String workbookPassword, int workbookType) {#process-com.aspose.cells.LowCodeLoadOptions-com.aspose.cells.LowCodeSaveOptions-java.lang.String-java.lang.String-java.lang.String-int-}
+
 ```
 public static void process(LowCodeLoadOptions loadOptions, LowCodeSaveOptions saveOptions, String openPassword, String writePassword, String workbookPassword, int workbookType)
 ```
 
-
 Locks spreadsheet file with specified settings.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | loadOptions | [LowCodeLoadOptions](../../com.aspose.cells/lowcodeloadoptions) | Options for input and loading |
@@ -137,14 +139,15 @@ Locks spreadsheet file with specified settings.
 | workbookType | int | [ProtectionType](../../com.aspose.cells/protectiontype). Protection type to protect the workbook |
 
 ### process(String templateFile, String resultFile, String openPassword, String writePassword) {#process-java.lang.String-java.lang.String-java.lang.String-java.lang.String-}
+
 ```
 public static void process(String templateFile, String resultFile, String openPassword, String writePassword)
 ```
 
-
 Locks spreadsheet file with specified settings.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | templateFile | java.lang.String | The template file to be locked |
@@ -153,47 +156,41 @@ Locks spreadsheet file with specified settings.
 | writePassword | java.lang.String | Password for protection of modifying spreadsheet |
 
 ### toString() {#toString--}
+
 ```
 public String toString()
 ```
 
-
-
-
 **Returns:**
 java.lang.String
+
 ### wait() {#wait--}
+
 ```
 public final void wait()
 ```
 
-
-
-
 ### wait(long arg0) {#wait-long-}
+
 ```
 public final native void wait(long arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
 ### wait(long arg0, int arg1) {#wait-long-int-}
+
 ```
 public final void wait(long arg0, int arg1)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

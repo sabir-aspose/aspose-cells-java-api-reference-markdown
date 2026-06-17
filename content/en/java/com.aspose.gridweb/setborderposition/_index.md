@@ -1,13 +1,16 @@
 ---
-title: SetBorderPosition
-second_title: Aspose.Cells for Java API Reference
-description: Represents the border position to be set of a cells range.
+title: "SetBorderPosition"
+second_title: "Aspose.Cells for Java API Reference"
+description: "Represents the border position to be set of a cells range."
 type: docs
-url: /java/com.aspose.gridweb/setborderposition/
+url: "/java/com.aspose.gridweb/setborderposition/"
+source_url: "https://reference.aspose.com/cells/java/com.aspose.gridweb/setborderposition/"
+generated_from: "online-reference"
+fetched_at: "2026-06-16T11:58:59+00:00"
 ---
-
 **Inheritance:**
 java.lang.Object
+
 ```
 public final class SetBorderPosition
 ```
@@ -20,7 +23,8 @@ Represents the border position to be set of a cells range.
              GridWeb GridWeb1=new GridWeb();
          		GridWeb1.getWorkSheets().get(0).getCells().setBorders(0, 0, 5, 8, SetBorderPosition.OUTLINE, GridWeb1.getWorkSheets().get(0).getCells().get(0, 0).getStyle().getLeftBorderStyle());
 ```
-## Fields
+
+## Fields {#fields}
 
 | Field | Description |
 | --- | --- |
@@ -33,7 +37,8 @@ Represents the border position to be set of a cells range.
 | [RIGHT](#RIGHT) | Right border |
 | [TOP](#TOP) | Top border |
 | [VERTICAL_MIDDLE](#VERTICAL-MIDDLE) | HorizontalMiddle borders |
-## Methods
+
+## Methods {#methods}
 
 | Method | Description |
 | --- | --- |
@@ -46,171 +51,160 @@ Represents the border position to be set of a cells range.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+
 ### BOTTOM {#BOTTOM}
+
 ```
 public static final int BOTTOM
 ```
 
-
 Bottom border
 
 ### CROSS {#CROSS}
+
 ```
 public static final int CROSS
 ```
 
-
 Cross borders
 
 ### HORIZONTAL_MIDDLE {#HORIZONTAL-MIDDLE}
+
 ```
 public static final int HORIZONTAL_MIDDLE
 ```
 
-
 Bottom border
 
 ### LEFT {#LEFT}
+
 ```
 public static final int LEFT
 ```
 
-
 Left border
 
 ### NONE {#NONE}
+
 ```
 public static final int NONE
 ```
 
-
 No borders
 
 ### OUTLINE {#OUTLINE}
+
 ```
 public static final int OUTLINE
 ```
 
-
 VerticalMiddle borders
 
 ### RIGHT {#RIGHT}
+
 ```
 public static final int RIGHT
 ```
 
-
 Right border
 
 ### TOP {#TOP}
+
 ```
 public static final int TOP
 ```
 
-
 Top border
 
 ### VERTICAL_MIDDLE {#VERTICAL-MIDDLE}
+
 ```
 public static final int VERTICAL_MIDDLE
 ```
 
-
 HorizontalMiddle borders
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
+
 ```
 public boolean equals(Object arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
 **Returns:**
 boolean
+
 ### getClass() {#getClass--}
+
 ```
 public final native Class<?> getClass()
 ```
 
-
-
-
 **Returns:**
-java.lang.Class<?>
+java.lang.Class
+
 ### hashCode() {#hashCode--}
+
 ```
 public native int hashCode()
 ```
 
-
-
-
 **Returns:**
 int
+
 ### notify() {#notify--}
+
 ```
 public final native void notify()
 ```
 
-
-
-
 ### notifyAll() {#notifyAll--}
+
 ```
 public final native void notifyAll()
 ```
 
-
-
-
 ### toString() {#toString--}
+
 ```
 public String toString()
 ```
 
-
-
-
 **Returns:**
 java.lang.String
+
 ### wait() {#wait--}
+
 ```
 public final void wait()
 ```
 
-
-
-
 ### wait(long arg0) {#wait-long-}
+
 ```
 public final native void wait(long arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
 ### wait(long arg0, int arg1) {#wait-long-int-}
+
 ```
 public final void wait(long arg0, int arg1)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

@@ -1,18 +1,21 @@
 ---
-title: PdfBookmarkEntry
-second_title: Aspose.Cells for Java API Reference
-description: PdfBookmarkEntry is an entry in pdf bookmark.
+title: "PdfBookmarkEntry"
+second_title: "Aspose.Cells for Java API Reference"
+description: "PdfBookmarkEntry is an entry in pdf bookmark."
 type: docs
-url: /java/com.aspose.cells/pdfbookmarkentry/
+url: "/java/com.aspose.cells/pdfbookmarkentry/"
+source_url: "https://reference.aspose.com/cells/java/com.aspose.cells/pdfbookmarkentry/"
+generated_from: "online-reference"
+fetched_at: "2026-06-16T11:53:22+00:00"
 ---
-
 **Inheritance:**
 java.lang.Object
+
 ```
 public class PdfBookmarkEntry
 ```
 
-PdfBookmarkEntry is an entry in pdf bookmark. if Text property of current instance is null or "", current instance will be hidden and children will be inserted on current level.
+PdfBookmarkEntry is an entry in pdf bookmark. if Text property of current instance is null or “”, current instance will be hidden and children will be inserted on current level.
 
 **Example**
 
@@ -48,12 +51,14 @@ PdfBookmarkEntry is an entry in pdf bookmark. if Text property of current instan
          saveOptions.setBookmark(pbeRoot);
          workbook.save("output_bookmark.pdf", saveOptions);
 ```
-## Constructors
+
+## Constructors {#constructors}
 
 | Constructor | Description |
 | --- | --- |
 | [PdfBookmarkEntry()](#PdfBookmarkEntry--) |  |
-## Methods
+
+## Methods {#methods}
 
 | Method | Description |
 | --- | --- |
@@ -78,52 +83,53 @@ PdfBookmarkEntry is an entry in pdf bookmark. if Text property of current instan
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+
 ### PdfBookmarkEntry() {#PdfBookmarkEntry--}
+
 ```
 public PdfBookmarkEntry()
 ```
 
-
 ### equals(Object arg0) {#equals-java.lang.Object-}
+
 ```
 public boolean equals(Object arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
 **Returns:**
 boolean
+
 ### getClass() {#getClass--}
+
 ```
 public final native Class<?> getClass()
 ```
 
-
-
-
 **Returns:**
-java.lang.Class<?>
+java.lang.Class
+
 ### getDestination() {#getDestination--}
+
 ```
 public Cell getDestination()
 ```
-
 
 The cell to which the bookmark link.
 
 **Returns:**
 [Cell](../../com.aspose.cells/cell)
+
 ### getDestinationName() {#getDestinationName--}
+
 ```
 public String getDestinationName()
 ```
-
 
 Gets name of destination.
 
@@ -133,103 +139,105 @@ If destination name is set, the destination will be defined as a named destinati
 
 **Returns:**
 java.lang.String
+
 ### getSubEntry() {#getSubEntry--}
+
 ```
 public ArrayList getSubEntry()
 ```
-
 
 SubEntry of a bookmark.
 
 **Returns:**
 java.util.ArrayList
+
 ### getText() {#getText--}
+
 ```
 public String getText()
 ```
-
 
 Title of a bookmark.
 
 **Returns:**
 java.lang.String
+
 ### hashCode() {#hashCode--}
+
 ```
 public native int hashCode()
 ```
 
-
-
-
 **Returns:**
 int
+
 ### isCollapse() {#isCollapse--}
+
 ```
 public boolean isCollapse()
 ```
-
 
 When this property is true, the bookmarkentry will collapse, otherwise it will expand.
 
 **Returns:**
 boolean
+
 ### isOpen() {#isOpen--}
+
 ```
 public boolean isOpen()
 ```
-
 
 When this property is true, the bookmarkentry will expand, otherwise it will collapse.
 
 **Returns:**
 boolean
+
 ### notify() {#notify--}
+
 ```
 public final native void notify()
 ```
 
-
-
-
 ### notifyAll() {#notifyAll--}
+
 ```
 public final native void notifyAll()
 ```
 
-
-
-
 ### setCollapse(boolean value) {#setCollapse-boolean-}
+
 ```
 public void setCollapse(boolean value)
 ```
 
-
 When this property is true, the bookmarkentry will collapse, otherwise it will expand.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
 ### setDestination(Cell value) {#setDestination-com.aspose.cells.Cell-}
+
 ```
 public void setDestination(Cell value)
 ```
 
-
 The cell to which the bookmark link.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [Cell](../../com.aspose.cells/cell) |  |
 
 ### setDestinationName(String value) {#setDestinationName-java.lang.String-}
+
 ```
 public void setDestinationName(String value)
 ```
-
 
 Sets name of destination.
 
@@ -238,91 +246,89 @@ Sets name of destination.
 If destination name is set, the destination will be defined as a named destination with this name.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String |  |
 
 ### setOpen(boolean value) {#setOpen-boolean-}
+
 ```
 public void setOpen(boolean value)
 ```
 
-
 When this property is true, the bookmarkentry will expand, otherwise it will collapse.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
 ### setSubEntry(ArrayList value) {#setSubEntry-java.util.ArrayList-}
+
 ```
 public void setSubEntry(ArrayList value)
 ```
 
-
 SubEntry of a bookmark.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.util.ArrayList |  |
 
 ### setText(String value) {#setText-java.lang.String-}
+
 ```
 public void setText(String value)
 ```
 
-
 Title of a bookmark.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String |  |
 
 ### toString() {#toString--}
+
 ```
 public String toString()
 ```
 
-
-
-
 **Returns:**
 java.lang.String
+
 ### wait() {#wait--}
+
 ```
 public final void wait()
 ```
 
-
-
-
 ### wait(long arg0) {#wait-long-}
+
 ```
 public final native void wait(long arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
 ### wait(long arg0, int arg1) {#wait-long-int-}
+
 ```
 public final void wait(long arg0, int arg1)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

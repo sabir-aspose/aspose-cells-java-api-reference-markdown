@@ -1,19 +1,23 @@
 ---
-title: TextTabAlignmentType
-second_title: Aspose.Cells for Java API Reference
-description: Represents the text tab alignment types.
+title: "TextTabAlignmentType"
+second_title: "Aspose.Cells for Java API Reference"
+description: "Represents the text tab alignment types."
 type: docs
-url: /java/com.aspose.cells/texttabalignmenttype/
+url: "/java/com.aspose.cells/texttabalignmenttype/"
+source_url: "https://reference.aspose.com/cells/java/com.aspose.cells/texttabalignmenttype/"
+generated_from: "online-reference"
+fetched_at: "2026-06-16T11:56:36+00:00"
 ---
-
 **Inheritance:**
 java.lang.Object
+
 ```
 public final class TextTabAlignmentType
 ```
 
 Represents the text tab alignment types.
-## Fields
+
+## Fields {#fields}
 
 | Field | Description |
 | --- | --- |
@@ -21,7 +25,8 @@ Represents the text tab alignment types.
 | [DECIMAL](#DECIMAL) | At this tab stop, the decimals are lined up. |
 | [LEFT](#LEFT) | The text at this tab stop is left aligned. |
 | [RIGHT](#RIGHT) | The text at this tab stop is right aligned. |
-## Methods
+
+## Methods {#methods}
 
 | Method | Description |
 | --- | --- |
@@ -34,131 +39,120 @@ Represents the text tab alignment types.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+
 ### CENTER {#CENTER}
+
 ```
 public static final int CENTER
 ```
 
-
 The text at this tab stop is center aligned.
 
 ### DECIMAL {#DECIMAL}
+
 ```
 public static final int DECIMAL
 ```
 
-
 At this tab stop, the decimals are lined up.
 
 ### LEFT {#LEFT}
+
 ```
 public static final int LEFT
 ```
 
-
 The text at this tab stop is left aligned.
 
 ### RIGHT {#RIGHT}
+
 ```
 public static final int RIGHT
 ```
 
-
 The text at this tab stop is right aligned.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
+
 ```
 public boolean equals(Object arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
 **Returns:**
 boolean
+
 ### getClass() {#getClass--}
+
 ```
 public final native Class<?> getClass()
 ```
 
-
-
-
 **Returns:**
-java.lang.Class<?>
+java.lang.Class
+
 ### hashCode() {#hashCode--}
+
 ```
 public native int hashCode()
 ```
 
-
-
-
 **Returns:**
 int
+
 ### notify() {#notify--}
+
 ```
 public final native void notify()
 ```
 
-
-
-
 ### notifyAll() {#notifyAll--}
+
 ```
 public final native void notifyAll()
 ```
 
-
-
-
 ### toString() {#toString--}
+
 ```
 public String toString()
 ```
 
-
-
-
 **Returns:**
 java.lang.String
+
 ### wait() {#wait--}
+
 ```
 public final void wait()
 ```
 
-
-
-
 ### wait(long arg0) {#wait-long-}
+
 ```
 public final native void wait(long arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
 ### wait(long arg0, int arg1) {#wait-long-int-}
+
 ```
 public final void wait(long arg0, int arg1)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

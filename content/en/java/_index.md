@@ -1,13 +1,15 @@
 ---
-title: Aspose.Cells for Java
+title: "Aspose.Cells for Java"
+second_title: "Aspose API References"
+description: "Aspose.Cells for Java API References contain examples, code snippets, and API documentation. It provides packages, classes, interfaces, and other API details."
 type: docs
-weight: 11
-url: /java/
-description: Aspose.Cells for Java API References contain examples, code snippets, and API documentation. It provides packages, classes, interfaces, and other API details.
-is_root: true
+url: "/java/"
+source_url: "https://reference.aspose.com/cells/java/"
+generated_from: "online-reference"
+fetched_at: "2026-06-16T11:47:28+00:00"
 ---
+## Packages {#packages}
 
-## Packages
 | Package | Description |
 | --- | --- |
 | [com.aspose.cells](./com.aspose.cells) | Provides core apis and features to manipulate spreadsheet files and data directly without utilizing Microsoft Excel. |

@@ -1,13 +1,16 @@
 ---
-title: AutoFilter
-second_title: Aspose.Cells for Java API Reference
-description: Represents autofiltering for the specified worksheet.
+title: "AutoFilter"
+second_title: "Aspose.Cells for Java API Reference"
+description: "Represents autofiltering for the specified worksheet."
 type: docs
-url: /java/com.aspose.cells/autofilter/
+url: "/java/com.aspose.cells/autofilter/"
+source_url: "https://reference.aspose.com/cells/java/com.aspose.cells/autofilter/"
+generated_from: "online-reference"
+fetched_at: "2026-06-16T11:47:42+00:00"
 ---
-
 **Inheritance:**
 java.lang.Object
+
 ```
 public class AutoFilter
 ```
@@ -29,7 +32,8 @@ Represents autofiltering for the specified worksheet.
          //Saving the modified Excel file.
          workbook.save("output.xls");
 ```
-## Methods
+
+## Methods {#methods}
 
 | Method | Description |
 | --- | --- |
@@ -57,7 +61,7 @@ Represents autofiltering for the specified worksheet.
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [refresh()](#refresh--) | Refresh auto filters to hide or unhide the rows. |
-| [refresh(boolean hideRows)](#refresh-boolean-) | Gets all hidden rows' indexes. |
+| [refresh(boolean hideRows)](#refresh-boolean-) | Gets all hidden rows’ indexes. |
 | [removeDateFilter(int fieldIndex, int dateTimeGroupingType, int year, int month, int day, int hour, int minute, int second)](#removeDateFilter-int-int-int-int-int-int-int-int-) | Removes a date filter. |
 | [removeFilter(int fieldIndex)](#removeFilter-int-) | Remove the specific filter. |
 | [removeFilter(int fieldIndex, String criteria)](#removeFilter-int-java.lang.String-) | Removes a filter for a filter column. |
@@ -69,11 +73,12 @@ Represents autofiltering for the specified worksheet.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+
 ### addDateFilter(int fieldIndex, int dateTimeGroupingType, int year, int month, int day, int hour, int minute, int second) {#addDateFilter-int-int-int-int-int-int-int-int-}
+
 ```
 public void addDateFilter(int fieldIndex, int dateTimeGroupingType, int year, int month, int day, int hour, int minute, int second)
 ```
-
 
 Adds a date filter.
 
@@ -82,6 +87,7 @@ Adds a date filter.
 If DateTimeGroupingType is Year, only the param year effects. If DateTiemGroupingType is Month, only the param year and month effect.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fieldIndex | int | The integer offset of the field on which you want to base the filter (from the left of the list; the leftmost field is field 0). |
@@ -94,14 +100,15 @@ If DateTimeGroupingType is Year, only the param year effects. If DateTiemGroupin
 | second | int | The second. |
 
 ### addFillColorFilter(int fieldIndex, int pattern, CellsColor foregroundColor, CellsColor backgroundColor) {#addFillColorFilter-int-int-com.aspose.cells.CellsColor-com.aspose.cells.CellsColor-}
+
 ```
 public void addFillColorFilter(int fieldIndex, int pattern, CellsColor foregroundColor, CellsColor backgroundColor)
 ```
 
-
 Adds a fill color filter.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fieldIndex | int | The integer offset of the field on which you want to base the filter (from the left of the list; the leftmost field is field 0). |
@@ -110,10 +117,10 @@ Adds a fill color filter.
 | backgroundColor | [CellsColor](../../com.aspose.cells/cellscolor) | The background color. |
 
 ### addFilter(int fieldIndex, String criteria) {#addFilter-int-java.lang.String-}
+
 ```
 public void addFilter(int fieldIndex, String criteria)
 ```
-
 
 Adds a filter for a filter column.
 
@@ -122,30 +129,32 @@ Adds a filter for a filter column.
 MS Excel 2007 supports multiple selection in a filter column.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fieldIndex | int | The integer offset of the field on which you want to base the filter (from the left of the list; the leftmost field is field 0). |
-| criteria | java.lang.String | The specified criteria (a string; for example, "101"). It only can be null or be one of the cells' value in this column. |
+| criteria | java.lang.String | The specified criteria (a string; for example, “101”). It only can be null or be one of the cells’ value in this column. |
 
 ### addFontColorFilter(int fieldIndex, CellsColor color) {#addFontColorFilter-int-com.aspose.cells.CellsColor-}
+
 ```
 public void addFontColorFilter(int fieldIndex, CellsColor color)
 ```
 
-
 Adds a font color filter.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fieldIndex | int | The integer offset of the field on which you want to base the filter (from the left of the list; the leftmost field is field 0). |
 | color | [CellsColor](../../com.aspose.cells/cellscolor) | The [CellsColor](../../com.aspose.cells/cellscolor) object. |
 
 ### addIconFilter(int fieldIndex, int iconSetType, int iconId) {#addIconFilter-int-int-int-}
+
 ```
 public void addIconFilter(int fieldIndex, int iconSetType, int iconId)
 ```
-
 
 Adds an icon filter.
 
@@ -154,6 +163,7 @@ Adds an icon filter.
 Only supports to add the icon filter. Not supports checking which row is visible if the filter is icon filter.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fieldIndex | int | The integer offset of the field on which you want to base the filter (from the left of the list; the leftmost field is field 0). |
@@ -161,14 +171,15 @@ Only supports to add the icon filter. Not supports checking which row is visible
 | iconId | int | The icon id. |
 
 ### custom(int fieldIndex, int operatorType1, Object criteria1) {#custom-int-int-java.lang.Object-}
+
 ```
 public void custom(int fieldIndex, int operatorType1, Object criteria1)
 ```
 
-
 Filters a list with a custom criterion.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fieldIndex | int | The integer offset of the field on which you want to base the filter (from the left of the list; the leftmost field is field 0). |
@@ -176,14 +187,15 @@ Filters a list with a custom criterion.
 | criteria1 | java.lang.Object | The custom criteria |
 
 ### custom(int fieldIndex, int operatorType1, Object criteria1, boolean isAnd, int operatorType2, Object criteria2) {#custom-int-int-java.lang.Object-boolean-int-java.lang.Object-}
+
 ```
 public void custom(int fieldIndex, int operatorType1, Object criteria1, boolean isAnd, int operatorType2, Object criteria2)
 ```
 
-
 Filters a list with custom criteria.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fieldIndex | int | The integer offset of the field on which you want to base the filter (from the left of the list; the leftmost field is field 0). |
@@ -194,39 +206,40 @@ Filters a list with custom criteria.
 | criteria2 | java.lang.Object | The custom criteria |
 
 ### dynamicFilter(int fieldIndex, int dynamicFilterType) {#dynamicFilter-int-int-}
+
 ```
 public void dynamicFilter(int fieldIndex, int dynamicFilterType)
 ```
 
-
 Adds a dynamic filter.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fieldIndex | int | The integer offset of the field on which you want to base the filter (from the left of the list; the leftmost field is field 0). |
 | dynamicFilterType | int | [DynamicFilterType](../../com.aspose.cells/dynamicfiltertype). Dynamic filter type. |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
+
 ```
 public boolean equals(Object arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
 **Returns:**
 boolean
+
 ### filter(int fieldIndex, String criteria) {#filter-int-java.lang.String-}
+
 ```
 public void filter(int fieldIndex, String criteria)
 ```
-
 
 Filters a list with specified criteria.
 
@@ -235,20 +248,22 @@ Filters a list with specified criteria.
 Aspose.Cells will remove all other filter setting on this field as Ms Excel 97-2003.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fieldIndex | int | The integer offset of the field on which you want to base the filter (from the left of the list; the leftmost field is field 0). |
-| criteria | java.lang.String | The specified criteria (a string; for example, "101"). |
+| criteria | java.lang.String | The specified criteria (a string; for example, “101”). |
 
 ### filterTop10(int fieldIndex, boolean isTop, boolean isPercent, int itemCount) {#filterTop10-int-boolean-boolean-int-}
+
 ```
 public void filterTop10(int fieldIndex, boolean isTop, boolean isPercent, int itemCount)
 ```
 
-
 Filter the top 10 items in the list
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fieldIndex | int | The integer offset of the field on which you want to base the filter (from the left of the list; the leftmost field is field 0). |
@@ -257,162 +272,168 @@ Filter the top 10 items in the list
 | itemCount | int | The item count |
 
 ### getCellArea() {#getCellArea--}
+
 ```
 public CellArea getCellArea()
 ```
-
 
 Gets the [CellArea](../../com.aspose.cells/cellarea) where the this AutoFilter applies to.
 
 **Returns:**
 [CellArea](../../com.aspose.cells/cellarea) - the area this filter applies to
+
 ### getCellArea(boolean refreshAppliedRange) {#getCellArea-boolean-}
+
 ```
 public CellArea getCellArea(boolean refreshAppliedRange)
 ```
 
-
 Gets the [CellArea](../../com.aspose.cells/cellarea) where the specified AutoFilter applies.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | refreshAppliedRange | boolean | Whether refresh the applied range. For the applied range of auto filter, the last row may change when cells data changes. If this flag is true, then the last row of the range will be re-calculated according to current cells data. |
 
 **Returns:**
 [CellArea](../../com.aspose.cells/cellarea) - the area this filter applies to
+
 ### getClass() {#getClass--}
+
 ```
 public final native Class<?> getClass()
 ```
 
-
-
-
 **Returns:**
-java.lang.Class<?>
+java.lang.Class
+
 ### getFilterColumns() {#getFilterColumns--}
+
 ```
 public FilterColumnCollection getFilterColumns()
 ```
-
 
 Gets the collection of the filter columns.
 
 **Returns:**
 [FilterColumnCollection](../../com.aspose.cells/filtercolumncollection)
+
 ### getRange() {#getRange--}
+
 ```
 public String getRange()
 ```
-
 
 Represents the range to which the specified AutoFilter applies.
 
 **Returns:**
 java.lang.String
+
 ### getShowFilterButton() {#getShowFilterButton--}
+
 ```
 public boolean getShowFilterButton()
 ```
-
 
 Indicates whether the AutoFilter button for this column is visible.
 
 **Returns:**
 boolean
+
 ### getSorter() {#getSorter--}
+
 ```
 public DataSorter getSorter()
 ```
-
 
 Gets the data sorter.
 
 **Returns:**
 [DataSorter](../../com.aspose.cells/datasorter)
+
 ### hashCode() {#hashCode--}
+
 ```
 public native int hashCode()
 ```
 
-
-
-
 **Returns:**
 int
+
 ### matchBlanks(int fieldIndex) {#matchBlanks-int-}
+
 ```
 public void matchBlanks(int fieldIndex)
 ```
 
-
 Match all blank cells in the list.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fieldIndex | int | The integer offset of the field on which you want to base the filter (from the left of the list; the leftmost field is field 0). |
 
 ### matchNonBlanks(int fieldIndex) {#matchNonBlanks-int-}
+
 ```
 public void matchNonBlanks(int fieldIndex)
 ```
 
-
 Match all not-blank cells in the list.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fieldIndex | int | The integer offset of the field on which you want to base the filter (from the left of the list; the leftmost field is field 0). |
 
 ### notify() {#notify--}
+
 ```
 public final native void notify()
 ```
 
-
-
-
 ### notifyAll() {#notifyAll--}
+
 ```
 public final native void notifyAll()
 ```
 
-
-
-
 ### refresh() {#refresh--}
+
 ```
 public int[] refresh()
 ```
 
-
 Refresh auto filters to hide or unhide the rows.
 
 **Returns:**
-int[] - Returns all hidden rows' indexes.
+int[] - Returns all hidden rows’ indexes.
+
 ### refresh(boolean hideRows) {#refresh-boolean-}
+
 ```
 public int[] refresh(boolean hideRows)
 ```
 
-
-Gets all hidden rows' indexes.
+Gets all hidden rows’ indexes.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | hideRows | boolean | If true, hide the filtered rows. |
 
 **Returns:**
 int[] - Returns all hidden rows indexes.
+
 ### removeDateFilter(int fieldIndex, int dateTimeGroupingType, int year, int month, int day, int hour, int minute, int second) {#removeDateFilter-int-int-int-int-int-int-int-int-}
+
 ```
 public void removeDateFilter(int fieldIndex, int dateTimeGroupingType, int year, int month, int day, int hour, int minute, int second)
 ```
-
 
 Removes a date filter.
 
@@ -421,6 +442,7 @@ Removes a date filter.
 If DateTimeGroupingType is Year, only the param year effects. If DateTiemGroupingType is Month, only the param year and month effect.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fieldIndex | int | The integer offset of the field on which you want to base the filter (from the left of the list; the leftmost field is field 0). |
@@ -433,41 +455,44 @@ If DateTimeGroupingType is Year, only the param year effects. If DateTiemGroupin
 | second | int | The second. |
 
 ### removeFilter(int fieldIndex) {#removeFilter-int-}
+
 ```
 public void removeFilter(int fieldIndex)
 ```
 
-
 Remove the specific filter.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fieldIndex | int | The specific filter index |
 
 ### removeFilter(int fieldIndex, String criteria) {#removeFilter-int-java.lang.String-}
+
 ```
 public void removeFilter(int fieldIndex, String criteria)
 ```
 
-
 Removes a filter for a filter column.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fieldIndex | int | The integer offset of the field on which you want to base the filter (from the left of the list; the leftmost field is field 0). |
-| criteria | java.lang.String | The specified criteria (a string; for example, "101"). It only can be null or be one of the cells' value in this column. |
+| criteria | java.lang.String | The specified criteria (a string; for example, “101”). It only can be null or be one of the cells’ value in this column. |
 
 ### setRange(int row, int startColumn, int endColumn) {#setRange-int-int-int-}
+
 ```
 public void setRange(int row, int startColumn, int endColumn)
 ```
 
-
 Sets the range to which the specified AutoFilter applies.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | row | int | Row index. |
@@ -475,81 +500,77 @@ Sets the range to which the specified AutoFilter applies.
 | endColumn | int | End column Index. |
 
 ### setRange(String value) {#setRange-java.lang.String-}
+
 ```
 public void setRange(String value)
 ```
 
-
 Represents the range to which the specified AutoFilter applies.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String |  |
 
 ### setShowFilterButton(boolean value) {#setShowFilterButton-boolean-}
+
 ```
 public void setShowFilterButton(boolean value)
 ```
 
-
 Indicates whether the AutoFilter button for this column is visible.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
 ### showAll() {#showAll--}
+
 ```
 public void showAll()
 ```
 
-
 Unhide all rows.
 
 ### toString() {#toString--}
+
 ```
 public String toString()
 ```
 
-
-
-
 **Returns:**
 java.lang.String
+
 ### wait() {#wait--}
+
 ```
 public final void wait()
 ```
 
-
-
-
 ### wait(long arg0) {#wait-long-}
+
 ```
 public final native void wait(long arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
 ### wait(long arg0, int arg1) {#wait-long-int-}
+
 ```
 public final void wait(long arg0, int arg1)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

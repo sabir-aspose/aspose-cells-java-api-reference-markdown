@@ -1,13 +1,16 @@
 ---
-title: Title
-second_title: Aspose.Cells for Java API Reference
-description: Encapsulates the object that represents the title of chart or axis.
+title: "Title"
+second_title: "Aspose.Cells for Java API Reference"
+description: "Encapsulates the object that represents the title of chart or axis."
 type: docs
-url: /java/com.aspose.cells/title/
+url: "/java/com.aspose.cells/title/"
+source_url: "https://reference.aspose.com/cells/java/com.aspose.cells/title/"
+generated_from: "online-reference"
+fetched_at: "2026-06-16T11:56:56+00:00"
 ---
-
 **Inheritance:**
 java.lang.Object, [com.aspose.cells.ChartFrame](../../com.aspose.cells/chartframe), [com.aspose.cells.ChartTextFrame](../../com.aspose.cells/charttextframe)
+
 ```
 public class Title extends ChartTextFrame
 ```
@@ -41,7 +44,8 @@ Encapsulates the object that represents the title of chart or axis.
          //Setting the title of value axis of the chart
          chart.getValueAxis().getTitle().setText("Value");
 ```
-## Methods
+
+## Methods {#methods}
 
 | Method | Description |
 | --- | --- |
@@ -56,45 +60,45 @@ Encapsulates the object that represents the title of chart or axis.
 | [getCharacters()](#getCharacters--) | Gets rich text formatting of this Title. |
 | [getChart()](#getChart--) | Gets the chart to which this object belongs. |
 | [getClass()](#getClass--) |  |
-| [getDefaultHeight()](#getDefaultHeight--) | Represents height of default position in units of 1/4000 of the chart area. |
-| [getDefaultHeightRatioToChart()](#getDefaultHeightRatioToChart--) | Represents height of default position in units of Fraction of the chart area. |
+| [getDefaultHeight()](#getDefaultHeight--) | Represents height of the default position in units of 1/4000 of the chart area. |
+| [getDefaultHeightRatioToChart()](#getDefaultHeightRatioToChart--) | Represents height of the default position in units of the fraction of the chart area. |
 | [getDefaultWidth()](#getDefaultWidth--) | Represents width of default position in units of 1/4000 of the chart area. |
 | [getDefaultWidthRatioToChart()](#getDefaultWidthRatioToChart--) | Represents width of default position in units of Fraction of the chart area. |
 | [getDefaultX()](#getDefaultX--) | Represents x of default position in units of 1/4000 of the chart area. |
 | [getDefaultXRatioToChart()](#getDefaultXRatioToChart--) | Represents x of default position in units of Fraction of the chart area. |
-| [getDefaultY()](#getDefaultY--) | Represents y of default position in units of 1/4000 of the chart area. |
-| [getDefaultYRatioToChart()](#getDefaultYRatioToChart--) | Represents y of default position in units of Fraction of the chart area. |
+| [getDefaultY()](#getDefaultY--) | Represents the y of the default position in units of 1/4000 of the chart area. |
+| [getDefaultYRatioToChart()](#getDefaultYRatioToChart--) | Represents y of the default position in units of the fraction of the chart area. |
 | [getDirectionType()](#getDirectionType--) | Gets the direction of text. |
-| [getFont()](#getFont--) | Gets a [ChartArea.getFont()](../../com.aspose.cells/chartarea\#getFont--) object of the specified ChartFrame object. |
-| [getHeight()](#getHeight--) | Gets the height of frame in units of 1/4000 of the chart area. |
-| [getHeightPixel()](#getHeightPixel--) | Gets the height of frame in units of Pixel. |
-| [getHeightRatioToChart()](#getHeightRatioToChart--) | Gets the height of frame in units of ratio of the chart area. |
+| [getFont()](#getFont--) | Gets a [ChartArea.getFont()](../../com.aspose.cells/chartarea#getFont--) object of the specified ChartFrame object. |
+| [getHeight()](#getHeight--) | Gets the height of the frame in units of 1/4000 of the chart area. |
+| [getHeightPixel()](#getHeightPixel--) | Gets the height of the frame in units of pixels. |
+| [getHeightRatioToChart()](#getHeightRatioToChart--) | Gets the height of the frame in units of the ratio of the chart area. |
 | [getLinkedSource()](#getLinkedSource--) | Gets a reference to the worksheet. |
-| [getOverLay()](#getOverLay--) | Represents overlay centered title on chart without resizing chart. |
+| [getOverLay()](#getOverLay--) | Represents an overlay centered title on a chart without resizing the chart. |
 | [getReadingOrder()](#getReadingOrder--) | Represents text reading order. |
 | [getRotationAngle()](#getRotationAngle--) | Represents the text rotation angle. |
 | [getShadow()](#getShadow--) | True if the frame has a shadow. |
-| [getShapeProperties()](#getShapeProperties--) | Gets the [getShapeProperties()](../../com.aspose.cells/chartframe\#getShapeProperties--) object. |
-| [getText()](#getText--) | Gets the text of display unit label. |
+| [getShapeProperties()](#getShapeProperties--) | Gets the [getShapeProperties()](../../com.aspose.cells/chartframe#getShapeProperties--) object. |
+| [getText()](#getText--) | Gets the text of the display unit label. |
 | [getTextDirection()](#getTextDirection--) | Represents text reading order. |
-| [getTextFont()](#getTextFont--) | Gets a [ChartArea.getFont()](../../com.aspose.cells/chartarea\#getFont--) object of the specified ChartFrame object. |
+| [getTextFont()](#getTextFont--) | Gets a [ChartArea.getFont()](../../com.aspose.cells/chartarea#getFont--) object of the specified ChartFrame object. |
 | [getTextHorizontalAlignment()](#getTextHorizontalAlignment--) | Gets the text horizontal alignment. |
 | [getTextOptions()](#getTextOptions--) | Gets the options of the text. |
 | [getTextVerticalAlignment()](#getTextVerticalAlignment--) | Gets the text vertical alignment of text. |
 | [getWidth()](#getWidth--) | Gets the width of frame in units of 1/4000 of the chart area. |
 | [getWidthPixel()](#getWidthPixel--) | Gets the width of frame in units of Pixel. |
 | [getWidthRatioToChart()](#getWidthRatioToChart--) | Gets the width of frame in units of ratio of the chart area. |
-| [getX()](#getX--) | Gets the x coordinate of the upper left corner in units of 1/4000 of the chart area. |
+| [getX()](#getX--) | Gets the X coordinate of the upper left corner in units of 1/4000 of the chart area. |
 | [getXPixel()](#getXPixel--) | Gets the x coordinate of the upper left corner in units of Pixel. |
 | [getXRatioToChart()](#getXRatioToChart--) | Gets the x coordinate of the upper left corner in units of Fraction of the chart area. |
 | [getY()](#getY--) | Gets the y coordinate of the upper left corner in units of 1/4000 of the chart area. |
-| [getYPixel()](#getYPixel--) | Gets the y coordinate of the upper left corner in units of Pixel. |
+| [getYPixel()](#getYPixel--) | Gets the y coordinate of the upper left corner in units of pixels. |
 | [getYRatioToChart()](#getYRatioToChart--) | Gets the y coordinate of the upper left corner in units of Fraction of the chart area. |
 | [hashCode()](#hashCode--) |  |
 | [isAutoText()](#isAutoText--) | Indicates the text is auto generated. |
 | [isAutomaticRotation()](#isAutomaticRotation--) | Indicates whether the text of the chart is automatically rotated. |
 | [isAutomaticSize()](#isAutomaticSize--) | Indicates whether the chart frame is automatic sized. |
-| [isDefaultPosBeSet()](#isDefaultPosBeSet--) | Indicates whether default position(DefaultX, DefaultY, DefaultWidth and DefaultHeight) are set. |
+| [isDefaultPosBeSet()](#isDefaultPosBeSet--) | Indicates whether default position (DefaultX, DefaultY, DefaultWidth and DefaultHeight) is set. |
 | [isDeleted()](#isDeleted--) | Indicates whether this data label is deleted. |
 | [isInnerMode()](#isInnerMode--) | Indicates whether the size of the plot area size includes the tick marks, and the axis labels. |
 | [isResizeShapeToFitText()](#isResizeShapeToFitText--) | Gets whether a shape should be auto-fit to fully contain the text described within it. |
@@ -109,18 +113,18 @@ Encapsulates the object that represents the title of chart or axis.
 | [setBackgroundMode(int value)](#setBackgroundMode-int-) | Sets the display mode of the background. |
 | [setDeleted(boolean value)](#setDeleted-boolean-) | Indicates whether this data label is deleted. |
 | [setDirectionType(int value)](#setDirectionType-int-) | Sets the direction of text. |
-| [setHeight(int value)](#setHeight-int-) | Sets the height of frame in units of 1/4000 of the chart area. |
-| [setHeightPixel(int value)](#setHeightPixel-int-) | Sets the height of frame in units of Pixel. |
-| [setHeightRatioToChart(double value)](#setHeightRatioToChart-double-) | Sets the height of frame in units of ratio of the chart area. |
+| [setHeight(int value)](#setHeight-int-) | Sets the height of the frame in units of 1/4000 of the chart area. |
+| [setHeightPixel(int value)](#setHeightPixel-int-) | Sets the height of the frame in units of pixels. |
+| [setHeightRatioToChart(double value)](#setHeightRatioToChart-double-) | Sets the height of the frame in units of the ratio of the chart area. |
 | [setInnerMode(boolean value)](#setInnerMode-boolean-) | Indicates whether the size of the plot area size includes the tick marks, and the axis labels. |
 | [setLinkedSource(String value)](#setLinkedSource-java.lang.String-) | Sets a reference to the worksheet. |
-| [setOverLay(boolean value)](#setOverLay-boolean-) | Represents overlay centered title on chart without resizing chart. |
+| [setOverLay(boolean value)](#setOverLay-boolean-) | Represents an overlay centered title on a chart without resizing the chart. |
 | [setPositionAuto()](#setPositionAuto--) | Set position of the frame to automatic |
 | [setReadingOrder(int value)](#setReadingOrder-int-) | Represents text reading order. |
 | [setResizeShapeToFitText(boolean value)](#setResizeShapeToFitText-boolean-) | Sets whether a shape should be auto-fit to fully contain the text described within it. |
 | [setRotationAngle(int value)](#setRotationAngle-int-) | Represents the text rotation angle. |
 | [setShadow(boolean value)](#setShadow-boolean-) | True if the frame has a shadow. |
-| [setText(String value)](#setText-java.lang.String-) | Sets the text of display unit label. |
+| [setText(String value)](#setText-java.lang.String-) | Sets the text of the display unit label. |
 | [setTextDirection(int value)](#setTextDirection-int-) | Represents text reading order. |
 | [setTextHorizontalAlignment(int value)](#setTextHorizontalAlignment-int-) | Sets the text horizontal alignment. |
 | [setTextVerticalAlignment(int value)](#setTextVerticalAlignment-int-) | Sets the text vertical alignment of text. |
@@ -129,35 +133,38 @@ Encapsulates the object that represents the title of chart or axis.
 | [setWidth(int value)](#setWidth-int-) | Sets the width of frame in units of 1/4000 of the chart area. |
 | [setWidthPixel(int value)](#setWidthPixel-int-) | Sets the width of frame in units of Pixel. |
 | [setWidthRatioToChart(double value)](#setWidthRatioToChart-double-) | Sets the width of frame in units of ratio of the chart area. |
-| [setX(int value)](#setX-int-) | Sets the x coordinate of the upper left corner in units of 1/4000 of the chart area. |
+| [setX(int value)](#setX-int-) | Sets the X coordinate of the upper left corner in units of 1/4000 of the chart area. |
 | [setXPixel(int value)](#setXPixel-int-) | Sets the x coordinate of the upper left corner in units of Pixel. |
 | [setXRatioToChart(double value)](#setXRatioToChart-double-) | Sets the x coordinate of the upper left corner in units of Fraction of the chart area. |
 | [setY(int value)](#setY-int-) | Sets the y coordinate of the upper left corner in units of 1/4000 of the chart area. |
-| [setYPixel(int value)](#setYPixel-int-) | Sets the y coordinate of the upper left corner in units of Pixel. |
+| [setYPixel(int value)](#setYPixel-int-) | Sets the y coordinate of the upper left corner in units of pixels. |
 | [setYRatioToChart(double value)](#setYRatioToChart-double-) | Sets the y coordinate of the upper left corner in units of Fraction of the chart area. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+
 ### characters() {#characters--}
+
 ```
 public FontSetting[] characters()
 ```
-
 
 Gets rich text formatting of this Title.
 
 **Returns:**
 com.aspose.cells.FontSetting[] - returns FontSetting array
+
 ### characters(int startIndex, int length) {#characters-int-int-}
+
 ```
 public FontSetting characters(int startIndex, int length)
 ```
 
-
 Returns a Characters object that represents a range of characters within the text.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | startIndex | int | The index of the start of the character. |
@@ -165,46 +172,49 @@ Returns a Characters object that represents a range of characters within the tex
 
 **Returns:**
 [FontSetting](../../com.aspose.cells/fontsetting) - Characters object.
+
 ### equals(Object arg0) {#equals-java.lang.Object-}
+
 ```
 public boolean equals(Object arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
 **Returns:**
 boolean
+
 ### getArea() {#getArea--}
+
 ```
 public Area getArea()
 ```
-
 
 Gets the [Area](../../com.aspose.cells/area).
 
 **Returns:**
 [Area](../../com.aspose.cells/area)
+
 ### getAutoScaleFont() {#getAutoScaleFont--}
+
 ```
 public boolean getAutoScaleFont()
 ```
-
 
 True if the text in the object changes font size when the object size changes. The default value is True.
 
 **Returns:**
 boolean
+
 ### getBackground() {#getBackground--}
+
 ```
 public int getBackground()
 ```
-
 
 Gets the display mode of the background. This property is only valid in Excel 2003 or earlier versions.
 
@@ -216,11 +226,12 @@ NOTE: This member is now obsolete. Instead, please use ChartFrame.Area.FillForma
 
 **Returns:**
 int
+
 ### getBackgroundMode() {#getBackgroundMode--}
+
 ```
 public int getBackgroundMode()
 ```
-
 
 Gets the display mode of the background. This property is only valid in Excel 2003 or earlier versions.
 
@@ -232,21 +243,23 @@ NOTE: This member is now obsolete. Instead, please use ChartFrame.Area.FillForma
 
 **Returns:**
 int
+
 ### getBorder() {#getBorder--}
+
 ```
 public Line getBorder()
 ```
-
 
 Gets the [Line](../../com.aspose.cells/line).
 
 **Returns:**
 [Line](../../com.aspose.cells/line)
+
 ### getCharacters() {#getCharacters--}
+
 ```
 public FontSetting[] getCharacters()
 ```
-
 
 Gets rich text formatting of this Title.
 
@@ -256,127 +269,136 @@ NOTE: This member is now obsolete. Instead, please use Title.Characters() method
 
 **Returns:**
 com.aspose.cells.FontSetting[] - returns FontSetting array
+
 ### getChart() {#getChart--}
+
 ```
 public Chart getChart()
 ```
-
 
 Gets the chart to which this object belongs.
 
 **Returns:**
 [Chart](../../com.aspose.cells/chart)
+
 ### getClass() {#getClass--}
+
 ```
 public final native Class<?> getClass()
 ```
 
-
-
-
 **Returns:**
-java.lang.Class<?>
+java.lang.Class
+
 ### getDefaultHeight() {#getDefaultHeight--}
+
 ```
 public int getDefaultHeight()
 ```
 
-
-Represents height of default position in units of 1/4000 of the chart area.
+Represents height of the default position in units of 1/4000 of the chart area.
 
 **Remarks**
 
-NOTE: This member is now obsolete. Please use ChartFrame.DefaultHeightRatioToChart property, instead. DefaultHeight = (int)(DefaultHeightRatioToChart \* 4000); This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
+NOTE: This member is now obsolete. Please use ChartFrame.DefaultHeightRatioToChart property, instead. DefaultHeight = (int)(DefaultHeightRatioToChart * 4000); This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 int
+
 ### getDefaultHeightRatioToChart() {#getDefaultHeightRatioToChart--}
+
 ```
 public double getDefaultHeightRatioToChart()
 ```
 
-
-Represents height of default position in units of Fraction of the chart area.
+Represents height of the default position in units of the fraction of the chart area.
 
 **Returns:**
 double
+
 ### getDefaultWidth() {#getDefaultWidth--}
+
 ```
 public int getDefaultWidth()
 ```
-
 
 Represents width of default position in units of 1/4000 of the chart area.
 
 **Remarks**
 
-NOTE: This member is now obsolete. Please use ChartFrame.DefaultWidthRatioToChart property, instead. DefaultWidth = (int)(DefaultWidthRatioToChart \* 4000); This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
+NOTE: This member is now obsolete. Please use ChartFrame.DefaultWidthRatioToChart property, instead. DefaultWidth = (int)(DefaultWidthRatioToChart * 4000); This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 int
+
 ### getDefaultWidthRatioToChart() {#getDefaultWidthRatioToChart--}
+
 ```
 public double getDefaultWidthRatioToChart()
 ```
-
 
 Represents width of default position in units of Fraction of the chart area.
 
 **Returns:**
 double
+
 ### getDefaultX() {#getDefaultX--}
+
 ```
 public int getDefaultX()
 ```
-
 
 Represents x of default position in units of 1/4000 of the chart area.
 
 **Remarks**
 
-NOTE: This member is now obsolete. Please use ChartFrame.DefaultXRatioToChart property, instead. DefaultX = (int)(DefaultXRatioToChart \* 4000); This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
+NOTE: This member is now obsolete. Please use ChartFrame.DefaultXRatioToChart property, instead. DefaultX = (int)(DefaultXRatioToChart * 4000); This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 int
+
 ### getDefaultXRatioToChart() {#getDefaultXRatioToChart--}
+
 ```
 public double getDefaultXRatioToChart()
 ```
-
 
 Represents x of default position in units of Fraction of the chart area.
 
 **Returns:**
 double
+
 ### getDefaultY() {#getDefaultY--}
+
 ```
 public int getDefaultY()
 ```
 
-
-Represents y of default position in units of 1/4000 of the chart area.
+Represents the y of the default position in units of 1/4000 of the chart area.
 
 **Remarks**
 
-NOTE: This member is now obsolete. Please use ChartFrame.DefaultYRatioToChart property, instead. DefaultY = (int)(DefaultYRatioToChart \* 4000); This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
+NOTE: This member is now obsolete. Please use ChartFrame.DefaultYRatioToChart property, instead. DefaultY = (int)(DefaultYRatioToChart * 4000); This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 int
+
 ### getDefaultYRatioToChart() {#getDefaultYRatioToChart--}
+
 ```
 public double getDefaultYRatioToChart()
 ```
 
-
-Represents y of default position in units of Fraction of the chart area.
+Represents y of the default position in units of the fraction of the chart area.
 
 **Returns:**
 double
+
 ### getDirectionType() {#getDirectionType--}
+
 ```
 public int getDirectionType()
 ```
-
 
 Gets the direction of text.
 
@@ -384,79 +406,86 @@ See [ChartTextDirectionType](../../com.aspose.cells/charttextdirectiontype).
 
 **Returns:**
 int
+
 ### getFont() {#getFont--}
+
 ```
 public Font getFont()
 ```
 
-
-Gets a [ChartArea.getFont()](../../com.aspose.cells/chartarea\#getFont--) object of the specified ChartFrame object.
+Gets a [ChartArea.getFont()](../../com.aspose.cells/chartarea#getFont--) object of the specified ChartFrame object.
 
 **Returns:**
 [Font](../../com.aspose.cells/font)
+
 ### getHeight() {#getHeight--}
+
 ```
 public int getHeight()
 ```
 
-
-Gets the height of frame in units of 1/4000 of the chart area.
+Gets the height of the frame in units of 1/4000 of the chart area.
 
 **Remarks**
 
-NOTE: This member is now obsolete. Please use ChartFrame.HeightRatioToChart property, instead. Height = HeightRatioToChart \* 4000. This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
+NOTE: This member is now obsolete. Please use ChartFrame.HeightRatioToChart property, instead. Height = HeightRatioToChart * 4000. This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 int
+
 ### getHeightPixel() {#getHeightPixel--}
+
 ```
 public int getHeightPixel()
 ```
 
-
-Gets the height of frame in units of Pixel.
+Gets the height of the frame in units of pixels.
 
 **Returns:**
 int
+
 ### getHeightRatioToChart() {#getHeightRatioToChart--}
+
 ```
 public double getHeightRatioToChart()
 ```
 
-
-Gets the height of frame in units of ratio of the chart area.
+Gets the height of the frame in units of the ratio of the chart area.
 
 **Remarks**
 
-This is a fraction value, its valid range is between 0-1. How to convert units of ratio to pixels? HeightPixel = HeightRatioToChart \* Chart.ChartObject.Height;
+This is a fraction value, its valid range is between 0-1. How to convert units of ratio to pixels? HeightPixel = HeightRatioToChart * Chart.ChartObject.Height;
 
 **Returns:**
 double
+
 ### getLinkedSource() {#getLinkedSource--}
+
 ```
 public String getLinkedSource()
 ```
-
 
 Gets a reference to the worksheet.
 
 **Returns:**
 java.lang.String
+
 ### getOverLay() {#getOverLay--}
+
 ```
 public boolean getOverLay()
 ```
 
-
-Represents overlay centered title on chart without resizing chart.
+Represents an overlay centered title on a chart without resizing the chart.
 
 **Returns:**
 boolean
+
 ### getReadingOrder() {#getReadingOrder--}
+
 ```
 public int getReadingOrder()
 ```
-
 
 Represents text reading order.
 
@@ -464,33 +493,33 @@ See [TextDirectionType](../../com.aspose.cells/textdirectiontype).
 
 **Returns:**
 int
+
 ### getRotationAngle() {#getRotationAngle--}
+
 ```
 public int getRotationAngle()
 ```
-
 
 Represents the text rotation angle.
 
 **Remarks**
 
-
 0: Not rotated.
 
 255: Top to Bottom.
 
-\-90: Downward.
+-90: Downward.
 
 90: Upward.
 
-
 **Returns:**
 int
+
 ### getShadow() {#getShadow--}
+
 ```
 public boolean getShadow()
 ```
-
 
 True if the frame has a shadow.
 
@@ -500,31 +529,34 @@ Only for charts in xls file.
 
 **Returns:**
 boolean
+
 ### getShapeProperties() {#getShapeProperties--}
+
 ```
 public ShapePropertyCollection getShapeProperties()
 ```
 
-
-Gets the [getShapeProperties()](../../com.aspose.cells/chartframe\#getShapeProperties--) object.
+Gets the [getShapeProperties()](../../com.aspose.cells/chartframe#getShapeProperties--) object.
 
 **Returns:**
 [ShapePropertyCollection](../../com.aspose.cells/shapepropertycollection)
+
 ### getText() {#getText--}
+
 ```
 public String getText()
 ```
 
-
-Gets the text of display unit label.
+Gets the text of the display unit label.
 
 **Returns:**
 java.lang.String
+
 ### getTextDirection() {#getTextDirection--}
+
 ```
 public int getTextDirection()
 ```
-
 
 Represents text reading order.
 
@@ -536,13 +568,14 @@ NOTE: This member is now obsolete. Instead, please use ChartTextFrame.ReadingOrd
 
 **Returns:**
 int
+
 ### getTextFont() {#getTextFont--}
+
 ```
 public Font getTextFont()
 ```
 
-
-Gets a [ChartArea.getFont()](../../com.aspose.cells/chartarea\#getFont--) object of the specified ChartFrame object.
+Gets a [ChartArea.getFont()](../../com.aspose.cells/chartarea#getFont--) object of the specified ChartFrame object.
 
 **Remarks**
 
@@ -550,11 +583,12 @@ NOTE: This member is now obsolete. Instead, please use ChartFrame.Font property.
 
 **Returns:**
 [Font](../../com.aspose.cells/font)
+
 ### getTextHorizontalAlignment() {#getTextHorizontalAlignment--}
+
 ```
 public int getTextHorizontalAlignment()
 ```
-
 
 Gets the text horizontal alignment.
 
@@ -562,21 +596,23 @@ See [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
 
 **Returns:**
 int
+
 ### getTextOptions() {#getTextOptions--}
+
 ```
 public TextOptions getTextOptions()
 ```
-
 
 Gets the options of the text.
 
 **Returns:**
 [TextOptions](../../com.aspose.cells/textoptions)
+
 ### getTextVerticalAlignment() {#getTextVerticalAlignment--}
+
 ```
 public int getTextVerticalAlignment()
 ```
-
 
 Gets the text vertical alignment of text.
 
@@ -584,177 +620,191 @@ See [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
 
 **Returns:**
 int
+
 ### getWidth() {#getWidth--}
+
 ```
 public int getWidth()
 ```
-
 
 Gets the width of frame in units of 1/4000 of the chart area.
 
 **Remarks**
 
-NOTE: This member is now obsolete. Please use ChartFrame.WidthRatioToChart property, instead. Width = WidthRatioToChart \* 4000; This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
+NOTE: This member is now obsolete. Please use ChartFrame.WidthRatioToChart property, instead. Width = WidthRatioToChart * 4000; This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 int
+
 ### getWidthPixel() {#getWidthPixel--}
+
 ```
 public int getWidthPixel()
 ```
-
 
 Gets the width of frame in units of Pixel.
 
 **Returns:**
 int
+
 ### getWidthRatioToChart() {#getWidthRatioToChart--}
+
 ```
 public double getWidthRatioToChart()
 ```
-
 
 Gets the width of frame in units of ratio of the chart area.
 
 **Remarks**
 
-This is a fraction value, its valid range is between 0-1. How to convert units of ratio to pixels? WidthPixel = WidthRatioToChart \* Chart.ChartObject.Width;
+This is a fraction value, its valid range is between 0-1. How to convert units of ratio to pixels? WidthPixel = WidthRatioToChart * Chart.ChartObject.Width;
 
 **Returns:**
 double
+
 ### getX() {#getX--}
+
 ```
 public int getX()
 ```
 
-
-Gets the x coordinate of the upper left corner in units of 1/4000 of the chart area.
+Gets the X coordinate of the upper left corner in units of 1/4000 of the chart area.
 
 **Remarks**
 
-NOTE: This member is now obsolete. Please use Title.XRatioToChart property, instead. X = XRatioToChart \* 4000; This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
+NOTE: This member is now obsolete. Please use Title.XRatioToChart property, instead. X = XRatioToChart * 4000; This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 int
+
 ### getXPixel() {#getXPixel--}
+
 ```
 public int getXPixel()
 ```
-
 
 Gets the x coordinate of the upper left corner in units of Pixel.
 
 **Returns:**
 int
+
 ### getXRatioToChart() {#getXRatioToChart--}
+
 ```
 public double getXRatioToChart()
 ```
 
-
-Gets the x coordinate of the upper left corner in units of Fraction of the chart area. X In Pixels = XRatioToChart \* Chart.ChartObject.Width;
+Gets the x coordinate of the upper left corner in units of Fraction of the chart area. X In Pixels = XRatioToChart * Chart.ChartObject.Width;
 
 **Returns:**
 double
+
 ### getY() {#getY--}
+
 ```
 public int getY()
 ```
-
 
 Gets the y coordinate of the upper left corner in units of 1/4000 of the chart area.
 
 **Remarks**
 
-NOTE: This member is now obsolete. Please use Title.YRatioToChart property, instead. Y = YRatioToChart \* 4000; This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
+NOTE: This member is now obsolete. Please use Title.YRatioToChart property, instead. Y = YRatioToChart * 4000; This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 int
+
 ### getYPixel() {#getYPixel--}
+
 ```
 public int getYPixel()
 ```
 
-
-Gets the y coordinate of the upper left corner in units of Pixel.
+Gets the y coordinate of the upper left corner in units of pixels.
 
 **Returns:**
 int
+
 ### getYRatioToChart() {#getYRatioToChart--}
+
 ```
 public double getYRatioToChart()
 ```
 
-
-Gets the y coordinate of the upper left corner in units of Fraction of the chart area. Y In Pixels = YRatioToChart \* Chart.ChartObject.Width;
+Gets the y coordinate of the upper left corner in units of Fraction of the chart area. Y In Pixels = YRatioToChart * Chart.ChartObject.Width;
 
 **Returns:**
 double
+
 ### hashCode() {#hashCode--}
+
 ```
 public native int hashCode()
 ```
 
-
-
-
 **Returns:**
 int
+
 ### isAutoText() {#isAutoText--}
+
 ```
 public boolean isAutoText()
 ```
-
 
 Indicates the text is auto generated.
 
 **Returns:**
 boolean
+
 ### isAutomaticRotation() {#isAutomaticRotation--}
+
 ```
 public boolean isAutomaticRotation()
 ```
-
 
 Indicates whether the text of the chart is automatically rotated.
 
 **Returns:**
 boolean
+
 ### isAutomaticSize() {#isAutomaticSize--}
+
 ```
 public boolean isAutomaticSize()
 ```
-
 
 Indicates whether the chart frame is automatic sized.
 
 **Returns:**
 boolean
+
 ### isDefaultPosBeSet() {#isDefaultPosBeSet--}
+
 ```
 public boolean isDefaultPosBeSet()
 ```
 
-
-Indicates whether default position(DefaultX, DefaultY, DefaultWidth and DefaultHeight) are set.
+Indicates whether default position (DefaultX, DefaultY, DefaultWidth and DefaultHeight) is set.
 
 **Returns:**
 boolean
+
 ### isDeleted() {#isDeleted--}
+
 ```
 public boolean isDeleted()
 ```
-
 
 Indicates whether this data label is deleted.
 
 **Returns:**
 boolean
+
 ### isInnerMode() {#isInnerMode--}
+
 ```
 public boolean isInnerMode()
 ```
-
 
 Indicates whether the size of the plot area size includes the tick marks, and the axis labels. False specifies that the size shall determine the size of the plot area, the tick marks, and the axis labels.
 
@@ -764,96 +814,99 @@ Only for Xlsx file.
 
 **Returns:**
 boolean
+
 ### isResizeShapeToFitText() {#isResizeShapeToFitText--}
+
 ```
 public boolean isResizeShapeToFitText()
 ```
-
 
 Gets whether a shape should be auto-fit to fully contain the text described within it. Auto-fitting is when text within a shape is scaled in order to contain all the text inside.
 
 **Returns:**
 boolean
+
 ### isTextWrapped() {#isTextWrapped--}
+
 ```
 public boolean isTextWrapped()
 ```
-
 
 Gets a value indicating whether the text is wrapped.
 
 **Returns:**
 boolean
+
 ### isVisible() {#isVisible--}
+
 ```
 public boolean isVisible()
 ```
-
 
 Represents whether the title is visible.
 
 **Returns:**
 boolean
+
 ### notify() {#notify--}
+
 ```
 public final native void notify()
 ```
 
-
-
-
 ### notifyAll() {#notifyAll--}
+
 ```
 public final native void notifyAll()
 ```
 
-
-
-
 ### setAutoScaleFont(boolean value) {#setAutoScaleFont-boolean-}
+
 ```
 public void setAutoScaleFont(boolean value)
 ```
 
-
 True if the text in the object changes font size when the object size changes. The default value is True.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
 ### setAutoText(boolean value) {#setAutoText-boolean-}
+
 ```
 public void setAutoText(boolean value)
 ```
 
-
 Indicates the text is auto generated.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
 ### setAutomaticSize(boolean value) {#setAutomaticSize-boolean-}
+
 ```
 public void setAutomaticSize(boolean value)
 ```
 
-
 Indicates whether the chart frame is automatic sized.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
 ### setBackground(int value) {#setBackground-int-}
+
 ```
 public void setBackground(int value)
 ```
-
 
 Sets the display mode of the background. This property is only valid in Excel 2003 or earlier versions.
 
@@ -864,15 +917,16 @@ See [BackgroundMode](../../com.aspose.cells/backgroundmode).
 NOTE: This member is now obsolete. Instead, please use ChartFrame.Area.FillFormat.FillType property. For example, If you need to set the BackgroundMode to Opaque, you can use the following code: Area.FillFormat.FillType = FillType.Solid; Area.FillFormat.SolidFill.Color = Color.Red; This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
 
 ### setBackgroundMode(int value) {#setBackgroundMode-int-}
+
 ```
 public void setBackgroundMode(int value)
 ```
-
 
 Sets the display mode of the background. This property is only valid in Excel 2003 or earlier versions.
 
@@ -883,90 +937,96 @@ See [BackgroundMode](../../com.aspose.cells/backgroundmode).
 NOTE: This member is now obsolete. Instead, please use ChartFrame.Area.FillFormat.FillType property. For example, If you need to set the BackgroundMode to Opaque, you can use the following code: Area.FillFormat.FillType = FillType.Solid; Area.FillFormat.SolidFill.Color = Color.Red; This property will be removed 12 months later since February 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
 
 ### setDeleted(boolean value) {#setDeleted-boolean-}
+
 ```
 public void setDeleted(boolean value)
 ```
 
-
 Indicates whether this data label is deleted.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
 ### setDirectionType(int value) {#setDirectionType-int-}
+
 ```
 public void setDirectionType(int value)
 ```
-
 
 Sets the direction of text.
 
 See [ChartTextDirectionType](../../com.aspose.cells/charttextdirectiontype).
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
 
 ### setHeight(int value) {#setHeight-int-}
+
 ```
 public void setHeight(int value)
 ```
 
-
-Sets the height of frame in units of 1/4000 of the chart area.
+Sets the height of the frame in units of 1/4000 of the chart area.
 
 **Remarks**
 
-NOTE: This member is now obsolete. Please use ChartFrame.HeightRatioToChart property, instead. Height = HeightRatioToChart \* 4000. This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
+NOTE: This member is now obsolete. Please use ChartFrame.HeightRatioToChart property, instead. Height = HeightRatioToChart * 4000. This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
 
 ### setHeightPixel(int value) {#setHeightPixel-int-}
+
 ```
 public void setHeightPixel(int value)
 ```
 
-
-Sets the height of frame in units of Pixel.
+Sets the height of the frame in units of pixels.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
 
 ### setHeightRatioToChart(double value) {#setHeightRatioToChart-double-}
+
 ```
 public void setHeightRatioToChart(double value)
 ```
 
-
-Sets the height of frame in units of ratio of the chart area.
+Sets the height of the frame in units of the ratio of the chart area.
 
 **Remarks**
 
-This is a fraction value, its valid range is between 0-1. How to convert units of ratio to pixels? HeightPixel = HeightRatioToChart \* Chart.ChartObject.Height;
+This is a fraction value, its valid range is between 0-1. How to convert units of ratio to pixels? HeightPixel = HeightRatioToChart * Chart.ChartObject.Height;
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | double |  |
 
 ### setInnerMode(boolean value) {#setInnerMode-boolean-}
+
 ```
 public void setInnerMode(boolean value)
 ```
-
 
 Indicates whether the size of the plot area size includes the tick marks, and the axis labels. False specifies that the size shall determine the size of the plot area, the tick marks, and the axis labels.
 
@@ -975,102 +1035,106 @@ Indicates whether the size of the plot area size includes the tick marks, and th
 Only for Xlsx file.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
 ### setLinkedSource(String value) {#setLinkedSource-java.lang.String-}
+
 ```
 public void setLinkedSource(String value)
 ```
 
-
 Sets a reference to the worksheet.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String |  |
 
 ### setOverLay(boolean value) {#setOverLay-boolean-}
+
 ```
 public void setOverLay(boolean value)
 ```
 
-
-Represents overlay centered title on chart without resizing chart.
+Represents an overlay centered title on a chart without resizing the chart.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
 ### setPositionAuto() {#setPositionAuto--}
+
 ```
 public void setPositionAuto()
 ```
 
-
 Set position of the frame to automatic
 
 ### setReadingOrder(int value) {#setReadingOrder-int-}
+
 ```
 public void setReadingOrder(int value)
 ```
-
 
 Represents text reading order.
 
 See [TextDirectionType](../../com.aspose.cells/textdirectiontype).
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
 
 ### setResizeShapeToFitText(boolean value) {#setResizeShapeToFitText-boolean-}
+
 ```
 public void setResizeShapeToFitText(boolean value)
 ```
 
-
 Sets whether a shape should be auto-fit to fully contain the text described within it. Auto-fitting is when text within a shape is scaled in order to contain all the text inside.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
 ### setRotationAngle(int value) {#setRotationAngle-int-}
+
 ```
 public void setRotationAngle(int value)
 ```
-
 
 Represents the text rotation angle.
 
 **Remarks**
 
-
 0: Not rotated.
 
 255: Top to Bottom.
 
-\-90: Downward.
+-90: Downward.
 
 90: Upward.
 
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
 
 ### setShadow(boolean value) {#setShadow-boolean-}
+
 ```
 public void setShadow(boolean value)
 ```
-
 
 True if the frame has a shadow.
 
@@ -1079,28 +1143,30 @@ True if the frame has a shadow.
 Only for charts in xls file.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
 ### setText(String value) {#setText-java.lang.String-}
+
 ```
 public void setText(String value)
 ```
 
-
-Sets the text of display unit label.
+Sets the text of the display unit label.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String |  |
 
 ### setTextDirection(int value) {#setTextDirection-int-}
+
 ```
 public void setTextDirection(int value)
 ```
-
 
 Represents text reading order.
 
@@ -1111,241 +1177,249 @@ See [TextDirectionType](../../com.aspose.cells/textdirectiontype).
 NOTE: This member is now obsolete. Instead, please use ChartTextFrame.ReadingOrder property. This property will be removed 12 months later since March 2020. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
 
 ### setTextHorizontalAlignment(int value) {#setTextHorizontalAlignment-int-}
+
 ```
 public void setTextHorizontalAlignment(int value)
 ```
-
 
 Sets the text horizontal alignment.
 
 See [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
 
 ### setTextVerticalAlignment(int value) {#setTextVerticalAlignment-int-}
+
 ```
 public void setTextVerticalAlignment(int value)
 ```
-
 
 Sets the text vertical alignment of text.
 
 See [TextAlignmentType](../../com.aspose.cells/textalignmenttype).
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
 
 ### setTextWrapped(boolean value) {#setTextWrapped-boolean-}
+
 ```
 public void setTextWrapped(boolean value)
 ```
 
-
 Sets a value indicating whether the text is wrapped.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
 ### setVisible(boolean value) {#setVisible-boolean-}
+
 ```
 public void setVisible(boolean value)
 ```
 
-
 Represents whether the title is visible.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
 ### setWidth(int value) {#setWidth-int-}
+
 ```
 public void setWidth(int value)
 ```
-
 
 Sets the width of frame in units of 1/4000 of the chart area.
 
 **Remarks**
 
-NOTE: This member is now obsolete. Please use ChartFrame.WidthRatioToChart property, instead. Width = WidthRatioToChart \* 4000; This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
+NOTE: This member is now obsolete. Please use ChartFrame.WidthRatioToChart property, instead. Width = WidthRatioToChart * 4000; This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
 
 ### setWidthPixel(int value) {#setWidthPixel-int-}
+
 ```
 public void setWidthPixel(int value)
 ```
 
-
 Sets the width of frame in units of Pixel.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
 
 ### setWidthRatioToChart(double value) {#setWidthRatioToChart-double-}
+
 ```
 public void setWidthRatioToChart(double value)
 ```
-
 
 Sets the width of frame in units of ratio of the chart area.
 
 **Remarks**
 
-This is a fraction value, its valid range is between 0-1. How to convert units of ratio to pixels? WidthPixel = WidthRatioToChart \* Chart.ChartObject.Width;
+This is a fraction value, its valid range is between 0-1. How to convert units of ratio to pixels? WidthPixel = WidthRatioToChart * Chart.ChartObject.Width;
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | double |  |
 
 ### setX(int value) {#setX-int-}
+
 ```
 public void setX(int value)
 ```
 
-
-Sets the x coordinate of the upper left corner in units of 1/4000 of the chart area.
+Sets the X coordinate of the upper left corner in units of 1/4000 of the chart area.
 
 **Remarks**
 
-NOTE: This member is now obsolete. Please use Title.XRatioToChart property, instead. X = XRatioToChart \* 4000; This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
+NOTE: This member is now obsolete. Please use Title.XRatioToChart property, instead. X = XRatioToChart * 4000; This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
 
 ### setXPixel(int value) {#setXPixel-int-}
+
 ```
 public void setXPixel(int value)
 ```
 
-
 Sets the x coordinate of the upper left corner in units of Pixel.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
 
 ### setXRatioToChart(double value) {#setXRatioToChart-double-}
+
 ```
 public void setXRatioToChart(double value)
 ```
 
-
-Sets the x coordinate of the upper left corner in units of Fraction of the chart area. X In Pixels = XRatioToChart \* Chart.ChartObject.Width;
+Sets the x coordinate of the upper left corner in units of Fraction of the chart area. X In Pixels = XRatioToChart * Chart.ChartObject.Width;
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | double |  |
 
 ### setY(int value) {#setY-int-}
+
 ```
 public void setY(int value)
 ```
-
 
 Sets the y coordinate of the upper left corner in units of 1/4000 of the chart area.
 
 **Remarks**
 
-NOTE: This member is now obsolete. Please use Title.YRatioToChart property, instead. Y = YRatioToChart \* 4000; This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
+NOTE: This member is now obsolete. Please use Title.YRatioToChart property, instead. Y = YRatioToChart * 4000; This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
 
 ### setYPixel(int value) {#setYPixel-int-}
+
 ```
 public void setYPixel(int value)
 ```
 
-
-Sets the y coordinate of the upper left corner in units of Pixel.
+Sets the y coordinate of the upper left corner in units of pixels.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
 
 ### setYRatioToChart(double value) {#setYRatioToChart-double-}
+
 ```
 public void setYRatioToChart(double value)
 ```
 
-
-Sets the y coordinate of the upper left corner in units of Fraction of the chart area. Y In Pixels = YRatioToChart \* Chart.ChartObject.Width;
+Sets the y coordinate of the upper left corner in units of Fraction of the chart area. Y In Pixels = YRatioToChart * Chart.ChartObject.Width;
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | double |  |
 
 ### toString() {#toString--}
+
 ```
 public String toString()
 ```
 
-
-
-
 **Returns:**
 java.lang.String
+
 ### wait() {#wait--}
+
 ```
 public final void wait()
 ```
 
-
-
-
 ### wait(long arg0) {#wait-long-}
+
 ```
 public final native void wait(long arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
 ### wait(long arg0, int arg1) {#wait-long-int-}
+
 ```
 public final void wait(long arg0, int arg1)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

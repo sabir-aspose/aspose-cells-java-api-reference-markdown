@@ -1,13 +1,16 @@
 ---
-title: IconSet
-second_title: Aspose.Cells for Java API Reference
-description: Describe the IconSet conditional formatting rule.
+title: "IconSet"
+second_title: "Aspose.Cells for Java API Reference"
+description: "Describe the IconSet conditional formatting rule."
 type: docs
-url: /java/com.aspose.cells/iconset/
+url: "/java/com.aspose.cells/iconset/"
+source_url: "https://reference.aspose.com/cells/java/com.aspose.cells/iconset/"
+generated_from: "online-reference"
+fetched_at: "2026-06-16T11:51:14+00:00"
 ---
-
 **Inheritance:**
 java.lang.Object
+
 ```
 public class IconSet
 ```
@@ -69,7 +72,8 @@ Describe the IconSet conditional formatting rule. This conditional formatting ru
          //Saving the Excel file
          workbook.save("book1.xlsx");
 ```
-## Methods
+
+## Methods {#methods}
 
 | Method | Description |
 | --- | --- |
@@ -91,202 +95,200 @@ Describe the IconSet conditional formatting rule. This conditional formatting ru
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+
 ### equals(Object arg0) {#equals-java.lang.Object-}
+
 ```
 public boolean equals(Object arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
 **Returns:**
 boolean
+
 ### getCfIcons() {#getCfIcons--}
+
 ```
 public ConditionalFormattingIconCollection getCfIcons()
 ```
-
 
 Get the[ConditionalFormattingIcon](../../com.aspose.cells/conditionalformattingicon) from the collection
 
 **Returns:**
 [ConditionalFormattingIconCollection](../../com.aspose.cells/conditionalformattingiconcollection)
+
 ### getCfvos() {#getCfvos--}
+
 ```
 public ConditionalFormattingValueCollection getCfvos()
 ```
-
 
 Get the CFValueObjects instance.
 
 **Returns:**
 [ConditionalFormattingValueCollection](../../com.aspose.cells/conditionalformattingvaluecollection)
+
 ### getClass() {#getClass--}
+
 ```
 public final native Class<?> getClass()
 ```
 
-
-
-
 **Returns:**
-java.lang.Class<?>
+java.lang.Class
+
 ### getReverse() {#getReverse--}
+
 ```
 public boolean getReverse()
 ```
-
 
 Gets the flag indicating whether to reverses the default order of the icons in this icon set. Default value is false.
 
 **Returns:**
 boolean
+
 ### getShowValue() {#getShowValue--}
+
 ```
 public boolean getShowValue()
 ```
-
 
 Gets the flag indicating whether to show the values of the cells on which this icon set is applied. Default value is true.
 
 **Returns:**
 boolean
+
 ### getType() {#getType--}
+
 ```
 public int getType()
 ```
 
-
-Gets the icon set type to display. Setting the type will auto check if the current Cfvos's count is accord with the new type. If not accord, old Cfvos will be cleaned and default Cfvos will be added.
+Gets the icon set type to display. Setting the type will auto check if the current Cfvos’s count is accord with the new type. If not accord, old Cfvos will be cleaned and default Cfvos will be added.
 
 See [IconSetType](../../com.aspose.cells/iconsettype).
 
 **Returns:**
 int
+
 ### hashCode() {#hashCode--}
+
 ```
 public native int hashCode()
 ```
 
-
-
-
 **Returns:**
 int
+
 ### isCustom() {#isCustom--}
+
 ```
 public boolean isCustom()
 ```
-
 
 Indicates whether the icon set is custom. Default value is false.
 
 **Returns:**
 boolean
+
 ### notify() {#notify--}
+
 ```
 public final native void notify()
 ```
 
-
-
-
 ### notifyAll() {#notifyAll--}
+
 ```
 public final native void notifyAll()
 ```
 
-
-
-
 ### setReverse(boolean value) {#setReverse-boolean-}
+
 ```
 public void setReverse(boolean value)
 ```
 
-
 Sets the flag indicating whether to reverses the default order of the icons in this icon set. Default value is false.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
 ### setShowValue(boolean value) {#setShowValue-boolean-}
+
 ```
 public void setShowValue(boolean value)
 ```
 
-
 Sets the flag indicating whether to show the values of the cells on which this icon set is applied. Default value is true.
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
 ### setType(int value) {#setType-int-}
+
 ```
 public void setType(int value)
 ```
 
-
-Sets the icon set type to display. Setting the type will auto check if the current Cfvos's count is accord with the new type. If not accord, old Cfvos will be cleaned and default Cfvos will be added.
+Sets the icon set type to display. Setting the type will auto check if the current Cfvos’s count is accord with the new type. If not accord, old Cfvos will be cleaned and default Cfvos will be added.
 
 See [IconSetType](../../com.aspose.cells/iconsettype).
 
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
 
 ### toString() {#toString--}
+
 ```
 public String toString()
 ```
 
-
-
-
 **Returns:**
 java.lang.String
+
 ### wait() {#wait--}
+
 ```
 public final void wait()
 ```
 
-
-
-
 ### wait(long arg0) {#wait-long-}
+
 ```
 public final native void wait(long arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
 ### wait(long arg0, int arg1) {#wait-long-int-}
+
 ```
 public final void wait(long arg0, int arg1)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

@@ -1,19 +1,23 @@
 ---
-title: RevisionCellChange
-second_title: Aspose.Cells for Java API Reference
-description: Represents the revision that changing cells.
+title: "RevisionCellChange"
+second_title: "Aspose.Cells for Java API Reference"
+description: "Represents the revision that changing cells."
 type: docs
-url: /java/com.aspose.cells/revisioncellchange/
+url: "/java/com.aspose.cells/revisioncellchange/"
+source_url: "https://reference.aspose.com/cells/java/com.aspose.cells/revisioncellchange/"
+generated_from: "online-reference"
+fetched_at: "2026-06-16T11:54:46+00:00"
 ---
-
 **Inheritance:**
 java.lang.Object, [com.aspose.cells.Revision](../../com.aspose.cells/revision)
+
 ```
 public class RevisionCellChange extends Revision
 ```
 
 Represents the revision that changing cells.
-## Methods
+
+## Methods {#methods}
 
 | Method | Description |
 | --- | --- |
@@ -40,56 +44,58 @@ Represents the revision that changing cells.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+
 ### equals(Object arg0) {#equals-java.lang.Object-}
+
 ```
 public boolean equals(Object arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
 **Returns:**
 boolean
+
 ### getCellName() {#getCellName--}
+
 ```
 public String getCellName()
 ```
-
 
 Gets the name of the cell.
 
 **Returns:**
 java.lang.String
+
 ### getClass() {#getClass--}
+
 ```
 public final native Class<?> getClass()
 ```
 
-
-
-
 **Returns:**
-java.lang.Class<?>
+java.lang.Class
+
 ### getColumn() {#getColumn--}
+
 ```
 public int getColumn()
 ```
-
 
 Gets the column index of the cell.
 
 **Returns:**
 int
+
 ### getId() {#getId--}
+
 ```
 public int getId()
 ```
-
 
 Gets the number of this revision.
 
@@ -99,81 +105,89 @@ Zero means this revision does not contains id.
 
 **Returns:**
 int
+
 ### getNewFormula() {#getNewFormula--}
+
 ```
 public String getNewFormula()
 ```
-
 
 Gets the old formula.
 
 **Returns:**
 java.lang.String
+
 ### getNewStyle() {#getNewStyle--}
+
 ```
 public Style getNewStyle()
 ```
-
 
 Gets the new style of the cell.
 
 **Returns:**
 [Style](../../com.aspose.cells/style)
+
 ### getNewValue() {#getNewValue--}
+
 ```
 public Object getNewValue()
 ```
-
 
 Gets new value of the cell.
 
 **Returns:**
 java.lang.Object
+
 ### getOldFormula() {#getOldFormula--}
+
 ```
 public String getOldFormula()
 ```
-
 
 Gets the old formula.
 
 **Returns:**
 java.lang.String
+
 ### getOldStyle() {#getOldStyle--}
+
 ```
 public Style getOldStyle()
 ```
-
 
 Gets the old style of the cell.
 
 **Returns:**
 [Style](../../com.aspose.cells/style)
+
 ### getOldValue() {#getOldValue--}
+
 ```
 public Object getOldValue()
 ```
-
 
 Gets old value of the cell.
 
 **Returns:**
 java.lang.Object
+
 ### getRow() {#getRow--}
+
 ```
 public int getRow()
 ```
-
 
 Gets the row index of the cell.
 
 **Returns:**
 int
+
 ### getType() {#getType--}
+
 ```
 public int getType()
 ```
-
 
 Represents the type of revision.
 
@@ -181,104 +195,97 @@ See [RevisionType](../../com.aspose.cells/revisiontype).
 
 **Returns:**
 int
+
 ### getWorksheet() {#getWorksheet--}
+
 ```
 public Worksheet getWorksheet()
 ```
-
 
 Gets the worksheet.
 
 **Returns:**
 [Worksheet](../../com.aspose.cells/worksheet)
+
 ### hashCode() {#hashCode--}
+
 ```
 public native int hashCode()
 ```
 
-
-
-
 **Returns:**
 int
+
 ### isNewFormatted() {#isNewFormatted--}
+
 ```
 public boolean isNewFormatted()
 ```
-
 
 Indicates whether this cell is new formatted.
 
 **Returns:**
 boolean
+
 ### isOldFormatted() {#isOldFormatted--}
+
 ```
 public boolean isOldFormatted()
 ```
-
 
 Indicates whether this cell is old formatted.
 
 **Returns:**
 boolean
+
 ### notify() {#notify--}
+
 ```
 public final native void notify()
 ```
 
-
-
-
 ### notifyAll() {#notifyAll--}
+
 ```
 public final native void notifyAll()
 ```
 
-
-
-
 ### toString() {#toString--}
+
 ```
 public String toString()
 ```
 
-
-
-
 **Returns:**
 java.lang.String
+
 ### wait() {#wait--}
+
 ```
 public final void wait()
 ```
 
-
-
-
 ### wait(long arg0) {#wait-long-}
+
 ```
 public final native void wait(long arg0)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
 ### wait(long arg0, int arg1) {#wait-long-int-}
+
 ```
 public final void wait(long arg0, int arg1)
 ```
 
-
-
-
 **Parameters:**
+
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-
